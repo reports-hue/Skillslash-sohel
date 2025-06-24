@@ -58,7 +58,7 @@
       "contactPoint": [
         {
           "@type": "ContactPoint",
-          "telephone": "(+91)8391-911-911",
+          "telephone": "(+91) ",
           "contactType": "Customer Service",
           "contactOption": "TollFree",
           "areaServed": "IN"
@@ -242,7 +242,7 @@
     "thirdPoint": "Advanced: Deep Learning, NLP, Reinforcement Learning, Big Data.",
     "fourthPoint": "Tools: Excel, SQL, Cloud Deployment, BI: Tableau, Power BI.",
     "usp1": " Live Interactive ",
-    "NoTitle":"true"
+    "NoTitle": "true"
   },
   "ProgramInfo": {
     "BatchDate": "29 January 2023",

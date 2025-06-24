@@ -103,7 +103,7 @@
       "contactPoint": [
         {
           "@type": "ContactPoint",
-          "telephone": "(+91)8391-911-911",
+          "telephone": "(+91) ",
           "contactType": "Customer Service",
           "contactOption": "TollFree",
           "areaServed": "IN"
@@ -422,7 +422,6 @@
     "height": "391"
   },
 
-
   "header": {
     "title": "Data Science Course in Bangalore",
     "spanTitleText": "Live Project Based Learning Partnered with Tech Companies",
@@ -454,11 +453,6 @@
     "fourthPoint": "Tools: Excel, SQL, Cloud Deployment, BI: Tableau, Power BI.",
     "usp1": " Live Interactive "
   },
-
-
-
-
-
 
   "ProgramInfo": {
     "BatchDate": "29 January 2023",

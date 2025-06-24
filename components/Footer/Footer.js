@@ -83,10 +83,9 @@ const Footer = () => {
               info@skillslash.com
             </p>
           </a>
-          <a href="tel:+918391911911" aria-label="call skillslash">
+          <a href="tel:+91 " aria-label="call skillslash">
             <p>
               <MdCall className="FIcon" />
-              8391-911-911
             </p>
           </a>
 
@@ -108,7 +107,7 @@ const Footer = () => {
           <Link href="/About">
             <p>About</p>
           </Link>
-         
+
           <Link href="/Contact-us">
             <p>Contact</p>
           </Link>

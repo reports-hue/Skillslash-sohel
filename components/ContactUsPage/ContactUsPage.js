@@ -60,10 +60,10 @@ const ContactUsPage = () => {
             <div className={styles.infoLeftSide}>
               <BiPhoneCall className={styles.PhoneIcon} />
             </div>
-            <a href="tel:8391-911-911" target="_blank">
+            <a href="tel: " target="_blank">
               <div className={styles.infoRightSide}>
                 <h5>Phone</h5>
-                <p>8391-911-911</p>
+                <p> </p>
               </div>
             </a>
           </div>
@@ -74,7 +74,7 @@ const ContactUsPage = () => {
         <div className={styles.officeLocation}>
           <div className={styles.LocationBox}>
             <div className={styles.top}>
-            <HiBuildingOffice2/>
+              <HiBuildingOffice2 />
             </div>
             <div className={styles.bottom}>
               <h5>Bangalore (HQ)</h5>
@@ -94,7 +94,7 @@ const ContactUsPage = () => {
           </div>
           <div className={styles.LocationBox}>
             <div className={styles.top}>
-            <HiBuildingOffice2/>
+              <HiBuildingOffice2 />
             </div>
             <div className={styles.bottom}>
               <h5>Mumbai</h5>
@@ -114,7 +114,7 @@ const ContactUsPage = () => {
           </div>
           <div className={styles.LocationBox}>
             <div className={styles.top}>
-            <HiBuildingOffice2/>
+              <HiBuildingOffice2 />
             </div>
             <div className={styles.bottom}>
               <h5>Hyderabad</h5>
@@ -134,7 +134,7 @@ const ContactUsPage = () => {
           </div>
           <div className={styles.LocationBox}>
             <div className={styles.top}>
-            <HiBuildingOffice2/>
+              <HiBuildingOffice2 />
             </div>
             <div className={styles.bottom}>
               <h5>Austin</h5>
@@ -154,7 +154,7 @@ const ContactUsPage = () => {
           </div>
           <div className={styles.LocationBox}>
             <div className={styles.top}>
-            <HiBuildingOffice2/>
+              <HiBuildingOffice2 />
             </div>
             <div className={styles.bottom}>
               <h5>Gurugram</h5>

@@ -14,13 +14,13 @@ const FloatIcon = () => {
       {show ? (
         <div className={styles.show}>
           <p className={styles.callText}>call Me back</p>
-          <a href="tel:+91-8391-911-911">
+          <a href="tel:+91- ">
             <div className={styles.callWrapBack}>
               <MdCall className={styles.call} />
             </div>
           </a>
           <p className={styles.whatsText}>Chat with us</p>
-          <a href="https://wa.me/+918391911911?text=ChatWithUs">
+          <a href="https://wa.me/+91 ?text=ChatWithUs">
             <div className={styles.callWrapBack}>
               <FaWhatsapp className={styles.whatsapp} />
             </div>

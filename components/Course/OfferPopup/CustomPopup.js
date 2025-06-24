@@ -59,13 +59,13 @@ const CustomPopup = ({
         </p>
         <div className="flex gap-2">
           <Link
-            href="https://wa.me/+918391911911?text=ChatWithUs"
+            href="https://wa.me/+91 ?text=ChatWithUs"
             style={{ marginTop: "20px" }}
           >
             <button>Get Discount</button>
           </Link>
           <Link
-            href="https://wa.me/+918391911911?text=ChatWithUs"
+            href="https://wa.me/+91 ?text=ChatWithUs"
             style={{ marginTop: "20px" }}
           >
             <button>Watch Intro Video</button>

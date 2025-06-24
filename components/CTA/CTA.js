@@ -24,7 +24,7 @@ const CTA = ({ redirectDSA }) => {
           Having difficulties? Connect with our counselor to discover more about
           this course.
         </p>
-        <a href="tel:+91-8391-911-911">
+        <a href="tel:+91- ">
           <button>
             <Image
               src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/NewDatascience/Header/chat-with-us.gif"

@@ -15,7 +15,6 @@ const DSPune = ({ data }) => {
     <div>
       <Head>
         <title>
-    
           Best Data Science Course in Pune | Skillslash - Enroll Now!
         </title>
         <meta
@@ -75,7 +74,7 @@ const DSPune = ({ data }) => {
               contactPoint: [
                 {
                   "@type": "ContactPoint",
-                  telephone: "(+91)8391-911-911",
+                  telephone: "(+91) ",
                   contactType: "Customer Service",
                   contactOption: "TollFree",
                   areaServed: "IN",

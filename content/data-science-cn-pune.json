@@ -47,7 +47,7 @@
       "contactPoint": [
         {
           "@type": "ContactPoint",
-          "telephone": "(+91)8391-911-911",
+          "telephone": "(+91) ",
           "contactType": "Customer Service",
           "contactOption": "TollFree",
           "areaServed": "IN"
@@ -328,7 +328,7 @@
       }
     ]
   },
- 
+
   "FirstSection": {
     "deskTopPara": "India’s 1st",
     "mTopPara": "India’s 1st",
@@ -380,8 +380,8 @@
     "thirdPoint": "Advanced: Deep Learning, NLP, Reinforcement Learning, Big Data.",
     "fourthPoint": "Tools: Excel, SQL, Cloud Deployment, BI: Tableau, Power BI.",
     "usp1": " Live Interactive ",
-    "NoTitle":"true",
-    "blogC":true
+    "NoTitle": "true",
+    "blogC": true
   },
   "seoAbout": [
     {

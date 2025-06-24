@@ -43,7 +43,7 @@ const BottomBar = ({ changeBottom }) => {
         </div>
         <div className="flDivRight">
           <IoLogoWhatsapp className="bIcon" style={{ color: "Green" }} />
-          <Link href="https://api.whatsapp.com/send?phone=918391911911&text=Hi%20Skillslash">
+          <Link href="https://api.whatsapp.com/send?phone=91 &text=Hi%20Skillslash">
             Chat with us
           </Link>
         </div>

@@ -209,9 +209,9 @@ function DataScienceSyllabus({
                   <p>Contact Us</p>
                   <div className={styles.contactNo}>
                     <h4>
-                      <a href="tel:+918391911911">+918391911911</a>{" "}
+                      <a href="tel:+91 ">+91 </a>{" "}
                     </h4>
-                    <a href="tel:+918391911911">
+                    <a href="tel:+91 ">
                       <MdCall className={styles.callIcon} />
                     </a>
                   </div>
