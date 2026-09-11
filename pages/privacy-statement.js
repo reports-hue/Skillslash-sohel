@@ -11,6 +11,10 @@ const terms = () => {
     <>
       <Head>
         <title>Privacy statement</title>
+        <meta
+          name="description"
+          content="Skillslash's privacy statement: what data we collect, how it is used, and how to contact us about it."
+        />
       </Head>
       <Navbar course={false} />
       <PrivacyStatement />

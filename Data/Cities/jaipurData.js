@@ -3,7 +3,6 @@ const JaipurData = {
     <i><b>Imagine modern technology advancing into your daily operations and
       leveraging its effectiveness with limitless gains.</b>
     </i>
-          <span class="blog-center-image" data-src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/jaipur_banner.webp" data-alt="Banner Image" data-width="800" data-height="400"></span></a>
 
     <p>
       The fast-paced rise of data science anticipates a data-driven future with
@@ -111,7 +110,6 @@ const JaipurData = {
       operations. Hence, experts must learn the latest trends via constant skill
       upgrades to attain compelling success.
     </p>
-    <span class="next-image-placeholder" data-src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/banner_c.webp" data-alt="Banner Image" data-width="800" data-height="400"></span></a>
 
     <p>
       No wonder, learning is the ultimate way to grow and become a part of the
@@ -472,8 +470,6 @@ const JaipurData = {
     <p><b>Project 4: Understanding COVID-19 Cases and fatality rates by time-series Forecasting [Samsung]</b></p>
     <p>Use data-driven tools to launch a new healthcare app that tracks human actions and suggests useful advice for the cure.</p>
 
-
-
     <h3>Domain: Sales </h3>
     <p><b>Project 1: Dashboarding sales enablement</b></p>
     <p>Use BI tools to collect sales data, integrate various data sets, and visualize driving competitive sales revenue and growth.</p>
@@ -485,8 +481,6 @@ const JaipurData = {
     <p>Use text analytics and NLP-driven keyword research in designing engaging marketing campaigns to reach the right audience at the right time.</p>
     <p><b>Project 5: Predicting future sales margins with trends and price maximization [BMW]</b></p>
     <p>Build analytics skill sets to predict market values for various vehicles following daily price changes and help customer sell their old ones. </p>
-
-
 
     <h3>Domain: Manufacturing </h3>
     <p><b>Project 1: Route optimization and loading strategies to reduce costs</b></p>
@@ -518,7 +512,6 @@ const JaipurData = {
     <p><b>Project 5: Recommendation system with customer lifetime value analysis (CLV) [Amazon]</b></p>
     <p>Use data visualization tools to examine customer insights and reviews following a specific purchase of a product/service and decide its lifetime value. </p>
 
-
     <h2>Top 10 Competitors with the Best Data Science Courses in Jaipur [2024 Update]</h2>
     <h3 id="Learnbay"><b>1. Best Online Data Science Courses in Jaipur - Learnbay</b></h3>
     <p><b>About:</b>  The present tech age revamps business and job market outlook, best suited to the rising data-driven trends. Following this, many working experts consider career upskilling an impactful metric for exciting growth. </p>
@@ -538,8 +531,6 @@ const JaipurData = {
     <p><b>Fee:</b> Learnbay’s <a href="https://www.learnbay.co/datascience/india/data-science-course-training-in-jaipur?utm_source=skillslash&utm_medium=jaipur&utm_campaign=ds_blog_jaipur" target="_blank"><i>data science course in Jaipur</i></a> sets an open learning space for experts from diverse sectors. Here, you can choose any upskilling program from basics, advanced certification, and master’s degree programs. The course charges INR 135,000 to enrich your skills in today’s tech age. </p>
     <p><b>Mode of training:</b> Learnbay offers <b>data science training in Jaipur</b> via its flexible learning model (online live instructor-led sessions). Here, experts can choose their preferred batch timing and plan your schedule accordingly. Yet, learners willing to work on live projects must undergo offline lab sessions.</p>
     <p>Certifications: Experts can attest <b>IBM, Microsoft, E&ICT Academy, and IIT Guwahati certifications</b> to their careers. Also, experts joining a master’s degree program will obtain a <b>Woolf University-recognized degree and credentials.</b></p>
-    <p>Contact: <a href="mailto:contacts@learnbay.co">contacts@learnbay.co</a></p>
-
 
     <h3 id="DataTrained"><b>2. Data Science Course in Jaipur - DataTrained</b></h3>
     <p><b>About:</b> Learning is inevitable to break into the world of data science and rise beyond the rising tech creations. Meanwhile, the demand for skilled data experts keeps increasing rapidly.</p>
@@ -558,9 +549,6 @@ const JaipurData = {
     <p><b>Fee:</b> Invest INR 160,000 plus GST and evolve as a certified data scientist in today’s tech age.</p>
     <p><b>Mode of training:</b> DataTrained offers flexible data science coaching in Jaipur guiding you to balance work and study plans.</p>
     <p><b>Certifications:</b> Attest useful certificates from <b>DataTrained, FutureSkills, and NASSCOM</b> to your career and enrich results. </p>
-    <p>Contact: <a href="mailto:admissions@datatrained.com" target="_blank" rel="nofollow">admissions@datatrained.com</a> or call +91 9560084091</p>
-
-
 
     <h3 id="Simplilearn"><b>3. Data Scientist Course in Jaipur – Simplilearn</b></h3>
     <p><b>About:</b> Today’s data-driven age welcomes data science as a potential growth metric for businesses and working experts. Jaipur, on the verge of becoming a prime tech hub in upcoming years, adopts a data-driven culture.</p>
@@ -579,7 +567,6 @@ const JaipurData = {
     <p><b>Certifications:</b> Obtain globally recognized certification from <b>Simplilearn and IBM</b> and enrich the growth metrics with finite career gains. </p>
     <p>Contact: <a href="https://www.simplilearn.com/contact-us" target="_blank" rel="nofollow">https://www.simplilearn.com/contact-us </a></p>
 
-
     <h3 id="Datamites"><b>4. Data Science Course in Jaipur – Datamites</b></h3>
     <p><b>About:</b> The present tech age states an increasing reliance on data-driven business practices. Even employers from top MNCs search for talented data experts to deal with various complexities and deliver better results. Hence, enrolment rates in a <b>data science institute in Jaipur</b> have increased. </p>
     <p><a href="https://datamites.com/data-science-course-training-jaipur/" target="_blank" rel="nofollow"><i>Datamites</i></a> envisions a digital-friendly future for experts from multiple fields. Its specialized syllabus and career-worthy advice from experts enrich your skills. Join Datamites today to explore more alluring options.</p>
@@ -596,8 +583,6 @@ const JaipurData = {
     <p><b>Fee:</b> Join Datamites and build a data science career path with an investment worth INR 72,345 (with INR 12,058 monthly EMIs).</p>
     <p><b>Mode of training:</b> Data science courses are exclusively designed for working experts. You can choose any – live virtual, classroom, or blended learning modes best suited to your work-study obligations.</p>
     <p><b>Certifications:</b> Learning without valuable credentials is a sheer waste of time and money. Hence, experts prefer joining Datamites for its front-age <b>data science course in Jaipur</b> with certification. Here, you will obtain certificates from <b>Datamites, FutureSkills, and IABAC.</b></p>
-    <p>Contact: Call at 1800-313-3434</p>
-
 
     <h3 id="Apponix Academy"><b>5. Data Science with Python Certification Training in Jaipur – Apponix Academy</b></h3>
     <p><b>About:</b> Today’s digital age sees the significance of data science in leveraging business yields and career graphs. Experts from diverse fields opt for career upskilling via <b>data science training in Jaipur.</b></p>
@@ -613,7 +598,6 @@ const JaipurData = {
     <p><b>Fee:</b>NA</p>
     <p><b>Mode of training:</b> Experts willing to enrich their professional career in data science can opt for online training sessions. Also, Apponix offers offline and self-paced learning sessions with ultimate career gains. Hence, learners can choose any learning mode based on their work-study plans and options. </p>
     <p><b>Certifications:</b> If you’re willing to revamp yourself, join Apponix and attest valuable credentials from IABAC to your career. </p>
-    <p>Contact: Call at +91-8867221559</p>
 
     <h3 id="StarAgile"><b>6. Data Science Certification Training Course in Jaipur – StarAgile</b></h3>
     <p><b>About:</b> Data has become a valuable asset for businesses and working experts. Its agile integration with diverse sectors alters the customary work practices. Hence, the demand for skilled data experts keeps increasing now and then. Yet, persisting skill gaps affect the growth chances in today’s date. </p>
@@ -629,7 +613,6 @@ const JaipurData = {
     <p><b>Fee:</b> Experts joining StarAgile for career upskilling must pay INR 49,999 as course fees. Later, anyone who wants to opt for a placement program can pay INR 80,000 after getting placed in any company.</p>
     <p><b>Mode of training:</b> StarAgile offers intensive online training sessions guiding experts to balance their work and study obligations. </p>
     <p><b>Certifications:</b> StarAgile offers career-worthy certifications in alliance with IBM enriching growth options.</p>
-    <p>Contact: <a href="mailto:trainings@staragile.com" target="_blank" rel="nofollow">trainings@staragile.com</a></p>
     <h3 id="Intellipaat"><b>7. Data Science Course in Jaipur – Intellipaat</b></h3>
     <p><b>About:</b> The present tech space acknowledges data science as an impactful growth metric for businesses. Startups and MNCs in Jaipur look forward to the flexible integration of data science with business activities for better returns. Hence, upskilling via the <b>best data science course in Jaipur</b> is crucial for experts from diverse fields. </p>
     <p><a href="https://intellipaat.com/data-scientist-course-training-jaipur/" target="_blank" rel="nofollow"><i>Intellipaat</i></a>   supports digital shifts paving the way for effortless career building. Its cutting-edge courses guide experts to acquire proven data science skills and conquer global-scale success. </p>
@@ -647,14 +630,11 @@ const JaipurData = {
     <p><b>Fee:</b> Intellipaat’s data science course Jaipur costs INR 85,044 with flexible payment plans.</p>
     <p><b>Mode of training:</b> Experts joining Intellipaat’s <b>data science course in Jaipur</b> can choose their preferred learning mode. It includes live online, self-paced, and blended learning options. </p>
     <p><b>Certifications:</b> Attest globally valued certifications from Intellipaat in alliance with IIT Roorkee and unleash true growth potential.</p>
-    <p>Contact: call@:+91-7022374614</p>
-
 
     <h3 id="Onlei Technologies"><b>8. Data Science Course Training in Jaipur – Onlei Technologies </b></h3>
 
     <p><b>About:</b> The rising digital era introduces data science as an eminent growth metric for businesses and experts. Experts stressing static skill sets can opt for upskilling and revitalizing their careers.</p>
     <p><a href="https://onleitechnologies.com/data-science-course-training-in-jaipur/" target="_blank" rel="nofollow"><i>Onlei Technologies</i></a>   lays the basis for successful career shifts enriching future growth prospects. Data aspirants can join Onlei’s certified training with 100% placement aid. Now overcoming career stagnancies has become effortless with Onlei Technologies.</p>
-
 
     <i><b>Key Features:</b></i>
     <ul>
@@ -669,7 +649,6 @@ const JaipurData = {
     <p><b>Fee:</b>NA</p>
     <p><b>Mode of training:</b> Onlei offers online live instructor-led training sessions to its learners willing to revamp their careers in data science. </p>
     <p><b>Certifications:</b> Attest Onlei credentials to your career unleashing global-level gains.</p>
-    <p>Contact: <a href="mailto:info@onleitechnologies.com" target="_blank" rel="nofollow">info@onleitechnologies.com</a></p>
     <h3 id="WsCube Tech"><b>9. Best Data Science Course in Jaipur – WsCube Tech</b></h3>
     <p><b>About:</b> The splendid rise of data science alters the business and career outlook for diversified sectors. Experts from diverse fields opt for career upskilling to mend a competitive path filled with alluring gains.</p>
     <p><a href="https://www.wscubetech.com/jaipur/data-science-course" target="_blank" rel="nofollow"><i>WsCube Tech</i></a> envisions an exciting career path with its front-age data science courses in Jaipur. Its inclusively planned career support services prepare you for fierce competition and bring success. Join WsCube Tech today and build a lucrative data science career with tempting gains. </p>
@@ -686,7 +665,6 @@ const JaipurData = {
     <p><b>Fee:</b> Invest INR 29,500 as a program fee and stay informed of industry updates and trends. </p>
     <p><b>Mode of training:</b> WsCube Tech offers live training sessions to expand your knowledge horizons and stay competitive. Also, you can opt for self-paced learning mode and upgrade your skills, the way you like.</p>
     <p><b>Certifications:</b> Attest job-driven WsCube Tech certification to your career and enrich your abilities to grow with endless gains. </p>
-    <p>Contact: <a href="mailto:learner@wscubetech.com" target="_blank" rel="nofollow">learner@wscubetech.com</a></p>
 
     <h3 id="Grras Solutions"><b>10. Data Science Training and Certification Course in Jaipur – Grras Solutions </b></h3>
     <p><b>About:</b> Data science holds a crucial position in today’s rising tech age. Businesses rely on data science for factual planning and decision-making. Hence, experts opt for data science learning to stay ahead of the race and mark global-level success.</p>
@@ -703,18 +681,14 @@ const JaipurData = {
     <p><b>Fee:</b>NA</p>
     <p><b>Mode of training:</b> Grras Solutions offers cutting-edge training sessions via online mediums, empowering you to excel in your field and ascertain notable success.</p>
     <p><b>Certifications:</b> Attest useful credentials from Grras Solutions to your career and explore bright growth options. </p>
-    <p>Contact: <a href="mailto:trainings@grras.com" target="_blank" rel="nofollow">trainings@grras.com</a></p>
-
 
     <h2>Wrapping Up!!</h2>
     <p>Today’s fast-paced tech advances concoct a world where data science rules over global businesses. In the interim, working pros from diverse fields search for boosting their skill sets to stay competitive. Hence, career upskilling via a <b>data science course in Jaipur</b> unlocks the true growth potential. Experts must apprehend the changing career dynamics and invest in the right course. </p>
-    
-    
+
     <h2>FAQs of Data Science Course Training in Jaipur: –</h2>
     <h3><b>1. What are the different learning modes available for data science courses?</b></h3>
     <p>Data science learning is vital for career enthusiasts at any career level – freshers and experienced from diverse fields. Learning is crucial, but choosing the right learning mode can enrich your career worth. Hence, experts can opt for online or offline courses to build a career with better gains.</p>
     <p>Online data science courses are time-saving and take less investment. On the other hand, an offline <b>data science course in Jaipur</b> can be pricey and affect your other duties. Experts eager to learn can choose the best-suited training mode as per their career goals. </p>
-
 
     <h3><b>2. If I have to miss a lesson due to an emergency, would a make-up class be available? </b></h3>
     <p><b>Data science training in Jaipur</b> offers endless access to learning portals with pre-recorded sessions. Hence, you can follow the resources and continue self-paced learning, if you miss a lesson due to an emergency. Also, you can consult your guide in case of any learning queries. </p>
@@ -726,8 +700,7 @@ const JaipurData = {
     <p>Learning with a data science online course in Jaipur will attest to globally valued credentials to your career. Here, you will obtain course completion and a project certificate. These certificates are helpful for you to unlock suitable career rise options on a global scale. </p>
   
    <style>
-    
-    
+
             /* Inline CSS for specific styles */
             p {
               color: #333;
@@ -800,9 +773,9 @@ const JaipurData = {
       point: [""],
     },
     Blogs: [
-      { image: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side.webp", title: "Top 10 Data Science Course Training Institutes in Chandigarh", link:"https://skillslash.com/data-science-course-in-chandigarh" },
-      { image: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_2.webp", title: "Top 10 Data Science Course Training Institutes in Kolkata",link:"https://skillslash.com/data-science-course-training-kolkata" },
-      { image: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_3.webp", title: "Top 11 Data Science Course Training Institutes in Mumbai",link:"https://skillslash.com/data-science-course-in-mumbai" },
+      { image: "/cdn/city_Blog/blog_side.svg", title: "Top 10 Data Science Course Training Institutes in Chandigarh", link:"https://skillslash.com/data-science-course-in-chandigarh" },
+      { image: "/cdn/city_Blog/blog_side_2.svg", title: "Top 10 Data Science Course Training Institutes in Kolkata",link:"https://skillslash.com/data-science-course-training-kolkata" },
+      { image: "/cdn/city_Blog/blog_side_3.svg", title: "Top 11 Data Science Course Training Institutes in Mumbai",link:"https://skillslash.com/data-science-course-in-mumbai" },
   
       // Add more blog objects as needed
     ],

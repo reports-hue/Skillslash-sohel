@@ -27,8 +27,8 @@ const Talk = () => {
           <Image
             src={
               isMobile
-                ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/mbl_talk.webp"
-                : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/Group+908.webp"
+                ? "/cdn/digital-marketing/mbl_talk.svg"
+                : "/cdn/digital-marketing/Group-908.svg"
             }
             layout="fill"
             objectFit="cover"
@@ -43,8 +43,8 @@ const Talk = () => {
             Contact us and our academic counsellor will get in touch with you
             shortly
           </p>
-          <Link href="tel:+91 " className={styles.btn}>
-            <FiPhoneCall className={styles.icon} /> +91
+          <Link href="/Contact-us" className={styles.btn}>
+            <FiPhoneCall className={styles.icon} /> Contact us
           </Link>
         </div>
       </div>

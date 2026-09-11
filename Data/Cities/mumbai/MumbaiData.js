@@ -3,7 +3,6 @@ const MumbaiData = {
    
       <p>Imagine an engaging career path with proven skills in steering complex data sets, extracting insights, and making informed moves. In the bustling digital space of Mumbai, data science has become a radical force driving career growth. Amidst this change, experts with data-driven skills can only sustain. Hence, learning via a data science course in Mumbai unlocks stunning growth and success. </p>
      
-      <span class="blog-center-image" data-src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_second_img.webp" data-alt="Banner Image" data-width="800" data-height="400"></span></a>
      <i><b>Do you stress about your static career path and are eager to update it?</b> </i>
      
       <p>Data science learning is a one-stop answer for your queries, fitting you with proven gains. Data science decides the fate of various working pros with its notable solutions. Data science learning is no longer limited to adding new skills to your career.</p>
@@ -13,12 +12,11 @@ const MumbaiData = {
 
   <div class="table-container" style="overflow-x: auto;">
     <table style="border-collapse: collapse; width: 100%; border: 2px solid #ccc;">
-      <caption style="font-weight: bold; font-style: italic; margin:20px;">Top 11 Data Science Training Courses in Mumbai</caption>
+      <caption style="font-weight: bold; font-style: italic; margin:20px;">Top 10 Data Science Training Courses in Mumbai</caption>
       <thead style="background-color: #f0f0f0;">
         <tr>
           <th style="border: 1px solid #ccc; ">Institute Name</th>
           <th style="border: 1px solid #ccc; ">Fees Range</th>
-          <th style="border: 1px solid #ccc; ">Contact Details</th>
         </tr>
       </thead>
       <tbody>
@@ -27,79 +25,60 @@ const MumbaiData = {
 <a href="#executive-program" style="color:black" onmouseover="this.style.color='#4f419a'" onmouseout="this.style.color='black'">Learnbay</a>
           </td>
           <td style="border: 1px solid #ccc; ">INR 190,000 ++ GST</td>
-          <td style="border: 1px solid #ccc; ">
-            <a href="https://www.learnbay.co/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati?utm_source=skillslash&utm_medium=mumbai&utm_campaign=ds_blog_mumbai" target="_blank">Executive program in Data Science & AI</a>
-          </td>
         </tr>
         <tr>
           <td style="border: 1px solid #ccc; ">
             <a href="#iit-bombay-program" style="color:black" onmouseover="this.style.color='#4f419a'" onmouseout="this.style.color='black'">IIT Bombay</a>
           </td>
           <td style="border: 1px solid #ccc; ">NA</td>
-          <td style="border: 1px solid #ccc; ">call at: +919138596040</td>
         </tr>
         <tr>
           <td style="border: 1px solid #ccc; ">
             <a href="#simplilearn-program" style="color:black" onmouseover="this.style.color='#4f419a'" onmouseout="this.style.color='black'">Simplilearn</a>
           </td>
           <td style="border: 1px solid #ccc; ">INR 57,000 inclusive of taxes</td>
-          <td style="border: 1px solid #ccc; ">call at: 1800-212-7688</td>
         </tr>
         <tr>
           <td style="border: 1px solid #ccc; ">
             <a href="#intellipaat-program" style="color:black" onmouseover="this.style.color='#4f419a'" onmouseout="this.style.color='black'">Intellipaat</a>
           </td>
           <td style="border: 1px solid #ccc; ">INR 85,044</td>
-          <td style="border: 1px solid #ccc; ">call at:+91-7022374614</td>
-        </tr>
-        <tr>
-          <td style="border: 1px solid #ccc; ">
-            <a href="#scaler-program" style="color:black" onmouseover="this.style.color='#4f419a'" onmouseout="this.style.color='black'">Scaler</a>
-          </td>
-          <td style="border: 1px solid #ccc; ">INR 3.69 lacs With INR 8,628 monthly EMIs</td>
-          <td style="border: 1px solid #ccc; ">info@scaler.com</td>
         </tr>
         <tr>
           <td style="border: 1px solid #ccc; ">
             <a href="#datamites-program" style="color:black" onmouseover="this.style.color='#4f419a'" onmouseout="this.style.color='black'">Datamites</a>
           </td>
           <td style="border: 1px solid #ccc; ">INR 72,345 (With INR 12,058 monthly EMIs)</td>
-          <td style="border: 1px solid #ccc; ">Call at 1800-313-3434</td>
         </tr>
         <tr>
           <td style="border: 1px solid #ccc; ">
             <a href="#great-learning-program" style="color:black" onmouseover="this.style.color='#4f419a'" onmouseout="this.style.color='black'">Great Learning</a>
           </td>
           <td style="border: 1px solid #ccc; ">INR 350,000 plus+ GST</td>
-          <td style="border: 1px solid #ccc; ">info@greatlearning.in</td>
         </tr>
         <tr>
           <td style="border: 1px solid #ccc; ">
             <a href="#techstack-program" style="color:black" onmouseover="this.style.color='#4f419a'" onmouseout="this.style.color='black'">TechStack Academy</a>
           </td>
           <td style="border: 1px solid #ccc; ">INR 11,000 per month</td>
-          <td style="border: 1px solid #ccc; ">info@techstack.in</td>
         </tr>
         <tr>
           <td style="border: 1px solid #ccc; ">
             <a href="#jio-institute-program" style="color:black" onmouseover="this.style.color='#4f419a'" onmouseout="this.style.color='black'">Jio Institute</a>
           </td>
           <td style="border: 1px solid #ccc; ">INR 975,000 inclusive of taxes</td>
-          <td style="border: 1px solid #ccc; ">contact@jioinstitute.edu.in</td>
         </tr>
         <tr>
           <td style="border: 1px solid #ccc; ">
             <a href="#aegis-program" style="color:black" onmouseover="this.style.color='#4f419a'" onmouseout="this.style.color='black'">Aegis</a>
           </td>
           <td style="border: 1px solid #ccc; ">NA</td>
-          <td style="border: 1px solid #ccc; ">info@municampus.com</td>
         </tr>
         <tr>
           <td style="border: 1px solid #ccc; ">
             <a href="#imarticus-program" style="color:black" onmouseover="this.style.color='#4f419a'" onmouseout="this.style.color='black'">Imarticus Learning</a>
           </td>
           <td style="border: 1px solid #ccc; ">INR 198,000 inclusive of taxes</td>
-          <td style="border: 1px solid #ccc; ">info@imarticus.com</td>
         </tr>
       </tbody>
     </table>
@@ -115,10 +94,6 @@ const MumbaiData = {
       });
     </script>
 <a href="https://www.learnbay.co/submit-info">
-<span class="next-image-placeholder" data-src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/banner_c.webp" data-alt="Banner Image" data-width="800" data-height="400"></span></a>
-
-
-
 
      
 
@@ -135,9 +110,6 @@ const MumbaiData = {
 Statistics</li>
 <li>Python Basics</li>
 <li>Data Types</li>
-
-
-
 
 </ul>
 
@@ -157,7 +129,6 @@ Statistics</li>
 <li>Reinforcement learning</li>
 <li>Big Data</li>
 
-
    </ul>
 <p>Tools: <b>Data science classes in Mumbai</b> trains you with in-depth learning of notable tools and trends to stay ahead of the career race. </p>
 
@@ -172,7 +143,6 @@ Statistics</li>
 
 <p>An industry-driven <b>data scientist course in Mumbai</b> helps you learn and practice in-demand data science tools. It enriches your ability to handle huge data sets and drive compelling gains. </p>
 
-
 <i><b>Let’s explore how it helps you –</b></i>
 
 <ul>
@@ -184,12 +154,7 @@ Statistics</li>
 
 <b>Data Science Using Cloud Deployment:</b> Experts eager to revitalize their careers in data science must learn cloud deployment methods. Data science and cloud computing are linked and experts must gain proven skills to face related issues. Cloud skills guide experts in choosing the right platform and improving their data analysis skills.
 
-
 </li>
-
-
-
-
 
 <li><b>Data Science Using BI:</b> BI skills enrich the quality of data analysis driving business growth levels to the peak of success. The best data science course in Mumbai trains you with BI concepts to drive worthy moves for exciting growth. Experts with BI skills can handle complex data sets and optimize data storage facets. </li>
 <li><b>Data Science Using Power BI:</b> Experts will learn leading-edge Power BI uses to alter their facts into factual moves. Data science training in Mumbai helps experts clean, redefine, and reform data sets from various sources. Experts with good Power BI skills can create engaging dashboards, run algorithms, and make strategic moves for better results. </li>
@@ -201,7 +166,6 @@ Statistics</li>
 <p>Freshers or working experts willing to update their careers as per today’s digital trends, opt for data science learning. If you are a fresher, data science learning can lift your chances of getting selected for fortunate roles. On the other hand, if you’re an expert with a static career path, upskilling speeds up your success race. </p>
 
 <span>Hence, you must join an industry-paced <b>data science training institute in Mumbai</b> to gain proven gains –</span>
-
 
 <ul>
 <li><i><b>All-inclusive Learning of Data Science Concepts:</b></i> Experts enrolling in a data scientist course in Mumbai will gain 360-degree knowledge. Here, you will learn everything about data science concepts (abstract & practical). </li>
@@ -232,13 +196,11 @@ Statistics</li>
 <p>Quality learning with the best data science classes in Mumbai is vital to achieving global success and cracking critical jobs with the leading MNCs. </p><br/>
 <i><b>Let’s explore top data scientist jobs in Mumbai with an exciting future. </b></i>
 
-
 <li><b>Data Scientist</b> </li>
 <p>A skilled data scientist is now in demand across Mumbai due to its ability to handle data delicacies and derive insights for informed decisions. Experts at fresher, mid-career, and senior levels can join this role with exciting gains. A talented data scientist earns INR 11,50,000 per year on average. Yet, with the required skill sets, one can grow to a higher level. </p>
 
 <li><b>Data Analyst </b></li>
 <p>Data analysts are in constant demand across diversified sectors with a bright future. Experts, mainly at fresher levels or willing to switch their profiles, can redefine themselves in data analyst roles. A data analyst earns INR 600,000 on average which can rise to INR 10,00,000 according to expertise.</p>
-
 
 <li><b>AI/ML Engineer</b></li>
 <p>Mumbai opens up a career-driven growth prospect for data aspirants from diversified fields. Experts with at least 1 year of experience and proven skills can switch their profile to AI or ML engineering. An AI engineer in Mumbai earns around INR 17.4 lacs on average. On the other hand, an ML engineer in Mumbai earns around INR 8.5 lacs on average with leading firms.   </p>
@@ -294,8 +256,6 @@ Statistics</li>
 <p>Use regression analysis and ML models to assess employees’ performance and plan out their learning and growth journey with vital gains. </p><br/>
 <h3>Domain: Healthcare</h3>
 
-
-
 <i><b>Project 1: Google Mobility Data Prediction </b></i>
 <p>Learn ML algorithms and statistics to analyze past Google mobility data and predict future disease trends and behaviors. </p><br/>
 
@@ -310,7 +270,6 @@ Statistics</li>
 
 <p>Use data-driven tools to launch a new healthcare app that tracks human actions and suggests useful advice for the cure. </p><br/>
 
-
 <h3>Domain: Sales </h3>
 
 <i><b>Project 1: Dashboarding sales enablement </b></i>
@@ -323,9 +282,7 @@ Statistics</li>
 
 <p>Use data-driven tools to inspect and track market trends, customer behavior, and historical data to predict and plan sales rates meeting end demands. </p><br/>
 
-
 <i><b>Project 4: Descriptive study of trends and anomalies with predictive analysis for conversion [Swiggy]</b></i>
-
 
 <p>Use text analytics and NLP-driven keyword research in designing engaging marketing campaigns to reach the right audience at the right time. </p><br/>
 
@@ -334,7 +291,6 @@ Statistics</li>
 <p>Build analytics skill sets to predict market values for various vehicles following daily price changes and help customer sell their old ones. </p><br/>
 
 <h3>Domain: Manufacturing </h3>
-
 
 <i><b>Project 1: Route optimization and loading strategies to reduce costs </b></i>
 
@@ -357,7 +313,6 @@ Statistics</li>
 <i><b>Project 6: Understanding in-depth about logging while drilling (LWD) technique </b></i>
 
 <p>Use big data analytics and highly efficient drilling models to identify cost-effective drilling sites with higher ROI. </p><br/>
-
 
 <i><b>Project 7: Condition-based preventive maintenance and fault prediction in-depth</b></i>
 
@@ -384,7 +339,6 @@ Statistics</li>
 <h2>Enlisting Top 10+ Competitors with Career-driven Data Science Courses in Mumbai</h2>
 
 <h3 id="executive-program"><b>1. ExecutiveProgram in Data Science & AI [Learnbay]</b></h3>
-<span class="next-image-placeholder" data-src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/learnbay_logo.jpg" data-alt="Profile Image" data-width="200" data-height="100"></span>
 
 <p><b>About:</b> Data science and AI skills are crucial for working experts to redefine themselves and attain a competitive edge. Experts willing to update their career paths must harness the power of data science. Data science learning lays the foundation for career-driven growth options and alluring hikes. </p>
 <p>Today’s tech era welcomes notable digital advances and their seamless integration into diverse sectors. Learnbay’s Executive Program in Data Science & AI sets the path toward a digital-friendly future. This best institute for data science courses in Mumbai foresees a global-scale career shift.</p>
@@ -392,7 +346,6 @@ Statistics</li>
 <p>Today’s tech era welcomes notable digital advances and their seamless integration into diverse sectors. Learnbay’s Executive Program in Data Science & AI sets the path toward a digital-friendly future. This <a href="https://www.learnbay.co/datascience/mumbai/data-science-course-training-in-mumbai?utm_source=Skillslash&utm_medium=mumbai&utm_campaign=ds_blog_mumbai" target="_blank">best institute for data science courses in Mumbai</a> foresees a global-scale career shift.</p>
 
 <p>The partnership with <a href="https://www.learnbay.co/datascience/executive-program-in-data-science-and-ai?utm_source=Skillslash&utm_medium=mumbai&utm_campaign=ds_blog_mumbai" target="_blank" >E&ICT Academy</a> IIT Guwahati, & IBM offers a special career opportunity and proves your abilities for success worldwide. Once you complete the course, you can get into IBM, Amazon, HP, Dell, Microsoft, etc. </p>
-<p>For further details <a href="mailto:contacts@learnbay.co" target="_blank">contacts@learnbay.co</a></p>
 
 <i><b>Course features:</b></i>
 <ul>
@@ -409,7 +362,6 @@ Statistics</li>
 <p><i><b>Certifications:</b></i> Attest a course certification (E&ICT Academy IIT Guwahati) and project certificate (IBM) to your career to unlock exciting gains. </p>
 
 <h3 id="iit-bombay-program"><b>2. Master’s in Machine Intelligence and Data Science [IIT Bombay]</b></h3>
-<span class="next-image-placeholder" data-src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/IIT-Bombay.png" data-alt="Profile Image" data-width="200" data-height="140"></span>
 <p><i><b>About:</b></i> Today’s fast-paced digital growth boosts the cogency of data science learning to stay ahead of the career race in Mumbai. Data fanatics prefer upskilling owing to the steadily changing career outlook. Data science learning is crucial to keep pace with the regularly changing tools and trends. </p>
 <p>IIT Bombay strikes the required balance between applied research and industry application. Its master’s program in data science and machine intelligence helps you gain insights into core industry uses. Its robust industry alliance with leading firms lifts your skills to become a sheer part of the thriving digital space. Join IIT Bombay's cutting-edge courses to face inherent risks with power-packed solutions. </p>
 
@@ -428,20 +380,15 @@ Work on industry-focused data science projects and case studies to enhance your 
 <li>Attest a valuable master’s degree certificate from IIT Bombay to your career to unleash exciting growth options
 </li>
 
-
 </ul>
 <p><i><b>Program fee:</b></i> NA</p>
 <p><i><b>Mode of training:</b></i> IIT Bombay offers a data science classroom course in Mumbai to help gain optimal merit with the trending data science tools. </p>
 <p><i><b>Certifications:</b></i> Become a certified data expert validating your skills with an IIT Bombay certificate and attain global-level success. </p>
 <h3 id="simplilearn-program"><b>3. Data Scientist Course in Mumbai [Simplilearn]</b></h3>
-<span class="next-image-placeholder" data-src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/simplelearn.png" data-alt="Profile Image" data-width="200" data-height="140"></span>
-
 
 <p><i><b>About:</b></i> In the present digital space, notable data science trends keep on reshaping various sectors and career outlooks in Mumbai. Meanwhile, career upskilling has become crucial for experts in any domain. Simplilearn is a top-rated data science institute in Mumbai solely designed for data fanatics. Its online training and custom-fit syllabus inspire many to learn and grow. </p>
 <p>Simplilearn offers a wide array of career-driven data science courses catering to the learning needs of many experts. Its thriving alliance with the leading MNCs and IBM unlocks the potential to align with the present market trends. </p>
 <p>Simplilearn’s up-to-date training method guides experts to bridge skill gaps and land their dream roles with Mumbai’s top corporates. Lock your seat today and crack critical jobs with top-tier MNCs like TCS, Amazon, IBM, EY, HP, etc. </p>
-
-<p>For further details Call @1800-212-7688 or <a href="https://www.simplilearn.com/data-science-training-course-mumbai-city" target="_blank" rel="nofollow">visit Website</a> </p>
 
 <i><b>Course features:</b></i>
 <ul>
@@ -458,15 +405,10 @@ Work on industry-focused data science projects and case studies to enhance your 
 <p><i><b>Mode of training:</b></i> Simplilearn offers an online version of data science training in Navi Mumbai and other prime cities with flexible timings. Also, it provides a blended and self-paced learning space with proven growth options. </p>
 <p><i><b>Certifications:</b></i> One certificate of achievement from Simplilearn and a course certificate from IBM with proven skills validation. </p>
 
-
-
 <h3 id="intellipaat-program"><b>4. Data Science Course in Mumbai [Intellipaat]</b></h3>
-<span class="next-image-placeholder" data-src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/Intellipaat-Logo.png" data-alt="Profile Image" data-width="200" data-height="140"></span>
 <p><i><b>About:</b></i> In the era of data-driven functions, data science upskilling has become crucial for many experts eager for an inspiring career shift. As the career outlook changes with data science, so are the skill values. Hence, enrolment rates in an industry-driven data science program in Mumbai keep increasing. In the interim, Intellipaat sets the stage for invincible career growth with its upskilling programs. </p>
 <p>Intellipaat offers a concisely curated data scientist course in Mumbai in alliance with IIT Roorkee. Its career-driven training sessions equip you with proven skills to enter almost every industry vertical. Learning with Intellipaat opens exciting offers for every role – from statistician to developer!! </p>
 <p>Also, useful credentials from IIT Roorkee expand career eminence and arm you with definite gains. Enroll in Intellipaat’s courses today and seal your job with top-tier MNCs like IBM, Microsoft, Fidelity Investments, MSD, Intel, Google, etc. </p>
-
-<p>For further details call@:+91-7022374614. or <a href="https://intellipaat.com/data-scientist-course-training-mumbai/" target="_blank" rel="nofollow">visit Website</a> </p> 
 
 <i><b>Course features:</b></i>
 <ul>
@@ -484,38 +426,11 @@ Make a hassle-free career shift with job and placement support and land your dre
 
 <p><i><b>Certifications:</b></i> Successful learners will validate their skills with a career-enriched certificate of completion from IIT Roorkee. </p>
 
-
-<h3 id="scaler-program"><b>5. Data Science Course in Mumbai [Scaler]</b></h3>
-<span class="next-image-placeholder" data-src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/scaler.png" data-alt="Profile Image" data-width="200" data-height="140"></span>
-<p><i><b>About:</b></i> The 21st-century digital space in Mumbai marks a notable milestone with the advent of splendid tech creations. Mumbai, the ‘City of Dreams’ contributes toward the thriving business and career outlook. Meanwhile, the rise of data science trends and its integration into diverse fields exposes lucrative career paths. </p>
-<p> Scaler enters the frame with its industry-paced data science courses in Mumbai with crucial career gains. If you are a fresher or expert, joining Scaler supports a profound career shift with exciting offers. Its balanced blend of elementary and practical concepts is helpful for experts. </p>
-
-<p>You can sign up for a data scientist course in Mumbai with Scaler for effortless career services. Join Scaler and land your dream job with leading MNCs such as Honeywell, Microsoft, DataGrokr, Paytm, LTI, Protium, Airbnb, etc. </p>
-<p>For further details <a href="mailto:info@scaler.com" target="_blank" rel="nofollow" > info@scaler.com</a> or <a href="https://www.scaler.com/courses/data-science-course-training-in-mumbai/" rel="nofollow" target="_blank">Visit Website</a></p>
-<i><b>Course features:</b></i>
-<ul>
-<li>Get into career-intensive learning modules in data science Mumbai to explore definite growth options</li>
-<li>Receive career-focused data science training from elite industry experts from the same field with proven industry expertise</li>
-<li>Have a scope of real-time learning of data science tools and trends via live projects, mini projects, and case studies to refine your skill sets</li>
-<li>Clarify all your doubts at one go via 1:1 doubt-clearing sessions driven by reliable experts</li>
-<li>Have an assurance to rise higher and land your dream jobs with the leading MNCs from diverse fields</li>
-
-<li>Hassle-free career support services to optimize your chances of cracking critical jobs, and receive thrilling hikes and promotions</li>
-<li>Attest Scaler certification to your career to attain inspiring job offers in Mumbai and overseas</li>
-</ul>
-<p><i><b>Program fee:</b></i> Scaler’s data science certification course in Mumbai costs INR 3.69 lacs with INR 8,628 as monthly EMIs. </p>
-<p><i><b>Mode of training:</b></i> Scaler is famous for its career-driven online data science training in Mumbai that prepares you to crack top-tier job roles. </p>
-<p><i><b>Certifications:</b></i> An exciting chance to enrich your career values and attain thrilling jobs with a Scaler certificate. </p>
-
-
-
-<h3 id="datamites-program"><b>6. Data Science Course in Mumbai [Datamites]</b></h3>
-<span class="next-image-placeholder" data-src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/datamites.png" data-alt="Profile Image" data-width="200" data-height="140"></span>
+<h3 id="datamites-program"><b>5. Data Science Course in Mumbai [Datamites]</b></h3>
 <p><i><b>About:</b></i> Mumbai’s thriving business outlook holds effective tech creations to stand out of the industry race. Working pros from diverse fields enroll in various upskilling programs in pursuit of proven career success. Concurrently, Datamites and its career-focused data science programs come into the spotlight. </p>
 <p>Datamites and its premier industry alliance with IABAC accredit your career worth and make you job-ready in today’s age. Enroll in Datamites’ courses to explore and acquire digital skills with global-scale success. Its data-rich course guides you to gain ample growth offers and build a thriving career.</p>
 
 <p>Grow rapidly with mastery to crack critical job roles at MNCs like Amazon, IBM, Microsoft, Infosys, Dell, Yahoo, etc. </p>
-<p>For further details, <a href="mailto:info@datamites.com" target="_blank" rel="nofollow">info@datamites.com</a> or <a href="https://datamites.com/data-science-course-training-mumbai/" target="_blank" rel="nofollow">visit website</a></p>
 <i><b>Course features:</b></i>
 <ul>
 
@@ -527,25 +442,18 @@ Make a hassle-free career shift with job and placement support and land your dre
 <li>Receive <i><b>hassle-free job support</b></i> to foster desired merit and join firms like TCS, IBM, Amazon, KPMG, Viacom, etc. </li>
 <li>If you’re a fresher, never miss the chance to gain <i><b>internship offers</b></i> with top-notch MNCs/MAANG/FAANG. </li>
 
-
 </ul>
 <p><i><b>Program fee:</b></i> Become a certified data scientist with Datamites’ career-driven course worth INR 72,345 (INR 12,058 monthly EMIs).</p>
 <p><i><b>Mode of training:</b></i> Datamites is famous for its flexible learning setup where you will get live virtual, blended, and classroom training modes. Now, learning while working is no longer a stress for experts. </p>
 <p><i><b>Certifications:</b></i> Learning is inevitable and so are the certifications. Join Datamites’ data scientist course in Mumbai and obtain IABAC certificates. Enrich your career values with useful validation from Futureskills with global-scale job offers. </p>
 
-
-
-
-
-<h3 id="great-learning-program"><b>7. PG Program in Data Science and Engineering in Mumbai [Great Learning]</b></h3>
-<span class="next-image-placeholder" data-src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/great_learning.png" data-alt="Profile Image" data-width="200" data-height="140"></span>
+<h3 id="great-learning-program"><b>6. PG Program in Data Science and Engineering in Mumbai [Great Learning]</b></h3>
 
 <p>About: A pivotal rise of digital creations expands the scope for resilient growth and success for firms and experts. Mumbai is thriving today paving the way for digital stability. Mumbai, the financial capital of India inspires experts to rethink their careers for data-driven shifts. In the interim, career upskilling with data science tools has become useful for experts. </p>
 <p>Great Learning foresees proven career shifts via its elite data science programs marking exciting success. Join the courses and jumpstart your career with notable returns. </p>
 
 <p>Leading-edge alliance with Great Lakes prepares you to build a tempting career as a certified data expert. Learn and excel in your career with job opportunities from <i><b>Google, Cognizant, Dell, Adobe, Intel, Oracle, Deloitte, etc</b></i>. </p>
 
-<p>For further details <a href="mailto:info@greatlearning.in" target="nofollow" rel="nofollow">info@greatlearning.in</a> or <a href="https://www.mygreatlearning.com/pg-program-data-science-course-in-mumbai" target="_blank" rel="nofollow">visit Webiste</a> </p>
 <i><b>Course features:</b></i>
 
 <ul>
@@ -559,17 +467,13 @@ Make a hassle-free career shift with job and placement support and land your dre
 <li>Obtain a globally accredited PG certificate from the Great Lakes and attain inspiring success)</li>
 </ul>
 
-
 <p><i><b>Program fee:</b></i> This PG program costs around INR 350,000 plus+ GST with flexible payment plans (INR 8,824 as monthly EMIs). </p>
 
 <p><i><b>Mode of training:</b></i> Transform your career with an industry-paced data science classroom course in Mumbai to initiate interactive discussions and learning. 
 
 <p><i><b>Certifications:</b></i> Learning from a top-ranked data science course with placement in Mumbai attests amazing credentials to your career. A course certificate from Great Lakes unleashes thriving scopes for growth and success. 
 
-
-
-<h3 id="techstack-program"><b>8. Advance Data Science Course in Mumbai, India [TechStack Academy]</b></h3>
-<span class="next-image-placeholder" data-src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/tech_stack.png" data-alt="Profile Image" data-width="200" data-height="140"></span>
+<h3 id="techstack-program"><b>7. Advance Data Science Course in Mumbai, India [TechStack Academy]</b></h3>
 
 <p><i><b>About:</b></i> In the present tech age, data science learning has become a golden ticket to cherish global-scale career gains. Mumbai opens up an ever-growing space for various startups and MNCs to thrive. Many firms imagine a data-driven work culture where data nobility takes optimal control of every change. The demand for learning via the <b>best data science institute in Mumbai</b> is growing. </p>
 
@@ -577,12 +481,7 @@ Make a hassle-free career shift with job and placement support and land your dre
 
 <p>If you’re willing to revise your career path and confound stagnancies, join here. Quality upskilling followed by definite career support services expands your earning limits with tempting hikes and perks. With this, you can join promising jobs at Amazon, <i><b>Google, IBM, HCL, KPMG, Oppo, etc.</b></i> </p>
 
-<p>For further details <a href="mailto:info@techstack.in" target="_blank" rel="nofollow">info@techstack.in</a> or <a href="https://www.techstack.in/data-science-course-mumbai/" target="_blank" rel="nofollow">visit website</a> </p>
-
-
 <i><b>Course features: </b></i>
-
-
 
 <ul>
 
@@ -601,16 +500,12 @@ Make a hassle-free career shift with job and placement support and land your dre
 
 <p><i><b>Certifications:</b></i> Receive valuable credentials from TechStack Academy in alliance with Orangus India and crack fortunate jobs. </p>
 
-
-<h3 id="jio-institute-program"><b>9. Post Graduate Program in Artificial Intelligence and Data Science [Jio Institute]</b></h3>
-<span class="next-image-placeholder" data-src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/Jio_Institue_Logo.png" data-alt="Profile Image" data-width="200" data-height="140"></span>
+<h3 id="jio-institute-program"><b>8. Post Graduate Program in Artificial Intelligence and Data Science [Jio Institute]</b></h3>
 <p><i><b>About:</b></i> Mumbai is the prime hub for rising MNCs, career aspirants, and many commercial sectors. Today’s digital space boosts them to update their skill sets and expands their growth limits. The bustling city of Mumbai drives invention and constant upgrades to conquer success in the career race. Meanwhile, the rise of data science alters the perception of many working experts from diverse domains.  </p>
 
 <p>Jio Institute envisions a thriving data science career for experts willing to update themselves. Its cutting-edge <b>data science course in Mumbai with placement</b> supports real-time success. Jio lifts career success chances via its PG program in AI & Data science leading to global-level perks.  </p>
 
 <p>Experts willing to refine their skill sets can opt for data science learning. Its insightful projects help you manage workflows tactfully. Enroll in the course today and land your dream jobs at MNCs like <i><b>HDFC Bank, Reliance Retail, Network 18, EY, PWC, Reliance Jio, etc.</b></i>  </p>
-
-<p>For further details <a href="mailto:contact@jioinstitute.edu.in" target="_blank" rel="nofollow">contact@jioinstitute.edu.in</a> or <a href="https://www.jioinstitute.edu.in/academics/artificial-intelligence-data-science" target="_blank"rel="nofollow"> visit website</a> </p>
 
 <i><b>Course features: </b></i>
 
@@ -631,15 +526,12 @@ Make a hassle-free career shift with job and placement support and land your dre
 <p><i><b>Mode of training:</b></i> Many experts join Jio Institute to have live instructor-led training sessions, regardless of hefty <i><b>data science course fees in Mumbai</b></i>.  </p>
 
 <p><i><b>Certifications:</b></i> Learning with Jio Institute arms you with potential skills to grow and its useful certificates unlock an absolute career path with proven gains</p>
-<h3 id="aegis-program"><b>10. Executive PG Program in Data Science, Business Analytics, & AI [Aegis]</b></h3>
-<span class="next-image-placeholder" data-src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/AEGIS-Logo.png" data-alt="Profile Image" data-width="200" data-height="140"></span>
+<h3 id="aegis-program"><b>9. Executive PG Program in Data Science, Business Analytics, & AI [Aegis]</b></h3>
 <p><i><b>About:</b></i> In the realm of fast-paced tech innovation in Mumbai, data-driven upskilling has become critical for many experts. Top-notch MNCs prefer hiring skilled data experts to face impending threats and attain exciting success. Data Learning in Mumbai prepares you with core skills to grow and reach the peak of tangible success. </p>
 
 <p>Aegis envisions a dynamic data-driven career to guide you to tap into thriving roles with proven success. It offers the <i><b>best data science course in Mumbai with placement</b></i> aid to cherish a tempting future. Aegis offers industry-led training to stay updated on the latest trends and propel success. Its approach to a redefining career with data science trends and allies with IBM enriches the ability to confirm exciting success. </p>
 
 <p>Kick-start a bright career in data science with Aegis and join top-tier firms like <i><b>TCS, Wipro, Accenture, HCL, HP, Amazon, etc.</b></i></p>
-
-<p>For further details <a href="mailto:info@municampus.com" target="_blank" rel="nofollow">info@municampus.com</a> or<a href="https://municampus.com/program/Online-EPGP-DataScience" target="_blank" rel="nofollow"> visit website</a></p> 
 
 <i><b>Course features: </b></i>
 
@@ -658,19 +550,12 @@ Make a hassle-free career shift with job and placement support and land your dre
 
 <p><i><b>Certifications:</b></i> Ascertain a global-scale career rise and explore untapped horizons via Aegis and IBM certificates.</p>
 
-
-
-<h3 id="imarticus-program"><b>11. PG Program in Data Science and Analytics [Imarticus Learning]</b></h3>
-<span class="next-image-placeholder" data-src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/imarticus_logo.jpg" data-alt="Profile Image" data-width="200" data-height="140"></span>
+<h3 id="imarticus-program"><b>10. PG Program in Data Science and Analytics [Imarticus Learning]</b></h3>
 <p><i><b>About:</b></i> Mumbai is thriving with its digitally advancing upskilling programs to modernize your career and attain compelling success. If you’re a fresher or working expert, data science learning is useful to explore endless possibilities. In the interim, Imarticus extends immense support to revitalize static careers via its cutting-edge data science courses. </p>
 
 <p>Imarticus lays the basis for building job-specific skill sets to thrive and land your dream job. Experts from any domain and expertise level prefer upskilling with Imarticus to achieve next-level career success. Its industry alliance with top-notch MNCs extends a path toward global scale rise.</p>
 
-<p>For further details <a href="mailto:info@imarticus.com" target="_blank" rel="nofollow">info@imarticus.com</a> or <a href="https://imarticus.org/postgraduate-program-in-data-science-analytics/?utm_source=google&utm_medium=cpc&utm_campaign=14971109404&utm_campaignname=Imarticus%20BRAND%20-%20Mumbai&utm_term=imarticus%20data%20analytics&utm_adgroup=imarticus_DataAnalyst&utm_campaigntype=search&gad_source=1&gclid=CjwKCAjw1emzBhB8EiwAHwZZxcyBIY-AHhFeS78Bl8_qgMKicI-4-CeRd1AWcwOnTVjsDfscb9V9nhoCYJcQAvD_BwE" target="_blank" rel="nofollow"> visit website</a></p>
-
 <i><b>Course features: </b></i>
-
-
 
 <ul>
 
@@ -682,18 +567,12 @@ Make a hassle-free career shift with job and placement support and land your dre
 <li>Join <i><b>Imarticus-driven</b></i> hackathons, webinars, and seminars to help you participate in national-level contests and enrich your skills</li>
 <li>Add notable value to your static career with well-known Imarticus certification and explore the rising job roles</li>
 
-
-
-
-
-
 </ul>
 <p><i><b>Program fee:</b></i> Invest INR 198,000 (tax inclusive.) and unleash your ability to thrive as a certified data scientist.</p> 
 
 <p><i><b>Mode of training:</b></i> Experts enrolling in Imarticus Learning will receive classroom and live online training sessions. Based on career interests and goals, they can choose any mode. </p>
 
 <p><i><b>Certifications:</b></i> Obtain a certificate of completion from Imarticus to validate your skills and crack your dream job in Mumbai.  </p>
-
 
 <h2>Conclusion </h2>
 <p><b>Data science in Mumbai</b> unleashes an exciting career path for rising enthusiasts from diverse domains. Startups and MNCs across several sectors rely on data-driven insights for every range of operations. Meanwhile, experts rethink their career paths expecting futuristic growth in data science.</p>
@@ -716,11 +595,8 @@ Make a hassle-free career shift with job and placement support and land your dre
 
 <p>Learning with a cutting-edge data science online course in Mumbai will attest to globally recognized certificates to your career. Here, you will receive both course completion and project management certificate. These credentials are useful for you to unlock fortunate career prospects on a global scale. </p>
 
-
-
  <style>
-  
-  
+
           /* Inline CSS for specific styles */
           p {
             color: #333;
@@ -794,15 +670,13 @@ Make a hassle-free career shift with job and placement support and land your dre
   },
 
   Blogs: [
-    { image: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side.webp", title: "Top 10 Data Science Course Training Institutes in Chandigarh", link:"https://skillslash.com/data-science-course-in-chandigarh" },
-    { image: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_2.webp", title: "Top 10 Data Science Course Training Institutes in Kolkata",link:"https://skillslash.com/data-science-course-training-kolkata" },
-    { image: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_3.webp", title: "Top 10 Data Science Course Training Institutes in Jaipur",link:"https://skillslash.com/data-science-course-in-jaipur" },
+    { image: "/cdn/city_Blog/blog_side.svg", title: "Top 10 Data Science Course Training Institutes in Chandigarh", link:"https://skillslash.com/data-science-course-in-chandigarh" },
+    { image: "/cdn/city_Blog/blog_side_2.svg", title: "Top 10 Data Science Course Training Institutes in Kolkata",link:"https://skillslash.com/data-science-course-training-kolkata" },
+    { image: "/cdn/city_Blog/blog_side_3.svg", title: "Top 10 Data Science Course Training Institutes in Jaipur",link:"https://skillslash.com/data-science-course-in-jaipur" },
 
     // Add more blog objects as needed
   ],
 
-  
 };
-
 
 export default MumbaiData;

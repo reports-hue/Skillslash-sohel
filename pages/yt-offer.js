@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Head from "next/head";
 import Navbar from "../components/Navbar/Navbar";
 import Image from "next/image";
 import styles from "../styles/ytOffer.module.css";
@@ -8,6 +9,14 @@ import Footer from "../components/Footer/Footer";
 const ytOffer = () => {
   return (
     <div>
+      <Head>
+        <title>Register for the Offer - Skillslash</title>
+        <meta
+          name="description"
+          content="Fill the form to register and claim this offer from Skillslash."
+        />
+        <meta name="robots" content="noindex,follow" />
+      </Head>
       <Navbar course={false} />
       <div className={styles.divWrap}>
         <div className={styles.formWrapDiv}>
@@ -19,7 +28,7 @@ const ytOffer = () => {
             <Image
               fill
               style={{ objectFit: "contain" }}
-              src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/yt-offfer-page.png"
+              src="/cdn/static/web/yt-offfer-page.svg"
               alt="yt-offer"
             />
           </div>

@@ -27,7 +27,7 @@ const FirstPart = ({ homePage,redirectDM }) => {
         spanTitleText=""
         homePage={homePage}
         desc="Get real work experience and certifications. Learn from industry experts and get placed in top product companies!"
-        backgroundImg="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Home/header/header-home-page-skillslash.webp"
+        backgroundImg="/cdn/Home/header/header-home-page-skillslash.svg"
         usp1=" Live Interactive "
         usp2=" Company "
         usp3=" Microsoft"

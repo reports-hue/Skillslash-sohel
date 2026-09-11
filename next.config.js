@@ -3,12 +3,143 @@
 const nextConfig = {
   reactStrictMode: true,
 
+  // Produces .next/standalone - a self-contained server with only the
+  // production node_modules it actually traced as needed, instead of
+  // shipping the full node_modules tree into the Docker image. Cuts the
+  // container image from ~1GB+ down to well under 200MB and speeds up cold
+  // starts - see Dockerfile for how the standalone output is assembled.
+  output: "standalone",
+
+  // Next 16 removed `next build`'s built-in ESLint pass entirely (this used
+  // to be `eslint: { ignoreDuringBuilds: true }`, now an unrecognized key) -
+  // linting is no longer part of the build regardless. It still runs via
+  // `npm run lint` on its own; a pre-existing backlog of errors in the
+  // legacy course pages (from a since-fixed broken .eslintrc) is unaffected
+  // either way.
+
   async redirects() {
     return [
       {
+        // Contact and About pages were removed in the blog revamp.
+        source: "/Contact-us",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/About",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        // Data Analytics was folded into Data Science.
+        source: "/category/data-analytics",
+        destination: "/category/data-science",
+        permanent: true,
+      },
+      {
+        // Master Degree category was removed.
+        source: "/category/master-degree",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        // Second batch of duplicate-content pages generated from typo'd
+        // filenames in content/. Like the first batch, each one's own page
+        // metadata already declared the canonical URL below; these redirects
+        // make that authoritative and the source files are removed.
+        source: "/business-analytics-coursesss-in-mumbai",
+        destination: "/business-analytics-course-in-mumbai",
+        permanent: true,
+      },
+      {
+        source: "/data-science-cn-pune",
+        destination: "/data-science-course-in-pune",
+        permanent: true,
+      },
+      {
+        source: "/data-science-course-ins-chandigarh",
+        destination: "/data-science-course-in-chandigarh",
+        permanent: true,
+      },
+      {
+        source: "/data-science-course-ins-jaipur",
+        destination: "/data-science-course-in-jaipur",
+        permanent: true,
+      },
+      {
+        source: "/data-science-course-tra-hyderabad",
+        destination: "/data-science-course-training-hyderabad",
+        permanent: true,
+      },
+      {
+        source: "/data-science-course-training-kolkatas",
+        destination: "/data-science-course-training-kolkata",
+        permanent: true,
+      },
+      {
+        source: "/data-scienced-kochi",
+        destination: "/data-science-course-in-kochi",
+        permanent: true,
+      },
+      {
+        source: "/data-sscience-patna",
+        destination: "/data-science-course-in-patna",
+        permanent: true,
+      },
+      {
+        source: "/data-science-in-chennai",
+        destination: "/data-science-course-in-chennai",
+        permanent: true,
+      },
+      {
+        source: "/data-science-in-delhi",
+        destination: "/data-science-course-in-delhi",
+        permanent: true,
+      },
+      {
+        // The following seven were duplicate-content pages generated from
+        // typo'd filenames in content/ (e.g. a stray copy of the Kanpur
+        // article saved as "data-scie-kanpur.json"). Each one's own page
+        // metadata already self-declared the canonical URL below; these
+        // redirects make that authoritative instead of just a hint, and the
+        // source files have been removed so they can't be regenerated.
+        source: "/data-scie-kanpur",
+        destination: "/data-science-course-in-kanpur",
+        permanent: true,
+      },
+      {
+        source: "/data-scien-in-mysore",
+        destination: "/data-science-course-in-mysore",
+        permanent: true,
+      },
+      {
+        source: "/data-science-corse-Indore",
+        destination: "/data-science-course-in-Indore",
+        permanent: true,
+      },
+      {
+        source: "/data-science-course--mumbai",
+        destination: "/data-science-course-in-mumbai",
+        permanent: true,
+      },
+      {
+        source: "/data-science-coursezzzzzz-in-bangalore",
+        destination: "/data-science-course-in-bangalore",
+        permanent: true,
+      },
+      {
+        source: "/dsa-system-designsssss",
+        destination: "/dsa-system-design",
+        permanent: true,
+      },
+      {
+        source: "/bsusiness-analytics-urse-ins-hyderabad",
+        destination: "/business-analytics-course-in-hyderabad",
+        permanent: true,
+      },
+      {
         source: "/ai-and-ml-program",
-        destination:
-          "/advanced-data-science-and-ai-course-with-real-work-experience",
+        destination: "/selfpaced/data-science-&-aI-bootcamp",
         permanent: true,
       },
       {
@@ -71,6 +202,61 @@ const nextConfig = {
       {
         source: "/data-structures-course",
         destination: "/dsa-system-design",
+        permanent: true,
+      },
+
+      // --- Dead URLs that still receive external links (audited 2026-09) ---
+      // Each of these returned a hard 404 while a canonical tag, an old
+      // sitemap or an inbound link still pointed at it.
+
+      // NOTE: no casing-variant redirects here. Next.js matches redirect
+      // `source` case-insensitively while the page router itself is
+      // case-sensitive, so a rule like
+      //   /data-science-course-in-indore -> /data-science-course-in-Indore
+      // also matches the destination and puts the live page into an infinite
+      // redirect loop. The mixed-case URLs stay self-canonical instead and
+      // their lowercase spellings keep returning 404.
+
+      // Retired DSA slugs - sent straight to the live article rather than
+      // through /data-structures-course, which is itself a redirect.
+      {
+        source: "/data-structures-algorithms-course",
+        destination: "/dsa-system-design",
+        permanent: true,
+      },
+      {
+        source: "/data-structures-&-algorithm-system-design",
+        destination: "/dsa-system-design",
+        permanent: true,
+      },
+
+      // Legacy /blog/<topic> hubs from the old WordPress blog, mapped to the
+      // closest category on the new blog. Topics with no equivalent
+      // (block-chain, cyber-security, iot) are deliberately left as 404s -
+      // pointing them at an unrelated page would just be a soft 404.
+      {
+        source: "/blog/data-science",
+        destination: "/category/data-science",
+        permanent: true,
+      },
+      {
+        source: "/blog/business-analytics",
+        destination: "/category/data-science",
+        permanent: true,
+      },
+      {
+        source: "/blog/ai-and-machine-learning",
+        destination: "/category/artificial-intelligence",
+        permanent: true,
+      },
+      {
+        source: "/blog/full-stack",
+        destination: "/category/fde",
+        permanent: true,
+      },
+      {
+        source: "/blog/career",
+        destination: "/Career",
         permanent: true,
       },
      
@@ -635,8 +821,20 @@ const nextConfig = {
   },
 
   images: {
-    domains: ["skillslash-cdn.s3.ap-south-1.amazonaws.com"],
+    // The skillslash-cdn bucket was deleted; all imagery now ships from
+    // /public locally, so no remote domain allowlist is needed.
     minimumCacheTTL: 120,
+    // Next 16 requires every `quality` value a component actually passes to
+    // <Image> to be pre-declared here (undeclared values now warn, and are
+    // rejected outright in a future version) - 75 is the implicit default
+    // for every <Image> that doesn't set `quality` at all; 40/50/100 are the
+    // explicit values used across the legacy course pages.
+    qualities: [40, 50, 75, 100],
+    // Article covers in /public/covers are first-party SVGs we generate.
+    dangerouslyAllowSVG: true,
+    contentDispositionType: "attachment",
+    contentSecurityPolicy:
+      "default-src 'self'; script-src 'none'; sandbox;",
   },
 };
 

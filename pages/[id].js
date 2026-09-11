@@ -27,17 +27,11 @@ const TrainerSlider = dynamic(() =>
 );
 const Reviews = dynamic(() => import("../components/Review/Reviews"));
 const Footer = dynamic(() => import("../components/Footer/Footer"));
-const BottomBar = dynamic(() =>
-  import("../components/Course/BottomBar/BottomBar")
-);
 const DataScienceSyllabus = dynamic(() =>
   import("../components/Course/Syllabus/DataScienceSyllabs")
 );
 // const Navbar = dynamic(() => import("../components/Navbar/Navbar"));
 import Navbar from "../components/Navbar/Navbar";
-const OfferPopup = dynamic(() =>
-  import("../components/Course/OfferPopup/OfferPopup")
-);
 const Emi = dynamic(() => import("../components/Course/EMI/Emi"));
 const BatchDates = dynamic(() => import("../components/Batch/BatchDates"));
 const ProjectSlider = dynamic(() =>
@@ -60,21 +54,16 @@ const SeoCertificate = dynamic(() =>
 const AboutCourses = dynamic(() =>
   import("../components/AboutCourse/AboutCourse")
 );
-const CustomPopup = dynamic(() =>
-  import("../components/Course/OfferPopup/CustomPopup")
-);
 const InternalLinking = dynamic(() =>
   import("../components/InternalLinking/InternalLinking")
 );
 const AutoPopUp = dynamic(() => import("../components/AutoPopUp/AutoPopUp"));
 // const SecondNavbar = dynamic(() => import("../components/Navbar/SecondNavbar"));
-const FloatIcon = dynamic(() => import("../components/Floticon/FloatIcon"));
 import styles from "../styles/Home.module.css";
 import React, { useState, useEffect } from "react";
 import { getAllPostIds, getPostData } from "../lib/page";
 import BatchProfile from "../components/Course/BatchProfile/BatchProfile";
 import RelatedInfo from "../components/SeoComponents/ReleteadInfo/RelatedInfo";
-import MiddlePopup from "../components/Course/OfferPopup/MiddlePopup";
 import Header from "../components/Skills/CoursePage/Header/Header";
 import Learn from "../components/Skills/CoursePage/Learn/Learn";
 import WhyUs from "../components/WhyUs/WhyUs";
@@ -85,9 +74,6 @@ import BottomPrice from "../components/Skills/BottomPrice/BottomPrice";
 // import Newsletter from "../components/Newsletter/Newsletter";
 const VideoTestimonial = dynamic(() =>
   import("../components/VideoTestimonial/VideoTestimonial")
-);
-const MiddlePageCta = dynamic(() =>
-  import("../components/MiddlePageCta/MiddlePageCta")
 );
 
 export default function Home({
@@ -109,12 +95,7 @@ export default function Home({
   const redirectBa = DataScienceCourseData.data.form.BusinessAnalytics;
   const redirectBl = DataScienceCourseData.data.form.blockchain;
   let pageName;
-  const [popupData, setPopupData] = useState([]);
   const [batchDateData, setBatchDateData] = useState("");
-  const [popupDate, setPopupDate] = useState({
-    startDate: "",
-    endDate: "",
-  });
 
   // const getHired = useRef();
   // const trainer = useRef();
@@ -154,80 +135,6 @@ export default function Home({
       setMobile(false);
       setTablet(false);
     }
-  }, []);
-  //useEffect for fetch popup
-  useEffect(() => {
-    const fetchPopup = async () => {
-      const data = await fetch("/api/v1/fetchPopup", {
-        method: "GET",
-      });
-      if (data.status === 200) {
-        const { popData } = await data.json();
-        if (popData == []) {
-          setPopupData({ endDate: "", startDate: "" });
-          setPopupData([]);
-        }
-
-        popData.map((data, i) => {
-          data.page.map((popupData, i) => {
-            if (popupData === "Adv Data Science and AI" && redirectDs) {
-              setPopupDate({
-                endDate: new Date(data.endDate),
-                startDate: new Date(data.startDate),
-              });
-              setPopupData(data);
-              return;
-            }
-            if (
-              popupData === "Blockchain program and certification" &&
-              DataScienceCourseData.data.form.blockchain
-            ) {
-              setPopupDate({
-                endDate: new Date(data.endDate),
-                startDate: new Date(data.startDate),
-              });
-              setPopupData(data);
-              return;
-            }
-            if (
-              popupData === "Full Stack Developer course with certification" &&
-              redirectFs
-            ) {
-              setPopupDate({
-                endDate: new Date(data.endDate),
-                startDate: new Date(data.startDate),
-              });
-
-              setPopupData(data);
-              return;
-            }
-            if (
-              popupData === "Business Analytics Program For Professionals" &&
-              DataScienceCourseData.data.form.BusinessAnalytics
-            ) {
-              setPopupDate({
-                endDate: new Date(data.endDate),
-                startDate: new Date(data.startDate),
-              });
-              setPopupData(data);
-              return;
-            }
-            if (
-              popupData === "Data Structures and Algorithms + System Design" &&
-              redirectDSA
-            ) {
-              setPopupDate({
-                endDate: new Date(data.endDate),
-                startDate: new Date(data.startDate),
-              });
-              setPopupData(data);
-              return;
-            }
-          });
-        });
-      }
-    };
-    fetchPopup();
   }, []);
 
   //for batch date
@@ -311,55 +218,65 @@ export default function Home({
           href={DataScienceCourseData.data.metaInfo.canonical}
         />
 
-        <script
-          defer
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(
-              DataScienceCourseData.data.metaInfo.ReviewSchema
-            ),
-          }}
-        />
+        {DataScienceCourseData.data.metaInfo.ReviewSchema && (
+          <script
+            defer
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify(
+                DataScienceCourseData.data.metaInfo.ReviewSchema
+              ),
+            }}
+          />
+        )}
 
-        <script
-          defer
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(
-              DataScienceCourseData.data.metaInfo.ReviewSchema1
-            ),
-          }}
-        />
+        {DataScienceCourseData.data.metaInfo.ReviewSchema1 && (
+          <script
+            defer
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify(
+                DataScienceCourseData.data.metaInfo.ReviewSchema1
+              ),
+            }}
+          />
+        )}
 
-        <script
-          defer
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(
-              DataScienceCourseData.data.metaInfo.ReviewSchema2
-            ),
-          }}
-        />
+        {DataScienceCourseData.data.metaInfo.ReviewSchema2 && (
+          <script
+            defer
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify(
+                DataScienceCourseData.data.metaInfo.ReviewSchema2
+              ),
+            }}
+          />
+        )}
 
-        <script
-          defer
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(
-              DataScienceCourseData.data.metaInfo.ReviewSchema3
-            ),
-          }}
-        />
+        {DataScienceCourseData.data.metaInfo.ReviewSchema3 && (
+          <script
+            defer
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify(
+                DataScienceCourseData.data.metaInfo.ReviewSchema3
+              ),
+            }}
+          />
+        )}
 
-        <script
-          defer
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(
-              DataScienceCourseData.data.metaInfo.ReviewSchema4
-            ),
-          }}
-        />
+        {DataScienceCourseData.data.metaInfo.ReviewSchema4 && (
+          <script
+            defer
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify(
+                DataScienceCourseData.data.metaInfo.ReviewSchema4
+              ),
+            }}
+          />
+        )}
       </Head>
       <Navbar
         course={true}
@@ -398,15 +315,6 @@ export default function Home({
         />
       )} */}
 
-      {popupData != [] ? (
-        today >= popupDate.startDate && today <= popupDate.endDate ? (
-          <OfferPopup popupData={popupData} />
-        ) : (
-          ""
-        )
-      ) : (
-        ""
-      )}
       {/* {redirectDs || redirectBa ? (
         <CustomPopup
           dataScience={false}
@@ -582,15 +490,6 @@ export default function Home({
             </div>
           )}
 
-          {/* <MiddlePageCta
-            homePage={false}
-            redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-            redirectDs={DataScienceCourseData.data.form.dataScience}
-            redirectFs={DataScienceCourseData.data.form.FullStack}
-            redirectDe={DataScienceCourseData.data.form.DataEngineering}
-            redirectWeb={DataScienceCourseData.data.form.webDevelopment}
-            redirectDSA={DataScienceCourseData.data.form.dsa}
-          /> */}
         </div>
 
         <div id="certificate">
@@ -731,12 +630,10 @@ export default function Home({
             />
           </div>
 
-          {/* <BottomBar changeBottom={true} /> */}
           {/* {mobile ? (
             ""
           ) : (
             <div className="cta" id="cta">
-              <CTA redirectDSA={DataScienceCourseData.data.form.dsa} />
             </div>
           )} */}
         </div>
@@ -758,7 +655,6 @@ export default function Home({
           redirectDSA={DataScienceCourseData.data.form.dsa}
           redirectWeb={DataScienceCourseData.data.form.webDevelopment}
         />
-        <FloatIcon />
         {/* <Newsletter /> */}
         {/* <CustomPopup />*/}
         {/* <MiddlePopup

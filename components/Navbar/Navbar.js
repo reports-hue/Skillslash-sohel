@@ -1,293 +1,223 @@
-import React, { useState, useEffect } from "react";
-import Image from "next/image";
-import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
-import styles from "./Navbar.module.css";
-import Link from "next/link";
-import { FaBars } from "react-icons/fa";
-import dynamic from "next/dynamic";
-import VideoPlaylist from "../Skills/Global/VideoPlaylist/VideoPlaylist";
-import Popup from "../Skills/Global/Popup/Popup";
-import Form from "../Skills/Global/Form/Form";
-const MegaMenu = dynamic(() => import("../MegaMenu/MegaMenu"));
+import React, { useEffect, useState } from "react"
+import Image from "next/image"
+import Link from "next/link"
+import { useRouter } from "next/router"
+import {
+  LuGraduationCap,
+  LuMailPlus,
+  LuSearch,
+  LuArrowRight,
+} from "react-icons/lu"
+import { FaLinkedinIn, FaXTwitter, FaYoutube } from "react-icons/fa6"
+import { FaBars, FaTimes } from "react-icons/fa"
+import categories from "../../Data/blog/categories"
+import styles from "./Navbar.module.css"
 
-// import CountDownTimer from "../CountdownTimer/CountdownTimer";
+const promises = ["In-depth reviews", "Honest comparisons", "Career guidance"]
 
-// const calculateTimeLeft = () => {
-//   let year = new Date();
-//   let difference = +new Date("2023-03-31 23:59") - +new Date();
+const socials = [
+  {
+    href: "https://www.linkedin.com/company/skillslash",
+    label: "Skillslash on LinkedIn",
+    Icon: FaLinkedinIn,
+  },
+  {
+    href: "https://twitter.com/skillslash",
+    label: "Skillslash on X",
+    Icon: FaXTwitter,
+  },
+  {
+    href: "https://www.youtube.com/c/Skillslash",
+    label: "Skillslash on YouTube",
+    Icon: FaYoutube,
+  },
+]
 
-//   let timeLeft = {};
+// Legacy course-page props (redirectDs, ads, event, ...) are still passed by a
+// number of pages. They are accepted and ignored so those pages keep rendering.
+const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false)
+  const [term, setTerm] = useState("")
+  const router = useRouter()
+  const { asPath } = router
 
-//   if (difference > 0) {
-//     timeLeft = {
-//       days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-//       hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
-//       minutes: Math.floor((difference / 1000 / 60) % 60),
-//       seconds: Math.floor((difference / 1000) % 60),
-//     };
-//   }
-
-//   return timeLeft;
-// };
-const Navbar = ({
-  link,
-  event,
-  ads,
-  redirectDs,
-  redirectFs,
-  redirectDa,
-  redirectDM,
-  changeHeading,
-  noHam,
-}) => {
-  const [idBtnB, setIdBtnW] = useState("org-slb");
-
-  const [show, setShow] = useState(false);
-  const [icon, setIcon] = useState(false);
-  const [popups, setPopups] = useState(false);
-  const [mobile, setMobile] = useState(false);
-  const [showVideo, setShowVideo] = useState(false);
-  const showVideoF = (data) => {
-    setShowVideo(data);
-  };
-  const actualLink =
-    link === undefined ? "https://courses.skillslash.com/learn" : link;
   useEffect(() => {
-    let width = window.innerWidth;
-    if (width < 481) {
-      setMobile(true);
+    setMenuOpen(false)
+  }, [asPath])
+
+  useEffect(() => {
+    document.body.style.overflow = menuOpen ? "hidden" : ""
+    return () => {
+      document.body.style.overflow = ""
     }
-    if (width > 481) {
-      setMobile(false);
-    }
-  });
+  }, [menuOpen])
 
-  //timer code
-  // const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+  const activeCategory = asPath.startsWith("/category/")
+    ? asPath.replace("/category/", "").split("?")[0]
+    : null
 
-  // ...
-  //timer useEffect
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     setTimeLeft(calculateTimeLeft());
-  //   }, 1000);
-
-  //   return () => clearTimeout(timer);
-  // });
-  const popupShow = () => {
-    setPopups(true);
-  };
-  const showMenu = () => {
-    setShow(!show);
-  };
-  const handleIcon = (data) => {
-    setIcon(data);
-  };
+  const submit = (event) => {
+    event.preventDefault()
+    const next = term.trim()
+    router.push(next ? `/search?q=${encodeURIComponent(next)}` : "/search")
+  }
 
   return (
-    <div>
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-        <div className="RightPopup">
-          {changeHeading ? (
-            <h5>Download Program Handbook</h5>
-          ) : (
-            <h5>
-              Get a chance to understand this course in detail from our
-              counsellors
-            </h5>
-          )}
-          <p>Fill the below Details to get started</p>
-          <Form
-            popup={true}
-            setTrigger={setPopups}
-            redirectDs={redirectDs}
-            redirectFs={redirectFs}
-            redirectDa={redirectDa}
-            redirectDM={redirectDM}
-          />
-        </div>
-      </Popup>
-      <nav className={styles.nav}>
-        <div className={styles.innerdiv}>
-          {showVideo && (
-            <VideoPlaylist
-              setShow={showVideoF}
-              show={show}
-              redirectDs={redirectDs}
-              redirectFs={redirectFs}
-              redirectDa={redirectDa}
-              redirectDM={redirectDM}
-            />
-          )}
-          <div className={styles.left}>
-            {/*<FaBars
-            className={styles.ham}
-            onClick={() => {
-              showMenu();
-              setIcon(false);
-            }}*/}
+    <header className={styles.header}>
+      <div className={styles.utility}>
+        <div className={styles.utilityInner}>
+          <p className={styles.tagline}>
+            <LuGraduationCap className={styles.capIcon} aria-hidden="true" />
+            <span className={styles.taglineLead}>
+              Guiding your next step in tech education
+            </span>
+            <span className={styles.promises}>
+              {promises.map((promise) => (
+                <React.Fragment key={promise}>
+                  <span className={styles.divider} aria-hidden="true" />
+                  <span className={styles.promise}>{promise}</span>
+                </React.Fragment>
+              ))}
+            </span>
+          </p>
 
-            {noHam ? (
-              <></>
-            ) : (
-              <>
-                {" "}
-                {!show ? (
-                  <FaBars
-                    className={styles.ham}
-                    onClick={() => {
-                      showMenu();
-                      setIcon(false);
-                    }}
-                  />
-                ) : (
-                  <p
-                    className={styles.ham}
-                    style={{ fontSize: "45px", margin: "0" }}
-                    onClick={() => {
-                      showMenu();
-                      setIcon(false);
-                    }}
-                  >
-                    ⨯
-                  </p>
-                )}
-              </>
-            )}
-
-            <div className={show ? styles.mobileWrapper : styles.hide}>
-              <div className={styles.mobileMenu}>
-                <span onClick={showMenu}>
-                  <Link href="/event">Events</Link>
-                </span>
-                <span onClick={showMenu}>
-                  <Link href="/About">About Us</Link>
-                </span>
-                <span onClick={showMenu}>
-                  <Link href="/Contact-us">Conctact Us</Link>
-                </span>
-              </div>
-            </div>
-            {ads ? (
-              <Image
-                src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Skillslash-logo.webp"
-                alt="Skillslash"
-                quality={100}
-                style={{ objectFit: "contain" }}
-                width={180}
-                height={60}
-              />
-            ) : (
-              <a href="/">
-                <Image
-                  src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/skillslsash_logo.webp"
-                  alt="Skillslash"
-                  quality={100}
-                  style={{ objectFit: "contain" }}
-                  width={180}
-                  height={60}
-                />
+          <div className={styles.utilityRight}>
+            <Link href="/#newsletter" className={styles.subscribe}>
+              <LuMailPlus aria-hidden="true" />
+              Subscribe to Newsletter
+            </Link>
+            <span className={styles.divider} aria-hidden="true" />
+            <Link
+              href="/search"
+              className={styles.utilityIcon}
+              aria-label="Search articles"
+            >
+              <LuSearch />
+            </Link>
+            <span className={styles.divider} aria-hidden="true" />
+            {socials.map(({ href, label, Icon }) => (
+              <a
+                key={href}
+                href={href}
+                target="_blank"
+                rel="noreferrer"
+                aria-label={label}
+                className={styles.utilityIcon}
+              >
+                <Icon />
               </a>
-            )}
-
-            {noHam ? (
-              <></>
-            ) : (
-              <>
-                {" "}
-                <button
-                  className={styles.mLearn}
-                  id={idBtnB}
-                  onClick={() => {
-                    setIcon(!icon);
-                    setShow(false);
-                  }}
-                >
-                  Our Courses
-                </button>
-              </>
-            )}
-            {ads ? (
-              ""
-            ) : (
-              <button
-                onMouseEnter={() => setIcon(true)}
-                onMouseOver={() => setIcon(true)}
-                onClick={() => {
-                  setIcon(!icon);
-                  setShow(false);
-                }}
-                className={styles.MegaBtn}
-              >
-                Our Courses
-                {icon ? (
-                  <MdKeyboardArrowUp className={styles.bIcon} />
-                ) : (
-                  <MdKeyboardArrowDown className={styles.bIcon} />
-                )}
-              </button>
-            )}
-
-            {icon ? (
-              <div
-                className="megaMenu"
-                onMouseOver={() => setIcon(true)}
-                onMouseLeave={() => setIcon(false)}
-              >
-                <MegaMenu handleIcon={handleIcon} />
-              </div>
-            ) : (
-              ""
-            )}
-          </div>
-          <div className={styles.right}>
-            {ads ? (
-              <button
-                className={styles.mLearn}
-                id={idBtnB}
-                onClick={() => showVideoF(true)}
-              ></button>
-            ) : event ? (
-              <>
-                <span>
-                  <Link href="#Feature">Program Features</Link>
-                </span>
-
-                <span>
-                  <Link href="#who">Who can join</Link>
-                </span>
-                <span>
-                  <Link href="#About">About us</Link>
-                </span>
-              </>
-            ) : (
-              <>
-                <span>
-                  <Link href="/event">EVENTS</Link>
-                </span>
-                <span>
-                  <Link href="/About">ABOUT US</Link>
-                </span>
-                <span>
-                  <Link href="/Contact-us">Contact us</Link>
-                </span>
-
-                <button id="clck-free-counselling" onClick={() => popupShow()}>
-                  Apply for Counselling
-                </button>
-              </>
-            )}
+            ))}
           </div>
         </div>
-      </nav>
-      {/* <main className={styles.TopBar}>
-        <p className="text-[#B32D0F] text-[14px] flex  items-center  w-full text-center justify-center">
-          <MdOutlineAccessAlarms />
-          <b> &nbsp;7 coupon left at</b> &nbsp;this prices
-        </p>
-      </main> */}
-    </div>
-  );
-};
+      </div>
 
-export default Navbar;
+      <div className={styles.mainBar}>
+        <div className={styles.mainInner}>
+          <Link href="/" className={styles.brand} aria-label="Skillslash home">
+            <Image
+              src="/favicon.jpg"
+              alt=""
+              width={44}
+              height={44}
+              quality={100}
+              priority
+              className={styles.mark}
+            />
+            <span className={styles.wordmark}>Skillslash</span>
+          </Link>
+
+          <nav className={styles.nav} aria-label="Categories">
+            {categories.map((category) => (
+              <Link
+                key={category.slug}
+                href={`/category/${category.slug}`}
+                className={
+                  activeCategory === category.slug
+                    ? styles.navLinkActive
+                    : styles.navLink
+                }
+              >
+                {category.name}
+              </Link>
+            ))}
+          </nav>
+
+          <form className={styles.search} onSubmit={submit} role="search">
+            <LuSearch className={styles.searchIcon} aria-hidden="true" />
+            <input
+              type="search"
+              value={term}
+              onChange={(event) => setTerm(event.target.value)}
+              placeholder="Search articles, programs, colleges..."
+              aria-label="Search articles"
+            />
+          </form>
+
+          <Link href="/search" className={styles.cta}>
+            Explore Programs
+            <LuArrowRight aria-hidden="true" />
+          </Link>
+
+          <button
+            type="button"
+            className={styles.hamburger}
+            onClick={() => setMenuOpen(!menuOpen)}
+            aria-expanded={menuOpen}
+            aria-label={menuOpen ? "Close menu" : "Open menu"}
+          >
+            {menuOpen ? <FaTimes /> : <FaBars />}
+          </button>
+        </div>
+      </div>
+
+      <div className={menuOpen ? styles.drawer : styles.drawerHidden}>
+        <form className={styles.drawerSearch} onSubmit={submit} role="search">
+          <LuSearch className={styles.searchIcon} aria-hidden="true" />
+          <input
+            type="search"
+            value={term}
+            onChange={(event) => setTerm(event.target.value)}
+            placeholder="Search articles, programs, colleges..."
+            aria-label="Search articles"
+          />
+        </form>
+
+        {categories.map((category) => (
+          <Link
+            key={category.slug}
+            href={`/category/${category.slug}`}
+            className={styles.drawerLink}
+          >
+            {category.name}
+          </Link>
+        ))}
+
+        <Link href="/#newsletter" className={styles.drawerLink}>
+          Subscribe to Newsletter
+        </Link>
+
+        <Link href="/search" className={styles.drawerCta}>
+          Explore Programs
+          <LuArrowRight aria-hidden="true" />
+        </Link>
+
+        <div className={styles.drawerSocials}>
+          {socials.map(({ href, label, Icon }) => (
+            <a
+              key={href}
+              href={href}
+              target="_blank"
+              rel="noreferrer"
+              aria-label={label}
+              className={styles.utilityIcon}
+            >
+              <Icon />
+            </a>
+          ))}
+        </div>
+      </div>
+    </header>
+  )
+}
+
+export default Navbar

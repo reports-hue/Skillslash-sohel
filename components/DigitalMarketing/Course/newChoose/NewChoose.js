@@ -4,22 +4,22 @@ import Image from "next/image";
 
 const boxesData = [
   {
-    src: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/four_dm.webp",
+    src: "/cdn/digital-marketing/four_dm.svg",
     alt: "box",
     description: "Own Digital Marketing Agency",
   },
   {
-    src: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/three_dm.webp",
+    src: "/cdn/digital-marketing/three_dm.svg",
     alt: "box",
     description: "Dedicated Learning Coordinator",
   },
   {
-    src: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/two_dm.webp",
+    src: "/cdn/digital-marketing/two_dm.svg",
     alt: "box",
     description: "Daily 1:1 Doubt clearing sessions",
   },
   {
-    src: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/one_dm.webp",
+    src: "/cdn/digital-marketing/one_dm.svg",
     alt: "box",
     description: "Strong Alumni & recruiter network",
   },

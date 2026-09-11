@@ -45,7 +45,7 @@ const CourseSlider = () => {
               <div className="flex items-center gap-4 px-8 max-sm:px-3 max-sm:py-4 py-7">
                 <div className="h-[80px] w-[90px] bg-white rounded pt-2 pl-[2px]">
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Home/coursesection/ml-icon.webp"
+                    src="/cdn/Home/coursesection/ml-icon.svg"
                     alt="data science course"
                     width={80}
                     height={80}
@@ -73,7 +73,7 @@ const CourseSlider = () => {
               <div className="flex items-center gap-4 px-8 max-sm:px-3 max-sm:py-4 py-7">
                 <div className="h-[80px] w-[90px] bg-white rounded pt-1 flex justify-center items-center">
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Home/coursesection/NLP-icon.webp"
+                    src="/cdn/Home/coursesection/NLP-icon.svg"
                     alt="data science course"
                     width={65}
                     height={65}
@@ -101,7 +101,7 @@ const CourseSlider = () => {
               <div className="flex items-center gap-4 px-8 max-sm:px-3 max-sm:py-4 py-7">
                 <div className="h-[80px] w-[90px] bg-white rounded pt-1 flex justify-center items-center">
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Home/coursesection/python-icon.webp"
+                    src="/cdn/Home/coursesection/python-icon.svg"
                     alt="data science course"
                     width={60}
                     height={60}
@@ -129,7 +129,7 @@ const CourseSlider = () => {
               <div className="flex items-center gap-4 px-8 max-sm:px-3 max-sm:py-4 py-7">
                 <div className="h-[80px] w-[90px] bg-white rounded pt-1 flex justify-center items-center">
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Home/coursesection/tableau.webp"
+                    src="/cdn/Home/coursesection/tableau.svg"
                     alt="data science course"
                     width={60}
                     height={60}
@@ -157,7 +157,7 @@ const CourseSlider = () => {
               <div className="flex items-center gap-4 px-8 max-sm:px-3 max-sm:py-4 py-7">
                 <div className="h-[80px] w-[90px] bg-white rounded pt-1 flex justify-center items-center">
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Home/coursesection/sql-icon.webp"
+                    src="/cdn/Home/coursesection/sql-icon.svg"
                     alt="data science course"
                     width={55}
                     height={60}
@@ -185,7 +185,7 @@ const CourseSlider = () => {
               <div className="flex items-center gap-4 px-8 max-sm:px-3 max-sm:py-4 py-7">
                 <div className="h-[80px] w-[90px] bg-white rounded pt-1 flex justify-center items-center">
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Home/coursesection/powerBI-icon-1.webp"
+                    src="/cdn/Home/coursesection/powerBI-icon-1.svg"
                     alt="data science course"
                     width={105}
                     height={70}
@@ -213,7 +213,7 @@ const CourseSlider = () => {
               <div className="flex items-center gap-4 px-8 max-sm:px-3 max-sm:py-4 py-7">
                 <div className="h-[80px] w-[90px] bg-white rounded flex justify-center items-center">
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Home/coursesection/computer-vision.webp"
+                    src="/cdn/Home/coursesection/computer-vision.svg"
                     alt="data science course"
                     width={60}
                     height={60}
@@ -241,7 +241,7 @@ const CourseSlider = () => {
               <div className="flex items-center gap-4 px-8 max-sm:px-3 max-sm:py-4 py-7">
                 <div className="h-[80px] w-[90px] bg-white rounded pt-1 flex justify-center items-center">
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Home/coursesection/deep-learning-icon.webp"
+                    src="/cdn/Home/coursesection/deep-learning-icon.svg"
                     alt="data science course"
                     width={70}
                     height={70}

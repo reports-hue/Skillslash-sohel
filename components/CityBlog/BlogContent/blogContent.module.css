@@ -1,395 +1,190 @@
-.maincontent {
-  width: 1280px;
-  justify-content: center;
-  padding: 20px 60px;
-}
-.contentImg{
-
-margin: 30px 0;
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 28px 24px 64px;
 }
 
-
-
-#dynamicDivPlaceholder {
-  background-color: red;
-  padding: 10px;
-  border: 2px solid rgb(153, 22, 22);
-}
-
-.maincontent th{
-  border: 1px solid #ccc;
-  padding: 8px;
-  background: #F0F1F0;
-}
-.maincontent tr {
-  border: 1px solid #7D7D7D;
-  background: #F6F5FB;
-}
-.maincontent tr :hover {
-  border: 1px solid #7D7D7D;
-  background: rgba(102, 89, 184, 0.15);
-  cursor: pointer;
-  border: none;
-
-}
-.maincontent a {
-  color: #0070f3;
-  cursor: pointer;
-}
-.maincontent ul {
-  list-style: outside;
-  margin-left: 25px;
-}
-.maincontent p {
-  margin-left: 10px;
-  margin-top: 0;
-}
-.maincontent li {
-  margin: 10px 0;
-}
-.content {
-  display: grid;
-  grid-template-columns: 24% 60% 23%;
-  gap: 10px 50px;
-}
-.content h2 {
-  font-size: 28px;
-  margin: 10px 0;
-  color: #4f419a;
-}
-.content h3 {
-  font-size: 20px;
-  margin: 10px 0;
-  color: #0056b3;
-}
-.metaInfo {
+/* ---------- meta row ---------- */
+.metaRow {
   display: flex;
-  gap: 20px;
-  margin-bottom: 30px;
-  justify-content: space-around;
-  background: rgba(0, 0, 0, 0.04);
-  width: 100%;
   align-items: center;
-  padding: 15px 0;
-}
-.metaInfo p {
-  font-weight: 600;
-  color: #4f419a;
-  margin-top: 0;
-}
-.markdown {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-.tableOfContents {
-  /* position: sticky; */
-  border: 1px solid rgba(102, 89, 184, 0.50);
-  background: rgba(102, 89, 184, 0.06);
-  padding: 20px 14px;
-  border-radius: 10px;
-
-}
-.tableOfContents h3 {
-  margin-top: 0;
-  margin-bottom: 10px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 900;
-  cursor: pointer;
-  display: flex;
   justify-content: space-between;
-  align-items: center;
-  color: #6659B8;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding-bottom: 18px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #e6e3f0;
 }
-.tableOfContents ul {
-  list-style-type: circle;
-  padding: 10px 0;
-  display: flex;
-  flex-direction: column;
-}
-.tableOfContents ul li {
-  /* margin-bottom: 20px; */
-  list-style-type: disc;
-}
-.tableOfContents ul li a {
-  text-decoration: none;
-  color: #333;
-  transition: color 0.3s ease;
-}
-.tableOfContents ul li a:hover {
-  color: #0070f3;
-}
-.tableOfContents .icon {
-  margin-left: 10px;
-  color: #333;
-  transition: color 0.3s ease;
-}
-.tableOfContents .icon.active {
-  color: #0070f3;
-}
+.metaText { display: flex; align-items: center; gap: 8px; font-size: 13.5px; color: #726c88; }
+.dot { color: #c9c4dc; }
 
-
-
-/* Add this to your blogContent.module.css */
-.stickyAds {
-  position: -webkit-sticky;
-  position: sticky;
-  margin-bottom: 20px;
-}
-
-.adContainer {
-  position: relative;
-  padding: 10px;
-
-  border-radius: 4px;
-
-}
-
-.closeButton {
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  cursor: pointer;
-  color: #fff;
-  background-color: #000;
-  border-radius: 50%;
-  padding: 2px;
-}
-
-.stickyAds img {
-  display: block;
-    position: relative;
-    margin: 0 auto;
-    width: 100%;
-    height: auto;
-    cursor: pointer;
-    top: 85px;
-  /* margin-top: 5px; */
-}
-
-
-
-
-.adLink {
-  text-align: center;
-  margin-top: 20px;
-  cursor: pointer;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  padding: 10px;
-}
-
-.adLink a {
-  text-decoration: none;
-  color: #0070f3;
-  font-weight: 600;
-  transition: color 0.3s ease;
-  cursor: pointer;
-  text-align: center;
-  display: flex;
-  align-items: center;
-
-
-}
-.insidetable::-webkit-scrollbar {
-  border-radius: 10px;
-  /* background: #FFF; */
-  right: 200px;
-  position: absolute;
-
-}
-
-.insidetable::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-background: #6659B8;
-padding: 20px 0;
-}
-
-.insidetable::-webkit-scrollbar-track {
-  border-radius: 10px;
-  background: #FFF;
-  padding: 20px;
-  margin: 40px;
-
-
-}
-
-.adLink a:hover {
-  color: #0056b3;
-}
-
-/* Add top values for multiple sticky ads */
-.stickyAds:first-of-type {
-  top: 20px;
-}
-
-.stickyAds:nth-of-type(2) {
-  top: 450px; /* Adjust this value as needed */
-}
-
-.stickyAds:nth-of-type(3) {
-  top: 180px; /* Adjust this value as needed */
-}
-
-/* Add this to your blogContent.module.css */
-
-.firstdiv {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  position: sticky;
-  top: 20px; /* Adjust the top value based on your layout */
-}
-
-.tableOfContents {
-  max-height: calc(100vh - 100px);
-  overflow-y: auto;
-  padding: 6px 14px;
-  top: 80px;
-  position: sticky;
-}
-
-.related {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  position: sticky;
-  top: 390px; /* Adjust the top value based on your layout */
-  /* overflow: scroll; */
-  background: #fff;
-}
-
-.related h3 {
-  color: #6659B8;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-.bloglist{
+/* ---------- two-column layout ---------- */
+.layout {
   display: grid;
-    grid-template-columns: 30% 70%;
-    align-items: center;
-    border-radius: 10px;
-background: #F0F0F0;
-padding: 0px 10px 10px;
-
-
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 32px;
+  align-items: start;
 }
-.bloglistryt{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 10px;
+
+/* ---------- article body ---------- */
+.markdown {
+  min-width: 0;
+  font-size: 16.5px;
+  line-height: 1.75;
+  color: #4a4460;
+}
+.markdown h2 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #171330;
+  margin: 40px 0 14px;
+  scroll-margin-top: 90px;
+}
+.markdown h3 { font-size: 19px; font-weight: 700; color: #171330; margin: 26px 0 10px; }
+.markdown p { margin: 0 0 16px; }
+.markdown ul, .markdown ol { margin: 0 0 16px; padding-left: 22px; }
+.markdown li { margin-bottom: 6px; }
+
+/* A blockquote renders as a callout card, matching the "Did you know?"
+   highlight box used on the new CMS blog post layout - the one shared
+   visual language between the two article systems. */
+.markdown blockquote {
+  position: relative;
+  margin: 0 0 20px;
+  padding: 18px 20px 18px 56px;
+  border: 1px solid #e6e3f0;
+  border-radius: 12px;
+  background: #eeecfb;
+  color: #4a4460;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 1.6;
+}
+.markdown blockquote::before {
+  content: "💡";
+  position: absolute;
+  left: 18px;
+  top: 16px;
+  font-size: 18px;
+  line-height: 1;
+}
+.markdown blockquote p { margin: 0; }
+
+.markdown img { max-width: 100%; border-radius: 12px; margin: 8px 0 20px; display: block; }
+.markdown a { color: #4f419a; }
+.markdown hr { border: none; border-top: 1px solid #e6e3f0; margin: 28px 0; }
+
+.markdown table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 0 20px;
+  display: block;
+  overflow-x: auto;
+}
+.markdown th {
+  border: 1px solid #e6e3f0;
+  padding: 10px 12px;
+  background: #f6f5fb;
+  font-weight: 700;
   text-align: left;
 }
+.markdown td {
+  border: 1px solid #e6e3f0;
+  padding: 10px 12px;
+}
+.markdown tr:hover td { background: rgba(102, 89, 184, 0.06); }
 
-.bloglistryt button{
-  font-size: 10px;
-  padding: 4px 10px;
-  border-radius: 20px;
-  float: right;
-}
-.bloglistryt p {
-  font-size: 14px;
-  font-weight: 600;
-}
-.swiperContainer {
-  height: 400px; /* Adjust height as needed */
-  overflow: hidden; /* Ensure content overflow is managed */
-}
-.insidetable{
-  top: 20px;
-  max-height: calc(100vh - 100px);
+/* ================= sidebar ================= */
+.sidebar {
+  position: sticky;
+  top: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-height: calc(100vh - 110px);
   overflow-y: auto;
-  padding: 10px;
-  height: 290px;
-  border-radius: 10px;
-
-top: 100px;
+  padding-bottom: 4px;
 }
 
+.sidebarCard,
+.tocCard {
+  background: #ffffff;
+  border: 1px solid #e6e3f0;
+  border-radius: 14px;
+  padding: 18px 20px;
+}
+
+.sidebarCardTitle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 800;
+  font-size: 14.5px;
+  color: #171330;
+  margin: 0 0 12px;
+}
+.sidebarCardTitle svg { color: #4f419a; width: 16px; height: 16px; flex-shrink: 0; }
+
+.tocList { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 2px; }
+.tocLink {
+  display: flex;
+  align-items: center;
+  padding: 7px 10px;
+  border-radius: 8px;
+  font-size: 13px;
+  text-decoration: none;
+  color: #4a4460;
+  line-height: 1.4;
+}
+.tocLink:hover { background: #f6f5fb; color: #4f419a; }
+.tocNum {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #f6f5fb;
+  color: #726c88;
+  font-size: 11px;
+  font-weight: 700;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+.ctaCard {
+  background: linear-gradient(160deg, #eeecfb, #f7f6fb);
+  border: 1px solid #e6e3f0;
+  border-radius: 14px;
+  padding: 20px;
+}
+.ctaIcon {
+  width: 36px; height: 36px; border-radius: 10px;
+  background: #4f419a; color: #fff;
+  display: grid; place-items: center; margin-bottom: 12px;
+}
+.ctaTitle { font-weight: 800; font-size: 15.5px; color: #171330; margin: 0 0 8px; }
+.ctaText { font-size: 13px; color: #4a4460; line-height: 1.55; margin: 0 0 16px; }
+.ctaBtn {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: #1c1830; color: #fff; font-size: 13px; font-weight: 700;
+  padding: 10px 16px; border-radius: 9px; text-decoration: none;
+}
+.ctaBtn:hover { background: #322a54; }
+
+.relatedList { display: flex; flex-direction: column; gap: 12px; }
+.relatedItem { display: flex; gap: 10px; align-items: center; text-decoration: none; }
+.relatedThumb { flex-shrink: 0; width: 56px; height: 42px; border-radius: 8px; object-fit: cover; background: #f6f5fb; }
+.relatedItemTitle { font-size: 13px; font-weight: 700; color: #171330; line-height: 1.35; margin: 0; }
+
+.sidebarNewsletter { background: none; border: none; padding: 0; }
+
+@media screen and (max-width: 900px) {
+  .layout { grid-template-columns: 1fr; }
+  .sidebar { position: static; max-height: none; }
+}
 
 @media screen and (max-width: 480px) {
-  .maincontent {
-    width: 100%;
-    padding: 20px;
-    margin: auto;
-  }
-  .maincontent th {
-    padding: 10px 50px;
-  }
-  .metaInfo {
-    margin: 0;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
-    align-items: center;
-  }
-  .content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: auto;
-  }
-  .content h2 {
-    font-size: 20px;
-  }
-  .tableOfContents {
-    max-height: none;
-    overflow-y: visible;
-    height: auto;
-    border-radius: 0;
-    border: none;
-    /* padding: 400px; */
-    position: static;
-    background: #e6e6ff;
-    border-radius: 20px;
-
-  }
-  .tableOfContents h3 {
-    text-align: left; /* Align heading to the left */
-    font-size: 16px;
-    font-weight: 900;
-    cursor: pointer;
-    color: #6659B8;
-    margin-top: 10px;
-    margin-bottom: 5px;
-  }
-  .tableOfContents ul {
-    list-style-type: disc;
-    padding: 0 0 0 20px; /* Adjust padding for list items */
-    display: block; /* Display list items as block */
-  }
-  .tableOfContents ul li {
-    margin-bottom: 10px; /* Adjust margin for list items */
-  }
-  .tableOfContents ul li a {
-    text-decoration: none;
-    color: #333;
-    transition: color 0.3s ease;
-    display: block; /* Display links as block */
-    padding: 5px 0; /* Adjust padding for links */
-  }
-  .tableOfContents ul li a:hover {
-    color: #0070f3;
-  }
-  .firstdiv{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    position: relative;
-    top: 0;
-
-  }
-  .related{
-    display: none;
-  }
-  .stickyAds img {
-    position: sticky;
-  }
-  .stickyAds{
-    position: relative;
-  }
+  .page { padding: 20px 20px 40px; }
+  .metaRow { flex-direction: column; align-items: flex-start; gap: 12px; }
 }

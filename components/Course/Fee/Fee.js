@@ -100,21 +100,21 @@ const Fee = ({
             <div className={styles.bottom}>
               <div className={styles.bottom}>
                 <Image
-                  src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/liquiloans.webp"
+                  src="/cdn/static/web/liquiloans.svg"
                   alt="liqiLoans"
                   width="90"
                   height="40"
                 />
 
                 <Image
-                  src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/propelld.webp"
+                  src="/cdn/static/web/propelld.svg"
                   alt="propelld"
                   width="90"
                   height="40"
                 />
 
                 <Image
-                  src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/zest-logo.webp"
+                  src="/cdn/static/web/zest-logo.svg"
                   alt="Zest"
                   width="80"
                   height="24"

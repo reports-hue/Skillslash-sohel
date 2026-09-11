@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./SeoAbout.module.css";
-import { MdKeyboardArrowDown, MdKeyboardArrowUp, MdCall } from "react-icons/md";
+import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
 import Link from "next/link";
 import Form from "../../../components/Skills/Global/Form/Form";
 import { BiCheck } from "react-icons/bi";
@@ -83,6 +83,7 @@ function DataScienceSyllabus({
 
             return (
               <li
+                key={i}
                 style={{
                   listStyle: "none",
                 }}
@@ -202,25 +203,6 @@ function DataScienceSyllabus({
       {/* Right-side Form Part */}
       <div className={styles.syllabusRight}>
         <div className={styles.syllabusRight}>
-          <div className={styles.PProgrammain}>
-            <div className={styles.PProgram}>
-              <div>
-                <div className={styles.tollNo}>
-                  <p>Contact Us</p>
-                  <div className={styles.contactNo}>
-                    <h4>
-                      <a href="tel:+91 ">+91 </a>{" "}
-                    </h4>
-                    <a href="tel:+91 ">
-                      <MdCall className={styles.callIcon} />
-                    </a>
-                  </div>
-                  <p>( Toll Free )</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
           <div className={styles.PProgrammain} style={{ marginTop: "20px" }}>
             <div className={styles.PProgram}>
               <p className={styles.req}>Request More Information</p>

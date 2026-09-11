@@ -69,7 +69,7 @@ const DmChoose = () => {
             <p className={styles.pup}>guaranteed <span className={styles.span}>Internship</span></p>
           </div>
           <div className={styles.rytdiv}>
-            <Image src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/black-white-man.webp" alt='choose' width={280} height={300} loading='lazy' />
+            <Image src="/cdn/digital-marketing/black-white-man.svg" alt='choose' width={280} height={300} loading='lazy' />
           </div>
         </div>
       </div>

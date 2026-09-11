@@ -57,9 +57,9 @@
     "title": "System Design Course ",
     "spanTitleText": "Live Interview Based Learning Program",
     "desc": "Equip yourself with Web development skills through live, interactive lectures guided by industry expert mentors",
-    "backgroundImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/fullstack-white-background-banner.webp",
-    "mainHeaderImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/full-stack-cover-image.webp",
-    "iconImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/iconforfullstack.webp",
+    "backgroundImg": "/cdn/static/web/New-UI/fullstack-white-background-banner.svg",
+    "mainHeaderImg": "/cdn/static/web/New-UI/full-stack-cover-image.svg",
+    "iconImg": "/cdn/static/web/New-UI/iconforfullstack.svg",
     "mainAlt": "Student getting best system design course ",
     "usp1": " FAANG Instructor led",
     "usp2": "Solve 500+",
@@ -76,7 +76,7 @@
     "title": "System Design Course ",
     "spanTitleText": "Live Project Based Learning Partnered with Tech Companies",
     "desc": "Equip yourself with Web development skills through live, interactive lectures guided by industry expert mentors",
-    "imgSrc": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/NewDatascience/Header/data-science-header+webp.webp",
+    "imgSrc": "/cdn/NewDatascience/Header/data-science-header-webp.svg",
     "dataScience": false,
     "FullStack": true,
     "hour": "228+",
@@ -152,7 +152,7 @@
     "desc": "Join India’s Best System Design Course and get globally acknowledged project certifications. Download Brochure",
     "altM": "",
     "altR": "Get Real Work Experience Certificate by taking system design course ",
-    "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Certificate-DSA-course.webp"
+    "src": "/cdn/static/web/Certificate-DSA-course.svg"
   },
   "RealWork": {
     "desc": "Our System Design Course  follows an application-based learning approach, Further, it focuses on helping learners build relevant experience in the technologies they upskill to demonstrate expertise."

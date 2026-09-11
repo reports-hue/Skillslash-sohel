@@ -78,7 +78,7 @@ const Certificate = () => {
               <div className={styles.gridWrap}>
                 <div className="flex h-full w-full relative">
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Certificate/Certificate+Of+Internship.webp"
+                    src="/cdn/static/New_skillslash/Homepage/Certificate/Certificate-Of-Internship.svg"
                     fill
                     alt="Project certificate"
                   />
@@ -158,7 +158,7 @@ const Certificate = () => {
               <div className={styles.gridWrap}>
                 <div className="flex h-full w-full relative">
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Certificate/theorax-project-certificate.webp"
+                    src="/cdn/static/New_skillslash/Homepage/Certificate/theorax-project-certificate.svg"
                     fill
                     alt="Project certificate"
                   />
@@ -237,7 +237,7 @@ const Certificate = () => {
               <div className={styles.gridWrap}>
                 <div className="flex h-full w-full relative">
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/PROJECT-EXPERIENCE-CERTIFICATE-(THEORAX).webp"
+                    src="/cdn/static/web/New-UI/PROJECT-EXPERIENCE-CERTIFICATE--THEORAX.svg"
                     fill
                     alt="Project certificate"
                   />
@@ -281,7 +281,7 @@ const Certificate = () => {
               <div className={styles.gridWrap}>
                 <div className="flex h-full w-full relative">
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Certificate/course-certificate.webp"
+                    src="/cdn/static/New_skillslash/Homepage/Certificate/course-certificate.svg"
                     fill
                     alt="Project certificate"
                   />
@@ -316,7 +316,7 @@ const Certificate = () => {
               <div className={styles.gridWrap}>
                 <div className="flex h-full w-full relative">
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Certificate/theorax-project-certificate.webp"
+                    src="/cdn/static/New_skillslash/Homepage/Certificate/theorax-project-certificate.svg"
                     fill
                     alt="Project certificate"
                   />
@@ -351,7 +351,7 @@ const Certificate = () => {
               <div className={styles.gridWrap}>
                 <div className="flex h-full w-full relative">
                   <Image
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Certificate/Certificate+Of+Internship.webp"
+                    src="/cdn/static/New_skillslash/Homepage/Certificate/Certificate-Of-Internship.svg"
                     fill
                     alt="Project certificate"
                   />

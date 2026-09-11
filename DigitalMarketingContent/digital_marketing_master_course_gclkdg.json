@@ -1,1062 +1,1059 @@
 {
-    "header": {
-      "title": "Digital Marketing  ",
-      "subtitle": " Master Course",
-  
-      "spanTitleText": "Complete Digital Marketing Course with Live sessions, 100+ Tools, 10+ Branded Certificate, guaranteed Internship and assured placement assistance.",
-      "desc": "Complete Digital Marketing Course with Live sessions, 100+ Tools, 10+ Branded Certificate, guaranteed Internship and assured placement assistance.      ",
-      "imgSrc": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Home/coursesection/data-analytics-header.webp",
-      "GenImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/Bard_Dm.webp",
-      "hour": "216+",
-      "noProject": "18+ ",
-      "otherHr": "10",
-      "liveHr": "180+",
-      "newDs": false,
-      "link": "https://courses.skillslash.com/learn/Data-Analytics-Bootcamp",
-      "checkoutLink": "https://courses.skillslash.com/learn/fast-checkout/178294?priceId=124746",
-      "indCheckout": "https://courses.skillslash.com/learn/fast-checkout/178294?priceId=125932",
-      "ngCheckout": "https://courses.skillslash.com/learn/fast-checkout/178294?priceId=120106",
-      "offerPrice": "₹ 35,000 ",
-      "actualPrice": "₹ 35,000 ",
-      "USDActualPrice": " $ 200",
-      "USDOfferPrice": "$ 100",
-      "NigeriaActualPrice": "₦  300,000",
-      "NigeriaOfferPrice": "₦ 150,000",
-      "discount": "37%",
-      "newDsa": false,
-      "dataScience": false,
-      "FullStack": false,
-      "dataAnalytics": false,
-      "digitalmarketing": true,
-      "certification": "3",
-      "firstPoint": "Creating professional website on WordPress/Shopify and hoisting the same.      ",
-      "secondPoint": "Email Marketing and Social media marketing   ",
-      "thirdPoint": "SEO, SEM, GTM and application of  Gen-AI      ",
-      "fourthPoint": "Performance Marketing - Google Ads, Google Analytics      ",
-      "dmPage": true,
-      "gst": "+18% GST",
-      "redirectgrowth": true,
-      "redirectCertificate": true,
-      "AdsDM":true
-    },
-    "Fee": {
-      "desc": " The Data science course fees in Bangalore start from INR 65,000 (Excluding  GST). We aim to deliver to you quality education considering the aspect of feasibility.",
-      "desc1": "Skillslash's data science training in Bangalore are designed giving importance to affordability. The Data Science course fees is feasible to ensure fair reachability. Further, we provide you with options such as EMI to pay the course fees.",
-      "BasicPrice": "₹ 65,000 + GST",
-      "BasicDesc": "",
-      "ProPrice": "₹ 35,000 + GST ",
-      "ProDesc": "",
-      "ProMaxPrice": "₹ 1,49,999 + GST",
-      "ProMaxDesc": "Guaranteed job referral"
-    },
-    "seoSyllabus": [
-      {
-        "Module0": {
-          "title": "Module 0",
-          "project": false,
-          "hrs": 9,
-          "title1": "Introduction to Digital Marketing",
-          "descS": "",
-          "content": [
-            {
-              "chap": {
-                "title": "What is Digital Marketing ",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": "Diff b/w Traditional Marketing & Digital Marketing ",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": "Customer Journey ",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": "Marketing Funnel ",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": "Creating Buyer Persona ",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": "Key Digital Marketing Metrics ",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": "Understanding Paid, Owned, Shared & Earned media ",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": "Types of Digital Marketing Channels ",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": "Career paths in digital marketing ",
-                "desc": []
-              }
+  "header": {
+    "title": "Digital Marketing  ",
+    "subtitle": " Master Course",
+    "spanTitleText": "Complete Digital Marketing Course with Live sessions, 100+ Tools, 10+ Branded Certificate, guaranteed Internship and assured placement assistance.",
+    "desc": "Complete Digital Marketing Course with Live sessions, 100+ Tools, 10+ Branded Certificate, guaranteed Internship and assured placement assistance.      ",
+    "imgSrc": "/cdn/Home/coursesection/data-analytics-header.svg",
+    "GenImg": "/cdn/digital-marketing/Bard_Dm.svg",
+    "hour": "216+",
+    "noProject": "18+ ",
+    "otherHr": "10",
+    "liveHr": "180+",
+    "newDs": false,
+    "link": "https://courses.skillslash.com/learn/Data-Analytics-Bootcamp",
+    "checkoutLink": "https://courses.skillslash.com/learn/fast-checkout/178294?priceId=124746",
+    "indCheckout": "https://courses.skillslash.com/learn/fast-checkout/178294?priceId=125932",
+    "ngCheckout": "https://courses.skillslash.com/learn/fast-checkout/178294?priceId=120106",
+    "offerPrice": "₹ 35,000 ",
+    "actualPrice": "₹ 35,000 ",
+    "USDActualPrice": " $ 200",
+    "USDOfferPrice": "$ 100",
+    "NigeriaActualPrice": "₦  300,000",
+    "NigeriaOfferPrice": "₦ 150,000",
+    "discount": "37%",
+    "newDsa": false,
+    "dataScience": false,
+    "FullStack": false,
+    "dataAnalytics": false,
+    "digitalmarketing": true,
+    "certification": "3",
+    "firstPoint": "Creating professional website on WordPress/Shopify and hoisting the same.      ",
+    "secondPoint": "Email Marketing and Social media marketing   ",
+    "thirdPoint": "SEO, SEM, GTM and application of  Gen-AI      ",
+    "fourthPoint": "Performance Marketing - Google Ads, Google Analytics      ",
+    "dmPage": true,
+    "gst": "+18% GST",
+    "redirectgrowth": true,
+    "redirectCertificate": true,
+    "AdsDM": true,
+    "canonical": "https://skillslash.com/liveclass/digital-marketing-master-course"
+  },
+  "Fee": {
+    "desc": " The Data science course fees in Bangalore start from INR 65,000 (Excluding  GST). We aim to deliver to you quality education considering the aspect of feasibility.",
+    "desc1": "Skillslash's data science training in Bangalore are designed giving importance to affordability. The Data Science course fees is feasible to ensure fair reachability. Further, we provide you with options such as EMI to pay the course fees.",
+    "BasicPrice": "₹ 65,000 + GST",
+    "BasicDesc": "",
+    "ProPrice": "₹ 35,000 + GST ",
+    "ProDesc": "",
+    "ProMaxPrice": "₹ 1,49,999 + GST",
+    "ProMaxDesc": "Guaranteed job referral"
+  },
+  "seoSyllabus": [
+    {
+      "Module0": {
+        "title": "Module 0",
+        "project": false,
+        "hrs": 9,
+        "title1": "Introduction to Digital Marketing",
+        "descS": "",
+        "content": [
+          {
+            "chap": {
+              "title": "What is Digital Marketing ",
+              "desc": []
             }
-          ],
-          "id": 1,
-          "open": false
-        }
-      },
-      {
-        "Module0": {
-          "title": "Module 1 ",
-          "project": false,
-          "hrs": 67,
-          "title1": "Create a website on WordPress/Shopify & host the same",
-          "descS": "Through a hands-on approach, you will learn key programming concepts of Python, MatplotLib, Seaborn and languages commonly used in the data science field. Whether you're aspiring to become a data scientist or simply seeking to harness the power of programming for data analysis, this module equips you with the essential skills to manipulate, analyze, and visualize data effectively.",
-          "content": [
-            {
-              "chap": {
-                "title": "Build a Professional Website, get a domain & host it for yourself. ( 3 hrs )",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": "WordPress / Shopify installation (1 hrs)",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": "Create Theme Customisation (1 hrs)",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": "Creating images using Canva(1 hrs)",
-                "desc": []
-              }
+          },
+          {
+            "chap": {
+              "title": "Diff b/w Traditional Marketing & Digital Marketing ",
+              "desc": []
             }
-          ],
-          "id": 2,
-          "open": false
-        }
-      },
-      {
-        "Module0": {
-          "title": "Module 2 ",
-          "project": false,
-          "hrs": 52,
-          "title1": "Graphics Designing 1.0",
-  
-          "content": [
-            {
-              "chap": {
-                "title": "Introduction",
-                "desc": ["Overview of Canva and Looka, basic design principles."]
-              }
-            },
-            {
-              "chap": {
-                "title": " Design Essentials",
-                "desc": ["Color theory, palettes, and typography basics."]
-              }
-            },
-            {
-              "chap": {
-                "title": "Layout and Composition",
-                "desc": ["Effective layout techniques using Canva."]
-              }
-            },
-            {
-              "chap": {
-                "title": "Image Editing",
-                "desc": [
-                  "Enhancing images and incorporating them into designs using Canva."
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "Branding",
-                "desc": [
-                  " Creating brand assets in Canva and logo design with Looka."
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "Social Media Graphics",
-                "desc": [
-                  "Designing for social platforms and creating marketing materials."
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "Portfolio Development",
-                "desc": ["Building a portfolio in Canva and presentation skills."]
-              }
+          },
+          {
+            "chap": {
+              "title": "Customer Journey ",
+              "desc": []
             }
-          ],
-          "id": 3,
-          "open": false
-        }
-      },
-      {
-        "Module0": {
-          "title": "Module 3  ",
-          "title1": "Content Writing 1.0",
-          "project": false,
-          "hrs": 9,
-          "descS": "Unlock the full potential of data science with our comprehensive module on essential tools: Excel, SQL, Tableau, and Power BI and more. Dive into the world of data manipulation, analysis, visualization, and reporting with hands-on training in these industry-standard applications. ",
-          "content": [
-            {
-              "chap": {
-                "title": ": Introduction",
-                "desc": [
-                  "Understanding the role of content in digital marketing, an overview of ChatGPT and Scrib"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "Content Strategy and Planning",
-                "desc": [
-                  "Developing a content strategy, using ChatGPT for content ideation."
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "SEO Writing Basics",
-                "desc": [
-                  "Introduction to SEO writing principles, leveraging ChatGPT for SEO content creation."
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "Blogging and Article Writing",
-                "desc": [
-                  "Crafting engaging blog posts and articles, using Scrib for blog post outlines."
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "Social Media Content Creation",
-                "desc": [
-                  "Writing effective social media captions, and generating social media content ideas with ChatGPT."
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "Email Marketing Copywriting",
-                "desc": [
-                  "Crafting compelling email subject lines and body copy, utilizing Scrib for email marketing templates."
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "Content Optimization and Editing",
-                "desc": [
-                  " Editing and proofreading techniques, improving content readability and flow with ChatGPT."
-                ]
-              }
+          },
+          {
+            "chap": {
+              "title": "Marketing Funnel ",
+              "desc": []
             }
-          ],
-          "id": 4,
-          "open": false
-        }
-      },
-      {
-        "Module0": {
-          "title": "Module 4",
-          "title1": "Search Engine Optimization 1.0",
-          "project": false,
-          "hrs": 17,
-          "descS": "Unlock the full potential of data science with our comprehensive module on essential tools: Excel, SQL, Tableau, and Power BI and more. Dive into the world of data manipulation, analysis, visualization, and reporting with hands-on training in these industry-standard applications. ",
-          "content": [
-            {
-              "chap": {
-                "title": " Introduction",
-                "desc": [
-                  "Overview of SEO & evolution of search engines, impact of SEO in digital marketing"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "Fundamentals of Search Engines",
-                "desc": [
-                  "Backend workings, crawling, indexing, ranking, Google algorithm updates (Panda, Penguin, Hummingbird, etc.)"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "Keyword Research",
-                "desc": [
-                  " Importance, research techniques, long-tail keywords and intent analysis."
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "On-Page SEO",
-                "desc": [
-                  "Title tags, meta descriptions, header tags, URL structure, internal linking, image optimization, markup schema, page speed"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "Off-Page SEO",
-                "desc": [
-                  "Link building strategies (guest blogging, broken link building, etc.), social signals, canonical URLs, robot texts, backlink outreach campaigns"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "Technical SEO",
-                "desc": [
-                  "Website architecture, URL optimization, site speed, HTTPS and security, technical audits."
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "Local SEO",
-                "desc": [
-                  "Introduction, local keyword research, Google My Business, citation building, on-page optimization, local link building, local SEO for mobile"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "Mobile SEO",
-                "desc": [
-                  "Mobile-friendly design, performance optimization, technical fundamentals, keyword research, content optimization, local mobile SEO"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "SEO Analytics and Reporting",
-                "desc": [
-                  "SEO audits (technical, on-page, off-page, local), competitor analysis, reporting, and recommendations"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": " Negative SEO",
-                "desc": [
-                  "Manual penalties, algorithmic penalties, Google sandbox effect, deindexing"
-                ]
-              }
+          },
+          {
+            "chap": {
+              "title": "Creating Buyer Persona ",
+              "desc": []
             }
-          ],
-          "id": 5,
-          "open": false
-        }
-      },
-      {
-        "Module0": {
-          "title": "Module 5",
-          "title1": "Search Engine Marketing 1.0",
-          "project": false,
-          "hrs": 27,
-          "descS": "Unlock the full potential of data science with our comprehensive module on essential tools: Excel, SQL, Tableau, and Power BI and more. Dive into the world of data manipulation, analysis, visualization, and reporting with hands-on training in these industry-standard applications. ",
-          "content": [
-            {
-              "chap": {
-                "title": "Introduction to SEM",
-                "desc": [
-                  "Overview of Search Engine Marketing, highlighting its significance in digital marketing"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "Fundamentals of SEM",
-                "desc": [
-                  "Setting Up a Google Ads Account, including keyword research, match types, and creating effective ad copies"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "Google Search Ads Features",
-                "desc": [
-                  "Utilizing ad extensions, quality score, ad rank, and various targeting options such as demographics, locations, and devices"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "Google Ads Editor",
-                "desc": [
-                  "Maximizing efficiency through bulk editing and optimization techniques"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": " Display Advertising",
-                "desc": [
-                  "Understanding display advertising, crafting impactful display ads, and optimizing display ad campaigns."
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": " Video Advertising",
-                "desc": [
-                  "Exploring YouTube advertising, creating compelling video ads, and optimizing video ad campaigns"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "Shopping Campaigns",
-                "desc": [
-                  "Harnessing Google Shopping, setting up product listings, integrating with Merchant Center, and optimizing shopping campaigns"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "SEM Analytics and Reporting",
-                "desc": [
-                  " Leveraging Google Analytics for ads, tracking conversions, analyzing performance metrics, and generating insightful reports"
-                ]
-              }
+          },
+          {
+            "chap": {
+              "title": "Key Digital Marketing Metrics ",
+              "desc": []
             }
-          ],
-          "id": 6,
-          "open": false
-        }
-      },
-      {
-        "Module0": {
-          "title": "Module 6",
-          "title1": "Social Media Ads 1.0",
-          "project": false,
-          "hrs": 12,
-          "descS": "",
-          "content": [
-            {
-              "chap": {
-                "title": "Meta Ads Part-1",
-                "desc": [
-                  "Create a business page, Meta Pixel, events, dynamic ad creative, A/B testing, targeting, advantage budget, cost caps & bidding strategies"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "Meta Ads Part-2",
-                "desc": [
-                  "Core, custom & lookalike audience, FB ad placements, brand safety measures, headlines, and ad copies"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "Meta Ads Part-3",
-                "desc": [
-                  "Creative creation, remarketing audience, end-to-end campaign execution on Facebook and Instagram"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": " Meta Ad Part-4",
-                "desc": [
-                  "Meta ads metrics, FB dashboard analysis, ROI & ROAS evaluation, FB ad reports customization, A/B testing on campaigns and ad sets"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "LinkedIn Ads",
-                "desc": [
-                  "Introduction, LIVE campaigns creation, audience targeting, campaign structure practice, optimization, crucial metrics identification, and LinkedIn metrics analysis"
-                ]
-              }
+          },
+          {
+            "chap": {
+              "title": "Understanding Paid, Owned, Shared & Earned media ",
+              "desc": []
             }
-          ],
-  
-          "id": 7,
-          "open": false
-        }
-      },
-      {
-        "Module0": {
-          "title": "Module 7",
-          "title1": "Social Media Organic Marketing",
-          "project": false,
-          "hrs": 8,
-          "descS": "",
-          "content": [
-            {
-              "chap": {
-                "title": "Introduction and Differentiation",
-                "desc": [
-                  "Introduction to Social Media Organic Marketing, Differentiate between organic and paid social media, Identify strategies for a strong social media presence"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": " Organic Facebook & Instagram Marketing",
-                "desc": [
-                  "Create business pages on Facebook and Instagram, Interpret algorithms' workings, Audit business pages, Create viral content, Setup business automation using META tools"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "Organic LinkedIn & Twitter Marketing",
-                "desc": [
-                  "Create LinkedIn business pages, Understand effective content types, Develop content strategies, Create lists, threads, & moments on Twitter"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": " YouTube Organic",
-                "desc": [
-                  "Establish YouTube Channels, Generate relevant ideas, Maximize views and subscribers, Monetize channels, Optimize for search engine, Measure success metrics"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "Quora Marketing",
-                "desc": [
-                  "Create accounts, Conduct question research, Drive traffic, Avoid common mistakes, Branding strategies"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "TikTok Marketing",
-                "desc": [
-                  "Overview of TikTok, Account creation, Content creation, Community engagement, Performance tracking and analysis"
-                ]
-              }
+          },
+          {
+            "chap": {
+              "title": "Types of Digital Marketing Channels ",
+              "desc": []
             }
-          ],
-          "id": 8,
-          "open": false
-        }
-      },
-      {
-        "Module0": {
-          "title": "Module 8",
-          "title1": "Email Marketing 1.0",
-          "project": false,
-          "hrs": 8,
-          "descS": "",
-          "content": [
-            {
-              "chap": {
-                "title": "Introduction",
-                "desc": [
-                  "Basics of Email Marketing, Importance of Email Marketing, Evolution of Email Marketing"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "Email Marketing Strategy",
-                "desc": [
-                  "Setting Objectives and Goals for your Email Marketing Campaign, Target Audience and Segmentation, Types of Email Campaigns"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": " Email Lists Building",
-                "desc": [
-                  "List Building Strategies, Create Opt-in Forms and Lead Magnets, Managing Email Lists, Segmentation and Personalization of Audience, Audience List Hygiene and Maintenance, GDPR and Compliance"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "Crafting Compelling Email Content",
-                "desc": [
-                  " Learn how to write Effective Copy, Understanding Your Audience, A/B Testing Subject Lines for better open-rate, Personalization and Dynamic Content, How to design Engaging Emails, Best Practices for Layout and Design, Learn Mobile Responsiveness email, Multimedia in Emails"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": " Email Automation and Sequences",
-                "desc": [
-                  "Basics of Email Automation, Setting Up Automated Workflows, Drip Campaigns and Sequences, Process of lead nurturing via Email, Behavioral-based Triggers, Automated Campaign analysis & optimization"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "Deliverability and Optimization",
-                "desc": [
-                  "Email Deliverability components, Sender Reputation check & Management, Authentication Protocols (SPF, DKIM, DMARC), Avoiding Spam Traps, Testing and Optimization, A/B Testing for Campaigns, Analyzing Metrics (Open Rates, Click Rates), Email campaign optimization Strategies"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "Integration with Other Marketing Channels",
-                "desc": [
-                  "Email and Social Media Integration, Cross-platform Campaigns, Social Sharing and Forwarding, Integrating email tool with CRM Systems, Leveraging existing customer data to curate new audience, Integrating Email Marketing with organization marketing goal"
-                ]
-              }
+          },
+          {
+            "chap": {
+              "title": "Career paths in digital marketing ",
+              "desc": []
             }
-          ],
-          "id": 9,
-          "open": false
-        }
-      },
-      {
-        "Module0": {
-          "title": "Module 9",
-          "title1": "Inbound Marketing",
-          "project": false,
-          "hrs": 8,
-          "descS": "",
-          "content": [
-            {
-              "chap": {
-                "title": "Introduction",
-                "desc": [
-                  "Basics of Inbound Marketing, Inbound vs. Outbound Marketing"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": " Inbound Methodology",
-                "desc": [
-                  "Attract - Creating valuable Content, Convert - Upgrade visitors into Leads, Close - Upgrade Leads into Customers, Delight - Building Customer Loyalty"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "Creating Buyer Personas",
-                "desc": [
-                  "Definition and Importance of Buyer Personas, Buyers Persona Research, Creating and using Buyer Personas in Digital Marketing"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "Content Creation and Marketing",
-                "desc": [
-                  "Creating Content Strategy, Blogging, Visual Content Creation, Content development for SEO"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "Conversion Optimization",
-                "desc": [
-                  "What is Conversion Rate Optimization (CRO), Landing Page Design for maximum performance, A/B Testing for Inbound Marketing, Analyzing and Improving Conversion Rates"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "Chatbot",
-                "desc": [
-                  " Introduction to Chatbots, Designing Conversational Flows, Building and Testing Chatbots, Deploying and Maintaining Chatbots"
-                ]
-              }
-            }
-          ],
-          "id": 10,
-          "open": false
-        }
-      },
-      {
-        "Module0": {
-          "title": "Module 10",
-          "title1": "Web Analytics 1.0",
-          "project": false,
-          "hrs": 8,
-          "descS": "",
-          "content": [
-            {
-              "chap": {
-                "title": "Introduction",
-                "desc": [
-                  "Introduction to Google Analytics, Creating a Google Analytics Account, Connecting Google Analytics with your website, Navigating the Google Analytics UI"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": "Setting Up Google Analytics",
-                "desc": [
-                  "Installing Google Analytics Tracking Code, Setting Up Goals and Conversions, Configuring E-commerce Tracking, Integrating Google Analytics with Other Google Platforms"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": " Understanding Basic Metrics",
-                "desc": [
-                  "Understand Key Metrics and Dimensions, Understand Audience Reports, Analyze Acquisition Reports, Interpreting Behavior Reports"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": " Advanced Reporting and Customization",
-                "desc": [
-                  "Customization of Dashboards and Reports, Learn Advanced Segments, Creating Custom Reports, Creating & using Custom Dimensions and Metrics"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": " Campaign Tracking and Attribution",
-                "desc": [
-                  "Understanding UTM Parameters, Learn Bitly, Interpreting Campaign Reports, Understanding Multi-Channel Funnels"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": " Event Tracking and Enhanced E-commerce",
-                "desc": [
-                  "Configuring Event Tracking, Analyzing Events in Google Analytics, Configuring Enhanced E-commerce Tracking, Interpreting E-commerce Reports"
-                ]
-              }
-            },
-            {
-              "chap": {
-                "title": " Data Visualization and Exporting",
-                "desc": [
-                  "Creating Data Visualizations in Google Analytics, Exporting Data and Reports"
-                ]
-              }
-            }
-          ],
-          "id": 11,
-          "open": false
-        }
-      },
-      {
-        "Module0": {
-          "title": "Module 11",
-          "title1": "Gen-AI",
-          "project": false,
-          "hrs": 8,
-          "descS": "",
-          "content": [
-            {
-              "chap": {
-                "title": ": How to generate blog posts, social media updates, and email newsletters using ChatGPT",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": ": Use ChatGPT to craft engaging social media content",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": ": Creates subject lines, email copy, and CTAs for more compelling and personalized campaigns",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": ": Use ChatGPT to analyze user data to deliver personalized content recommendations, enhancing user experiences",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": ": Identifying hashtags, topics, and keywords for social media posts",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": ": Create an effective Customer Persona using ChatGPT Facebook, Google, and LinkedIn ads",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": ": Learn how to use prompts in Chat GPT for digital marketing tasks",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": ": Use ChatGPT to generate insights from marketing metrics",
-                "desc": []
-              }
-            }
-          ],
-          "id": 12,
-          "open": false
-        }
-      },
-      {
-        "Module0": {
-          "title": "Module 12",
-          "title1": "CRM",
-          "project": false,
-          "hrs": 8,
-          "descS": "",
-          "content": [
-            {
-              "chap": {
-                "title": ": Introduction to CRM",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": ": Setting Up Your Zoho CRM Account",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": ": Managing Contacts",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": ": Managing Leads",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": ": Managing Deals and Opportunities",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": ": Managing Accounts",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": ": Activities and Tasks",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": ": Workflow Automation",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": ": Integration and Collaboration",
-                "desc": []
-              }
-            }
-          ],
-          "id": 13,
-          "open": false
-        }
-      },
-      {
-        "Module0": {
-          "title": "Module 19",
-          "title1": "Digital Marketing Strategies",
-          "project": false,
-          "hrs": 8,
-          "descS": "",
-          "content": [
-            {
-              "chap": {
-                "title": "Understand Indian digital trends: demographics, devices, and multi-screening.",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": "Apply marketing principles like F and Purchase Cycle to guide strategy",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": "Creating Marketing funnel and customer journey",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": "Capitalize on digital 'AHA Moments' in the customer journey.",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": "Differentiate between branding and acquisition strategies.",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": "Use analytics for attribution and cross-device insights.",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": "Optimize campaigns through continuous testing and learning",
-                "desc": []
-              }
-            },
-            {
-              "chap": {
-                "title": "Embrace an iterative approach for ongoing refinement and success.",
-                "desc": []
-              }
-            }
-          ],
-          "id": 20,
-          "open": false
-        }
-      }
-    ],
-  
-    "FaqDATA": [
-      {
+          }
+        ],
         "id": 1,
-        "ques": "Who should take this digital marketing course?      ",
-  
-        "ans": "This course is ideal for Student, Freshers, Sales & Marketing Professional, Product Managers, Senior Manager & VPs, Freelancers,Homemakers and entrepreneur.",
-        "open": true
-      },
-      {
-        "id": 2,
-        "ques": "What will I learn in this digital marketing course?      ",
-        "ans": "This course provides complete knowledge on Digital Marketing including the  sub-domains like - Performance marketing,Growth marketing SEO, SEM, Graphic Desiging, Email marketing, Affiliate & Content marketing and Social Media marketing and implementation of Gen-AI.      ",
-        "open": false
-      },
-      {
-        "id": 3,
-        "ques": "Are there any prerequisites for this course?      ",
-  
-        "ans": "There are no specific prerequisites. However, basic computer skills and familiarity with the internet will be helpful.      ",
-        "open": false
-      },
-      {
-        "id": 4,
-        "ques": "How long is the course?      ",
-  
-        "ans": "You can complete all the mandatory core modules in 3 months, then you will do a paid internship with an external company for at least 3 months. So roughly this digital marketing course you can complete in 6 months.      ",
-        "open": false
-      },
-      {
-        "id": 5,
-        "ques": "Is the course available online?      ",
-        "ans": "Yes, this digital marketing course is 100% live online. We will provide instructor-based live classes wherein you can understand all topics thoroughly and ask your doubts if you have any.      ",
-        "open": false
-      },
-      
-      {
-        "id": 6,
-        "ques": "What kind of certification will I receive?      ",
-  
-        "ans": " Upon successful completion of our digital marketing course, you will receive 10+ globally recognized certificates that can be added to your resume and LinkedIn profile.      ",
-        "open": false
-      },
-      {
-        "id": 10,
-        "ques": "How much does the course cost?      ",
-        "ans": "This Digital Marketing course costs INR 35,000/- + 18% GST",
-        "open": false
-      },
-      {
-        "id": 8,
-        "ques": "How will this course benefit my career?      ",
-        "ans": "This digital marketing course will equip you with essential digital marketing skills, making you more competitive in the job market. It opens up opportunities in various roles such as Digital Marketing Specialist, SEO Expert, Social Media Manager, Content Marketer, and more.      ",
-        "open": false
-      },
-      {
-        "id": 9,
-        "ques": "What tools and platforms will I learn to use?      ",
-        "ans": "You will be hands-on 100+ tools and will work on 30+ branded case studies.      ",
-        "open": false
-      },
-      {
-        "id": 12,
-        "ques": "Does this course come with an Internship opportunity?      ",
-        "ans": "Yes, in our digital marketing course, we provide 4 types of internships, which you should choose based on your area of interest. They are growth Marketing, Performance & SEO, Performance & Social Media, SEO & Social Media.      ",
-        "open": false
-      },
-      {
-        "id": 13,
-        "ques": "What is the duration for which I can access this course?      ",
-        "ans": "This digital marketing course you can complete it within 6 months but, you will have 2 years of unlimited live class access to all batches and all course material along with live class recordings will be with you for a lifetime.      ",
-        "open": false
-      },
-      {
-        "id": 13,
-        "ques": "What are the career opportunities after completing this course?      ",
-        "ans": "Career opportunities after completing our digital marketing course include roles like:   Digital Marketing Specialist, SEO Analyst, Social Media Manager, Content Marketing Strategist, PPC Specialist, Email Marketing Manager,  Analytics Expert          ",
-  
-        "open": false
-      },
-      {
-        "id": 13,
-        "ques": "Is there a job placement assistance program?      ",
-        "ans": "Yes our digital marketing course comes with guaranteed end-to-end job assistance      ",
-        "open": false
-      },
-      {
-        "id": 13,
-        "ques": "Can I get a refund if I am not satisfied with the course?      ",
-        "ans": "Yes, this digital marketing course has a refund policy. You can take the refund within 7 days from your 1st live class and the course should not be accessed by more than 10%. With no questions ask policy.      ",
-        "open": false
-      },
-  
-      {
-        "id": 13,
-        "ques": " About the course?      ",
-        "ans": "The Skillslash Digital Marketing Master Course is an excellent opportunity for anyone looking to excel in the field of digital marketing. This comprehensive digital marketing course covers all the essential aspects required to become a proficient digital marketer. The curriculum is meticulously designed to provide practical knowledge and hands-on experience in various domains of digital marketing.Course Overview The **digital marketing course** at Skillslash encompasses a wide range of topics that are crucial for mastering the art of digital marketing. These include Search Engine Optimization (SEO), Search Engine Marketing (SEM), Social Media Marketing (SMM), Email Marketing, Content Marketing, and more. The course is structured to ensure that learners gain a thorough understanding of each topic through interactive live sessions. Learning Outcomes Upon completing this digital marketing course, participants will be able to: - Develop effective SEO strategies to improve website rankings on search engines. - Execute successful SEM campaigns using platforms like Google Ads.  - Utilize social media channels to create engaging content and campaigns. - Craft compelling email marketing campaigns to boost engagement and conversions.  - Implement content marketing techniques to attract and retain a clearly defined audience.  Key Features  Live Sessions and Expert Mentorship The digital marketing course features live sessions conducted by industry experts. These sessions provide real-time interaction and immediate feedback, ensuring that learners can clarify their doubts and gain in-depth knowledge. The mentorship program is designed to guide students through their learning journey, providing personalized support and career advice. Access to Tools and Resources Students enrolled in the digital marketing course will have access to over 100+ marketing tools used by professionals. This hands-on experience with industry-standard tools is invaluable, allowing learners to apply their knowledge practically and effectively. Certifications and Internships  The course offers more than 10 certifications, including those from Google, HubSpot, and Facebook, which are highly regarded in the digital marketing industry. Additionally, Skillslash guarantees internships that provide real-world experience, making the transition from learning to professional practice seamless. Placement Assistance  One of the standout features of the digital marketing course is the robust placement assistance program. Skillslash offers support with resume building, interview preparation, and guaranteed interview calls with top companies. This comprehensive career support ensures that students are well-prepared to enter the job market and succeed. Why Choose Skillslash? The digital marketing course at Skillslash stands out due to its focus on practical learning, expert mentorship, and comprehensive career support. Whether you are a student, a professional looking to upskill, or someone looking to switch careers, this course offers the perfect blend of theoretical knowledge and practical application. Conclusion    Investing in the Skillslash Digital Marketing Master Course is a strategic move for anyone serious about a career in digital marketing. The course's comprehensive curriculum, expert-led live sessions, access to professional tools, and extensive career support make it an unmatched opportunity for aspiring digital marketers. With a keyword density of around 2%, this content ensures that it aligns with SEO best practices while providing valuable information about the course. For more details and to enroll. By enrolling in this digital marketing course, you are setting yourself up for a successful and rewarding career in one of the most dynamic and in-demand fields today.  ",
         "open": false
       }
-    ]
-  }
-  
+    },
+    {
+      "Module0": {
+        "title": "Module 1 ",
+        "project": false,
+        "hrs": 67,
+        "title1": "Create a website on WordPress/Shopify & host the same",
+        "descS": "Through a hands-on approach, you will learn key programming concepts of Python, MatplotLib, Seaborn and languages commonly used in the data science field. Whether you're aspiring to become a data scientist or simply seeking to harness the power of programming for data analysis, this module equips you with the essential skills to manipulate, analyze, and visualize data effectively.",
+        "content": [
+          {
+            "chap": {
+              "title": "Build a Professional Website, get a domain & host it for yourself. ( 3 hrs )",
+              "desc": []
+            }
+          },
+          {
+            "chap": {
+              "title": "WordPress / Shopify installation (1 hrs)",
+              "desc": []
+            }
+          },
+          {
+            "chap": {
+              "title": "Create Theme Customisation (1 hrs)",
+              "desc": []
+            }
+          },
+          {
+            "chap": {
+              "title": "Creating images using Canva(1 hrs)",
+              "desc": []
+            }
+          }
+        ],
+        "id": 2,
+        "open": false
+      }
+    },
+    {
+      "Module0": {
+        "title": "Module 2 ",
+        "project": false,
+        "hrs": 52,
+        "title1": "Graphics Designing 1.0",
+        "content": [
+          {
+            "chap": {
+              "title": "Introduction",
+              "desc": [
+                "Overview of Canva and Looka, basic design principles."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " Design Essentials",
+              "desc": [
+                "Color theory, palettes, and typography basics."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Layout and Composition",
+              "desc": [
+                "Effective layout techniques using Canva."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Image Editing",
+              "desc": [
+                "Enhancing images and incorporating them into designs using Canva."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Branding",
+              "desc": [
+                " Creating brand assets in Canva and logo design with Looka."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Social Media Graphics",
+              "desc": [
+                "Designing for social platforms and creating marketing materials."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Portfolio Development",
+              "desc": [
+                "Building a portfolio in Canva and presentation skills."
+              ]
+            }
+          }
+        ],
+        "id": 3,
+        "open": false
+      }
+    },
+    {
+      "Module0": {
+        "title": "Module 3  ",
+        "title1": "Content Writing 1.0",
+        "project": false,
+        "hrs": 9,
+        "descS": "Unlock the full potential of data science with our comprehensive module on essential tools: Excel, SQL, Tableau, and Power BI and more. Dive into the world of data manipulation, analysis, visualization, and reporting with hands-on training in these industry-standard applications. ",
+        "content": [
+          {
+            "chap": {
+              "title": ": Introduction",
+              "desc": [
+                "Understanding the role of content in digital marketing, an overview of ChatGPT and Scrib"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Content Strategy and Planning",
+              "desc": [
+                "Developing a content strategy, using ChatGPT for content ideation."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "SEO Writing Basics",
+              "desc": [
+                "Introduction to SEO writing principles, leveraging ChatGPT for SEO content creation."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Blogging and Article Writing",
+              "desc": [
+                "Crafting engaging blog posts and articles, using Scrib for blog post outlines."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Social Media Content Creation",
+              "desc": [
+                "Writing effective social media captions, and generating social media content ideas with ChatGPT."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Email Marketing Copywriting",
+              "desc": [
+                "Crafting compelling email subject lines and body copy, utilizing Scrib for email marketing templates."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Content Optimization and Editing",
+              "desc": [
+                " Editing and proofreading techniques, improving content readability and flow with ChatGPT."
+              ]
+            }
+          }
+        ],
+        "id": 4,
+        "open": false
+      }
+    },
+    {
+      "Module0": {
+        "title": "Module 4",
+        "title1": "Search Engine Optimization 1.0",
+        "project": false,
+        "hrs": 17,
+        "descS": "Unlock the full potential of data science with our comprehensive module on essential tools: Excel, SQL, Tableau, and Power BI and more. Dive into the world of data manipulation, analysis, visualization, and reporting with hands-on training in these industry-standard applications. ",
+        "content": [
+          {
+            "chap": {
+              "title": " Introduction",
+              "desc": [
+                "Overview of SEO & evolution of search engines, impact of SEO in digital marketing"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Fundamentals of Search Engines",
+              "desc": [
+                "Backend workings, crawling, indexing, ranking, Google algorithm updates (Panda, Penguin, Hummingbird, etc.)"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Keyword Research",
+              "desc": [
+                " Importance, research techniques, long-tail keywords and intent analysis."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "On-Page SEO",
+              "desc": [
+                "Title tags, meta descriptions, header tags, URL structure, internal linking, image optimization, markup schema, page speed"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Off-Page SEO",
+              "desc": [
+                "Link building strategies (guest blogging, broken link building, etc.), social signals, canonical URLs, robot texts, backlink outreach campaigns"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Technical SEO",
+              "desc": [
+                "Website architecture, URL optimization, site speed, HTTPS and security, technical audits."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Local SEO",
+              "desc": [
+                "Introduction, local keyword research, Google My Business, citation building, on-page optimization, local link building, local SEO for mobile"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Mobile SEO",
+              "desc": [
+                "Mobile-friendly design, performance optimization, technical fundamentals, keyword research, content optimization, local mobile SEO"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "SEO Analytics and Reporting",
+              "desc": [
+                "SEO audits (technical, on-page, off-page, local), competitor analysis, reporting, and recommendations"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " Negative SEO",
+              "desc": [
+                "Manual penalties, algorithmic penalties, Google sandbox effect, deindexing"
+              ]
+            }
+          }
+        ],
+        "id": 5,
+        "open": false
+      }
+    },
+    {
+      "Module0": {
+        "title": "Module 5",
+        "title1": "Search Engine Marketing 1.0",
+        "project": false,
+        "hrs": 27,
+        "descS": "Unlock the full potential of data science with our comprehensive module on essential tools: Excel, SQL, Tableau, and Power BI and more. Dive into the world of data manipulation, analysis, visualization, and reporting with hands-on training in these industry-standard applications. ",
+        "content": [
+          {
+            "chap": {
+              "title": "Introduction to SEM",
+              "desc": [
+                "Overview of Search Engine Marketing, highlighting its significance in digital marketing"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Fundamentals of SEM",
+              "desc": [
+                "Setting Up a Google Ads Account, including keyword research, match types, and creating effective ad copies"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Google Search Ads Features",
+              "desc": [
+                "Utilizing ad extensions, quality score, ad rank, and various targeting options such as demographics, locations, and devices"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Google Ads Editor",
+              "desc": [
+                "Maximizing efficiency through bulk editing and optimization techniques"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " Display Advertising",
+              "desc": [
+                "Understanding display advertising, crafting impactful display ads, and optimizing display ad campaigns."
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " Video Advertising",
+              "desc": [
+                "Exploring YouTube advertising, creating compelling video ads, and optimizing video ad campaigns"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Shopping Campaigns",
+              "desc": [
+                "Harnessing Google Shopping, setting up product listings, integrating with Merchant Center, and optimizing shopping campaigns"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "SEM Analytics and Reporting",
+              "desc": [
+                " Leveraging Google Analytics for ads, tracking conversions, analyzing performance metrics, and generating insightful reports"
+              ]
+            }
+          }
+        ],
+        "id": 6,
+        "open": false
+      }
+    },
+    {
+      "Module0": {
+        "title": "Module 6",
+        "title1": "Social Media Ads 1.0",
+        "project": false,
+        "hrs": 12,
+        "descS": "",
+        "content": [
+          {
+            "chap": {
+              "title": "Meta Ads Part-1",
+              "desc": [
+                "Create a business page, Meta Pixel, events, dynamic ad creative, A/B testing, targeting, advantage budget, cost caps & bidding strategies"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Meta Ads Part-2",
+              "desc": [
+                "Core, custom & lookalike audience, FB ad placements, brand safety measures, headlines, and ad copies"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Meta Ads Part-3",
+              "desc": [
+                "Creative creation, remarketing audience, end-to-end campaign execution on Facebook and Instagram"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " Meta Ad Part-4",
+              "desc": [
+                "Meta ads metrics, FB dashboard analysis, ROI & ROAS evaluation, FB ad reports customization, A/B testing on campaigns and ad sets"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "LinkedIn Ads",
+              "desc": [
+                "Introduction, LIVE campaigns creation, audience targeting, campaign structure practice, optimization, crucial metrics identification, and LinkedIn metrics analysis"
+              ]
+            }
+          }
+        ],
+        "id": 7,
+        "open": false
+      }
+    },
+    {
+      "Module0": {
+        "title": "Module 7",
+        "title1": "Social Media Organic Marketing",
+        "project": false,
+        "hrs": 8,
+        "descS": "",
+        "content": [
+          {
+            "chap": {
+              "title": "Introduction and Differentiation",
+              "desc": [
+                "Introduction to Social Media Organic Marketing, Differentiate between organic and paid social media, Identify strategies for a strong social media presence"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " Organic Facebook & Instagram Marketing",
+              "desc": [
+                "Create business pages on Facebook and Instagram, Interpret algorithms' workings, Audit business pages, Create viral content, Setup business automation using META tools"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Organic LinkedIn & Twitter Marketing",
+              "desc": [
+                "Create LinkedIn business pages, Understand effective content types, Develop content strategies, Create lists, threads, & moments on Twitter"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " YouTube Organic",
+              "desc": [
+                "Establish YouTube Channels, Generate relevant ideas, Maximize views and subscribers, Monetize channels, Optimize for search engine, Measure success metrics"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Quora Marketing",
+              "desc": [
+                "Create accounts, Conduct question research, Drive traffic, Avoid common mistakes, Branding strategies"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "TikTok Marketing",
+              "desc": [
+                "Overview of TikTok, Account creation, Content creation, Community engagement, Performance tracking and analysis"
+              ]
+            }
+          }
+        ],
+        "id": 8,
+        "open": false
+      }
+    },
+    {
+      "Module0": {
+        "title": "Module 8",
+        "title1": "Email Marketing 1.0",
+        "project": false,
+        "hrs": 8,
+        "descS": "",
+        "content": [
+          {
+            "chap": {
+              "title": "Introduction",
+              "desc": [
+                "Basics of Email Marketing, Importance of Email Marketing, Evolution of Email Marketing"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Email Marketing Strategy",
+              "desc": [
+                "Setting Objectives and Goals for your Email Marketing Campaign, Target Audience and Segmentation, Types of Email Campaigns"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " Email Lists Building",
+              "desc": [
+                "List Building Strategies, Create Opt-in Forms and Lead Magnets, Managing Email Lists, Segmentation and Personalization of Audience, Audience List Hygiene and Maintenance, GDPR and Compliance"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Crafting Compelling Email Content",
+              "desc": [
+                " Learn how to write Effective Copy, Understanding Your Audience, A/B Testing Subject Lines for better open-rate, Personalization and Dynamic Content, How to design Engaging Emails, Best Practices for Layout and Design, Learn Mobile Responsiveness email, Multimedia in Emails"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " Email Automation and Sequences",
+              "desc": [
+                "Basics of Email Automation, Setting Up Automated Workflows, Drip Campaigns and Sequences, Process of lead nurturing via Email, Behavioral-based Triggers, Automated Campaign analysis & optimization"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Deliverability and Optimization",
+              "desc": [
+                "Email Deliverability components, Sender Reputation check & Management, Authentication Protocols (SPF, DKIM, DMARC), Avoiding Spam Traps, Testing and Optimization, A/B Testing for Campaigns, Analyzing Metrics (Open Rates, Click Rates), Email campaign optimization Strategies"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Integration with Other Marketing Channels",
+              "desc": [
+                "Email and Social Media Integration, Cross-platform Campaigns, Social Sharing and Forwarding, Integrating email tool with CRM Systems, Leveraging existing customer data to curate new audience, Integrating Email Marketing with organization marketing goal"
+              ]
+            }
+          }
+        ],
+        "id": 9,
+        "open": false
+      }
+    },
+    {
+      "Module0": {
+        "title": "Module 9",
+        "title1": "Inbound Marketing",
+        "project": false,
+        "hrs": 8,
+        "descS": "",
+        "content": [
+          {
+            "chap": {
+              "title": "Introduction",
+              "desc": [
+                "Basics of Inbound Marketing, Inbound vs. Outbound Marketing"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " Inbound Methodology",
+              "desc": [
+                "Attract - Creating valuable Content, Convert - Upgrade visitors into Leads, Close - Upgrade Leads into Customers, Delight - Building Customer Loyalty"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Creating Buyer Personas",
+              "desc": [
+                "Definition and Importance of Buyer Personas, Buyers Persona Research, Creating and using Buyer Personas in Digital Marketing"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Content Creation and Marketing",
+              "desc": [
+                "Creating Content Strategy, Blogging, Visual Content Creation, Content development for SEO"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Conversion Optimization",
+              "desc": [
+                "What is Conversion Rate Optimization (CRO), Landing Page Design for maximum performance, A/B Testing for Inbound Marketing, Analyzing and Improving Conversion Rates"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Chatbot",
+              "desc": [
+                " Introduction to Chatbots, Designing Conversational Flows, Building and Testing Chatbots, Deploying and Maintaining Chatbots"
+              ]
+            }
+          }
+        ],
+        "id": 10,
+        "open": false
+      }
+    },
+    {
+      "Module0": {
+        "title": "Module 10",
+        "title1": "Web Analytics 1.0",
+        "project": false,
+        "hrs": 8,
+        "descS": "",
+        "content": [
+          {
+            "chap": {
+              "title": "Introduction",
+              "desc": [
+                "Introduction to Google Analytics, Creating a Google Analytics Account, Connecting Google Analytics with your website, Navigating the Google Analytics UI"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": "Setting Up Google Analytics",
+              "desc": [
+                "Installing Google Analytics Tracking Code, Setting Up Goals and Conversions, Configuring E-commerce Tracking, Integrating Google Analytics with Other Google Platforms"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " Understanding Basic Metrics",
+              "desc": [
+                "Understand Key Metrics and Dimensions, Understand Audience Reports, Analyze Acquisition Reports, Interpreting Behavior Reports"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " Advanced Reporting and Customization",
+              "desc": [
+                "Customization of Dashboards and Reports, Learn Advanced Segments, Creating Custom Reports, Creating & using Custom Dimensions and Metrics"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " Campaign Tracking and Attribution",
+              "desc": [
+                "Understanding UTM Parameters, Learn Bitly, Interpreting Campaign Reports, Understanding Multi-Channel Funnels"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " Event Tracking and Enhanced E-commerce",
+              "desc": [
+                "Configuring Event Tracking, Analyzing Events in Google Analytics, Configuring Enhanced E-commerce Tracking, Interpreting E-commerce Reports"
+              ]
+            }
+          },
+          {
+            "chap": {
+              "title": " Data Visualization and Exporting",
+              "desc": [
+                "Creating Data Visualizations in Google Analytics, Exporting Data and Reports"
+              ]
+            }
+          }
+        ],
+        "id": 11,
+        "open": false
+      }
+    },
+    {
+      "Module0": {
+        "title": "Module 11",
+        "title1": "Gen-AI",
+        "project": false,
+        "hrs": 8,
+        "descS": "",
+        "content": [
+          {
+            "chap": {
+              "title": ": How to generate blog posts, social media updates, and email newsletters using ChatGPT",
+              "desc": []
+            }
+          },
+          {
+            "chap": {
+              "title": ": Use ChatGPT to craft engaging social media content",
+              "desc": []
+            }
+          },
+          {
+            "chap": {
+              "title": ": Creates subject lines, email copy, and CTAs for more compelling and personalized campaigns",
+              "desc": []
+            }
+          },
+          {
+            "chap": {
+              "title": ": Use ChatGPT to analyze user data to deliver personalized content recommendations, enhancing user experiences",
+              "desc": []
+            }
+          },
+          {
+            "chap": {
+              "title": ": Identifying hashtags, topics, and keywords for social media posts",
+              "desc": []
+            }
+          },
+          {
+            "chap": {
+              "title": ": Create an effective Customer Persona using ChatGPT Facebook, Google, and LinkedIn ads",
+              "desc": []
+            }
+          },
+          {
+            "chap": {
+              "title": ": Learn how to use prompts in Chat GPT for digital marketing tasks",
+              "desc": []
+            }
+          },
+          {
+            "chap": {
+              "title": ": Use ChatGPT to generate insights from marketing metrics",
+              "desc": []
+            }
+          }
+        ],
+        "id": 12,
+        "open": false
+      }
+    },
+    {
+      "Module0": {
+        "title": "Module 12",
+        "title1": "CRM",
+        "project": false,
+        "hrs": 8,
+        "descS": "",
+        "content": [
+          {
+            "chap": {
+              "title": ": Introduction to CRM",
+              "desc": []
+            }
+          },
+          {
+            "chap": {
+              "title": ": Setting Up Your Zoho CRM Account",
+              "desc": []
+            }
+          },
+          {
+            "chap": {
+              "title": ": Managing Contacts",
+              "desc": []
+            }
+          },
+          {
+            "chap": {
+              "title": ": Managing Leads",
+              "desc": []
+            }
+          },
+          {
+            "chap": {
+              "title": ": Managing Deals and Opportunities",
+              "desc": []
+            }
+          },
+          {
+            "chap": {
+              "title": ": Managing Accounts",
+              "desc": []
+            }
+          },
+          {
+            "chap": {
+              "title": ": Activities and Tasks",
+              "desc": []
+            }
+          },
+          {
+            "chap": {
+              "title": ": Workflow Automation",
+              "desc": []
+            }
+          },
+          {
+            "chap": {
+              "title": ": Integration and Collaboration",
+              "desc": []
+            }
+          }
+        ],
+        "id": 13,
+        "open": false
+      }
+    },
+    {
+      "Module0": {
+        "title": "Module 19",
+        "title1": "Digital Marketing Strategies",
+        "project": false,
+        "hrs": 8,
+        "descS": "",
+        "content": [
+          {
+            "chap": {
+              "title": "Understand Indian digital trends: demographics, devices, and multi-screening.",
+              "desc": []
+            }
+          },
+          {
+            "chap": {
+              "title": "Apply marketing principles like F and Purchase Cycle to guide strategy",
+              "desc": []
+            }
+          },
+          {
+            "chap": {
+              "title": "Creating Marketing funnel and customer journey",
+              "desc": []
+            }
+          },
+          {
+            "chap": {
+              "title": "Capitalize on digital 'AHA Moments' in the customer journey.",
+              "desc": []
+            }
+          },
+          {
+            "chap": {
+              "title": "Differentiate between branding and acquisition strategies.",
+              "desc": []
+            }
+          },
+          {
+            "chap": {
+              "title": "Use analytics for attribution and cross-device insights.",
+              "desc": []
+            }
+          },
+          {
+            "chap": {
+              "title": "Optimize campaigns through continuous testing and learning",
+              "desc": []
+            }
+          },
+          {
+            "chap": {
+              "title": "Embrace an iterative approach for ongoing refinement and success.",
+              "desc": []
+            }
+          }
+        ],
+        "id": 20,
+        "open": false
+      }
+    }
+  ],
+  "FaqDATA": [
+    {
+      "id": 1,
+      "ques": "Who should take this digital marketing course?      ",
+      "ans": "This course is ideal for Student, Freshers, Sales & Marketing Professional, Product Managers, Senior Manager & VPs, Freelancers,Homemakers and entrepreneur.",
+      "open": true
+    },
+    {
+      "id": 2,
+      "ques": "What will I learn in this digital marketing course?      ",
+      "ans": "This course provides complete knowledge on Digital Marketing including the  sub-domains like - Performance marketing,Growth marketing SEO, SEM, Graphic Desiging, Email marketing, Affiliate & Content marketing and Social Media marketing and implementation of Gen-AI.      ",
+      "open": false
+    },
+    {
+      "id": 3,
+      "ques": "Are there any prerequisites for this course?      ",
+      "ans": "There are no specific prerequisites. However, basic computer skills and familiarity with the internet will be helpful.      ",
+      "open": false
+    },
+    {
+      "id": 4,
+      "ques": "How long is the course?      ",
+      "ans": "You can complete all the mandatory core modules in 3 months, then you will do a paid internship with an external company for at least 3 months. So roughly this digital marketing course you can complete in 6 months.      ",
+      "open": false
+    },
+    {
+      "id": 5,
+      "ques": "Is the course available online?      ",
+      "ans": "Yes, this digital marketing course is 100% live online. We will provide instructor-based live classes wherein you can understand all topics thoroughly and ask your doubts if you have any.      ",
+      "open": false
+    },
+    {
+      "id": 6,
+      "ques": "What kind of certification will I receive?      ",
+      "ans": " Upon successful completion of our digital marketing course, you will receive 10+ globally recognized certificates that can be added to your resume and LinkedIn profile.      ",
+      "open": false
+    },
+    {
+      "id": 10,
+      "ques": "How much does the course cost?      ",
+      "ans": "This Digital Marketing course costs INR 35,000/- + 18% GST",
+      "open": false
+    },
+    {
+      "id": 8,
+      "ques": "How will this course benefit my career?      ",
+      "ans": "This digital marketing course will equip you with essential digital marketing skills, making you more competitive in the job market. It opens up opportunities in various roles such as Digital Marketing Specialist, SEO Expert, Social Media Manager, Content Marketer, and more.      ",
+      "open": false
+    },
+    {
+      "id": 9,
+      "ques": "What tools and platforms will I learn to use?      ",
+      "ans": "You will be hands-on 100+ tools and will work on 30+ branded case studies.      ",
+      "open": false
+    },
+    {
+      "id": 12,
+      "ques": "Does this course come with an Internship opportunity?      ",
+      "ans": "Yes, in our digital marketing course, we provide 4 types of internships, which you should choose based on your area of interest. They are growth Marketing, Performance & SEO, Performance & Social Media, SEO & Social Media.      ",
+      "open": false
+    },
+    {
+      "id": 13,
+      "ques": "What is the duration for which I can access this course?      ",
+      "ans": "This digital marketing course you can complete it within 6 months but, you will have 2 years of unlimited live class access to all batches and all course material along with live class recordings will be with you for a lifetime.      ",
+      "open": false
+    },
+    {
+      "id": 13,
+      "ques": "What are the career opportunities after completing this course?      ",
+      "ans": "Career opportunities after completing our digital marketing course include roles like:   Digital Marketing Specialist, SEO Analyst, Social Media Manager, Content Marketing Strategist, PPC Specialist, Email Marketing Manager,  Analytics Expert          ",
+      "open": false
+    },
+    {
+      "id": 13,
+      "ques": "Is there a job placement assistance program?      ",
+      "ans": "Yes our digital marketing course comes with guaranteed end-to-end job assistance      ",
+      "open": false
+    },
+    {
+      "id": 13,
+      "ques": "Can I get a refund if I am not satisfied with the course?      ",
+      "ans": "Yes, this digital marketing course has a refund policy. You can take the refund within 7 days from your 1st live class and the course should not be accessed by more than 10%. With no questions ask policy.      ",
+      "open": false
+    },
+    {
+      "id": 13,
+      "ques": " About the course?      ",
+      "ans": "The Skillslash Digital Marketing Master Course is an excellent opportunity for anyone looking to excel in the field of digital marketing. This comprehensive digital marketing course covers all the essential aspects required to become a proficient digital marketer. The curriculum is meticulously designed to provide practical knowledge and hands-on experience in various domains of digital marketing.Course Overview The **digital marketing course** at Skillslash encompasses a wide range of topics that are crucial for mastering the art of digital marketing. These include Search Engine Optimization (SEO), Search Engine Marketing (SEM), Social Media Marketing (SMM), Email Marketing, Content Marketing, and more. The course is structured to ensure that learners gain a thorough understanding of each topic through interactive live sessions. Learning Outcomes Upon completing this digital marketing course, participants will be able to: - Develop effective SEO strategies to improve website rankings on search engines. - Execute successful SEM campaigns using platforms like Google Ads.  - Utilize social media channels to create engaging content and campaigns. - Craft compelling email marketing campaigns to boost engagement and conversions.  - Implement content marketing techniques to attract and retain a clearly defined audience.  Key Features  Live Sessions and Expert Mentorship The digital marketing course features live sessions conducted by industry experts. These sessions provide real-time interaction and immediate feedback, ensuring that learners can clarify their doubts and gain in-depth knowledge. The mentorship program is designed to guide students through their learning journey, providing personalized support and career advice. Access to Tools and Resources Students enrolled in the digital marketing course will have access to over 100+ marketing tools used by professionals. This hands-on experience with industry-standard tools is invaluable, allowing learners to apply their knowledge practically and effectively. Certifications and Internships  The course offers more than 10 certifications, including those from Google, HubSpot, and Facebook, which are highly regarded in the digital marketing industry. Additionally, Skillslash guarantees internships that provide real-world experience, making the transition from learning to professional practice seamless. Placement Assistance  One of the standout features of the digital marketing course is the robust placement assistance program. Skillslash offers support with resume building, interview preparation, and guaranteed interview calls with top companies. This comprehensive career support ensures that students are well-prepared to enter the job market and succeed. Why Choose Skillslash? The digital marketing course at Skillslash stands out due to its focus on practical learning, expert mentorship, and comprehensive career support. Whether you are a student, a professional looking to upskill, or someone looking to switch careers, this course offers the perfect blend of theoretical knowledge and practical application. Conclusion    Investing in the Skillslash Digital Marketing Master Course is a strategic move for anyone serious about a career in digital marketing. The course's comprehensive curriculum, expert-led live sessions, access to professional tools, and extensive career support make it an unmatched opportunity for aspiring digital marketers. With a keyword density of around 2%, this content ensures that it aligns with SEO best practices while providing valuable information about the course. For more details and to enroll. By enrolling in this digital marketing course, you are setting yourself up for a successful and rewarding career in one of the most dynamic and in-demand fields today.  ",
+      "open": false
+    }
+  ]
+}

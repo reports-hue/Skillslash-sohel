@@ -1,6 +1,6 @@
 import dynamic from "next/dynamic";
 import styles from "./Reviews.module.css";
-import { dsReview, fsReview, webReview, homeReview, dmReview } from "./ReviewData";
+import { dsReview, fsReview, webReview, homeReview } from "./ReviewData";
 import { useEffect, useState } from "react";
 const ReviewSwiper = dynamic(() => import("./ReviewSwiper"));
 
@@ -26,7 +26,6 @@ const Reviews = ({
     event ? setReview(fsReview) : "";
     redirectFs || redirectDSA ? setReview(fsReview) : "";
     redirectWeb ? setReview(webReview) : "";
-    redirectDM ? setReview(dmReview): "";
   }, []);
   // const [video, setVideo] = useState(false);
   // const videoSHow = () => {

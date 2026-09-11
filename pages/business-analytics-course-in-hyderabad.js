@@ -1,6 +1,7 @@
 // pages/mumbai.js
 
 import React from "react";
+import { toJsonLdGraph } from "../lib/jsonLdGraph";
 import Head from "next/head";
 import Navbar from "../components/Navbar/Navbar";
 import BlogHeader from "../components/CityBlog/BlogHeader/BlogHeader";
@@ -9,18 +10,15 @@ import RelatedInfo from "../components/SeoComponents/ReleteadInfo/RelatedInfo";
 import BAHyderabadData from "../Data/Cities/hyderabad/BAHyderabadData";
 import Footer from "../components/Footer/Footer";
 import InternalLinking from "../components/InternalLinking/InternalLinking";
-import Popup from "../components/CityBlog/BlogPopup/Popup";
 
 const BAHyderabad = ({ data }) => {
   return (
     <div>
       <Head>
-        <title>
-        Title Best 10 Data Science Course Institute in Hyderabad  
-        </title>
+        <title>Best 10 Business Analytics Course Institutes in Hyderabad</title>
         <meta
           name="description"
-          content="  Discover the top 10 data science courses in hyderabad. Compare institutes, boost your skills, and advance your career with the best training options available."
+          content="Discover the top 10 business analytics courses in Hyderabad. Compare institutes, boost your skills, and advance your career with the best training options available."
         />
         <meta
           name="keywords"
@@ -30,8 +28,10 @@ const BAHyderabad = ({ data }) => {
           rel="canonical"
           href="https://skillslash.com/business-analytics-course-in-hyderabad"
         />
-        <script type="application/ld+json">
-          {JSON.stringify({
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: toJsonLdGraph({
             "@context": "https://schema.org/",
             "@type": "Product",
             name: "Business analytics course in hyderabad",
@@ -46,8 +46,9 @@ const BAHyderabad = ({ data }) => {
               worstRating: "1",
               ratingCount: "22657",
             },
-          })}
-        </script>
+          }),
+          }}
+        />
       </Head>
 
       <Navbar />
@@ -57,11 +58,11 @@ const BAHyderabad = ({ data }) => {
         title="Business Analytics Course Training Institutes"
         subTitle="Top 7 "
         titleAuthor="Siddharth"
-        authorPro="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/ai_face.webp"
+        authorPro="/cdn/city_Blog/ai_face.svg"
         linkedinId="https://www.linkedin.com/in/amit-ambi-axh08/"
-        rytImg="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/mumbai_top_10_comp.webp"
-        backgroundImg="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_bg_mumbai.webp"
-        cityImg="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/mumbai_place.webp"
+        rytImg="/cdn/city_Blog/mumbai_top_10_comp.svg"
+        backgroundImg="/cdn/city_Blog/blog_bg_mumbai.svg"
+        cityImg="/cdn/city_Blog/mumbai_place.svg"
       />
 
       <BlogContent
@@ -74,7 +75,6 @@ const BAHyderabad = ({ data }) => {
 
       <InternalLinking />
       <Footer />
-      <Popup />
     </div>
   );
 };

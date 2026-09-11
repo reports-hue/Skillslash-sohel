@@ -26,7 +26,7 @@ export default function ThankYou() {
       <Head>
         <title>Thank You</title>
         <meta name="description" content="Thank you for your submission" />
-        <link rel="icon" href="/favicon.ico" />
+        <meta name="robots" content="noindex,follow" />
       </Head>
       <Navbar course={false} homePage={true} redirectDM={true} />
       <main className="flex flex-col items-center justify-center min-h-screen py-2">

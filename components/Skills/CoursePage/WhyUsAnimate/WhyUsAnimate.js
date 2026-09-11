@@ -25,28 +25,28 @@ const WhyUsAnimate = ({
     target: ref,
   });
   const imageSrc = [
-    "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/NewDatascience/Certificate+Of+Internship.webp",
+    "/cdn/NewDatascience/Certificate-Of-Internship.svg",
     // Add other image URLs as needed
-    "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/NewDatascience/project-experience.webp",
+    "/cdn/NewDatascience/project-experience.svg",
     redirectDa
-      ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/NewDatascience/microsoft-data-analytics.webp"
-      : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/NewDatascience/microsft-data-science.webp",
+      ? "/cdn/NewDatascience/microsoft-data-analytics.svg"
+      : "/cdn/NewDatascience/microsft-data-science.svg",
   ];
   const imageSrcselfpaced = [
-    "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/certificate/VISHANT-VERMAWed-Jan-31-2024-12-36-01-GMT-0000--Coordinated-Universal-Time--325722i0gu.pdf.png",
+    "/cdn/certificate/VISHANT-VERMAWed-Jan-31-2024-12-36-01-GMT-0000--Coordinated-Universal-Time--325722i0gu.svg",
     // Add other image URLs as needed
-    "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/certificate/VISHANT-VERMAWed-Jan-31-2024-12-36-01-GMT-0000--Coordinated-Universal-Time--325722i0gu.pdf.png",
+    "/cdn/certificate/VISHANT-VERMAWed-Jan-31-2024-12-36-01-GMT-0000--Coordinated-Universal-Time--325722i0gu.svg",
     redirectDa
-      ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/certificate/VISHANT-VERMAWed-Jan-31-2024-12-36-01-GMT-0000--Coordinated-Universal-Time--325722i0gu.pdf.png"
-      : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/certificate/VISHANT-VERMAWed-Jan-31-2024-12-36-01-GMT-0000--Coordinated-Universal-Time--325722i0gu.pdf.png",
+      ? "/cdn/certificate/VISHANT-VERMAWed-Jan-31-2024-12-36-01-GMT-0000--Coordinated-Universal-Time--325722i0gu.svg"
+      : "/cdn/certificate/VISHANT-VERMAWed-Jan-31-2024-12-36-01-GMT-0000--Coordinated-Universal-Time--325722i0gu.svg",
   ];
   const imageSrcDM = [
-    "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Google-Ads-Display.webp",
+    "/cdn/Google-Ads-Display.svg",
     // Add other image URLs as needed
-    "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/meta.jpeg",
+    "/cdn/meta.svg",
     redirectDM
-      ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/semrush-cer.png"
-      : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/meta.jpeg",
+      ? "/cdn/semrush-cer.svg"
+      : "/cdn/meta.svg",
   ];
 
   const [popups, setPopups] = useState(false);

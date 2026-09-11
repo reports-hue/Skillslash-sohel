@@ -80,7 +80,7 @@ export const DeskTab = ({ Details, extraDiv }) => {
               <div className={styles.headImg}>
                 <Image
                   alt="NodeJS Event"
-                  src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/python-workshop-9-august-2022.webp"
+                  src="/cdn/static/event/python-workshop-9-august-2022.svg"
                   width="641"
                   height="190"
                 />
@@ -118,7 +118,7 @@ export const DeskTab = ({ Details, extraDiv }) => {
               <div className={styles.headImg}>
                 <Image
                   alt="NodeJS Event"
-                  src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/SQL-workshop-26th-july-2022.webp"
+                  src="/cdn/static/event/SQL-workshop-26th-july-2022.svg"
                   width="641"
                   height="190"
                 />

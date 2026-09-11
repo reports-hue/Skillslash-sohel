@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Head from "next/head";
 import styles from "../../styles/DataScienceEvent.module.css";
 import { getSortedPostsData } from "../../lib/event";
@@ -11,37 +11,23 @@ const EventTab = dynamic(() =>
 );
 
 export default function index({ eventData }) {
-  const today = new Date();
-  const [viewAllData, setViewAllData] = useState(eventData);
-
-  useEffect(() => {
-    setViewAllData(
-      viewAllData.map((post) => {
-        if (new Date(post.eventEnd) < today) {
-          return post;
-        }
-      })
-    );
-  }, []);
-
   return (
     <div>
       <Head>
-        <title>
-          Register for Free webinars, workshop, Masterclass -Skillslash
-        </title>
+        <title>Past Webinars, Workshops &amp; Masterclasses - Skillslash</title>
         <meta
           name="description"
-          content="Enroll in Full stack and and data science masterclass for free and learn from industry experts."
+          content="Archive of Skillslash webinars, workshops and masterclasses. Every listed session has already run - the recordings and topics are kept here for reference."
         />
-        
+        <meta name="robots" content="noindex,follow" />
+
       </Head>
       <Navbar course={false} />
 
       <div className={styles.event}>
-        <h1>Events on Skillslash</h1>
+        <h1>Past events on Skillslash</h1>
         <div className={styles.eventTab}>
-          <EventTab data={viewAllData} />
+          <EventTab data={eventData} />
         </div>
       </div>
 

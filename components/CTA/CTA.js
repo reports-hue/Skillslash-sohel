@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Cta.module.css";
-import { IoMdCall } from "react-icons/io";
 import Image from "next/image";
 
 const CTA = ({ redirectDSA }) => {
@@ -8,7 +7,7 @@ const CTA = ({ redirectDSA }) => {
     <div className={styles.CtaWrapper}>
       <div className={styles.firstCta}>
         <Image
-          src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/NewDatascience/Header/Skillslash%2BNew%2BLogo%2B(white).webp"
+          src="/cdn/NewDatascience/Header/Skillslash-New-Logo-white.svg"
           alt="Getting confused ask directly to a expert"
           style={{ objectFit: "contain" }}
           width={137}
@@ -24,10 +23,11 @@ const CTA = ({ redirectDSA }) => {
           Having difficulties? Connect with our counselor to discover more about
           this course.
         </p>
-        <a href="tel:+91- ">
+        <a href="/Contact-us">
           <button>
             <Image
-              src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/NewDatascience/Header/chat-with-us.gif"
+              src="/cdn/NewDatascience/Header/chat-with-us.svg"
+              alt=""
               width={30}
               height={30}
             />
@@ -38,7 +38,7 @@ const CTA = ({ redirectDSA }) => {
       <div className={styles.rightCta}>
         <div className={styles.imgwrap}>
           <Image
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/NewDatascience/call-icon.webp"
+            src="/cdn/NewDatascience/call-icon.svg"
             alt="Getting confused ask directly to a expert"
             style={{ objectFit: "contain" }}
             width={235}

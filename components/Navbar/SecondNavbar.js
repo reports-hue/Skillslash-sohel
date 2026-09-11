@@ -2,8 +2,6 @@ import React, { useState, useEffect, useRef } from "react";
 import styles from "./SecondNavbar.module.css";
 import { FiDownload } from "react-icons/fi";
 import dynamic from "next/dynamic";
-const Popup = dynamic(() => import("../Popup/Popup"));
-const Form = dynamic(() => import("../Form/Form"));
 const MegaMenu = dynamic(() => import("../MegaMenu/MegaMenu"));
 // import CountDownTimer from "../CountdownTimer/CountdownTimer";
 const ContactForm = dynamic(() => import("../ContactusForm/ContactusForm"));
@@ -29,7 +27,6 @@ const SecondNavbar = ({
   redirectBl,
   redirectWeb,
 }) => {
-  const [popups, setPopups] = useState(false);
   const [secondNavbar, setSecondNavbar] = useState(false);
   const [activeState, setActiveState] = useState({
     alumni: false,
@@ -46,11 +43,6 @@ const SecondNavbar = ({
 
   const [changeHeading, setChangeHeading] = useState(false);
   const [changeText, setChangeText] = useState(false);
-  const popupShow = (demoClass, changeText) => {
-    setChangeHeading(demoClass);
-    setChangeText(changeText);
-    setPopups(true);
-  };
 
   const first = useRef();
   const second = useRef();
@@ -293,33 +285,6 @@ const SecondNavbar = ({
   }, [activeState]);
   return secondNavbar ? (
     <div>
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-        <div className="leftPopup">
-          <div className="whiteP" />
-        </div>
-        <div className="RightPopup">
-          {changeHeading ? (
-            <h5>Download Program Handbook</h5>
-          ) : (
-            <h5>Apply For Counselling</h5>
-          )}
-          <p>Fill the below Details to get started</p>
-          {course ? (
-            <Form
-              popup={true}
-              setTrigger={setPopups}
-              dataScience={dataScience}
-              redirectDs={redirectDs}
-              redirectFs={redirectFs}
-              redirectBa={redirectBa}
-              redirectDe={redirectDe}
-              redirectWd={redirectWeb}
-            />
-          ) : (
-            <ContactForm setTrigger={setPopups} popup={true} />
-          )}
-        </div>
-      </Popup>
 
       <div className={styles.navWrap}>
         <nav>
@@ -394,16 +359,6 @@ const SecondNavbar = ({
             >
               <p> Faq</p>
             </div>
-          </div>
-          <div className={styles.right}>
-            <button
-              className={styles.outline}
-              onClick={() => popupShow(true, false)}
-            >
-              <FiDownload className={styles.icon} />
-              Brochure
-            </button>
-            <button onClick={() => popupShow(false, true)}>Apply Now</button>
           </div>
         </nav>
       </div>

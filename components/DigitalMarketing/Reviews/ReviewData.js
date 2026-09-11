@@ -2,23 +2,23 @@
 const reviewsData = [
     {
       id: 0,
-      src: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/review_one.webp",
+      src: "/cdn/digital-marketing/review_one.svg",
       alt: "Review"
     },
    
     {
       id: 1,
-      src: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/review_three.webp",
+      src: "/cdn/digital-marketing/review_three.svg",
       alt: "Review "
     },
     {
       id: 2,
-      src: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/Review_Four.webp",
+      src: "/cdn/digital-marketing/Review_Four.svg",
       alt: "Review "
     },
     {
       id: 3,
-      src: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/Review_five.webp",
+      src: "/cdn/digital-marketing/Review_five.svg",
       alt: "Review "
     }
   ];

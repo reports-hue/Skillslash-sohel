@@ -19,7 +19,7 @@ const Intro = () => {
       ) : (
         <div className={style.imageWrapper}>
           <Image
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/demo-page-video-header.webp"
+            src="/cdn/static/web/New-UI/demo-page-video-header.svg"
             priority={true}
             alt="Skillslash Build your Demo Header Image"
             fill={true}
@@ -41,7 +41,7 @@ const Intro = () => {
         </div>
         <div className={style.imgWrap}>
           <Image
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/demo-page-video-back-img.webp"
+            src="/cdn/static/web/New-UI/demo-page-video-back-img.svg"
             width={427}
             height={318}
             alt="Video-header-image"

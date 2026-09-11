@@ -1,0 +1,43 @@
+.rail {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.link,
+.active {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 9px 18px;
+  border-radius: 999px;
+  text-decoration: none;
+  border: 1px solid #ded9f2;
+  color: #4a4757;
+  background: #ffffff;
+  white-space: nowrap;
+}
+
+.link:hover {
+  border-color: #4f419a;
+  color: #4f419a;
+}
+
+.active {
+  background: #4f419a;
+  border-color: #4f419a;
+  color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  .rail {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .rail::-webkit-scrollbar {
+    display: none;
+  }
+}

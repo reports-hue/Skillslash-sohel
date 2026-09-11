@@ -2,8 +2,6 @@ import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import styles from "./Emi.module.css";
 import dynamic from "next/dynamic";
-const Popup = dynamic(() => import("../../Popup/Popup"));
-const Form = dynamic(() => import("../../Skills/Global/Form/Form"));
 
 const Emi = ({
   redirectWeb,
@@ -18,15 +16,11 @@ const Emi = ({
   const router = useRouter();
   const { id } = router.query;
 
-  const [popups, setPopups] = useState(false);
   const [mobile, setMobile] = useState(false);
   const [batches, setBatches] = useState([]);
   const [web, setWeb] = useState("");
   const [emi, setEmi] = useState("");
 
-  const popupShow = () => {
-    setPopups(true);
-  };
 
   useEffect(() => {
     let width = window.innerWidth;
@@ -83,27 +77,6 @@ const Emi = ({
 
   return (
     <div className={styles.EmiWrapper}>
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-        <div className="leftPopup">
-          <div className="whiteP" />
-        </div>
-        <div className="RightPopup">
-          <h5>Apply For Counselling</h5>
-          <p>Fill the below Details to get started</p>
-          <Form
-            popup={true}
-            setTrigger={setPopups}
-            dataScience={false}
-            redirectDs={redirectDs}
-            redirectFs={redirectFs}
-            redirectBa={redirectBa}
-            redirectDe={redirectDe}
-            redirectWeb={redirectWeb}
-            redirectDSA={redirectDSA}
-            redirectDM={redirectDM}
-          />
-        </div>
-      </Popup>
       <div className={styles.leftEmi}>
         <h6>Batch Details</h6>
         <div className={styles.list}>
@@ -132,9 +105,6 @@ const Emi = ({
         <div className={styles.top}>
           <div className={styles.topEmiLeft}>
             <h6>Course Fee {price} </h6>
-          </div>
-          <div className={styles.topEmiRight}>
-            <button onClick={popupShow}>Apply Now</button>
           </div>
         </div>
       </div>

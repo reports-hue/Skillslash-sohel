@@ -118,11 +118,9 @@ const Navbar = ({
                 <Link href="/event">Events</Link>
               </span>
               <span onClick={showMenu}>
-                <Link href="/About">About Us</Link>
               </span>
 
               <span onClick={showMenu}>
-                <Link href="/Contact-us">Conctact Us</Link>
               </span>
 
               <span onClick={showMenu}>
@@ -133,7 +131,7 @@ const Navbar = ({
 
           <Link href="/">
             <Image
-              src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Skillslash-logo-new.png"
+              src="/cdn/static/web/New-UI/Skillslash-logo-new.svg"
               alt="Skillslash"
               quality={100}
               style={{ objectFit: "contain" }}
@@ -193,10 +191,8 @@ const Navbar = ({
                 <Link href="/event">EVENTS</Link>
               </span>
               <span>
-                <Link href="/About">ABOUT US</Link>
               </span>
               <span>
-                <Link href="/Contact-us">Contact us</Link>
               </span>
               <span>
                 <Link href="/blog">Blog</Link>

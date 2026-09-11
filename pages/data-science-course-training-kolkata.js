@@ -1,6 +1,7 @@
 // pages/mumbai.js
 
 import React from "react";
+import { toJsonLdGraph } from "../lib/jsonLdGraph";
 import Head from "next/head";
 import Navbar from "../components/Navbar/Navbar";
 import BlogHeader from "../components/CityBlog/BlogHeader/BlogHeader";
@@ -9,14 +10,13 @@ import RelatedInfo from "../components/SeoComponents/ReleteadInfo/RelatedInfo";
 import KolkataData from "../Data/Cities/KolkataData";
 import Footer from "../components/Footer/Footer";
 import InternalLinking from "../components/InternalLinking/InternalLinking";
-import Popup from "../components/CityBlog/BlogPopup/Popup";
 
 const Kolkata = ({ data }) => {
   return (
     <div>
       <Head>
         <title>
-        Top 10 Data Science Course Training Institutes in Kolkata
+        Top 9 Data Science Course Training Institutes in Kolkata
         </title>
         <meta
           name="description"
@@ -30,8 +30,10 @@ const Kolkata = ({ data }) => {
           rel="canonical"
           href="https://skillslash.com/data-science-course-training-kolkata"
         />
-        <script type="application/ld+json">
-          {JSON.stringify({
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: toJsonLdGraph({
             "@context": "https://schema.org/",
             "@type": "Product",
             "name": "Data science course in Kolkata",
@@ -46,8 +48,9 @@ const Kolkata = ({ data }) => {
               "worstRating": "1",
               "ratingCount": "22880"
             },
-          })}
-        </script>
+          }),
+          }}
+        />
 
  
        
@@ -60,13 +63,13 @@ const Kolkata = ({ data }) => {
       city="Kolkata"
       noImg ={true}
         title=" Data Science Course Training Institutes in "
-              subTitle="Top 10"
+              subTitle="Top 9"
         titleAuthor="Amit"
-        authorPro="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/ai_face.webp"
+        authorPro="/cdn/city_Blog/ai_face.svg"
         linkedinId="https://www.linkedin.com/in/amit-ambi-axh08/"
-        rytImg="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/kolkata_right.webp"
-        backgroundImg="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_bg_mumbai.webp"
-        cityImg="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/kolkata_palce.webp"
+        rytImg="/cdn/city_Blog/kolkata_right.svg"
+        backgroundImg="/cdn/city_Blog/blog_bg_mumbai.svg"
+        cityImg="/cdn/city_Blog/kolkata_palce.svg"
       />
 
       <BlogContent
@@ -80,7 +83,6 @@ const Kolkata = ({ data }) => {
    
          <InternalLinking/>
       <Footer />
-      <Popup/>
     </div>
   );
 };

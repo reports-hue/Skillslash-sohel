@@ -41,7 +41,7 @@ const BoxShape = ({
               <div className={styles.box}>
                 <div className={styles.ImgB}>
                   <img
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/work-experience-icon.webp"
+                    src="/cdn/static/web/New-UI/work-experience-icon.svg"
                     alt={alt1}
                     className={styles.icon}
                     width="40"
@@ -57,7 +57,7 @@ const BoxShape = ({
               <div className={styles.box}>
                 <div className={styles.ImgC}>
                   <img
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/professional-icon.webp"
+                    src="/cdn/static/web/New-UI/professional-icon.svg"
                     alt={alt2}
                     className={styles.icon}
                     width="35"
@@ -73,7 +73,7 @@ const BoxShape = ({
               <div className={styles.box}>
                 <div className={styles.ImgC}>
                   <img
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/chat-inerview-icon.webp"
+                    src="/cdn/static/web/New-UI/chat-inerview-icon.svg"
                     alt={alt3}
                     className={styles.icon}
                     width="35"
@@ -89,7 +89,7 @@ const BoxShape = ({
               <div className={styles.box}>
                 <div className={styles.ImgC}>
                   <img
-                    src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/work-experience-icon.webp"
+                    src="/cdn/static/web/New-UI/work-experience-icon.svg"
                     alt={alt4}
                     className={styles.icon}
                     width="35"

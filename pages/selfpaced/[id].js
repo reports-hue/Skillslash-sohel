@@ -14,7 +14,6 @@ import Reviews from "../../components/Review/Reviews";
 import DetailTable from "../../components/Skills/CoursePage/DetailTable/DetailTable";
 import Learn from "../../components/Skills/CoursePage/Learn/Learn";
 import Footer from "../../components/Footer/Footer";
-import WhatsappButton from "../../components/WhatsAppButton/WhatsappButton";
 import CTA from "../../components/CTA/CTA";
 import BottomPrice from "../../components/Skills/BottomPrice/BottomPrice";
 import SkillsContent from "../../components/Skills/CoursePage/SkillsContent/SkillsContent";
@@ -23,7 +22,13 @@ import CareerSupport from "../../components/Skills/CoursePage/CareerSupport/Care
 import ToolsCovered from "../../components/Skills/CoursePage/ToolsCovered/ToolsCovered";
 import PriceCompare from "../../components/Skills/CoursePage/PriceCompare/PriceCompare";
 
-const DataSciencePage = ({ DataScienceCourseData, }) => {
+// "-ac1" / "-ps1" slugs are ad-campaign copies of an existing landing page
+// with identical copy. Paid traffic still lands on them, so they stay live,
+// but they canonicalise to the clean slug so only one URL is indexed.
+const CAMPAIGN_VARIANT = /-(ac1|ps1)$/;
+
+const DataSciencePage = ({ DataScienceCourseData, slug }) => {
+  const canonicalSlug = slug.replace(CAMPAIGN_VARIANT, "");
   const [showNigeriaForm, setShowNigeriaForm] = useState(false);
   const [actualPrice, setActualPrice] = useState(
     DataScienceCourseData.data.header.actualPrice
@@ -84,6 +89,10 @@ const DataSciencePage = ({ DataScienceCourseData, }) => {
         <meta
           name="description"
           content={DataScienceCourseData.data.header.desc}
+        />
+        <link
+          rel="canonical"
+          href={`https://skillslash.com/selfpaced/${canonicalSlug}`}
         />
       </Head>
       <Navbar
@@ -220,11 +229,6 @@ const DataSciencePage = ({ DataScienceCourseData, }) => {
         />
       </div>
       <Footer />
-      <WhatsappButton
-        redirectDs={DataScienceCourseData.data.header.dataScience}
-        redirectDa={DataScienceCourseData.data.header.dataAnalytics}
-        redirectFs={DataScienceCourseData.data.header.FullStack}
-      />
       <BottomPrice
         checkoutLink={DataScienceCourseData.data.header.indCheckout}
         offerPrice={offerPrice}
@@ -260,6 +264,7 @@ export async function getStaticProps({ params }) {
   return {
     props: {
       DataScienceCourseData,
+      slug: params.id,
     },
   };
 }

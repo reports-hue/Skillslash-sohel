@@ -17,6 +17,7 @@ export default function ThankYou({ DataScienceCourseData }) {
             name="description"
             content={DataScienceCourseData.data.metaInfo.desc}
           />
+          <meta name="robots" content="noindex,follow" />
         </Head>
         <section className={styles.mains}>
           <div className={styles.left}>

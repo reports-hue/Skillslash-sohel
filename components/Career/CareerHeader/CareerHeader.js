@@ -19,7 +19,7 @@ const CareerHeader = () => {
       ) : (
         <div className={style.imageWrapper}>
           <Image
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/CareerHeader.webp"
+            src="/cdn/static/web/New-UI/CareerHeader.svg"
             priority={true}
             alt="Skillslash Build your Career Header Image"
             fill={true}

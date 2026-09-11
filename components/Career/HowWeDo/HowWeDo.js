@@ -11,7 +11,7 @@ const HowWeDo = () => {
       <div className={style.wrapperBox}>
         <div>
           <Image
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/CareerMidSec.webp"
+            src="/cdn/static/web/New-UI/CareerMidSec.svg"
             alt="How we do it"
             quality={100}
             style={{ objectFit: "contain" }}
@@ -21,7 +21,7 @@ const HowWeDo = () => {
         </div>
         <div>
           <Image
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/how-we-do-it-2nd-img.png"
+            src="/cdn/static/web/New-UI/how-we-do-it-2nd-img.svg"
             alt="How we do it"
             quality={100}
             style={{ objectFit: "contain" }}
@@ -31,7 +31,7 @@ const HowWeDo = () => {
         </div>
         <div>
           <Image
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/how-we-do-it-3rd-image.png"
+            src="/cdn/static/web/New-UI/how-we-do-it-3rd-image.svg"
             alt="How we do it"
             quality={100}
             style={{ objectFit: "contain" }}

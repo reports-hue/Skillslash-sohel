@@ -25,7 +25,7 @@ const Notfound = () => {
       </div>
       <div>
         <Image
-          src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/404-1.webp"
+          src="/cdn/static/web/404-1.svg"
           height="500"
           width="500"
           alt="Page Not Found"

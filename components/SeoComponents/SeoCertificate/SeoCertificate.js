@@ -52,8 +52,8 @@ const Certificate = ({
                 Edge over all those with just course certifications
               </p>
               <p className={styles.point}>
-                <BsCheckLg className={styles.check} /> Lorem ipsum lorem Lorem
-                ipsum lorem ipsum
+                <BsCheckLg className={styles.check} /> Get recognized for new
+                job opportunities
               </p>
             </div>
           </div>
@@ -120,8 +120,8 @@ const Certificate = ({
                     className="shadow"
                     src={
                       redirectBa
-                        ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/data-sample-certificate.webp"
-                        : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Microsoft-certificate-data-science-without-border.webp"
+                        ? "/cdn/static/web/New-UI/data-sample-certificate.svg"
+                        : "/cdn/static/web/New-UI/Microsoft-certificate-data-science-without-border.svg"
                     }
                     alt={altM}
                     quality={100}
@@ -136,7 +136,7 @@ const Certificate = ({
                     <div className={styles.logo}>
                       <div>
                         <Image
-                          src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Skillslash-new-white-new-logo.webp"
+                          src="/cdn/static/web/New-UI/Skillslash-new-white-new-logo.svg"
                           alt="Skillslash"
                           quality={100}
                           style={{ objectFit: "contain" }}
@@ -148,7 +148,7 @@ const Certificate = ({
                         style={{ display: "flex", justifyContent: "flex-end" }}
                       >
                         <Image
-                          src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/microsoft-white-1.png"
+                          src="/cdn/static/web/New-UI/microsoft-white-1.svg"
                           alt="Skillslash"
                           quality={100}
                           width={200}

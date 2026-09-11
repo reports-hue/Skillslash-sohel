@@ -88,7 +88,7 @@ const FirstSection = ({
           <p className={styles.powered}>
             Powered by
             <Image
-              src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/microsoft-icon-logo-black.png"
+              src="/cdn/static/web/New-UI/microsoft-icon-logo-black.svg"
               height={20}
               width={90}
               priority
@@ -111,7 +111,7 @@ const FirstSection = ({
             <div className={styles.uspFeatures1}>
               <div>
                 <Image
-                  src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/liveTV.webp"
+                  src="/cdn/static/web/New-UI/liveTV.svg"
                   priority
                   alt="learn directly from live classes"
                   width={32}
@@ -125,7 +125,7 @@ const FirstSection = ({
             <div className={styles.uspFeatures2}>
               <div>
                 <Image
-                  src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/certificate-icon-first.png"
+                  src="/cdn/static/web/New-UI/certificate-icon-first.svg"
                   priority
                   alt=" Direct Company experience certificate"
                   width={34}
@@ -141,7 +141,7 @@ const FirstSection = ({
             <div className={styles.uspFeatures3}>
               <div>
                 <Image
-                  src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/emi-icon.webp"
+                  src="/cdn/static/web/New-UI/emi-icon.svg"
                   alt="get Program with low cost EMI"
                   priority
                   width="32"
@@ -155,7 +155,7 @@ const FirstSection = ({
             <div className={styles.uspFeatures4}>
               <div>
                 <Image
-                  src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/like.webp"
+                  src="/cdn/static/web/New-UI/like.svg"
                   alt="100% Interview Guarantee"
                   width="32"
                   priority

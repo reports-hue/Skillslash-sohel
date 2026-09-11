@@ -11,7 +11,7 @@ const DSAData = {
 
 <tr>
 
- <th style="border: 1px solid #ccc; padding: 8px">Top 10 DSA Courses Online</th>
+ <th style="border: 1px solid #ccc; padding: 8px">Top 9 DSA Courses Online</th>
 
  <th style="border: 1px solid #ccc; padding: 8px">Fees range (INR)</th>
 
@@ -22,9 +22,6 @@ const DSAData = {
 </thead>
 
 <tbody>
-
-
-
 
 <tr>
 
@@ -53,15 +50,7 @@ const DSAData = {
   
   <td style="border: 1px solid #ccc; padding: 8px">Bosscoder </td>
   
-  </tr>
-  <tr>    
-
-    <td style="border: 1px solid #ccc; padding: 8px"><a href="">Scaler Academy</a></td>
-    <td style="border: 1px solid #ccc; padding: 8px">INR 8,628/month as EMI and scholarship amount</td>
-   
-    <td style="border: 1px solid #ccc; padding: 8px">Scaler </td>
-   
-   </tr>   
+  </tr>   
     <tr>  
 
       <td style="border: 1px solid #ccc; padding: 8px"><a href="">AlgoTutor</a></td>
@@ -106,8 +95,7 @@ const DSAData = {
     <td style="border: 1px solid #ccc; padding: 8px">Physics Wallah Skills</td>
    
    </tr>
-   
- 
+
 <tr>   
 
  <td style="border: 1px solid #ccc; padding: 8px"><a href="">Careerpedia  </a></td>
@@ -122,12 +110,7 @@ const DSAData = {
 
 </div>
 
-
-
-
 <p>Aspiring learners from CS and engineering fields must master cutting-edge tools and practices to build a rewarding career. DSA is a critical part of today’s computational age that everyone must master. Also, DSA crafts an alluring career path for tech and non-tech experts with unique skill sets. Hence, pursuing a <b>data structures and algorithms course</b> is vital for experts to level up their coding skills. </p>
-
-<span class="next-image-placeholder" data-src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/banner_c.webp" data-alt="Banner Image" data-width="800" data-height="400"></span></a>
 
 <p><b>Yet, many learners question why DSA. What is the essence of pursuing this course in the tech age? </b></p>
 <p>Several tech and non-tech experts join proven courses to <b>learn data structures and algorithms.</b>  They intend to build an invincible tech career with optimized computational skills and land promising roles. The present tech space demands skilled talents to handle complex data systems. Adapting to the rising tech creations sets the stage for reaching a thriving edge. Hence, DSA learning is worth it, and anyone keen to thrive in the future must consider it. </p>
@@ -138,9 +121,6 @@ const DSAData = {
 <p>The oppressive digital models are lifting the future of businesses with better growth chances and profit margins. Hence, firms require skilled experts to handle real-world business issues with tactful solutions. <b>DSA and system design course</b> equips you with skills to build optimized models and tackle intricacies. </p>
 
 <p>Now, let’s review the key criteria learners must go through before choosing the <b>best DSA course. </b></p>
-
-
-
 
 <div class="table-container" style="overflow-x: auto;">
 
@@ -154,7 +134,6 @@ const DSAData = {
 
       <th style="border: 1px solid #ccc; ">Description       </th>
 
-
     </tr>
 
   </thead>
@@ -166,8 +145,6 @@ const DSAData = {
       <td style="border: 1px solid #ccc; vertical-align: top; font-weight: 700;"><a href="" style="color:black; vertical-align: top;" onmouseover="this.style.color='#4f419a'" onmouseout="this.style.color='black'">Course Syllabus </a> </td>
 
       <td style="border: 1px solid #ccc; vertical-align: top;">Experts must review course modules to check if they contain the latest tools, trends, and practices. Joining a regularly revised syllabus helps you grasp proven skills covering basic to advanced topics.  </td>
-
-
 
     </tr>
 
@@ -184,7 +161,6 @@ const DSAData = {
         Learning under the guidance of eminent experts helps you learn data structures. Mentorship from experts enables you to gain insights into real-world issues and tackle tough times. 
 
       </td>
-
 
     </tr>
 
@@ -211,8 +187,6 @@ const DSAData = {
 
       <td style="border: 1px solid #ccc; vertical-align: top;">Experts keen to join a <b>DSA full course</b> must check the quality of the learning resources. Here, you can check if, it offers updated recordings, coding exercises, textbooks, and other reliable sources.</td>
     </tr>
-
-    
 
     <tr>
 
@@ -254,8 +228,6 @@ const DSAData = {
 
       </td>
 
-      
-
     </tr>
     <tr>
       <td style="border: 1px solid #ccc; vertical-align: top; font-weight: 700;">
@@ -267,8 +239,6 @@ const DSAData = {
         Learners joining the <b>best DSA course</b> will receive globally acclaimed credentials from top leaders. These certificates improve your skills and help you build a global-scale career.  
 
       </td>
-
-      
 
     </tr>
     <tr>
@@ -282,10 +252,7 @@ const DSAData = {
 
       </td>
 
-      
-
     </tr>
-    
 
   </tbody>
 
@@ -293,8 +260,7 @@ const DSAData = {
 
 </div>
 
-<h2>Enlisting Top 10 DSA Courses Online [2025 Update]</h2>
-
+<h2>Enlisting Top 9 DSA Courses Online [2025 Update]</h2>
 
 <h3 id="Learnbay"><b>1. Data Structures Algorithms and System Design Course – Learnbay</b></h3>
 
@@ -315,18 +281,9 @@ const DSAData = {
 <li style="margin-bottom: 10px;">Attend job and placement programs to land promising roles with the leading MNCs/MAANG.</li>
 <li style="margin-bottom: 10px;">Earn globally recognized credentials from IBM & Microsoft to escalate career success rates in 2025.</li>
 
-
-
 </ul>
 
 <p><b>Fees: </b> INR 70,000 + 18% GST ~ INR 82,600</p>
-
-
-
-<p>For further details, contact <a href="mailto:contacts@learnbay.co" target="_blank"> <i> here. </i></a></p>
-
-
-
 
 <h3 id=""> <b>2.Data Structures & Algorithms Course – BIT</b></h3>
 
@@ -349,21 +306,13 @@ const DSAData = {
 
 <li style="margin-bottom: 10px;">Successful industry alliance with top-rated MNCs with lucrative gains.  </li>
 
-
 </ul>
 
 <p><b>Fees: </b>NA </p>
 
-
-<p>For more details contact <a href="mailto:info@bitbaroda.com" target="_blank" rel="nofollow"><i>here</i></a></p>
-
-
 <h3 id=""> <b>3. Software Engineering Program – DSA and Systems Design – Bosscoder Academy</b></h3>
 
 <p><b>About:</b> DSA learning has become a vital aspect of today's tech field. Getting into the field of DSA has had a massive impact on various sectors, including software development. Hence, joining Bosscoder’s <a href="https://www.bosscoderacademy.com/senior-software-engineer?utm_campaign=DSA-EV-GLP-19Apr24-Gads&utm_medium=Search&utm_source=Google-Ads&utm_term=data%20structures%20and%20algorithms&Ref=GoogleAds-EV-dsa-EV-GLP-leads-19Apr24&gad_source=1&gclid=Cj0KCQjw7Py4BhCbARIsAMMx-_LYdcC7mlFK5z9fInSIbh7JYVxCgOni_VmYiS7KJFkrJ5tBoFkPRRMaAqP7EALw_wcB#mentors_sec"target="_blank" rel="nofollow"><i>DSA and system design course</i></a>  lays the basis for rising success rates. Experts join the course to exalt career worth with premium interview trials and credentials.  </p>
-
-
-
 
 <i><b>Key highlights: </b></i>
 
@@ -384,45 +333,7 @@ const DSAData = {
 
 </ul>
 
-<p><b>Fees: </b>  INR 129,999 including taxes. </p>
-
-<p>For more details contact<a href="mailto:ask@bosscoderacademy.com" target="_blank" rel="nofollow"><i>here</i></a></p>
-
-
-
-
-<h3 id=""> <b>4. Full Stack Developer Course – Scaler Academy </b></h3>
-
-<p><b>About: </b> Today, tech careers are constantly in trend, justifying growth and stability for various experts. Hence, learning becomes a crucial trend for tech experts to solidify their skills and attain thrilling success. In the interim, Scaler presents a <a href="https://www.scaler.com/courses/full-stack-developer/?utm_source=ads&utm_medium=googlepmc&utm_campaign=perf_scaler_requestcallback_ads_googlepmc_search-theme_india_ac1&utm_content=product_new-creative&utm_term=academy_requestcallback-2024_full-stack_data_system-design&gad_source=1&gclid=Cj0KCQjw7Py4BhCbARIsAMMx-_IG2LeD4300eOYrjezHSqFd2VWoaYwvH_ZHrnar-vdNIvua3vDv0iQaAnh1EALw_wcB" target="_blank" rel="nofollow"><i>Full Stack Developer course</i></a>   to boost career growth and grab exciting job offers. </p>
-
-<i><b>Key highlights:</b></i>
-
-<ul>
-
-<li style="margin-bottom: 10px;">Master DSA and system design skills to modernize developer roles and make real-time decisions. </li>
-
-<li style="margin-bottom: 10px;">Learn with a structurally curated syllabus to gain elementary and practical learning. </li>
-
-<li style="margin-bottom: 10px;">Live interactive training sessions by eminent experts will help you dive into real-world data intricacies.</li>
-
-<li style="margin-bottom: 10px;">Master <b>data structures and algorithms in Python</b> and other tools via live projects and cherish exciting career gains.</li>
-
-<li style="margin-bottom: 10px;"> Join a 2000+ alumni network to enrich your career values and extend your links </li>
-<li style="margin-bottom: 10px;"> 1:1 doubt-clearing mentorship sessions for easy learning.</li>
-<li style="margin-bottom: 10px;"> Career support services with Scaler’s <b>DSA full course </b>to help you land your promising roles.</li>
-<li style="margin-bottom: 10px;"> Globally valued certificates from Scaler to update your career worth and attain success. </li>
-
-
-
-</ul>
-
-<p><b>Fees: </b> INR 8,628/month as EMI and scholarship amount.</p>
-
-<p>For further details contact <a href="mailto:hello@scaler.com" target="_blank" rel="nofollow"><i>here</i></a></p>
-
-
-
-<h3 id=""><b>5. DSA & System Design – AlgoTutor </b></h3>
+<p><b>Fees: </b>  INR 129,999 including taxes. </p><h3 id=""><b>4. DSA & System Design – AlgoTutor </b></h3>
 
 <p> <b>About:</b>  Master DSA and system design tools and trends in the age of algorithmic interventions. AlgoTutor presents a cutting-edge  <a href="https://www.algotutor.io/mastering-dsa-system-design"
 target="_blank" rel="nofollow"><i>DSA and system design program</i></a> to prepare you for upcoming job interviews. Attend its tailored training sessions to revamp your skill sets and mark a thriving future in tech.</p>
@@ -448,13 +359,7 @@ target="_blank" rel="nofollow"><i>DSA and system design program</i></a> to prepa
 
 <p><b>Fees: </b> INR 58,500 with taxes.</p>
 
-
-<p>For more info, contact<a href="mailto:info@algotutor.io" target="_blank" rel="nofollow"><i> here.</i></a></p>
-
-
-
-
-<h3 id=""><b>6. Data Structures, Algorithms, and System Design – CloudxLab</b></h3>
+<h3 id=""><b>5. Data Structures, Algorithms, and System Design – CloudxLab</b></h3>
 
 <p><b>About: </b>  Indeed, software engineering skills have become vital for tech experts from diverse fields. Hence, experts prefer mastering in-demand tools and practices via a <b>DSA and system design course.</b>  CloudxLab brings job-enriched<a href="https://cloudxlab.com/course/166/data-structures-algorithms-and-system-design" target="_blank" rel="nofollow"><i>  data structures, algorithms, and system design programs  </i></a> to boost your career. Join the course today to elevate your career worth and attain global success in your domain. </p>
 
@@ -477,14 +382,7 @@ target="_blank" rel="nofollow"><i>DSA and system design program</i></a> to prepa
 
 <p><b>Fees: </b> INR 49,900 with taxes</p>
 
-<p>For further details contact  <a href="mailto:reachus@cloudxlab.com" target="_blank" rel="nofollow"><i> here.</i></a></p>
-
-
-
-
-
-
-<h3 id=""><b>7.Data Structure, Algorithm, Problem-solving, & System Design Course – Logicmojo</b></h3>
+<h3 id=""><b>6.Data Structure, Algorithm, Problem-solving, & System Design Course – Logicmojo</b></h3>
 
 <p><b>About: </b>   DSA has become an integral skill for joining top-notch product-based MNCs. Many tech experts fail to justify their skills and miss the chance to join those firms. Logicmojo predicts a tech-driven workforce for top-rated firms operating in diverse fields. Its <a href="https://logicmojo.com/complete-course" target="_blank" rel="nofollow"><i>DSA, problem-solving & system design course</i></a>  lures techies to update their skills and build a lucrative career path.</p>
 
@@ -508,10 +406,7 @@ target="_blank" rel="nofollow"><i>DSA and system design program</i></a> to prepa
 
 <p><b>Fees: </b>  INR 52,000 with taxes. </p>
 
-<p>For further info contact <a href="mailto:info@logicmojo.com" target="_blank" rel="nofollow"><i> here.</i></a></p>
-
-
-<h3 id=""><b>8. Data Structures and Algorithms with System Design – Tutort Academy</b></h3>
+<h3 id=""><b>7. Data Structures and Algorithms with System Design – Tutort Academy</b></h3>
 
 <p> <b>About: </b>Today’s tech-driven era calls for constant career upskilling to grab exciting job offers and boost success chances. Harnessing the power of DSA and system design has become vital for experts willing to join the rising tech field. Tutort Academy presents promising <a href="https://www.tutort.net/data-structures-algorithms-and-system-design-course" target="_blank" rel="nofollow"><i> DSA with a system design course </i></a> marking a competitive edge. Join the <b>best DSA course</b>  today to solidify your career worth. </p>
 
@@ -534,10 +429,8 @@ target="_blank" rel="nofollow"><i>DSA and system design program</i></a> to prepa
 </ul>
 
 <p><b>Fees: </b>INR 70,000 plus taxes.</p>
-<p>For further info contact <a href="mailto:contact@tutort.net" target="_blank" rel="nofollow"><i> here.</i></a></p>
 
-
-<h3 id=""><b>9. Decode Java with DSA Course – Physics Wallah Skills</b></h3>
+<h3 id=""><b>8. Decode Java with DSA Course – Physics Wallah Skills</b></h3>
 
 <p><b>About: </b> The present digital space sees splendid tech creations creating an urgency for constant learning. Coding has become one of the skills that are critically required to face tech power. PW Skills presents a  <a href="https://pwskills.com/course/decode-javadsa/" target="_blank" rel="nofollow"> <i> Java-rich DSA program</i></a>   to build logical thinking skills and crack leading jobs. Join this <b>data structures and algorithms full course</b> to enrich your career worth and attain success. </p>
 
@@ -560,10 +453,7 @@ target="_blank" rel="nofollow"><i>DSA and system design program</i></a> to prepa
 </ul>
 <p><b>Fees: </b>INR 4,999 with taxes. </p>
 
-<p>For more details contact <a href="mailto:support@pwskills.com" target="_blank" rel="nofollow"><i>here</i></a></p>
-
-
-<h3 id=""><b>10. Integrated Advanced DSA – Careerpedia</b></h3>
+<h3 id=""><b>9. Integrated Advanced DSA – Careerpedia</b></h3>
 
 <p> <b>About: </b>   Learning DSA has become for working pros willing to kick-start a thriving tech career. Hence, experts with static skill sets pursue a full-fledged <b>DSA course,</b> escalating success metrics. Careerpedia presents a thorough curated<a href="https://www.careerpedia.co/advanced-data-structures-and-algorithms-course-hyderabad" target="_blank" rel="nofollow"><i>   DSA program </i></a>to equip you with basic and advanced tools and concepts.  </p>
 
@@ -582,13 +472,11 @@ target="_blank" rel="nofollow"><i>DSA and system design program</i></a> to prepa
 <li style="margin-bottom: 10px;">Career support services to update your skills and expand your earning potential. </li>
 <li style="margin-bottom: 10px;">Earn globally recognized certificates to crack promising job roles with the leading MNCs. </li>
 
-
 </ul>
 
 <p><b>Fees: </b> NA</p>
 
 <p>For further details contact<a href="https://www.careerpedia.co/advanced-data-structures-and-algorithms-course-hyderabad#"><i> here.</i></a></p>
-
 
 <h2>Advantages of Enrolling in a Data Structures and Algorithms Online Course</h2>
 <p>Learning via a <b>DSA complete course</b> with crucial career-rich benefits is useful for aspirants dreaming of a thriving tech future. Constant learning helps experts build a growing career in DSA with optimized gains and attain a compelling edge. </p>
@@ -619,13 +507,9 @@ target="_blank" rel="nofollow"><i>DSA and system design program</i></a> to prepa
 
 <h2>FAQs: – </h2>
 
-
-
-
 <h3><b>1.Who is eligible for the Data Structures and Algorithms course? </b></h3>
 
 <p>The <b>DSA course </b>is typically suited for fresh graduates, beginner programmers or software developers. Additionally, individuals from non-technical backgrounds interested in software development, data, or related fields can start with the programming concept of DSA. </p>
-
 
 <h3><b>2. What are the available domain electives with a Data Structure Course?</b></h3>
 
@@ -635,8 +519,7 @@ target="_blank" rel="nofollow"><i>DSA and system design program</i></a> to prepa
 
 <p>Investing in a top-notch <b>Data Structures and Algorithms course</b> is highly worthwhile, as it can help you improve your problem-solving skills and advance your programming mastery. It allows you to gain a competitive edge and ensure a successful coding dept for interviews and job prospects.   </p>
    <style>
-    
-    
+
             /* Inline CSS for specific styles */
             p {
               color: #333;
@@ -710,17 +593,14 @@ target="_blank" rel="nofollow"><i>DSA and system design program</i></a> to prepa
     },
   
     Blogs: [
-      { image: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side.webp", title: "Top 10 Data Science Course Training Institutes in Chandigarh", link:"https://skillslash.com/data-science-course-in-chandigarh" },
-      { image: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_2.webp", title: "Top 10 Data Science Course Training Institutes in Kolkata",link:"https://skillslash.com/data-science-course-training-kolkata" },
-      { image: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_3.webp", title: "Top 10 Data Science Course Training Institutes in Jaipur",link:"https://skillslash.com/data-science-course-in-jaipur" },
-      { image: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_3.webp", title: "Top 7 Business Analytcis Course Training Institutes in Hyderabad",link:"https://skillslash.com/business-analytics-course-in-hyderabad" },
-  
+      { image: "/cdn/city_Blog/blog_side.svg", title: "Top 10 Data Science Course Training Institutes in Chandigarh", link:"https://skillslash.com/data-science-course-in-chandigarh" },
+      { image: "/cdn/city_Blog/blog_side_2.svg", title: "Top 10 Data Science Course Training Institutes in Kolkata",link:"https://skillslash.com/data-science-course-training-kolkata" },
+      { image: "/cdn/city_Blog/blog_side_3.svg", title: "Top 10 Data Science Course Training Institutes in Jaipur",link:"https://skillslash.com/data-science-course-in-jaipur" },
+      { image: "/cdn/city_Blog/blog_side_3.svg", title: "Top 7 Business Analytcis Course Training Institutes in Hyderabad",link:"https://skillslash.com/business-analytics-course-in-hyderabad" },
 
     ],
-  
-    
+
   };
-  
-  
+
   export default DSAData;
   

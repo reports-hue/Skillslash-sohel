@@ -1,8 +1,6 @@
 const BAHyderabadData = {
     contentHtml: `
     <i><b>Envision a tech-driven working culture making swift progress amidst the fierce rise of business analytics, reaching a competitive edge. </b></i>
-  
-      <span class="blog-center-image" data-src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_second_img.webp" data-alt="Banner Image" data-width="800" data-height="400"></span></a>
 
 <p>Hyderabad, also known as the City of Pearls has become a prime hub for the rising startups, MNCs, and working experts from diverse fields. This metropolis concocts an exciting future with the rise of an analytics-driven work culture. In the interim, business analytics (BA) marks a historic move in leveling up financial growth and success. Yet, lasting skill gaps halt the career progress rates to a greater extent. Hence, experts with static career paths prefer upskilling via a <b>business analyst course in Hyderabad.</b></p>
 
@@ -73,13 +71,10 @@ const BAHyderabadData = {
  </div>
 
 <p>As per the reports, the <a href="https://www.mordorintelligence.com/industry-reports/global-business-analytics-market-industry"  rel="nofollow"><i>business analytics solutions market</i></a> size expects an 8.07% rise across Asia-Pacific segments including Hyderabad, India. The rise of analytics shows its eminence across prime sectors boosting their yields. Owing to the changing trends, the demand for skilled analysts keeps increasing. </p>
-<span class="next-image-placeholder" data-src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/banner_c.webp" data-alt="Banner Image" data-width="800" data-height="400"></span></a>
 
 <p>Hyderabad’s growing tech space inspires experts to revamp their skill sets and thrive across exciting market segments. It urges constant learning via a <b>business analytics course in Hyderabad</b> with proven career returns. Experts must boost their skill sets with proven tools and techniques to stay ahead of the career race. </p>
 
 <i><b>So, let’s review specific concepts you must learn to upscale your business acumen.</b></i>
-
-
 
 <h2>What proven concepts will you learn via business analyst coaching in Hyderabad? </h2>
 
@@ -111,7 +106,6 @@ const BAHyderabadData = {
  <li>Big Data</li>
 </ul>
 
-
 <p><b>4.Tools:</b>  Experts joining a <b> business analyst course Hyderabad</b> will learn various tools to boost their growth potential and land exciting jobs.</p>
 
 <ul>
@@ -125,7 +119,6 @@ const BAHyderabadData = {
 
 <p>Indeed, the demand surge for business analysts inspires experts to upskill with the latest tools and trends. <b>Let’s see how these tools help further.</b></p>
 
-
 <ul>
  <li style="margin-top: 20px;"><b>Business Analysis Using Excel:</b>Experts must learn basic and advanced Excel functions to deal with complex data sets. It helps analysts identify data patterns, extract facts, and make the right moves. Advanced Excel learning helps analysts tackle complex tech creations and manage various tasks. Hence, Excel is the basic skill that every analyst needs to master. </li>
  <li style="margin-top: 20px;"><b>Business Analysis Using SQL: </b>Data record management is vital in today’s tech age to stay safe and secure crucial info. Hence, firms search for skilled analysts with proven SQL skills to keep their functions safe from outer risks. Experts must learn SQL via a <b> business analysis course in Hyderabad</b> to enrich their data-handling skills.</li>
@@ -134,8 +127,6 @@ const BAHyderabadData = {
  <li style="margin-top: 20px;"><b>Business Analysis Using Power BI:</b>Experts eager to revive their career in BA must learn Power BI with factual moves. A trending <b>business analyst institute in Hyderabad</b> trains experts with Power BI concepts. Analysts with Power BI skills help firms with tempting designs to make the right move. </li>
  <li style="margin-top: 20px;"><b>Business Analysis Using Tableau:</b> Experts with Tableau skills can interact with huge data sets and derive facts to reach end solutions. Here, experts learn Tableau to prepare data sets, and clean, identify, and analyze the facts. Analysts with Tableau skills can create interactive charts, graphs, and infographics. Learning via a <b>business analyst course in Hyderabad</b> help you develop core Tableau skills and thrive. </li>
 </ul>
-
-
 
 <h2>What are the prime career gains linked with the best institute for business analyst course in Hyderabad? </h2>
 
@@ -155,7 +146,6 @@ const BAHyderabadData = {
  <li style="margin-top: 20px;"><b>Useful credentials:</b> Earn job-driven certificates from top-notch industry leaders validating your skill sets and equipping you with premium offers.</li>
 </ul>
 
-
 <h2>Is upskilling via a business analytics course in Hyderabad career-worthy? </h2>
 
 <p>The lively industry trends of Hyderabad welcome several startups, MNCs, public, and private firms with futuristic gains. In the interim, business analytics sets the basis for notable career shifts for experts with outpaced careers. Hence, learning is crucial to stay updated on the latest trends and cope with the changing outlook.   </p>
@@ -172,7 +162,6 @@ const BAHyderabadData = {
  <li style="margin-bottom: 5px;"><b>Valuable credentials</b> from top-notch industry leaders for better job offers</li>
  <li style="margin-bottom: 5px;"><b>100% career support services</b> to enrich the chances of getting selected by top-tier MNCs</li>
 </ul>
-
 
 <h2>What are the factors to consider when choosing the best business analyst course in Hyderabad? </h2>
 
@@ -192,8 +181,6 @@ const BAHyderabadData = {
  <li style="margin-bottom: 5px;">Try to grab a proven <b>business analyst certification in Hyderabad</b> and validate your skills for better job offers</li>
 </ul>
 <h2>Watch Out for Top-tier Career Options for Business Analytics in Hyderabad [2024 Listing]</h2>
-
-
 
 <p>Indeed, data has become a valuable fuel for firms lifting their growth margins. In the interim, Hyderabad-based firms search for skilled analysts to rise beyond the rising tech intricacies and build a thriving career.</p>
 <p>Business analytics brings an exciting career future for experts from diverse fields. Thus, the demand for a <b>business analyst course with placement in Hyderabad</b> rises. It helps you crack top-tier jobs with the leading MNCs and get into strategic positions.</p>
@@ -333,11 +320,6 @@ const BAHyderabadData = {
 <h2>Insights into Top 7 Competitors with a Business Analyst Course in Hyderabad</h2>
 <p>Looking into the demand surge for skilled business analysts, career upskilling is trending now and then. Hence, experts enroll in upskilling programs regardless of <b>business analyst course fees in Hyderabad.</b> Let’s dive deeper into the trending programs by close rivals in the industry. </p>
 
-
-
-
-
-
 <h3 id="Learnbay"><b>1. Business Analytics Course Training in Hyderabad by Learnbay [Exclusive for Non-tech Experts]</b></h3>
 <p><b>About:</b> Hyderabad has arisen as one of India's hopeful tech hubs. In the interim, the rise of business analytics alters standard practices. Hence, the demand for talented analysts keeps growing in the city with exciting growth offers from the leading MNCs and startups. </p>
 <p>Learnbay marks a historic milestone with its solely curated<a href="https://www.learnbay.co/datascience/business-analytics-certification-course?utm_source=skillslash&utm_medium=hyderabad&utm_campaign=ba&utm_content=blog_hyderabad" target="_blank"> <i>business analytics training program </i></a> in Hyderabad. Its sharp focus on non-tech experts guides learners to have hassle-free upskilling. Its cutting-edge alliance with IBM & Microsoft reshapes static career paths with exciting turns. </p>
@@ -355,7 +337,6 @@ const BAHyderabadData = {
 <p><b>Mode of training:</b> Learnbay offers live instructor-led online <b>business analyst training in Hyderabad</b> under the advice of reputed experts.</p>
 <p><b>Certifications:</b>Attest globally accredited certificates from <b>IBM & Microsoft</b> to your static career and enrich its value to attain fortunate success.</p>
 <p><b>Placement record:</b>Get 100% job and placement assistance (Career Service PRO) to enhance your growth chances. Here, you will get 1:1 doubt-clearing, mock interviews, CV-making, LinkedIn profiling, etc gains. </p>
-<p><b>Contact:</b><a href="mailto:contacts@learnbay.co"> <i>contacts@learnbay.co </i></a></p>
 
 <h3 id="ISB"><b>2. Advanced Management Programme in Business Analytics by ISB</b></h3>
 
@@ -375,8 +356,6 @@ const BAHyderabadData = {
 <p><b>Mode of training:</b> Experts enrolling in ISB’s <b>business analytics coaching in Hyderabad</b> will receive classroom and technology-aided training sessions. </p>
 <p><b>Certifications:</b> Obtain useful credentials from <b>ISB in alliance with AACSB, AMBA, and EQUIS</b> for better growth options. </p>
 <p><b>Placement record:</b>No, ISB does not provide career support services to its learners.</p>
-<p><b>Contact:</b> <a href="mailto:ampba@isb.edu" target="_blank" rel="nofollow"><i>ampba@isb.edu</i></a></p>
-
 
 <h3 id="BITS"><b>3. M.Sc in Business Analytics by BITS Pilani</b></h3>
 <p><b>About:</b> According to industry reports, the demand for skilled analysts is predicted to grow limitlessly in upcoming years. Hence, employers from leading MNCs prefer hiring skilled analysts to stay ahead of the rivalry. As career change becomes a demand, experts join <b>business analyst course Hyderabad. </b> </p>
@@ -394,7 +373,6 @@ const BAHyderabadData = {
 <p><b>Mode of training:</b>  BITS Pilani offers a work-integrated learning mode to support working experts to continue upskilling via online training. </p>
 <p><b>Certifications:</b> Attest job-driven BITS Pilani certificates to your career exploring untapped segments of business analytics. </p>
 <p><b>Placement record:</b> BITS Pilani does not offer any career support services to its learners. </p>
-<p><b>Contact:</b><a href="mailto:admission@wilp.bits-pilani.ac.in" target="_blank" rel="nofollow"><i> admission@wilp.bits-pilani.ac.in  </i></a></p>
 
 <h3 id="PRO"><b>4. Business Analytics Course in Hyderabad by Pro Schools (IMS)</b></h3>
 <p><b>About:</b> Unleash your true abilities with cutting-edge <a href="https://proschoolonline.com/certification-business-analytics-course/hyderabad"target="_blank" rel="nofollow"><i>business analytics courses in Hyderabad</i></a> by Pro Schools, an IMS initiative. An open learning space to enrich career values and equip yourself with proven skills.</p>
@@ -414,9 +392,6 @@ const BAHyderabadData = {
 <p><b>Certifications:</b>  Learners receive job-driven credentials from PRO School to level up their success metrics and grab exciting job offers. </p>
 <p><b>Placement record:</b> Experts join Pro School for its cutting-edge <b>business analyst training and placement in Hyderabad</b> to land their dream jobs.</p>
 
-<p><b>Contact:</b> <a href="mailto:info@proschoolonline.com" target="_blank" rel="nofollow"><i>info@proschoolonline.com</i></a></p>
-
-
 <h3 id="Great Learning"><b>5. PG Program in Data Science and Business Analytics by Great Learning </b></h3>
 <p><b>About:</b> Hyderabad has bagged the title of one of the rising tech hubs in India with endless career growth options in diverse sectors. Hence, skill upgrades via a <b>business analyst course in Hyderabad</b> have become a necessity for many. </p>
 <p><a href="https://www.mygreatlearning.com/pg-program-data-science-and-business-analytics-course-in-hyderabad" target="_blank" rel="nofollow"><i>Great Learning</i></a> foresees an analytics-driven career future for experts in unison with the University of Texas and Great Lakes. Its leading-edge training method equips you with the skills to handle modern tools and tactics. </p>
@@ -433,7 +408,6 @@ const BAHyderabadData = {
 <p><b>Mode of training:</b> Experts joining the Great Learning <b>business analyst course in Hyderabad with placement</b> will receive online training sessions. </p>
 <p><b>Certifications:</b> Experts will receive <b>dual certifications</b> from Great Learning in alliance with <b>UT Austin and Great Lakes.</b></p>
 <p><b>Placement record:</b> Experts joining Great Learning will receive end-to-end career support services – from 1:1 mock interviews to CV-making. </p>
-<p><b>Contact:</b><a href="mailto:info@greatlearning.in"><i> info@greatlearning.in</i></a></p>
 
 <h3 id="UpGrad"><b>6. Master of Science in Business Analytics by UpGrad in Alliance with Golden Gate University </b></h3>
 <p><b>About:</b> In the age of fast-paced digital shifts, the rise of business analytics creates an analytics-driven future for firms and working experts. Yet, lasting skill gaps negatively affect career rise metrics limiting success. Hence, learning from the <b>best business analyst training in Hyderabad</b> becomes crucial for experts.</p>
@@ -453,9 +427,6 @@ const BAHyderabadData = {
 <p><b>Mode of training:</b> UpGrad offers live interactive and instructor-led <b>business analyst training in Hyderabad</b> with 360-degree knowledge-building. </p>
 <p><b>Certifications:</b>  Gain front-age credentials from <b>UpGrad in alliance with GGU</b> for better job offers, attractive hikes, and salary scale.</b></p>
 <p><b>Placement record:</b>UpGrad offers absolute career support services to learners with the best possible solutions – from mock interviews to CV-making.</p>
-
-
-<p><b>Contact: </b>call @ 1800 210 2020</p>
 
 <h3 id="Simplilearn" ><b>7. Business Analyst Course in Hyderabad by Simplilearn</b></h3>
 <p><b>About:</b> Today’s analytics-driven age welcomes splendid tech creations lifting business yields and growth metrics. In the interim, the advent of business analytics supports diverse sectors and practices with proven gains. Hence, career upskilling from the <b>best business analyst course in Hyderabad</b> has become crucial for experts.</p>
@@ -489,11 +460,9 @@ const BAHyderabadData = {
 <p>Eligible learners can avail of group discounts and scholarships while enrolling in a <b>business analyst institute in Hyderabad.</b></p>
 <h3><b>4.What kind of certification does the online Business Analytics course in Hyderabad provide? </b></h3>
 <p>Learning with a <b>business analytics course in Hyderabad</b> will offer globally valued credentials with alluring career rise options. You will obtain course completion and a project certificate to enrich your growth chances and forge better gains. </p>
-  
-  
+
    <style>
-    
-    
+
             /* Inline CSS for specific styles */
             p {
               color: #333;
@@ -567,17 +536,14 @@ const BAHyderabadData = {
     },
   
     Blogs: [
-      { image: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side.webp", title: "Top 10 Data Science Course Training Institutes in Chandigarh", link:"https://skillslash.com/data-science-course-in-chandigarh" },
-      { image: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_2.webp", title: "Top 10 Data Science Course Training Institutes in Kolkata",link:"https://skillslash.com/data-science-course-training-kolkata" },
-      { image: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_3.webp", title: "Top 10 Data Science Course Training Institutes in Jaipur",link:"https://skillslash.com/data-science-course-in-jaipur" },
-      { image: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_3.webp", title: "Top 7 Business Analytcis Course Training Institutes in Hyderabad",link:"https://skillslash.com/business-analytics-course-in-hyderabad" },
-  
+      { image: "/cdn/city_Blog/blog_side.svg", title: "Top 10 Data Science Course Training Institutes in Chandigarh", link:"https://skillslash.com/data-science-course-in-chandigarh" },
+      { image: "/cdn/city_Blog/blog_side_2.svg", title: "Top 10 Data Science Course Training Institutes in Kolkata",link:"https://skillslash.com/data-science-course-training-kolkata" },
+      { image: "/cdn/city_Blog/blog_side_3.svg", title: "Top 10 Data Science Course Training Institutes in Jaipur",link:"https://skillslash.com/data-science-course-in-jaipur" },
+      { image: "/cdn/city_Blog/blog_side_3.svg", title: "Top 7 Business Analytcis Course Training Institutes in Hyderabad",link:"https://skillslash.com/business-analytics-course-in-hyderabad" },
 
     ],
-  
-    
+
   };
-  
-  
+
   export default BAHyderabadData;
   

@@ -56,9 +56,9 @@
     "title": "Web Development Course in Bhopal ",
     "spanTitleText": "Live Interview Based Learning Platform",
     "desc": "Equip yourself with Web development skills through live, interactive lectures guided by industry expert mentors",
-    "backgroundImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/fullstack-white-background-banner.webp",
-    "mainHeaderImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/full-stack-cover-image.webp",
-    "iconImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/iconforfullstack.webp",
+    "backgroundImg": "/cdn/static/web/New-UI/fullstack-white-background-banner.svg",
+    "mainHeaderImg": "/cdn/static/web/New-UI/full-stack-cover-image.svg",
+    "iconImg": "/cdn/static/web/New-UI/iconforfullstack.svg",
     "mainAlt": "Student getting best full stack developer course in bhopal",
     "usp1": " FAANG Instructor led",
     "usp2": "Solve 500+",
@@ -76,7 +76,7 @@
     "title": "Web Development Course in Bhopal",
     "spanTitleText": "Live Project Based Learning Partnered with Tech Companies",
     "desc": "Equip yourself with Web development skills through live, interactive lectures guided by industry expert mentors",
-    "imgSrc": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/NewDatascience/Header/data-science-header+webp.webp",
+    "imgSrc": "/cdn/NewDatascience/Header/data-science-header-webp.svg",
     "dataScience": false,
     "FullStack": true,
     "hour": "228+",
@@ -152,7 +152,7 @@
     "desc": "Get Guaranteed job referral and real-work experience by learning from the best full stack developer institute in India and crack interviews with confidence.",
     "altM": "",
     "altR": "Get Real Work Experience Certificate by taking full stack developer course in bhopal ",
-    "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Certificate-(Full-stack).webp"
+    "src": "/cdn/static/web/Certificate--Full-stack.svg"
   },
   "RealWork": {
     "desc": "Our Full Stack course in Bhopal follows an application-based learning approach, Further, it focuses on helping learners build relevant experience in the technologies they upskill to demonstrate expertise."

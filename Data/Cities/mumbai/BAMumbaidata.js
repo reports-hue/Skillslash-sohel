@@ -1,7 +1,6 @@
 const BAMumbaiData = {
     contentHtml: `
      <i><b>Imagine a digitally-driven business future where automated functioning bridges the gap between actual conditions and technical outputs.</b></i>
-      <span class="blog-center-image" data-src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_second_img.webp" data-alt="Banner Image" data-width="800" data-height="400"></span>
 
 <p>Today’s fast-paced growth of tech space sees a bright future with the rise of analytics. Firms (from startups to MNCs) from diverse sectors plan a dynamic business model with strategic gains and better returns. In the interim, Mumbai has become a one-stop landmark for stunning growth and success. As the need for automatic business functions grows, so do searches for experts. Thus, the demand for upskilling via a <b>business analyst course in Mumbai keeps increasing. </b></p>
 <div class="table-container" style="overflow-x: auto;">
@@ -73,9 +72,6 @@ const BAMumbaiData = {
 <p>As per the <a href="https://www.imarcgroup.com/business-analytics-market" target="_blank" rel="nofollow"> <i>reports,</i></a> the global business analytics market expects an 8.2% growth by 2032. With rising data usage and reliance on cloud-based solutions, firms search for skilled analysts.</p>
 <p>Mumbai’s modern business outlook alters the career trends for many experts. The role of business analysts keeps increasing rapidly, bringing major corporate shifts. Thus, upskilling via a <b>business analyst training institute in Mumbai with vital gains.</b> </p>
 <p>Proper learning can equip you with proven gains and justify your growth metrics. On the other hand, improper focus on learning offerings and skill sets can degrade your career values and growth options. So, let’s explore vital skills or concepts that a <b>business analysis course in Mumbai will cover. </b></p>
-<span class="next-image-placeholder" data-src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/banner_c.webp" data-alt="Banner Image" data-width="800" data-height="400"></span></a>
-
-
 
 <h2>What concepts will you learn as a part of a Business Analyst Course Mumbai? </h2>
 
@@ -105,7 +101,6 @@ const BAMumbaiData = {
     <li>Big Data</li>
 </ul>
 
-
 <p><b>4. Tools:</b> The <b>business analyst training in Mumbai</b> guides you with key data-driven tools to stay updated on recent trends and conquer success.</p>
 
 <ul>
@@ -129,8 +124,6 @@ const BAMumbaiData = {
     <li style="margin-top: 20px;"><b>Business Analysis Using Power BI:</b> Knowledge of Power BI helps analyze, visualize data trends and create compelling designs. Hence, experts willing to make a business analytics career must learn Power BI. It guides them in tackling huge data sets and making promising moves.</li>
 </ul>
 
- 
-
 <h2>What are the key career gains of taking a Business Analyst Course in Mumbai?</h2>
 
 <p><b>Business analytics in Mumbai</b> is growing prosperously, reviving various static careers. Experts from diverse fields prefer career upskilling to become a part of the business analytics field. Firms in Mumbai are moving toward a digitally linked world with automatic functioning. Hence, joining an industry-paced <b>business analyst course in Mumbai</b> has become critical. </p>
@@ -144,7 +137,6 @@ const BAMumbaiData = {
     <li style="margin-top: 20px;"> <b>Hassle-free career support services:</b> A <b>business analyst course in Mumbai with placement</b> offers endless scope to lift your career and land fortunate roles. It offers every viable career growth scope – from doubt-clearing to CV-making.</li>
     <li style="margin-top: 20px;"><b>Useful credentials:</b> A proven program offers <b>business analytics certification in Mumbai,</b> improving growth options. Learners can validate their skills and crack dream roles with the leading MNCs.</li>
 </ul>
- 
 
 <h2>Is it worth joining a Business analytics certification in Mumbai?</h2>
 
@@ -179,8 +171,6 @@ const BAMumbaiData = {
     <li style="margin-bottom: 5px;">Learning is only viable with proof from top-tier corporates. Hence,<b>join a business analyst training institute in Mumbai</b>  with global-scale certificates.</li>
 </ul>
  <h2>Enlisting Top Career Roles for Business Analytics in Mumbai [2024 Update]</h2>
-
-
 
 <p>Mumbai has been escalating financial and commercial success for firms from diverse sectors. Meanwhile, the rise of business analytics justifies their intent of making data-driven decisions. Hence, the demand for skilled analysts keeps increasing, and experts are inspired to upskill. </p>
 
@@ -300,7 +290,6 @@ const BAMumbaiData = {
 <p><b>Fee:</b> Learnbay’s <b>business analyst course Mumbai</b> costs INR 95,000 ++ GST with flexible payment options. Here, you can opt for an installment option with INR 6,228 as monthly EMIs.</p>
 <p><b>Mode of training:</b> Experts joining Learnbay get live instructor-led <b>business analyst training in Mumbai. </b></p>
 <p><b>Certifications:</b> Attest <b>IBM & Microsoft</b> certificates to your static career and enrich your worth with exciting gains. </p>
-<p><b>Contact:</b><a href="mailto:contacts@learnbay.co"> <i>contacts@learnbay.co </i></a></p>
 
 <h3 id="Simplilearn"><b>2. Business Analyst Course in Mumbai [Simplilearn]</b></h3>
 <p><b>About:</b> In the rising tech age, business analytics takes a rebellious turn for various firms and working experts. Hence, upskilling via an industry-paced business analyst course has become vital for experts. Many experts go for upskilling regardless of <b>business analyst course fees in Mumbai. </b></p>
@@ -322,7 +311,6 @@ const BAMumbaiData = {
 <p><b>Certifications:</b> Simplilearn’s IIBA standardized courses offer an IBM edge with career-driven gains. Learners will receive Simplilearn and IBM credentials for course and project work. </p>
 <p><b>Contact:</b> <a href="https://www.simplilearn.com/contact-us" target="_blank" rel="nofollow"><i>https://www.simplilearn.com/contact-us</i></a></p>
 
-
 <h3 id="TechStack"><b>3. Business Analytics Course in Mumbai, India [TechStack Academy]</b></h3>
 <p><b>About:</b> Today’s fast-paced evolving tech era requires proven expertise to rise beyond the tech creations. Mumbai is a prime destination for the growing tech hubs and enthusiasts eager to revamp their careers. </p>
 <p><a href="https://www.techstack.in/business-analytics-course-mumbai/" target="_blank" rel="nofollow"><i>TechStack Academy</i></a> enters the career upskilling frame with its full-fledged <b>business analytics training in Mumbai.</b> Its top-notch course modules help learners refine core expertise and mark historic success. Plus, its unison with Orangus India boosts success metrics with career-driven gains. </p>
@@ -338,7 +326,6 @@ const BAMumbaiData = {
 <p><b>Fee:</b> Invest INR 11,000/month for the course and boost your business acumen to stay ahead of the industry race.</p>
 <p><b>Mode of training:</b> TechStack’s <b>best business analyst course in Mumbai</b> offers online and classroom training to aspiring analysts with better career gains. </p>
 <p><b>Certifications:</b> Experts joining here obtain a proven <b>business analyst certification in Mumbai from Orangus India and TeckStack Academy.</b> </p>
-<p><b>Contact:</b><a href="mailto:info@techstack.in" target="_blank" rel="nofollow"><i> info@techstack.in </i></a></p>
 
 <h3 id="Intellipaat"><b>4. Business Analyst Course in Mumbai [Intellipaat]</b></h3>
 <p><b>About:</b> Amid rapidly evolving data usage, firms find analytics-driven methods useful in forging better profits. Experts from diverse sectors prefer upskilling to build a lucrative career path.</p>
@@ -356,7 +343,6 @@ const BAMumbaiData = {
 <p><b>Fee:</b> Invest INR 95,019 inclusive of taxes and build a lucrative career path in business analytics.</p>
 <p><b>Mode of training:</b> Join the <b>best business analyst course in Mumbai</b> to get instructor-led training sessions. Learners can also opt for self-paced upskilling modes to update themselves on the latest trends. </p>
 <p><b>Certifications:</b> Intellipaat’s <b>business analyst certification course in Mumbai</b> attests IIT Roorkee credentials to your career for better gains. </p>
-<p><b>Contact:</b> call@:+91-7022374614</p>
 <h3 id="Skillogic"><b>5. Business Analyst Course in Mumbai [Skillogic]</b></h3>
 <p><b>About:</b> Business analytics is becoming the future of firms from diversified sectors. Mumbai-based firms are taken by storm with the arrival of analytics-driven shifts. Hence, experts from various fields prefer constant skill upgrades to stay ahead of the race.</p>
 <p>Meanwhile, <a href="https://skillogic.com/business-analyst-course-certification-mumbai/" target="_blank" rel="nofollow"><i>Skillogic</i></a> brings the industry’s best <b>business analytics courses in Mumbai</b> with exciting career returns. Learn from the industry’s best trainers and craft a definite career in business analytics. Also, its globally accredited credentials in alliance with IABAC enrich career worth. </p>
@@ -373,7 +359,6 @@ const BAMumbaiData = {
 <p><b>Fee:</b> Skillogic’s <b>business analyst course in Mumbai</b> costs INR 32,900 for live online, INR 25,900 for self-paced, and INR 40,900 for classroom sessions.</p>
 <p><b>Mode of training:</b> Skillogic’s <b>business analytics course in Mumbai</b> offers live online, self-paced, and classroom training modes.</p>
 <p><b>Certifications:</b> Earn valuable credentials from Skillogic and level up career values for better gains.</p>
-<p><b>Contact:</b> Call @ +91 1800-212-5353</p>
 
 <h3 id="BACentric"><b>6. Business Analyst Training in Mumbai [BACentric]</b></h3>
 <p><b>About:</b> Today’s fast-paced, evolving business analytics field inspires many experts to explore hidden career paths. Even startups and MNCs in Mumbai search for talented analysts to level up their business practices with profits.</p>
@@ -391,7 +376,6 @@ const BAMumbaiData = {
 <p><b>Fee:</b>NA</p>
 <p><b>Mode of training:</b> Experts joining this <b>business analytics training in Mumbai</b> will receive classroom, instructor-led, and self-paced learning sessions.</p>
 <p><b>Certifications:</b> Attest BACentric credentials to your static career to explore untapped horizons linked with <b>business analytics in Mumbai.</b></p>
-<p><b>Contact: </b>call @ +91 79937 26693</p>
 
 <h3 id="Uncodemy"><b>7. Business Analyst Certification Training in Mumbai by Uncodemy</b></h3>
 <p><b>About:</b> Today’s digital space requires skilled analysts to lift business yields exponentially. Hence, the inclination toward analytics-driven functions keeps increasing. Firms from diverse sectors take various steps to change their old-age practices to ones best suited to their modern functions.</p>
@@ -408,7 +392,6 @@ const BAMumbaiData = {
 <p><b>Fee:</b>NA</p>
 <p><b>Mode of training:</b> Uncodemy offers <b>business analytics training in Mumbai</b> via offline and online mentoring sessions. Hence, learners can choose the learning mode best suited to their goals. </p>
 <p><b>Certifications:</b> Experts joining this <b>business analyst certification in Mumbai</b> will receive global-scale credentials from <b>Uncodemy, ISO, NASSCOM, and Skill India</b></p>
-<p><b>Contact: </b><a href="mailto:info@uncodemy.com" target="_blank" rel="nofollow"><i>info@uncodemy.com</i></a></p>
 
 <h2>Key Takeaways!!</h2>
 <p>No wonder firms across Mumbai rely heavily on an analytics-driven work culture that brings significant financial success. In the interim, their urge to have a talented workforce with proven analytics skills inspires experts for upskilling. Hence, the demand for a <b>business analyst course in Mumbai</b> keeps growing rapidly. Yet, learners must consider their career goals and interests before getting into any. </p>
@@ -422,11 +405,9 @@ const BAMumbaiData = {
 <p>Eligible learners can save a lot of money via group discounts while enrolling in a <b>business analyst institute in Mumbai.</b> Also, learners can avail themselves of scholarships that help them learn effortlessly.</p>
 <h3><b>4. What kind of certification does the online Business Analytics course provide? </b></h3>
 <p>Learning with a <b>business analytics course in Mumbai</b> will attest to globally valued credentials to your career. You will obtain course completion and a project certificate to level up your growth metrics and generate better gains.</p>
-      
-  
+
    <style>
-    
-    
+
             /* Inline CSS for specific styles */
             p {
               color: #333;
@@ -500,16 +481,14 @@ const BAMumbaiData = {
     },
   
     Blogs: [
-      { image: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side.webp", title: "Top 10 Data Science Course Training Institutes in Chandigarh", link:"https://skillslash.com/data-science-course-in-chandigarh" },
-      { image: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_2.webp", title: "Top 10 Data Science Course Training Institutes in Kolkata",link:"https://skillslash.com/data-science-course-training-kolkata" },
-      { image: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_3.webp", title: "Top 10 Data Science Course Training Institutes in Jaipur",link:"https://skillslash.com/data-science-course-in-jaipur" },
+      { image: "/cdn/city_Blog/blog_side.svg", title: "Top 10 Data Science Course Training Institutes in Chandigarh", link:"https://skillslash.com/data-science-course-in-chandigarh" },
+      { image: "/cdn/city_Blog/blog_side_2.svg", title: "Top 10 Data Science Course Training Institutes in Kolkata",link:"https://skillslash.com/data-science-course-training-kolkata" },
+      { image: "/cdn/city_Blog/blog_side_3.svg", title: "Top 10 Data Science Course Training Institutes in Jaipur",link:"https://skillslash.com/data-science-course-in-jaipur" },
   
       // Add more blog objects as needed
     ],
-  
-    
+
   };
-  
-  
+
   export default BAMumbaiData;
   

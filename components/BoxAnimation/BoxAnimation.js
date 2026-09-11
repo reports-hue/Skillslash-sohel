@@ -25,7 +25,7 @@ const BoxAnimation = () => {
           <ul className={styles.iconWrap}>
             <li>
               <Image
-                src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/acquire-expertise-icon.png"
+                src="/cdn/static/web/New-UI/acquire-expertise-icon.svg"
                 height={40}
                 width={40}
                 alt="acquire-expertise"
@@ -42,7 +42,7 @@ const BoxAnimation = () => {
         </div>
         <div className={styles.arrowWrap}>
           <Image
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/arrow-icon.png"
+            src="/cdn/static/web/New-UI/arrow-icon.svg"
             height={60}
             width={60}
             alt="acquire-expertise"
@@ -52,7 +52,7 @@ const BoxAnimation = () => {
           <ul className={styles.iconWrap}>
             <li>
               <Image
-                src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/relevent-exp-icon.png"
+                src="/cdn/static/web/New-UI/relevent-exp-icon.svg"
                 height={40}
                 width={40}
                 alt="relevant-expertise"
@@ -69,7 +69,7 @@ const BoxAnimation = () => {
         </div>
         <div className={styles.arrowWrap1}>
           <Image
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/arrow-icon.png"
+            src="/cdn/static/web/New-UI/arrow-icon.svg"
             height={60}
             width={60}
             alt="acquire-expertise"
@@ -79,7 +79,7 @@ const BoxAnimation = () => {
           <ul className={styles.iconWrap}>
             <li>
               <Image
-                src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/tick-icon.png"
+                src="/cdn/static/web/New-UI/tick-icon.svg"
                 height={40}
                 width={40}
                 alt="tick-expertise"

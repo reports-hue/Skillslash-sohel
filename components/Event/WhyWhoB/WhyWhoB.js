@@ -47,7 +47,7 @@ const WhyWhoB = ({ eventData }) => {
             <Image
               width="435"
               height="350"
-              src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Learning_Skillslash.webp"
+              src="/cdn/static/event/Learning_Skillslash.svg"
             />
           </div>
         </div>

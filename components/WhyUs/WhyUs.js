@@ -14,28 +14,28 @@ const WhyUs = ({ redirectDs, home, redirectDa, nomicrosoft, dmPage, redirectDM, 
   });
 
   const imageSrc = [
-    "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/NewDatascience/Certificate+Of+Internship.webp",
+    "/cdn/NewDatascience/Certificate-Of-Internship.svg",
     // Add other image URLs as needed
-    "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/NewDatascience/project-experience.webp",
+    "/cdn/NewDatascience/project-experience.svg",
     redirectDa
-      ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/NewDatascience/microsoft-data-analytics.webp"
-      : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/NewDatascience/microsft-data-science.webp",
+      ? "/cdn/NewDatascience/microsoft-data-analytics.svg"
+      : "/cdn/NewDatascience/microsft-data-science.svg",
   ];
   const imageSrcselfpaced = [
-    "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/certificate/VISHANT-VERMAWed-Jan-31-2024-12-36-01-GMT-0000--Coordinated-Universal-Time--325722i0gu.pdf.png",
+    "/cdn/certificate/VISHANT-VERMAWed-Jan-31-2024-12-36-01-GMT-0000--Coordinated-Universal-Time--325722i0gu.svg",
     // Add other image URLs as needed
-    "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/certificate/VISHANT-VERMAWed-Jan-31-2024-12-36-01-GMT-0000--Coordinated-Universal-Time--325722i0gu.pdf.png",
+    "/cdn/certificate/VISHANT-VERMAWed-Jan-31-2024-12-36-01-GMT-0000--Coordinated-Universal-Time--325722i0gu.svg",
     redirectDa
-      ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/certificate/VISHANT-VERMAWed-Jan-31-2024-12-36-01-GMT-0000--Coordinated-Universal-Time--325722i0gu.pdf.png"
-      : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/certificate/VISHANT-VERMAWed-Jan-31-2024-12-36-01-GMT-0000--Coordinated-Universal-Time--325722i0gu.pdf.png",
+      ? "/cdn/certificate/VISHANT-VERMAWed-Jan-31-2024-12-36-01-GMT-0000--Coordinated-Universal-Time--325722i0gu.svg"
+      : "/cdn/certificate/VISHANT-VERMAWed-Jan-31-2024-12-36-01-GMT-0000--Coordinated-Universal-Time--325722i0gu.svg",
   ];
 
   const imageSrcDM = [
-    "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Google-Ads-Display.webp",
+    "/cdn/Google-Ads-Display.svg",
     // Add other image URLs as needed
-    "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/meta.jpeg",
+    "/cdn/meta.svg",
     redirectDM
-      ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/semrush-cer.png"
+      ? "/cdn/semrush-cer.svg"
       : "",
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -235,7 +235,7 @@ const WhyUs = ({ redirectDs, home, redirectDa, nomicrosoft, dmPage, redirectDM, 
 
                   <div className="relative h-[390px] max-[1281px]:h-[330px] mt-[-60px] max-[1281px]:mt-[-25px] max-[1024px]:hidden">
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/NewDatascience/why-choose-us.webp"
+                      src="/cdn/NewDatascience/why-choose-us.svg"
                       alt="why choose"
                       fill
                     />

@@ -105,22 +105,22 @@ const JobOffer = () => {
 
           {JobCategory.map((data) => {
             return (
-              <div className={styles.inputWrap}>
+              <div className={styles.inputWrap} key={data}>
                 <input
                   type="radio"
-                  id="radio"
+                  id={`jobType-${data}`}
                   name="jobType"
                   value={data}
                   onChange={handleParam()}
                 />
-                <label>{data}</label>
+                <label htmlFor={`jobType-${data}`}>{data}</label>
               </div>
             );
           })}
           <div className={styles.inputWrap}>
             <input
               type="radio"
-              id="radio"
+              id="jobType-viewAll"
               name="jobType"
               value="viewAll"
               onChange={handleParam()}

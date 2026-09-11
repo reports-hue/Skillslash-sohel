@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import { useRouter } from "next/router";
 
 const unsubscribeMail = () => {
@@ -35,6 +36,14 @@ const unsubscribeMail = () => {
 
   return (
     <>
+      <Head>
+        <title>Unsubscribe - Skillslash</title>
+        <meta
+          name="description"
+          content="Manage your Skillslash email subscription preferences."
+        />
+        <meta name="robots" content="noindex,follow" />
+      </Head>
       {/* <p onClick={unsubscribe()}></p> */}
       <div style={{ margin: "200px 540px" }}>
         <b>You are successfully unsubscribed. </b>

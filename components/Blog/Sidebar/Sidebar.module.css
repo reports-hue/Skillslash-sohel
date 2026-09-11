@@ -1,0 +1,275 @@
+/* ---------- newsletter ---------- */
+
+.newsletter {
+  padding: 24px;
+  border-radius: 16px;
+  background: #f3f0ff;
+  border: 1px solid #e4defa;
+}
+
+.newsletterTop {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 10px;
+}
+
+.newsletterIcon {
+  flex: none;
+  font-size: 22px;
+  color: #5b46d9;
+  width: 22px;
+  height: 22px;
+}
+
+.newsletterTitle {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1d1b28;
+}
+
+.newsletterCopy {
+  margin: 0 0 16px;
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: #55535f;
+}
+
+.newsletterForm {
+  display: flex;
+  gap: 8px;
+}
+
+.newsletterForm input {
+  flex: 1;
+  min-width: 0;
+  height: 44px;
+  padding: 0 14px;
+  border: 1px solid #ded7f5;
+  border-radius: 10px;
+  background: #ffffff;
+  font: inherit;
+  font-size: 14px;
+  color: #17151f;
+  outline: none;
+}
+
+.newsletterForm input:focus {
+  border-color: #5b46d9;
+  box-shadow: 0 0 0 3px rgba(91, 70, 217, 0.15);
+}
+
+.newsletterForm button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 44px;
+  padding: 0 16px;
+  border: 0;
+  border-radius: 10px;
+  background: #5b46d9;
+  color: #ffffff;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.newsletterForm button svg { width: 14px; height: 14px; flex-shrink: 0; }
+
+.newsletterForm button:hover:not(:disabled) {
+  background: #4f3dc2;
+}
+
+.newsletterForm button:disabled {
+  opacity: 0.65;
+  cursor: default;
+}
+
+.newsletterNote,
+.newsletterError {
+  margin: 12px 0 0;
+  font-size: 12.5px;
+  color: #7c7a89;
+}
+
+.newsletterError {
+  color: #b3261e;
+  font-weight: 500;
+}
+
+/* ---------- popular ---------- */
+
+.popular {
+  margin-top: 20px;
+  padding: 24px;
+  border-radius: 16px;
+  background: #ffffff;
+  border: 1px solid #e8e6f2;
+}
+
+.popularTitle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 16px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #1d1b28;
+}
+
+.flame {
+  font-size: 20px;
+  color: #e2622b;
+}
+
+.popularList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  counter-reset: none;
+}
+
+.popularItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.rank {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 8px;
+  background: #f3f0ff;
+  color: #5b46d9;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.popularLink {
+  font-size: 14.5px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #2b2937;
+  text-decoration: none;
+}
+
+.popularLink:hover {
+  color: #5b46d9;
+}
+
+.popularHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.popularHead .popularTitle { margin: 0; }
+.viewAll {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #5b46d9;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.viewAll:hover { text-decoration: underline; }
+
+.popularThumb {
+  flex: none;
+  width: 56px;
+  height: 42px;
+  border-radius: 8px;
+  object-fit: cover;
+  background: #f2f0fa;
+}
+
+.popularMeta {
+  margin: 3px 0 0;
+  font-size: 11.5px;
+  color: #8b869c;
+}
+
+/* ---------- take-the-next-step CTA ---------- */
+
+.cta {
+  margin-top: 20px;
+  padding: 24px;
+  border-radius: 16px;
+  background: linear-gradient(160deg, #f3f0ff, #f7f3ff);
+  border: 1px solid #e8e6f2;
+}
+
+.ctaIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: #1c1830;
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+
+.ctaTitle {
+  margin: 0 0 8px;
+  font-size: 16.5px;
+  font-weight: 700;
+  color: #1d1b28;
+}
+
+.ctaCopy {
+  margin: 0 0 18px;
+  font-size: 13.5px;
+  line-height: 1.55;
+  color: #55535f;
+}
+
+.ctaBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 18px;
+  border-radius: 10px;
+  background: #1c1830;
+  color: #ffffff;
+  font-size: 13.5px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.ctaBtn:hover { background: #322a54; }
+.ctaBtn svg { width: 15px; height: 15px; }
+
+.ctaFooter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid #e4e0f2;
+}
+
+.avatarStack { display: flex; }
+.avatarStack span {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 2px solid #f7f3ff;
+  background: linear-gradient(135deg, #5b46d9, #9fd1f2);
+  margin-left: -8px;
+}
+.avatarStack span:first-child { margin-left: 0; }
+
+.ctaFooterText {
+  font-size: 12px;
+  font-weight: 600;
+  color: #4a4460;
+}

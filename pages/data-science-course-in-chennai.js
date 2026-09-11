@@ -1,13 +1,13 @@
 // pages/Bangalore.js
 
 import React from "react";
+import { toJsonLdGraph } from "../lib/jsonLdGraph";
 import Head from "next/head";
 import Navbar from "../components/Navbar/Navbar";
 import BlogHeader from "../components/CityBlog/BlogHeader/BlogHeader";
 import BlogContent from "../components/CityBlog/BlogContent/BlogConent";
 import Footer from "../components/Footer/Footer";
 import InternalLinking from "../components/InternalLinking/InternalLinking";
-import Popup from "../components/CityBlog/BlogPopup/Popup";
 import ChennaiData from "../Data/Cities/chennai/chennaiData";
 
 const Delhi = ({ data }) => {
@@ -27,8 +27,10 @@ const Delhi = ({ data }) => {
           rel="canonical"
           href="https://skillslash.com/data-science-course-in-chennai"
         />
-        <script type="application/ld+json">
-          {JSON.stringify({
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: toJsonLdGraph({
             ReviewSchema: {
               "@context": "https://schema.org/",
               "@type": "Product",
@@ -57,7 +59,7 @@ const Delhi = ({ data }) => {
                 "https://www.instagram.com/skillslash_Academy/",
                 "https://www.youtube.com/c/Skillslash",
               ],
-              logo: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Skillslash-logo-new.png",
+              logo: "/cdn/static/web/New-UI/Skillslash-logo-new.svg",
               legalName: "Skillslash - Project Based Learning Platform.",
               address: [
                 {
@@ -118,7 +120,7 @@ const Delhi = ({ data }) => {
                 url: "https://skillslash.com/",
               },
               image:
-                "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Skillslash-logo-new.png",
+                "/cdn/static/web/New-UI/Skillslash-logo-new.svg",
               eventAttendanceMode:
                 "https://schema.org/OnlineEventAttendanceMode",
               eventStatus: "https://schema.org/EventScheduled",
@@ -162,7 +164,7 @@ const Delhi = ({ data }) => {
               description:
                 "Follow these 3 simple steps in the admission process",
               image:
-                "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Skillslash-logo-new.png",
+                "/cdn/static/web/New-UI/Skillslash-logo-new.svg",
               totalTime: "PT5M",
               estimatedCost: {
                 "@type": "MonetaryAmount",
@@ -174,7 +176,7 @@ const Delhi = ({ data }) => {
                   "@type": "HowToStep",
                   text: "Fill Enquiry Form",
                   image:
-                    "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Skillslash-logo-new.png",
+                    "/cdn/static/web/New-UI/Skillslash-logo-new.svg",
                   name: "Form Apply for your profile review by filling the form",
                   url: "https://skillslash.com/data-science-course-in-chennai/",
                 },
@@ -182,7 +184,7 @@ const Delhi = ({ data }) => {
                   "@type": "HowToStep",
                   text: "Talk To Expert",
                   image:
-                    "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Skillslash-logo-new.png",
+                    "/cdn/static/web/New-UI/Skillslash-logo-new.svg",
                   name: "Get your career counseling report from the expert",
                   url: "https://skillslash.com/data-science-course-in-chennai/",
                 },
@@ -190,14 +192,15 @@ const Delhi = ({ data }) => {
                   "@type": "HowToStep",
                   text: "Get Started",
                   image:
-                    "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Skillslash-logo-new.png",
+                    "/cdn/static/web/New-UI/Skillslash-logo-new.svg",
                   name: "Join the data science program by enrolling",
                   url: "https://skillslash.com/data-science-course-in-chennai/",
                 },
               ],
             },
-          })}
-        </script>
+          }),
+          }}
+        />
       </Head>
 
       <Navbar />
@@ -207,11 +210,11 @@ const Delhi = ({ data }) => {
         title=" Data Science Course Training Institutes in "
         subTitle="Top 10"
         titleAuthor="Chennai"
-        authorPro="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/ai_face.webp"
+        authorPro="/cdn/city_Blog/ai_face.svg"
         linkedinId="https://www.linkedin.com/in/amit-ambi-axh08/"
-        rytImg="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/mumbai_top_10_comp.webp"
-        backgroundImg="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_bg_mumbai.webp"
-        cityImg="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/mumbai_place.webp"
+        rytImg="/cdn/city_Blog/mumbai_top_10_comp.svg"
+        backgroundImg="/cdn/city_Blog/blog_bg_mumbai.svg"
+        cityImg="/cdn/city_Blog/mumbai_place.svg"
       />
 
       <BlogContent
@@ -224,7 +227,6 @@ const Delhi = ({ data }) => {
 
       <InternalLinking />
       <Footer />
-      <Popup />
     </div>
   );
 };

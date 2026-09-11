@@ -6,7 +6,6 @@ import Certificate from "../../components/Skills/Home/Certificate/Certificate";
 import ProjectSlider from "../../components/Skills/Global/Project/ProjectSlider";
 import Bootcamp from "../../components/Skills/Home/Bootcamp/Bootcamp";
 import FAQ from "../../components/Skills/Global/FAQ/FAQ";
-import CustomPopup from "../../components/Course/OfferPopup/CustomPopup";
 
 export default function Home() {
   const FaqDATA = [
@@ -88,7 +87,7 @@ export default function Home() {
         <title>Skillslash - Project Based Learning Platform.</title>
         <meta
           name="description"
-          content="Learn latest blogs about Artificial Intelligence (AI), Python, Machine Learning, Data Science, NLP, Business Analysis, Data Science"
+          content="Browse Skillslash self-paced bootcamps in data science, data analytics and DSA with system design - each with recorded modules, live project sessions and a certificate."
         />
       </Head>
 

@@ -2,7 +2,6 @@ const DelhiData = {
     contentHtml: `
 <p>Step into a data-driven world where data takes the pledge of transforming things to extract insightful facts and attain cutting-edge success. Data science growth confirms data-centric success for top-rated startups and MNCs in today’s rising tech era. Data science shifts connect several firms to a data-driven set up marking tempting gains and success. Hence, working experts with static skill sets prefer reshaping their careers via a <b>data science course in Delhi.</b> </p>
 
-  <span class="blog-center-image" data-src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_second_img.webp" data-alt="Banner Image" data-width="800" data-height="400"></span>
   <div class="table-container" style="overflow-x: auto;">
 <table
 style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
@@ -28,7 +27,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
     Master’s degree from Woolf University </td>
  </tr>
 
-
   
  <tr>
   
@@ -38,7 +36,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
     IIT Delhi
    </td>
  </tr>
-
 
  <tr>
       
@@ -50,7 +47,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
    </td>
  </tr>
 
-
  <tr>
        
      <td style="border: 1px solid #ccc; padding: 8px"><a href="#Imarticus">Imarticus</a></td>
@@ -60,8 +56,7 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
       Imarticus Learning
      </td>
    </tr>
-     
-   
+
  <tr>
      
    <td style="border: 1px solid #ccc; padding: 8px"><a href="#DataTrained">DataTrained</a></td>
@@ -92,7 +87,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
     NASSCOM & MeitY
    </td>
    </tr>
- 
 
   <tr>
         
@@ -123,13 +117,11 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 
  </tr>
 
-
 </tbody>
 </table>
 
 </div>
 <p>India is all set to outpace the global data science education market in the future. As per the market reports, India’s <a href="https://economictimes.indiatimes.com/industry/services/education/indias-data-science-education-market-to-grow-at-cagr-of-57-52-report/articleshow/105280572.cms?from=mdr" target="_blank" rel="nofollow"><i>data science education sector</i></a> expects a 57.52% growth by 2028. Data science impacts various sectors, career growth options, and space for tech creations with a demand surge for upskilling. Hence, joining a <b>data science course in Delhi with placement</b> is vital for optimal success. </p>
-<span class="next-image-placeholder" data-src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/banner_c.webp" data-alt="Banner Image" data-width="800" data-height="400"></span></a>
 
 <p>No wonder, Delhi is one of the seven prime IT hubs in India with solid career growth chances. Also, <a href="https://www.livemint.com/Companies/BJhgmiVK3qVVdhUSZPAFYK/Delhi-is-new-hub-for-tech-startups-study.html" target="_blank" rel="nofollow"><i>reports</i></a>  state that Delhi has become a new hub for rising IT startups with creative ideas and a growth stand. Hence, experts with static career paths switch to <b>data science training in Delhi</b> with solid success rates. </p>
 <p>Yet, experts willing to shift their careers to data science must gain a 360-degree learning of the related roles, activities, and growth chances. <b>Let’s know the core daily activities of a data scientist in today’s age. </b></p>
@@ -138,7 +130,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 <p><b>Data science in Delhi</b> is paving the way for global-level career-building with exciting gains. Owing to the rising trends, various startups and MNCs in Delhi are searching for skilled data scientists. </p>
 <p>Data scientists are technically abled with applied statistic/mathematics skills to tackle complex data sets. Such experts are liable for working with huge data sets, decoding patterns, and extracting useful facts. In today’s tech age, there is a demand for skillful data experts who can deal with complex tech models and make factual moves. </p>
 <p>Their demand boosts since experts hold solid domain skills with the latest trends. Hence, experts prefer learning via a <b>data science training institute in Delhi,</b> which has proven gains for crafting a thriving career in today’s tech age. </p>
-
 
 <i><b>Let’s see the core daily activities that a data scientist performs – </b></i>
 <ul>
@@ -763,10 +754,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 <p><b>Project 5: Recommendation system with customer lifetime value analysis (CLV) [Amazon]</b></p>
 <p>Use data visualization tools to examine customer insights and reviews following a specific purchase of a product/service and decide its lifetime value. </p>
 
-
-
-
-
 <h2>Best 10 Data Science Institutes in Delhi [2024 Update]</h2>
 
 <h3 id="Learnbay"><b>1. Master’s in Computer Science: Data Science and AI – Learnbay</b></h3>
@@ -787,7 +774,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 <p><b>Training mode:</b> Learnbay offers live instructor-led <b>data science training in Delhi NCR</b> with flexible plans to help experts balance their work-study duties.  </p>
 
 <p><b>Certifications:</b>  Attest the globally recognized IBM certificate to your career followed by a master’s degree from Woolf University and explore exciting job offers.</p>
-<p>For more details please<a href="mailto:contacts@learnbay.co" target="_blank"> <i>contact here. </i></a></p>
 
 <h3 id="IIT"> <b>2. Advanced Certification in Data Science and Decision Science – IIT Delhi</b></h3>
 
@@ -804,12 +790,8 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 <p><b>Training mode:</b>  IIT Delhi offers live online <b>data science training in Delhi</b> to help experts master cutting-edge tools and thrive on a global level. </p>
 <p><b>Certifications:</b>  Eligible learners will receive e-certificates well-recognized by IIT Delhi and top-rated MNCs in India. </p>
 
-<p>For further details<a href="mailto:info@iitd.ac.in" target="_blank" rel="nofollow"> <i>contact here. </i></a></p>
-
-
 <h3 id="IIIT"> <b>3. PG Diploma Course in Data Science and AI – IIIT Delhi </b></h3>
 <p><b>About:</b>A rapid surge in data-driven practices globally inspires the rising tech spaces to modify their working methods. Delhi, the capital city of India welcomes many aspirants from diverse fields to craft an exciting data science with proven gains. Owing to the data science and AI power, many startups and MNCs revise their work culture paving the way for upskilling. Hence, experts prefer joining a <b>data scientist course in Delhi</b> with tempting returns. In the interim, IIIT Delhi presents its <a href="https://pgddsai.iiitd.ac.in/" target="_blank" rel="nofollow"><i>PG Diploma course</i></a> with premier in-depth skill upgrades. </p>
-
 
 <i><b>Key Features:</b></i>
 <ul>
@@ -824,8 +806,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 <p><b>Training mode:</b>  IIIT Delhi offers online <b>data science coaching in Delhi</b> to help busy working pros balance their work and study obligations. </p>
 <p><b>Certifications:</b> Obtain career-exclusive data science certificates from IIIT Delhi and escalate your success rates. </p>
 
-<p>For more details <a href="mailto:admin-pgddsai1@iiitd.ac.in" target="_blank" rel="nofollow"><i>contact here. </i></a></p>
-
 <h3 id="Imarticus"> <b>4. PG Program in Data Science and Analytics – Imarticus Learning </b></h3>
 <p><b>About:</b> Upskilling and re-skilling have become crucial for experts with static careers to prevail success amid a fierce race. The notable rise of data science inspires firms to see through the changing trends and alter their hiring practices. Hence, the demand for learning from an <b>institute for data science in Delhi</b> increases to tackle the changes. In the meantime, Imarticus Learning presents a front-age <a href="https://imarticus.org/postgraduate-program-in-data-science-analytics/" target="_blank" rel="nofollow"><i>PG program in data science.</i></a> Join the course today and to reach next-level heights of growth and success.</b></p>
 <i><b>Key Features:</b></i>
@@ -839,9 +819,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 <p><b>Fee:</b> Imarticus’ <b>data science course fees in Delhi</b> range within INR 198,000 plus taxes.</p>
 <p><b>Training mode:</b>  Learners joining the <b>best data science course in Delhi</b> will receive classroom and online training options with exciting career gains.</p>
 <p><b>Certifications:</b> Attest globally recognized credentials from Imarticus Learning to redefine yourself and land dream roles. </p>
-
-<p>For more info<a href="mailto:info@imarticus.com" target="_blank" rel="nofollow"><i> contact here.</i></a></p>
-
 
 <h3 id="DataTrained"><b>5. PG Course in Data Science, ML, & Neural Networks in Alliance with NASSCOM – DataTrained</b></h3>
 <p><b>About: </b>  Certainly, data science and AI power have become the center of interest for ruling firms and working experts from diverse fields. Owing to such tech shifts, employers from top-rated firms search for skilled data experts to induce better gains. Even experts from various fields prefer upskilling from the <b>best data science institute in Delhi with placement.</b> DataTrained marks a historic move via its <a href="https://www.datatrained.com/data-science-course-in-delhi" target="_blank" rel="nofollow"><i>PG course in data science</i></a> followed by NASSCOM certificates adding more value to your career. Join the course today and enrich your career to reach the peak of success.  </p>
@@ -859,7 +836,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 <p><b>Fee:</b> Join the <b>best data science course in Delhi NCR</b> with a notable investment of INR 160,000 plus 18% GST. </p>
 <p><b>Training mode:</b> DataTrained offers live instructor-led <b>data science training in Delhi</b> for coursework, projects, and internships. </p>
 <p><b>Certifications:</b> Attest globally recognized credentials from <b>DataTrained in alliance with NASSCOM</b> to your career and solidify your success chances in today’s era. </p>
-<p>For more details  <a href="mailto:admissions@datatrained.com" target="_blank" rel="nofollow"><i>contact here. </i></a></p>
 
 <h3 id="Great"><b>6. PG Program in Data Science and Engineering – Great Learning </b></h3>
 
@@ -877,7 +853,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 <p><b>Fee:</b> Join this <b>data science course in Delhi with placement</b> costs of around INR 350,000 plus taxes where experts can pay INR 8,824 in monthly installments.</p>
 <p><b>Training mode:</b> Great Learning offers 5 months of classroom-based <b>data science training in Delhi NCR</b> to help you cherish exciting gains. </p>
 <p><b>Certifications:</b>  Get enrolled in the <b>best data science institute in Delhi with placement</b> and add useful credentials from Great Lakes to your career.  </p>
-<p>For further details <a href="mailto:info@greatlearning.in"><i> contact here. </i></a></p>
 
 <h3 id="AnalytixLabs"><b>7. Data Science Certification Course in Delhi – AnalytixLabs</b></h3>
 <p><b>About:</b> <b>Data science in Delhi</b> is trending setting the basis for exciting career growth and success. The seamless link of data science with various sectors inspires experts to learn and master leading-edge tools to lift their career edge. Delhi is one of the rising tech spaces with a steady surge in demand for skilled data science experts. AnalytixLabs enters the upskilling space with a cutting-edge <a href="https://www.analytixlabs.co.in/data-science-course-in-delhi" target="_blank" rel="nofollow"><i>data science certification course</i></a> in Delhi. Its unison with NASSCOM enriches your career worth for dealing with complex tech models.</p>
@@ -893,8 +868,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 <p><b>Fee:</b> AnalytixLabs offers a proven <b>data scientist course in Delhi</b> with a career-worthy investment of INR 40,000 – INR 58,000 plus taxes. </p>
 <p><b>Training mode:</b> Learners joining this <b>data science course institute in Delhi</b> can opt for classroom, live training, or self-paced learning modes. </p>
 <p><b>Certifications:</b>  Gain an industry-accredited certificate from AnalytixLabs in alliance with <b>NASSCOM and MeitY</b> and solidify your growth chances.</p>
-<p>For further info <a href="mailto:info@analytixlabs.co.in"><i> contact here. </i></a> </p>
-
 
 <h3 id="Simplilearn"><b>8. PG Program in Data Science, Delhi – Simplilearn</b></h3>
 <p><b>About: </b>Career transition has become a crucial step for working experts owing to the rise of data science in today’s era. Experts from various sectors prefer constant skill updates to stay ahead of the race and land exciting job roles. Hence, enrolment rates in the <b>best data science institute in Delhi with placement</b> keep increasing. Meanwhile, Simplilearn brings its <a href="https://www.simplilearn.com/pgp-data-science-certification-bootcamp-program-delhi-city" target="_blank" rel="nofollow"><i>PG program in data science</i></a> into the limelight. Also, its unison with Purdue University and IBM boosts your career potential to attain high-paying jobs. </p>
@@ -911,7 +884,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 <p><b>Fee:</b> Invest INR 169,999 plus taxes and kick-start upskilling today with attractive pay scales and perks</p>
 <p><b>Training mode:</b>  Join Simplilearn’s online learning boot camp to turn career hurdles into exciting growth options and enrich your worth. </p>
 <p><b>Certifications:</b> Obtain a career-enriching certification from Simplilearn in alliance with Purdue University and IBM driving exciting gains.</p>
-<p>For more details contact at <b> 1800-212-7688.</b></p>
 
 <h3 id="Datamites"><b>9. Data Science Course in Delhi – Datamites</b></h3>
 <p><b>About:</b> Amidst rapidly growing tech space in Delhi, several startups and MNCs welcome splendid digital creations lifting their yields. Even the working experts with static career paths prefer upskilling via <b>data science coaching in Delhi</b> marking exciting growth. Datamites presents a cutting-edge data science course in Delhi with proven gains. Also, its alliance with IABAC leverages career worth to land global-scale job roles. </p>
@@ -927,12 +899,9 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 <p><b>Fee:</b> Datamites offers affordable <b>data science training in Delhi NCR</b> ranging from INR 42,948 to INR 80,873 with taxes.</p>
 <p><b>Training mode:</b> Experts joining the <b>best data science institute in Delhi with placement</b> can opt for live virtual, blended, or classroom training.</p>
 <p><b>Certifications:</b> Attest globally valued certificates from Datamites in alliance with IABAC enriching career growth chances. </p>
-<p>For more info <a href="mailto:info@datamites.com" target="_blank" rel="nofollow"><i>contact here. </i></a></p>
-
 
 <h3 id="TechStack"><b>10. Data Science Course in Delhi with IBM Certification – TechStack Academy</b></h3>
 <p><b>About:</b>   Today’s ever-changing business space relies heavily on automated working methods. Also, data science backs seamless business activities with given insights and makes informed moves. TechStack Academy makes the career upskilling journey hassle-free with impactful learning via a <a href="https://www.techstack.in/data-science-course/" target="_blank" rel="nofollow"><i>data science course</i></a> in Delhi. Its inclusively curated course modules with useful recognition from Orangus India help you excel in your field.</p>
-
 
 <i><b>Key Features:</b></i>
 <ul>
@@ -945,7 +914,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 <p><b>Fee:</b>  With a basic investment of INR 11,000 per month as an installment, anyone can start upskilling to build a thriving data science career in Delhi. </p>
 <p><b>Training mode:</b>  TechStack Academy offers classroom and online <b>data science training in Delhi</b> with definite gains.   </p>
 <p><b>Certifications:</b> Obtain globally recognized certificates from TechStack and Orangus India to enrich career worth and attain compelling success.</p>
-<p>For more details <a href="mailto:info@techstack.in"><i>contact here. </i></a></p>
 
 <h2>Closing Statements!!</h2>
 <p>No wonder, data science has become the key pillar of success for several firms and working experts from diverse fields. Also, its seamless link with the rising tech creations sets the stage for constant learning and career advances. Hence, experts eager to revamp their careers are all set to upskill via a <b>data scientist course in Delhi.</b> Yet, choosing the right learning method with a strategically crafted career path is vital for experts to stay ahead of the race. </p>
@@ -965,10 +933,8 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 <h3><b>5. Which language is better for data science? Python or Java</b></h3>
 <p>Programming is vital for data science hence, experts eager to revamp their careers must refine their coding skills. Yet, Python works well with data science compared to Java because of its flexible and easy usage. Python can easily blend with other complex technologies delivering better results. Hence, experts must learn Python and related libraries for better performance.</p>
 
-  
   <style>
-      
-      
+
               /* Inline CSS for specific styles */
               p {
                 color: #333;
@@ -1044,45 +1010,44 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
     Blogs: [
       {
         image:
-          "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side.webp",
+          "/cdn/city_Blog/blog_side.svg",
         title: "Top 10 Data Science Course Training Institutes in Chandigarh",
         link: "https://skillslash.com/data-science-course-in-chandigarh",
       },
       {
         image:
-          "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_2.webp",
+          "/cdn/city_Blog/blog_side_2.svg",
         title: "Top 10 Data Science Course Training Institutes in Kolkata",
         link: "https://skillslash.com/data-science-course-training-kolkata",
       },
       {
         image:
-          "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_3.webp",
+          "/cdn/city_Blog/blog_side_3.svg",
         title: "Top 10 Data Science Course Training Institutes in Jaipur",
         link: "https://skillslash.com/data-science-course-in-jaipur",
       },
       {
         image:
-          "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_3.webp",
+          "/cdn/city_Blog/blog_side_3.svg",
         title: "Top 10 Data Science Course Training Institutes in Bangalore",
         link: "https://skillslash.com/data-science-course-in-bangalore",
       },
       {
         image:
-          "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_3.webp",
+          "/cdn/city_Blog/blog_side_3.svg",
         title: "Top 10 Data Science Course Training Institutes in Hyderabad",
         link: "https://skillslash.com/data-science-course-training-hyderabad",
       },
       {
         image:
-          "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_3.webp",
+          "/cdn/city_Blog/blog_side_3.svg",
         title: "Top 10 Data Science Course Training Institutes in Delhi",
         link: "https://skillslash.com/data-science-course-in-delhi",
       },
 
-
       {
         image:
-          "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_3.webp",
+          "/cdn/city_Blog/blog_side_3.svg",
         title: "Top 10 Data Science Course Training Institutes in Kochi",
         link: "https://skillslash.com/data-science-course-in-kochi",
       },

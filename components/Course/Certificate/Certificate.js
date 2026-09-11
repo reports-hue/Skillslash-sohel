@@ -80,8 +80,8 @@ const Certificate = ({
                     className="shadow"
                     src={
                       redirectBa
-                        ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/data-sample-certificate.webp"
-                        : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/MOVIDU_Sample%2BCertificate%2B-%2B1%2B(1).webp"
+                        ? "/cdn/static/web/New-UI/data-sample-certificate.svg"
+                        : "/cdn/static/web/New-UI/MOVIDU_Sample-Certificate---1-1.svg"
                     }
                     alt={altM}
                     quality={100}
@@ -133,8 +133,8 @@ const Certificate = ({
                     className="shadow"
                     src={
                       redirectBa
-                        ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/data-sample-certificate.webp"
-                        : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/MOVIDU_Sample%2BCertificate%2B-%2B1%2B(1).webp"
+                        ? "/cdn/static/web/New-UI/data-sample-certificate.svg"
+                        : "/cdn/static/web/New-UI/MOVIDU_Sample-Certificate---1-1.svg"
                     }
                     alt={altM}
                     quality={100}

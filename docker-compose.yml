@@ -1,16 +1,67 @@
-version: "3.9"
 services:
-  web:
-    build: .
-    # image: studentapp_web:latest
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-skillslash}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB:-skillslash}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-skillslash} -d ${POSTGRES_DB:-skillslash}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    # Not published to the host - only the `web` container (and the
+    # deploy script's migration step, run via `docker compose exec`)
+    # can reach it, on the compose network.
 
-    command: "npm run start"
-
-    ports:
-      - "3000:3000"
-
+  # One-off tooling container, not started by `docker compose up` (the
+  # `tools` profile excludes it) - run explicitly for schema migrations and
+  # admin-user seeding. Built from the `builder` stage rather than the final
+  # `runner` stage because the standalone production image deliberately
+  # excludes scripts/, dotenv and dev-only pieces; the builder stage still
+  # has the full source tree and node_modules to run them.
+  #   docker compose run --rm migrate node scripts/migrate.js
+  #   docker compose run --rm migrate node scripts/create-admin.js <email> <password> "<name>"
+  migrate:
+    build:
+      context: .
+      target: builder
+    profiles: ["tools"]
+    depends_on:
+      db:
+        condition: service_healthy
     env_file:
       - ./.env
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-skillslash}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-skillslash}
+    entrypoint: []
 
-    # volumes:
-    #   - /home/ubuntu/SERVER/Prod/SkillslashMain:/app
+  web:
+    build: .
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    env_file:
+      - ./.env
+    environment:
+      # Overrides whatever DATABASE_URL is in .env with the compose-network
+      # address of the `db` service above, so the app always talks to the
+      # Postgres this compose file owns rather than an external one.
+      DATABASE_URL: postgresql://${POSTGRES_USER:-skillslash}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-skillslash}
+    volumes:
+      # Editor/cover image uploads (public/uploads/blog) must survive a
+      # `docker compose up --build` redeploy - see lib/../pages/api/admin/
+      # upload.js's own note on this assumption.
+      - uploads:/app/public/uploads
+    ports:
+      # Bound to localhost only - nginx on the host is the public entry
+      # point (see deploy/nginx/skillslash.conf) and proxies to this port.
+      - "127.0.0.1:3000:3000"
+
+volumes:
+  pgdata:
+  uploads:

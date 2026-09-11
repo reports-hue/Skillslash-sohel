@@ -58,7 +58,7 @@ const DetailTable = ({
         </div>
         <div className="flex flex-col gap-[15px] max-sm:gap-[10px] items-center ">
           <Image
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Home/coursesection/skillsalsh-favicon-white.png"
+            src="/cdn/Home/coursesection/skillsalsh-favicon-white.svg"
             width={40}
             height={40}
             alt="skillslash-logo"
@@ -250,7 +250,7 @@ const DetailTable = ({
         </div>
         <div className="flex flex-col gap-[15px] max-sm:gap-[10px] items-center ">
           <Image
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Home/coursesection/skillsalsh-favicon-white.png"
+            src="/cdn/Home/coursesection/skillsalsh-favicon-white.svg"
             width={40}
             height={40}
             alt="skillslash-logo"

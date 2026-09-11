@@ -7,7 +7,7 @@ const CompanyLogo = () => {
     <>
     <div className={Styles.maindiv}>
       <h2>Our Trainers at top tech companies</h2>
-      <Image src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/partner_logos.webp"
+      <Image src="/cdn/digital-marketing/partner_logos.svg"
       alt='company_logo'
       width={900}
       height={100}

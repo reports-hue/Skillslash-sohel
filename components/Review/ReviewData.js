@@ -1,7 +1,7 @@
 export const dsReview = [
   {
     id: 1,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/mirnal-sahay.webp",
+    img: "/cdn/Review/mirnal-sahay.svg",
     name: "Mrinal Sahay",
     alt: "Mrinal Sahay review",
     rating: "high",
@@ -10,7 +10,7 @@ export const dsReview = [
   },
   {
     id: 2,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/gautum-review.webp",
+    img: "/cdn/Review/gautum-review.svg",
     name: "Gautam",
     alt: "Gautam review",
     rating: "high",
@@ -19,7 +19,7 @@ export const dsReview = [
   },
   {
     id: 3,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/sameer-ahemed.webp",
+    img: "/cdn/Review/sameer-ahemed.svg",
     name: "Sammer Ahmed",
     alt: "Sammer Ahmed review",
     rating: "high",
@@ -28,7 +28,7 @@ export const dsReview = [
   },
   {
     id: 4,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/Tilak-rao.webp",
+    img: "/cdn/Review/Tilak-rao.svg",
     name: "Tilak Rao",
     alt: "Tilak Rao review",
     rating: "medium",
@@ -37,7 +37,7 @@ export const dsReview = [
   },
   {
     id: 5,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/priya-khatun.webp",
+    img: "/cdn/Review/priya-khatun.svg",
     name: "Priya Khatun",
     alt: "Priya Khatin",
     rating: "medium",
@@ -46,7 +46,7 @@ export const dsReview = [
   },
   {
     id: 7,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/Rishi+Bhaisare.webp",
+    img: "/cdn/Review/Rishi-Bhaisare.svg",
     name: "Rishi Bhaisare",
     alt: "Rishi Bhaisare",
     rating: "medium",
@@ -55,7 +55,7 @@ export const dsReview = [
   },
   {
     id: 8,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/Ashmita+Chakraborty.webp",
+    img: "/cdn/Review/Ashmita-Chakraborty.svg",
     name: "Ashmita Chakraborty",
     alt: "Ashmita Chakraborty",
     rating: "medium",
@@ -64,7 +64,7 @@ export const dsReview = [
   },
   {
     id: 9,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/Jayesh+Raj+Prasad.webp",
+    img: "/cdn/Review/Jayesh-Raj-Prasad.svg",
     name: "Jayesh Raj Prasad",
     alt: "Jayesh Raj Prasad",
     rating: "medium",
@@ -73,7 +73,7 @@ export const dsReview = [
   },
   {
     id: 10,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/Akshaya+Sobanan.webp",
+    img: "/cdn/Review/Akshaya-Sobanan.svg",
     name: "Akshaya Sobanan",
     alt: "Akshaya Sobanan",
     rating: "medium",
@@ -82,7 +82,7 @@ export const dsReview = [
   },
   {
     id: 11,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/Badkas+Poorvi.webp",
+    img: "/cdn/Review/Badkas-Poorvi.svg",
     name: "Badkas Poorvi",
     alt: "Badkas Poorvi",
     rating: "medium",
@@ -91,7 +91,7 @@ export const dsReview = [
   },
   {
     id: 12,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/Nahaz+Nabbu.webp",
+    img: "/cdn/Review/Nahaz-Nabbu.svg",
     name: "Nahaz Nabbu",
     alt: "Nahaz Nabbu",
     rating: "medium",
@@ -101,7 +101,7 @@ export const dsReview = [
 
   {
     id: 14,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/parthana-patel.webp",
+    img: "/cdn/Review/parthana-patel.svg",
     name: "Prathana Patel",
     alt: "Prathana Patel",
     rating: "medium",
@@ -110,7 +110,7 @@ export const dsReview = [
   },
   {
     id: 15,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/sumanthkolluri.webp",
+    img: "/cdn/Review/sumanthkolluri.svg",
     name: "SUMANTH KOLLURI",
     alt: "SUMANTH KOLLURI",
     rating: "medium",
@@ -121,7 +121,7 @@ export const dsReview = [
 export const webReview = [
   {
     id: 1,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/satya agravarapu-web-development-review.png",
+    img: "/cdn/static/web/satya.svg agravarapu-web-development-review.png",
     name: "satya agravarapu",
     alt: "satya agravarapu review",
     rating: "high",
@@ -130,7 +130,7 @@ export const webReview = [
   },
   {
     id: 2,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/SHASHIKANT SAI-web-development-review.png",
+    img: "/cdn/static/web/SHASHIKANT.svg SAI-web-development-review.png",
     name: "Shashikant Sai",
     alt: "Shashikant Sai review",
     rating: "high",
@@ -139,7 +139,7 @@ export const webReview = [
   },
   {
     id: 3,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/spoorti-v-web-development-review.png",
+    img: "/cdn/static/web/spoorti-v-web-development-review.svg",
     name: "Spoorti v",
     alt: "spoorti v review",
     rating: "high",
@@ -149,7 +149,7 @@ export const webReview = [
 
   {
     id: 5,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Pravin-Kumar-web-development-review.png",
+    img: "/cdn/static/web/Pravin-Kumar-web-development-review.svg",
     name: "Pravin Kumar",
     alt: "pravin kumar review",
     rating: "high",
@@ -158,7 +158,7 @@ export const webReview = [
   },
   {
     id: 6,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Brijisha-Doshi-webdevelopment-review.png",
+    img: "/cdn/static/web/Brijisha-Doshi-webdevelopment-review.svg",
     name: "Brijisha Doshi",
     alt: "Brijisha Doshi review",
     rating: "high",
@@ -167,7 +167,7 @@ export const webReview = [
   },
   {
     id: 7,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Harshal-Chougule-web-development-review.png",
+    img: "/cdn/static/web/Harshal-Chougule-web-development-review.svg",
     name: "Harshal Chougule",
     alt: "Harshal Chougule review",
     rating: "medium",
@@ -176,7 +176,7 @@ export const webReview = [
   },
   {
     id: 8,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Home/review/Merlin%2BThomas-.png",
+    img: "/cdn/Home/review/Merlin-Thomas.svg",
     name: "Merlin Thomas",
     alt: "Merlin Thomas review",
     rating: "medium",
@@ -185,7 +185,7 @@ export const webReview = [
   },
   {
     id: 9,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Prarthana-Thokal-web-development-review.png",
+    img: "/cdn/static/web/Prarthana-Thokal-web-development-review.svg",
     name: "Prarthana Thokal",
     alt: "Prarthana Thokal review",
     rating: "low",
@@ -196,7 +196,7 @@ export const webReview = [
 export const fsReview = [
   {
     id: 1,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/pankaj-chowdhury.webp",
+    img: "/cdn/Review/pankaj-chowdhury.svg",
     name: "Pankaj Chowdhury",
     alt: "Pankaj Chowdhury review",
     rating: "high",
@@ -206,7 +206,7 @@ export const fsReview = [
 
   {
     id: 3,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/manisha.webp",
+    img: "/cdn/Review/manisha.svg",
     name: "Manisha Singh",
     alt: "Manisha singh review",
     rating: "high",
@@ -215,7 +215,7 @@ export const fsReview = [
   },
   {
     id: 4,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Home/review/Muralikrishna_Alichetty.webp",
+    img: "/cdn/Home/review/Muralikrishna_Alichetty.svg",
     name: "Muralikrishna",
     alt: "Muralikrishna review",
     rating: "medium",
@@ -224,7 +224,7 @@ export const fsReview = [
   },
   {
     id: 5,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/girish.webp",
+    img: "/cdn/Review/girish.svg",
     name: "Girisih",
     alt: "Girisih review",
     rating: "medium",
@@ -233,7 +233,7 @@ export const fsReview = [
   },
   {
     id: 6,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Home/review/Anukalp_Desai.webp",
+    img: "/cdn/Home/review/Anukalp_Desai.svg",
     name: "Anukalp Desai",
     alt: "Anukalp Desai review",
     rating: "low",
@@ -242,7 +242,7 @@ export const fsReview = [
   },
   {
     id: 7,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Home/review/Anurag_Sinha.webp",
+    img: "/cdn/Home/review/Anurag_Sinha.svg",
     name: "Anurag Sinha",
     alt: "Anurag Sinha review",
     rating: "medium",
@@ -251,7 +251,7 @@ export const fsReview = [
   },
   {
     id: 8,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Home/review/Ankur_Singh.webp",
+    img: "/cdn/Home/review/Ankur_Singh.svg",
     name: "Ankur Singh",
     alt: "Ankur review",
     rating: "low",
@@ -262,7 +262,7 @@ export const fsReview = [
 export const homeReview = [
   {
     id: 1,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/mirnal-sahay.webp",
+    img: "/cdn/Review/mirnal-sahay.svg",
     name: "Mrinal Sahay",
     alt: "Mrinal Sahay review",
     rating: "high",
@@ -271,7 +271,7 @@ export const homeReview = [
   },
   {
     id: 2,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/gautum-review.webp",
+    img: "/cdn/Review/gautum-review.svg",
     name: "Gautam",
     alt: "Gautam review",
     rating: "high",
@@ -280,7 +280,7 @@ export const homeReview = [
   },
   {
     id: 3,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/sameer-ahemed.webp",
+    img: "/cdn/Review/sameer-ahemed.svg",
     name: "Sammer Ahmed",
     alt: "Sammer Ahmed review",
     rating: "high",
@@ -289,7 +289,7 @@ export const homeReview = [
   },
   {
     id: 4,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/Tilak-rao.webp",
+    img: "/cdn/Review/Tilak-rao.svg",
     name: "Tilak Rao",
     alt: "Tilak Rao review",
     rating: "medium",
@@ -298,7 +298,7 @@ export const homeReview = [
   },
   {
     id: 5,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/priya-khatun.webp",
+    img: "/cdn/Review/priya-khatun.svg",
     name: "Priya Khatun",
     alt: "Priya Khatin",
     rating: "medium",
@@ -307,7 +307,7 @@ export const homeReview = [
   },
   {
     id: 7,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/Rishi+Bhaisare.webp",
+    img: "/cdn/Review/Rishi-Bhaisare.svg",
     name: "Rishi Bhaisare",
     alt: "Rishi Bhaisare",
     rating: "medium",
@@ -316,7 +316,7 @@ export const homeReview = [
   },
   {
     id: 8,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/Ashmita+Chakraborty.webp",
+    img: "/cdn/Review/Ashmita-Chakraborty.svg",
     name: "Ashmita Chakraborty",
     alt: "Ashmita Chakraborty",
     rating: "medium",
@@ -325,7 +325,7 @@ export const homeReview = [
   },
   {
     id: 9,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/Jayesh+Raj+Prasad.webp",
+    img: "/cdn/Review/Jayesh-Raj-Prasad.svg",
     name: "Jayesh Raj Prasad",
     alt: "Jayesh Raj Prasad",
     rating: "medium",
@@ -334,7 +334,7 @@ export const homeReview = [
   },
   {
     id: 10,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/Akshaya+Sobanan.webp",
+    img: "/cdn/Review/Akshaya-Sobanan.svg",
     name: "Akshaya Sobanan",
     alt: "Akshaya Sobanan",
     rating: "medium",
@@ -343,7 +343,7 @@ export const homeReview = [
   },
   {
     id: 11,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/Badkas+Poorvi.webp",
+    img: "/cdn/Review/Badkas-Poorvi.svg",
     name: "Badkas Poorvi",
     alt: "Badkas Poorvi",
     rating: "medium",
@@ -352,7 +352,7 @@ export const homeReview = [
   },
   {
     id: 12,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/Nahaz+Nabbu.webp",
+    img: "/cdn/Review/Nahaz-Nabbu.svg",
     name: "Nahaz Nabbu",
     alt: "Nahaz Nabbu",
     rating: "medium",
@@ -362,7 +362,7 @@ export const homeReview = [
 
   {
     id: 14,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/parthana-patel.webp",
+    img: "/cdn/Review/parthana-patel.svg",
     name: "Prathana Patel",
     alt: "Prathana Patel",
     rating: "medium",
@@ -371,7 +371,7 @@ export const homeReview = [
   },
   {
     id: 15,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/sumanthkolluri.webp",
+    img: "/cdn/Review/sumanthkolluri.svg",
     name: "SUMANTH KOLLURI",
     alt: "SUMANTH KOLLURI",
     rating: "medium",
@@ -380,7 +380,7 @@ export const homeReview = [
   },
   {
     id: 16,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Muralikrishna_Alichetty.webp",
+    img: "/cdn/static/web/Muralikrishna_Alichetty.svg",
     name: "Muralikrishna",
     alt: "Muralikrishna review",
     rating: "medium",
@@ -389,7 +389,7 @@ export const homeReview = [
   },
   {
     id: 17,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Home/review/GIRISH_BALLAMPALLI.webp",
+    img: "/cdn/Home/review/GIRISH_BALLAMPALLI.svg",
     name: "Girisih",
     alt: "Girisih review",
     rating: "medium",
@@ -398,7 +398,7 @@ export const homeReview = [
   },
   {
     id: 18,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Anukalp_Desai.webp",
+    img: "/cdn/static/web/Anukalp_Desai.svg",
     name: "Anukalp Desai",
     alt: "Anukalp Desai review",
     rating: "low",
@@ -407,7 +407,7 @@ export const homeReview = [
   },
   {
     id: 19,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Home/review/Anurag_Sinha.webp",
+    img: "/cdn/Home/review/Anurag_Sinha.svg",
     name: "Anurag Sinha",
     alt: "Anurag Sinha review",
     rating: "medium",
@@ -416,7 +416,7 @@ export const homeReview = [
   },
   {
     id: 20,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Home/review/Ankur_Singh.webp",
+    img: "/cdn/Home/review/Ankur_Singh.svg",
     name: "Ankur Singh",
     alt: "Ankur review",
     rating: "low",

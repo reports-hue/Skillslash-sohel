@@ -42,7 +42,7 @@ const Demand = ({
       <div className={styles.DemandHead}>
          <div className={styles.backgroundImageWrapper}>
           <Image 
-  src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/demand_bg_1.webp"
+  src="/cdn/digital-marketing/demand_bg_1.svg"
   layout="responsive"
   width={10} // Set the width of your image
   height={10} // Set the height of your image
@@ -63,7 +63,7 @@ const Demand = ({
             <div className={styles.top}>
               <span>with Gen AI </span>
               <Image
-                src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/Bard_Dm.webp"
+                src="/cdn/digital-marketing/Bard_Dm.svg"
                 width={20}
                 height={20}
                 alt="Bard"
@@ -73,17 +73,17 @@ const Demand = ({
          
             <div className={styles.details}>
               <div className={styles.list}>
-                <Image src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/Time.webp" width={30} height={30} alt='icon'/>
+                <Image src="/cdn/digital-marketing/Time.svg" width={30} height={30} alt='icon'/>
                 
                 <p>6 months</p></div>
               <div className={styles.list}>
-              <Image src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/Class.webp" width={30} height={30} alt='icon'/>
+              <Image src="/cdn/digital-marketing/Class.svg" width={30} height={30} alt='icon'/>
                 <p>Live Learning Mode</p></div>
               <div className={styles.list}>
-              <Image src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/Class.webp" width={30} height={30} alt='icon'/>
+              <Image src="/cdn/digital-marketing/Class.svg" width={30} height={30} alt='icon'/>
                 <p>10+ Certificates</p></div>
               <div className={styles.list}>
-              <Image src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/Quality.webp" width={30} height={30} alt='icon'/>
+              <Image src="/cdn/digital-marketing/Quality.svg" width={30} height={30} alt='icon'/>
                 <p>Premium Career Support</p></div>
 
               <div className={styles.btn}>
@@ -96,7 +96,7 @@ const Demand = ({
             </div>
           </div>
           <div className={styles.supportImg}>
-            <Image src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/org_lady.webp"
+            <Image src="/cdn/digital-marketing/org_lady.svg"
             width={390}
             height={300}/>
           </div>

@@ -17,7 +17,7 @@ const ProgramInfo = ({
             <>
               {" "}
               <Image
-                src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Home/progamInfo/hike-icon-h.webp"
+                src="/cdn/Home/progamInfo/hike-icon-h.svg"
                 width={40}
                 height={40}
                 alt="increase you salary by 170%"
@@ -28,7 +28,7 @@ const ProgramInfo = ({
             <>
               {" "}
               <Image
-                src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/hike-icon.webp"
+                src="/cdn/static/web/New-UI/hike-icon.svg"
                 width={40}
                 height={40}
                 alt="hike icon"
@@ -41,7 +41,7 @@ const ProgramInfo = ({
         </div>
         <div className={styles.middle}>
           <Image
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Home/progamInfo/live-classes.webp"
+            src="/cdn/Home/progamInfo/live-classes.svg"
             width={40}
             height={40}
             alt="learn directly from live classes"
@@ -54,7 +54,7 @@ const ProgramInfo = ({
             <>
               {" "}
               <Image
-                src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Home/progamInfo/Hiring-icon.webp"
+                src="/cdn/Home/progamInfo/Hiring-icon.svg"
                 width={40}
                 height={40}
                 alt="hiring"
@@ -65,7 +65,7 @@ const ProgramInfo = ({
             <>
               {" "}
               <Image
-                src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Home/progamInfo/emi-icon-desktop.webp"
+                src="/cdn/Home/progamInfo/emi-icon-desktop.svg"
                 width={40}
                 height={40}
                 alt="hiring"

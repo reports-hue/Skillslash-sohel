@@ -1,6 +1,7 @@
 // pages/mumbai.js
 
 import React from "react";
+import { toJsonLdGraph } from "../lib/jsonLdGraph";
 import Head from "next/head";
 import Navbar from "../components/Navbar/Navbar";
 import BlogHeader from "../components/CityBlog/BlogHeader/BlogHeader";
@@ -8,7 +9,6 @@ import BlogContent from "../components/CityBlog/BlogContent/BlogConent";
 import BAHyderabadData from "../Data/Cities/hyderabad/BAHyderabadData";
 import Footer from "../components/Footer/Footer";
 import InternalLinking from "../components/InternalLinking/InternalLinking";
-import Popup from "../components/CityBlog/BlogPopup/Popup";
 import DSAData from "../Data/Cities/dataStrctures/DSAData";
 
 const BAHyderabad = ({ data }) => {
@@ -16,11 +16,11 @@ const BAHyderabad = ({ data }) => {
     <div>
       <Head>
         <title>
-        Top 10 Data Structure & Algorithm Courses Online
+        Top 9 Data Structure & Algorithm Courses Online
         </title>
         <meta
           name="description"
-          content="Master Data Structures & Algorithms with these Top 10 Online Courses. Ideal for Beginners to Advanced Learners Aiming to Boost Coding and Problem-Solving Skills"
+          content="Master Data Structures & Algorithms with these Top 9 Online Courses. Ideal for Beginners to Advanced Learners Aiming to Boost Coding and Problem-Solving Skills"
         />
         <meta
           name="keywords"
@@ -28,10 +28,12 @@ const BAHyderabad = ({ data }) => {
         />
         <link
           rel="canonical"
-          href="https://skillslash.com/best-data-structures-algorithms-course"
+          href="https://skillslash.com/dsa-system-design"
         />
-        <script type="application/ld+json">
-          {JSON.stringify({
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: toJsonLdGraph({
            "@context": "https://schema.org/",
       "@type": "Product",
       "name": "Best Data Structures and Algorithms Course",
@@ -46,8 +48,9 @@ const BAHyderabad = ({ data }) => {
         "worstRating": "1",
         "ratingCount": "22858"
             },
-          })}
-        </script>
+          }),
+          }}
+        />
       </Head>
 
       <Navbar />
@@ -55,13 +58,13 @@ const BAHyderabad = ({ data }) => {
       <BlogHeader
         city="[2025]"
         title=" Data Structure & Algorithm Courses Online"
-        subTitle="Top 10 "
+        subTitle="Top 9 "
         titleAuthor="Siddharth"
-        authorPro="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/ai_face.webp"
+        authorPro="/cdn/city_Blog/ai_face.svg"
         linkedinId="https://www.linkedin.com/in/amit-ambi-axh08/"
-        rytImg="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/mumbai_top_10_comp.webp"
-        backgroundImg="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_bg_mumbai.webp"
-        cityImg="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/mumbai_place.webp"
+        rytImg="/cdn/city_Blog/mumbai_top_10_comp.svg"
+        backgroundImg="/cdn/city_Blog/blog_bg_mumbai.svg"
+        cityImg="/cdn/city_Blog/mumbai_place.svg"
       />
 
       <BlogContent
@@ -74,7 +77,6 @@ const BAHyderabad = ({ data }) => {
 
       <InternalLinking />
       <Footer />
-      <Popup />
     </div>
   );
 };

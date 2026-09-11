@@ -657,7 +657,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 <p><b>Fee:</b> Experts eager to revamp their careers can join this <a href="https://www.learnbay.co/datascience/pune/data-science-course-training-in-pune?utm_source=skillslash&utm_medium=pune&utm_campaign=ds&utm_content=blog_pune" target="_blank"><b>data science online training in Pune</b></a> with a notable investment of INR 190,000 + 18% GST. </p>
 <p><b>Mode of training: </b> Learnbay’s executive program offers a <b>data science online course in Pune </b></p>
 <p><b>Certifications: </b>Attest useful credentials from E&ICT Academy, IIT Guwahati, & IBM to your career unlocking exciting gains.</p>
-<p><b>Contact:</b> <a href="mailto:contacts@learnbay.co" target="_blank"><i>contacts@learnbay.co</i></a></p>
 
 <h3 id="Imarticus">2. PG Program in Data Science and Analytics [Imarticus Learning]</h3>
 <p><b>About:</b> Indeed, career upskilling has become an effective metric to rise beyond technologies and thrive globally. Meanwhile, <a href="https://imarticus.org/postgraduate-program-in-data-science-analytics/" target="_blank" rel="nofollow"><i>Imarticus Learning</i></a> presents you with an integrated PG program in data science and analytics with a new perspective. Its constant <b>data science coaching in Pune</b> equips you with real-time tech skills. Also, reliable job assistance from experts enhances your profile’s worth enabling you to crack lucrative jobs.</p>
@@ -675,7 +674,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 <p><b>Fee:</b> The <b>fees for data science course in Pune</b> by Imarticus costs INR 198,000 with taxes. Learners can opt for installment payment options to balance their learning budget.</p>
 <p><b>Mode of training:</b> Imarticus’ is the <b>best data science training institute in Pune</b> with classroom and live online sessions.</p>
 <p><b>Certifications:</b> Learners opting for this <b>data science certification in Pune</b> will obtain validation from Imarticus with exciting job offers.</p>
-<p><b>Contact: </b> Call at +91 9953953040</p>
 <h3 id="Great">PG Program in Data Science and Engineering in Pune [Great Learning]</h3>
 <p><b>About:</b> Pune’s bustling tech space demands a digitally talented workforce to face the rising threats and rise to the peak of success. Yet, lasting skill gaps make the initiative tough for experts with static skill sets. In the due course of time, <a href="https://www.mygreatlearning.com/pg-program-data-science-course-in-pune" target="_blank" rel="nofollow"><i> Great Learning</i></a> marks a historic move with its PG Program in data science in Pune. Its industry unison with Great Lakes guides experts to have successful career shifts. </p>
 <p><i><b>Key features:</b></i></p>
@@ -690,7 +688,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 <p><b>Fee:</b> Great Learning’s <b>best training institute for data science in Pune</b> costs you INR 350,000 plus 18% GST. learners can opt for no-cost EMI options with a payment of INR 8,824/month.</p>
 <p><b>Mode of training:</b> Great Learning offers a <b>data science online course in Pune</b> to support hassle-free upskilling besides hectic work schedules.</p>
 <p><b>Certifications:</b> Great Learning offers a cutting-edge data science certification in Pune in alliance with Great Lakes. </p>
-<p><b>Contact:</b> <a href="mailto:info@greatlearning.in"><i>info@greatlearning.in</i></a></p>
 <h3 id="Symbiosis">4. Post Graduate Diploma in Data Science [Symbiosis]</h3>
 <p><b>About:</b>  In the rapidly evolving tech age, constant skill upgrades and work practice refinement have become crucial for firms and working pros. Upskilling is vital owing to the latest tools and trends like data science, AI, ML, etc. Hence, <a href="https://www.scdl.net/programs/pg-programs/distance-learning-pg-diploma-in-data-science-and-statistics.aspx" target="_blank" rel="nofollow"><i>Symbiosis</i></a> takes the pledge for seamless career shifts via its diploma course. Its thoroughly curated training program helps experts to harness the power of data. Also, approval from AICTE enriches career worth and equips you with high-paying jobs. </p>
 <p><b><i>Key features:</i></b></p>
@@ -703,7 +700,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 <p><b>Fee: </b>The total program fee for this <b>data science course in Pune</b> is INR 65,000. Plus, learners can opt for special discounts and kick-start learning.</p>
 <p><b>Mode of training: </b> Symbiosis offers a two-year <b>online data science training in Pune</b> where learners can balance their work and study obligations. </p>
 <p><b>Certifications: </b> This <b>Pune data science course</b> attests to a job-driven credential to your career from Symbiosis.</p>
-<p><b>Contact: </b> Call at +91-20-25211 111</p>
 <h3 id="Intellipaat">5. Data Science Course in Pune in Alliance with IIT Roorkee [Intellipaat]</h3>
 <p><b>About:</b> The 21st Century is the clear evidence of splendid tech creations lifting business yields and career rise options with endless scopes. Working pros from diverse fields opt to learn from the <b>top data science institute in Pune.</b> <a href="https://intellipaat.com/data-scientist-course-training-pune/" target="_blank" rel="nofollow"><i>Intellipaat’s</i></a> sincere efforts in lifting career worth work wonderfully for many. Its Data science course in alliance with IIT Roorkee sets the basis for mending a tech-friendly career path and grabbing exciting job offers. </p>
 <p><b><i>Key features:</i></b></p>
@@ -718,7 +714,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 <p><b>Fee:</b> Its <b>data science courses in Pune with placement</b> costs INR 85,044, followed by easy financing options.</p>
 <p><b>Mode of training:</b> Intellipaat’s <b>best data science classes in Pune</b> equip you with proven skills to thrive globally. Here, learners will get live, self-paced, and blended training modes.</p>
 <p><b>Certifications:</b> Obtain leading-edge data science credentials from IIT Roorkee and Intellipaat to diversify your career and attain exciting success.</p>
-<p><b>Contact:</b>  Call at +91-7022374614</p>
 <h3 id="Simplilearn">6. Post Graduate Program in Data Science in Pune [Simplilearn in alliance with Purdue University]</h3>
 <p><b>About: </b>  Today’s rapidly changing tech world allures businesses and working pros to rise competitively and thrive. Experts with static skill sets prefer skill upgrades to crack promising job offers with the leading MNCs. <a href="https://www.simplilearn.com/pgp-data-science-certification-bootcamp-program-pune-city" target="_blank" rel="nofollow"><i>Simplilearn</i></a> presents a front-age PG program in data science in alliance with Purdue University and IBM. </p>
 <p><b><i>Key features:</i></b></p>
@@ -732,7 +727,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   <li>Join <b>Simplilearn’s career-exclusive job assistance programs</b> and land your dream roles</li>
 </ul>
 <p><b>Fee: </b> Simplilearn’s <b>best data science course in Pune</b> costs INR 57,000 (including taxes) with INR 4,750 as monthly EMIs.</p>
-<p><b>Contact: Call at 1800-212-7688 or <a href="https://www.simplilearn.com/contact-us" target="_blank" rel="nofollow"><i>contact here</i></a></b></p>
 <h3 id="UpGrad">7. Advanced Certificate in Data Science [UpGrad]</h3>
 <p><b>About: </b> The ongoing tech shifts inspire working experts to sharpen their skills to retain their careers and grow endlessly. <a href="https://www.upgrad.com/advanced-certificate-in-data-science-upgrad-pune/" target="_blank" rel="nofollow"><i>UpGrad’s</i></a> data science course in Pune offline lays the basis for a 360-degree career upskilling. Its advanced certificate course in data science offers the scope to build links with industry experts. Also, UpGrad’s reliable placement program enriches your skills for better gains.</p>
 <p><i><b>Key features: </b></i></p>
@@ -747,7 +741,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 <p><b>Fee:</b> UpGrad’s <b>data science course in Pune fees</b> is INR 150,000 with taxes. Learners can avail of no-cost EMI or credit facilities to repay the fees and enrich their learning experience. </p>
 <p><b>Mode of training:</b> This advanced-level <b>data scientist course in Pune</b> conducts offline training sessions to make you job-ready. </p>
 <p><b>Certifications:</b> This <b>top data science institute in Pune</b> offers a globally valued certification from UpGrad. </p>
-<p><b>Contact:</b> <a href="mailto:admissionspune@upgrad.com"><i> admissionspune@upgrad.com </i></a></p>
 <h3 id="Datamites">4. Data Science Course in Pune [Datamites]</h3>
 <p><b>About: </b> Pune has become one of the promising tech hubs unleashing growing career growth options. Working pros from diverse fields gather in the city to escalate their success rates. <a href="https://datamites.com/data-science-course-training-pune/?srsltid=AfmBOoqh4QDWJcz_--dvVcbS988hnkMfmsps1Qhq3Y31-FY6qjwoIK6r" target="_blank" rel="nofollow"><i>Datamites</i></a> enters the stage with its career-oriented data science course in Pune accredited by IABAC. Join today to drive proven success with lucrative career perks. </p>
 <p><b><i>Key features:</i></b></p>
@@ -761,7 +754,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 <p><b>Fee: </b> Datamites’ <b>data science course with placement guarantee in Pune</b> costs around INR 42,948 – INR 80,873. </p>
 <p><b>Mode of training:</b>  Experts joining the <b>top data science institute in Pune</b> can opt for live virtual, classroom, or blended training modes.</p>
 <p><b>Certifications:</b> Experts joining this <b>data science coaching in Pune</b> will obtain credentials from Datamites and IABAC.</p>
-<p><b>Contact: </b> Call at 1800-313-3434</p>
 <h3 id="StarAgile">9. Data Science Certification Training Course in Pune [StarAgile]</h3>
 <p><b>About: </b> In today’s tech age, smart integration of data science with diverse fields is seen. Experts eager to redefine their careers must acquire vital skills and build a unique path. <a href="https://staragile.com/data-science/data-science-course-training-pune" target="_blank" rel="nofollow"><i>StarAgile</i></a> envisions an innovative <b>data science training course in Pune</b> with assured success on a global scale. Its cutting-edge data science course helps you develop unique skills to face the rising industry risks. Join the course today and get hired by the leading MNCs.</p>
 <p><b><i>Key features:</i></b></p>
@@ -790,7 +782,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 <p><b>Fee: </b>NA</p>
 <p><b>Mode of training:</b>  Its <b>data science course with placement in Pune</b> offers classroom and online training sessions. Learners can choose the best-suited ones that match their plans and obligations.</p>
 <p><b>Certifications:</b> SevenMentor offers an ISO-certified credential with global-level validation for your skills. Learners can enrich their skills and expand their earning limits with such credentials. </p>
-<p><b>Contact:</b>  Call at +91 77980 58777</p>
 
 <h2>Key Takeaways!!</h2>
 <p>Data science is trending here and there being the latest buzzword in today’s business and job landscapes. Experts from diverse fields opt for upskilling via the <b> best data science course in Pune</b> marking exciting success. The ever-changing vibrant tech space in Pune sets the stage for alluring career shifts. Hence, upskilling is crucial for experts to revamp their career paths with exciting gains. If you’re eager to revive your career join an industry-paced course today and attain a compelling edge. </p>
@@ -888,31 +879,31 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   Blogs: [
     {
       image:
-        "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side.webp",
+        "/cdn/city_Blog/blog_side.svg",
       title: "Top 10 Data Science Course Training Institutes in Chandigarh",
       link: "https://skillslash.com/data-science-course-in-chandigarh",
     },
     {
       image:
-        "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_2.webp",
+        "/cdn/city_Blog/blog_side_2.svg",
       title: "Top 10 Data Science Course Training Institutes in Kolkata",
       link: "https://skillslash.com/data-science-course-training-kolkata",
     },
     {
       image:
-        "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_3.webp",
+        "/cdn/city_Blog/blog_side_3.svg",
       title: "Top 10 Data Science Course Training Institutes in Jaipur",
       link: "https://skillslash.com/data-science-course-in-jaipur",
     },
     {
       image:
-        "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_3.webp",
+        "/cdn/city_Blog/blog_side_3.svg",
       title: "Top 10 Data Science Course Training Institutes in Bangalore",
       link: "https://skillslash.com/data-science-course-in-bangalore",
     },
     {
       image:
-        "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_3.webp",
+        "/cdn/city_Blog/blog_side_3.svg",
       title: "Top 10 Data Science Course Training Institutes in Pune",
       link: "https://skillslash.com/data-science-course-in-pune",
     },

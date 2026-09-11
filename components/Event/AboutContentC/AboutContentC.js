@@ -14,12 +14,12 @@ const AboutContentC = ({ eventData }) => {
       <div className={styles.aboutContent}>
         <div className={styles.left}>
           <Image
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/1_Project.svg"
+            src="/cdn/static/event/1_Project.svg"
             width="60"
             height="60"
           />
           <img
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/icons_1.png"
+            src="/cdn/static/event/icons_1.svg"
             width="120"
             height="120"
             className={styles.Numbers}
@@ -30,12 +30,12 @@ const AboutContentC = ({ eventData }) => {
         </div>
         <div className={styles.Middle}>
           <Image
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/icons_Job.svg"
+            src="/cdn/static/event/icons_Job.svg"
             width="60"
             height="60"
           />
           <img
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/icons 2_Count.png"
+            src="/cdn/static/event/icons.svg 2_Count.png"
             width="120"
             height="120"
             className={styles.Numbers}
@@ -45,12 +45,12 @@ const AboutContentC = ({ eventData }) => {
         </div>
         <div className={styles.Right}>
           <Image
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/icons_Skill_Upgrdation.svg"
+            src="/cdn/static/event/icons_Skill_Upgrdation.svg"
             width="60"
             height="60"
           />
           <img
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/icons 3_Count.png"
+            src="/cdn/static/event/icons.svg 3_Count.png"
             width="120"
             height="120"
             className={styles.Numbers}

@@ -2,9 +2,7 @@ const HyderbadData = {
   contentHtml: `
        
   <p>Imagine a data-driven career with the expertise to handle huge data sets, conduct factual analysis, and drive resilient moves. Hyderabad has become a thriving tech city in India with a surge in demand for skilled data analysts. Yet, lasting career tediums bring talent gaps into the spotlight. Hence, experts join a <b>data analytics course in Hyderabad</b> to gain proven skills.   </p>
-  
 
-  <span class="blog-center-image" data-src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_second_img.webp" data-alt="Banner Image" data-width="800" data-height="400"></span>
   <div class="table-container" style="overflow-x: auto;">
 <table
 style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
@@ -56,8 +54,7 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
     <td style="border: 1px solid #ccc; padding: 8px">INR 18,000 approx</td>
     <td style="border: 1px solid #ccc; padding: 8px">ISO, NASSCOM, and Skill India</td>
   </tr> 
-  
- 
+
   <tr>    
     <td style="border: 1px solid #ccc; padding: 8px"><a href="#NXTWave">NXTWave Intensive 2.0</a></td>
     <td style="border: 1px solid #ccc; padding: 8px">INR 55,000 (post-paid) INR 90,000 (after-discount for pre-paid)</td>
@@ -80,13 +77,11 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
   </div>
 
 <p>According to the<a href="https://www.fortunebusinessinsights.com/data-analytics-market-108882" rel="nofollow" target="_blank"><i> Fortune Business Insights report,</i></a> the global data analytics market expects a 27.3% rise by 2030, fueling various firms. Hyderabad, India, is one of the booming tech hubs with a solid presence in the data center market. Hence, the rise of data analytics creates huge career options for experts from diverse sectors. This triggers the demand for <b>data analysis courses in Hyderabad</b> with exciting career-driven offers.</p>
-<span class="next-image-placeholder" data-src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/banner_c.webp" data-alt="Banner Image" data-width="800" data-height="400"></span></a>
 <i><b>Before that, let’s apprehend the role and activities of a data analyst. </b></i>
 
 <h2>Who is a data analyst? Explain the daily duties of a data analyst.</h2>
 <p>A data analyst is an expert who gathers crucial data sets from various sources, cleans them, and analyzes them to uncover business insights. Such experts use basic and advanced statistical tools for ample data analysis. Further, they help business leaders and other tech/non-tech teams to apprehend facts. A firm needs skilled data analysts to know data types and their value.    </p>
 <p>A data analyst performs minor and major tasks to meet end-to-end business goals and targets. Some crucial tasks are –</p>
-
 
 <ul>
 <li style="margin-top: 20px;"><b>Data collection: </b> Data analysts use various sources to collect diverse data sets meeting core business needs. </li>
@@ -98,7 +93,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 <li style="margin-top: 20px;"><b>Team collaboration:</b>   Experts can collaborate with tech/non-tech teams to discuss business needs and targets.</li>
 
 </ul>
-
 
 <h2>Explain data analyst vs. data scientist vs. business analyst.   </h2>
 
@@ -232,8 +226,7 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
           Work with analysts and data scientists to make optimal data use and drive exciting gains.  
         </td>
       </tr>
-      
-      
+
       <tr>
         <td style="border: 1px solid #ccc; vertical-align: top; font-weight: 700;">
           <a href="" style="color:black" onmouseover="this.style.color='#4f419a'" onmouseout="this.style.color='black'">Benefits to firms </a>
@@ -281,10 +274,8 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 </div>
 <p>In short, choosing the best role depends on the individual’s career plans and vision for growth. Freshers willing to kick-start a lucrative career can opt for a data analyst or business analyst role with proven success. On the other hand, working pros eager to revamp their career paths can opt for data scientist roles. Yet, upskilling via an industry-focused program is crucial to update your skills and ascertain success in the rising tech world. </p>
 
-
 <h2>Who is eligible to pursue a data analytics program? Is a degree mandatory to learn data analytics and get placed?  </h2>
 <p>Data analytics is a digitally thriving career field with exciting growth options for freshers and working experts. Several experts have shown interest in joining the data analytics upskilling program to cherish likely gains. Yet, their chaos about eligibility to learn grabs the attention of many. </p>
-
 
 <i><b>Let’s check vital provisions to make you eligible for pursuing a data analytics course –</b></i>
 <ul>
@@ -298,8 +289,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 
 <p>Learning data analytics is crucial for experts to build a thriving future in their fields. The basic fulfillment of the above-stated conditions can help anyone pursue a data analytics course with any institute. </p>
 <p>No master’s degree or global-level certificate is mandatory to learn data analytics and get placed. Yet, anyone with a proven certificate or a master’s degree can crack high-paying jobs with <a href="https://medium.com/@amlgolabs/leading-the-data-revolution-top-10-analytics-companies-in-india-for-2024-7a61e642a8f6" target="_blank" rel="nofollow"><i>top analytics companies in India </i></a> in 2024. </p>
-
-
 
 <h2>What is the difference between learning offline and online classes in Hyderabad?</h2>
 <div class="table-container" style="overflow-x: auto;">
@@ -393,8 +382,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
   </table>
 </div>
 
-
-
 <h2>Is it worth having data analytics certification? </h2>
 <p>Yes, attesting to a global-level data analytics certification for your career is useful and enriches selection chances. If you’re willing to kick-start a proven career in data analytics, having a globally valued certification is vital. Having a career-worthy data analytics certification will equip you with gains like –</p>
 <ul>
@@ -449,7 +436,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
   <li>Stay updated with key trends and insights </li>
   <li>Networking with alums or industry experts</li>
 </ul>
-
 
 <h2>Which Data visualization tool is good for data analytics? Explain the distinctions between Tableau v/s Power BI.</h2>
 <p>Data visualization speaks about story-telling that connects the facts with related users. It works with data analytics to help leaders see through the facts and make resilient moves. Data analysts develop core visual analytics skills to modify the facts and make them simple for users to apprehend. We must be aware of in-demand <a href="https://www.forbes.com/advisor/business/software/best-data-visualization-tools/" target="_blank" rel="nofollow"><i>data visualization tools </i></a> available in 2024 helping firms create insightful futures with exciting gains. MS Power BI, Tableau, Looker, Zoho Analytics, etc are famous tools experts use.</p>
@@ -534,8 +520,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
          <td style="border: 1px solid #ccc; padding: 8px">Limited access to users </td>
          </tr>
 
-       
-
      </tbody>
    </table>
   </div>
@@ -600,8 +584,7 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
           <td style="border: 1px solid #ccc; padding: 8px">INR 5,40,000</td>
           <td style="border: 1px solid #ccc; padding: 8px">INR 10,00,000</td>
         </tr>
-           
-        
+
          
          <tr>
            <td style="border: 1px solid #ccc; padding: 8px">Chandigarh  </td>
@@ -753,7 +736,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 
 <h2>Best 10 Data Analytics Training Institutes in Hyderabad [2024 Update]</h2>
 
-
 <h3 id="Learnbay"><b>1. Advance Data Analytics Program [Learnbay]</b></h3>
 <p><b>About: </b>  Data analytics learning is vital in today’s digitally-driven era to ascertain a thriving future. Learnbay envisions a data-driven world via its cutting-edge   <a href="https://www.learnbay.co/datascience/advance-data-analytics-program-iit-guwahati?utm_source=skillslash&utm_medium=hyderabad&utm_campaign=da&utm_content=blog_hyderabad" target="_blank"><i> data analytics program. </i></a> Its globally recognized alliance with E&ICT Academy and IIT Guwahati enriches career worth to make a presentable future. Join Learnbay’s <b>data analyst course in Hyderabad</b> and craft an exciting career path. </p>
 <i><b>Program offerings: </b></i>
@@ -768,7 +750,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 </ul>
 
 <p><b>Fee:</b> INR 1,40,000 plus 18% GST</p>
-<p>For further info contact <a href="mailto:contacts@learnbay.co" target="_blank"> <i> here. </i></a></p>
 
 <h3 id="Henry"> <b>2. Post Graduate Data Analyst Program in Hyderabad ore [Henry Harvin]</b></h3>
 
@@ -785,9 +766,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 </ul>
 <p><b>Fee: </b>NA</p>
 
-<p>For further info contact<a href="mailto:Hello@henryharvin.com" target="_blank" rel="nofollow"><i>here. </i></a></p>
-
-
 <h3 id="Simplilearn"> <b>3. Data Analyst Course in Hyderabad [Simplilearn]</b></h3>
 <p><b>About:</b> Today’s rising tech space in Hyderabad lures many experts to join upskilling and redefine their career worth. Simplilearn takes a pledge to set the stage for a hassle-free career shift via a front-age <a href="https://www.simplilearn.com/data-analyst-masters-certification-training-course-hyderabad-city" target="_blank" rel="nofollow"><i> data analyst course. </i></a> It is the <b>best institute for data analytics in Hyderabad</b> with IBM-driven career gains. Enroll in the course to foster career values and ascertain exciting success.</p>
 
@@ -803,8 +781,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 </ul>
 <p><b>Fee: </b>INR 57,000 inclusive of taxes. </p>
 
-<p>For further details call <b>@1800-212-7688 </b></p>
-
 <h3 id="Intellipaat"> <b>4. Data Analyst Course in Hyderabad [Intellipaat] </b></h3>
 <p><b>About: </b>  The rising tech era inspires freshers and busy working experts to boost their careers via upskilling. Intellipaat’s <a href="https://intellipaat.com/data-analytics-course-hyderabad/" target="_blank" rel="nofollow"><i>  data analyst program </i></a>   in Hyderabad in alliance with IIT Roorkee sets the stage for global-level career building. This <b>best institute for data analyst course in Hyderabad</b> enriches your career worth. Join the corporate training today and expand your earning potential. </p>
 <i><b>Program offerings:  </b></i>
@@ -818,8 +794,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
   
 </ul>
 <p><b>Fee: </b>INR 85,044 with taxes.</p>
-<p>For other details contact <b>+91-7022374614  </b></p>
-
 
 <h3 id="Datamites"><b>5. Data Analytics Course in Hyderabad [Datamites]</b></h3>
 <p> <b>About:</b> The rising tech space in Hyderabad changes career growth options for freshers and working experts from diverse sectors. Experts with outpaced career paths prefer joining proven <b>data analytics coaching in Hyderabad.</b> In the interim, Datamites lays the basis for career shifts via the <a href="https://datamites.com/data-analytics-certification-course-training-hyderabad/?srsltid=AfmBOoro_fLd-Wrn9f55UU8RLJeUIb7FlWNV71MxKR9Am60f4-MFtq8f" target="_blank" rel="nofollow"><i>data analytics programs. </i></a>  </p>
@@ -834,8 +808,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
  
 </ul>
 <p><b>Fee: </b>INR 35,773 – INR 67,548 with taxes. </p>
-
-<p>For more info contact  <a href="mailto:info@datamites.com" target="_blank" rel="nofollow"><i> here.</i></a></p>
 
 <h3 id="FITA"><b>6. Data Analytics Course in Hyderabad [FITA]</b></h3>
 <p><b>About: </b> The 21st Century speaks about rapidly evolving businesses with notable reliance on smart tech creations. The rise of data analytics inspires working experts to revamp their career paths to extract exciting gains. FITA lays the basis for effortless learning via its  <a href="https://www.fita.in/data-analytics-course-in-hyderabad/" target="_blank" rel="nofollow"><i> data analytics program </i></a> with real-time gains. It's an affordable <b>Hyderabad data analytics course</b> that engages experts for tempting gains.</p>
@@ -853,7 +825,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 
 <p>For further info contact 93450 45466.</p>
 
-
 <h3 id="UnCodemy"><b>7. Data Analytics Training Course in Hyderabad [UnCodemy]</b></h3>
 <p><b>About: </b>  The rise of data analytics sets the basis for a data-driven work culture offering automated and accurate solutions to firms. Experts with outpaced careers opt for upskilling via a <b>data analyst course in Hyderabad.</b> Meanwhile, UnCodemy envisions a thriving future for experts via <a href="https://uncodemy.com/course/data-analytics-training-course-in-hyderabad" target="_blank" rel="nofollow"><i>data analytics training.  </i></a>Gradually, the academy has become a launchpad to global-level success.   </p>
 <i><b>Program offerings: </b></i>
@@ -866,9 +837,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
  
 </ul>
 <p><b>Fee: </b>INR 18,000 approx. </p>
-<p>For more info contact  <a href="mailto:info@uncodemy.com" target="_blank" rel="nofollow" ><i>here.</i></a> </p>
-
-
 
 <h3 id="NXTWave"><b>8. Data Analyst Course with Placement Support [NXTWave Intensive 2.0] </b></h3>
 <p> <b>About: </b>Today’s fastest-growing tech sector relies heavily on data-driven working methods to drive compelling gains and induce higher yields. In the interim, NXTWave Intensive 2.0 presents a job-driven  <a href="https://www.ccbp.in/intensive/data-analyst-course" target="_blank" rel="nofollow"><i> data analyst course.</i></a>  It envisions a bright future for experts with static skill sets marking tempting success. Unlike the <b>data analyst course in Hyderabad</b> offline, NXTWave intensifies career growth chances via leading-edge training sessions. </p>
@@ -884,10 +852,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 </ul>
 <p><b>Fee:</b> INR 55,000 (post-paid) plus 12% annual CTC once you get a job and INR 90,000 (after-discount for pre-paid).</p>
 
-
-<p>For further details contact <a href="mailto:http://support@nxtwave.tech" target="_blank" rel="nofollow"><i>here</i></a></p>
-
-
 <h3 id="DataTrained"><b>9. PG Program in Data Analytics [DataTrained]</b></h3>
 <p><b>About: </b>  Gone are the days when firms used to rely on past projects and instincts to make the righteous move. The ever-evolving data analytics field revamps age-old work practices by blending data-driven methods. In the interim, DataTrained brings a <a href="https://www.datatrained.com/pg-program-in-data-analytics" target="_blank" rel="nofollow"><i>PG program in data analytics </i></a>to make you industry-ready. Join the academy despite the <b>data analyst course fee in Hyderabad</b> and set the stage for a hassle-free career shift.</p>
 <i><b>Program offerings: </b></i>
@@ -901,14 +865,9 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 </ul>
 <p><b>Fee: </b> INR 70,000 plus taxes</p>
 
-<p>For further info contact <a href="mailto:admissions@datatrained.com" target="_blank" rel="nofollow"><i> here. </i></a></p>
-
-
-
 <h3 id="CedLearn"><b>10. Data Analytics Course [CedLearn]</b></h3>
 <p> <b>About: Data analytics learning has become crucial for freshers and working pros from diverse fields. Experts eager to modernize their careers join top-rated data analysis courses in Hyderabad to extract proven gains. CedLearn’s front-age </b> <a href="https://cedlearn.com/data-analytics-course" target="_blank" rel="nofollow"><i>  data analyst program  </i></a> equips you with the knacks to enrich your career. Join the course and propel your career for notable growth and prosperity. 
 </p>
-
 
 <i><b>Program offerings: </b></i>
 <ul>
@@ -920,10 +879,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
  
 </ul>
 <p><b>Fee: </b>INR 50,000 (online) or INR 57,500 (offline)</p>
-
-<p>For more info contact <a href="mailto:hello@cedlearn.com" target="_blank" rel="nofollow"><i> here.</i></a></p>
-
-
 
 <h2>Closing Statements!!</h2>
 <p>In today’s ever-changing digital space, data analytics learning has become crucial for freshers and busy working pros. Firms from diverse sectors opt to learn via a <b>data analytics course in Hyderabad</b> to solidify their career worth. Anyone willing to modernize their career paths can enroll in cutting-edge courses with career-driven gains.   </p>
@@ -937,15 +892,13 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 <h3><b>2. If I have to miss a lesson due to an emergency, would a make-up class be available?   </b></h3>
 <p><b>Data analytics coaching centers in Hyderabad</b> and other cities provide constant access to learning portals with recorded sessions. Hence, you can follow the resources and continue learning if you miss a lesson due to a crisis. Also, you can consult your mentor in case you have any doubts or learning queries.  </p>
 
-
 <h3><b>3. Are there any fee discounts available for the Data analyst course in Hyderabad?    </b></h3>
 <p> Eligible learners can save a lot of money via scholarships or group discounts while enrolling in <b>data analytics courses in Hyderabad with placements.</b>  </p>
 
 <h3><b>4. What kind of certification do the data analysis courses in Hyderabad provide?   </b></h3>
 <p>Learning with <b>data analyst training institutes in Hyderabad</b> will attest to globally identified certificates to your career. Here, you will obtain course and project certificates. These certificates will help you unlock suitable career growth options on a global scale.   </p>
   <style>
-      
-      
+
               /* Inline CSS for specific styles */
               p {
                 color: #333;
@@ -1021,37 +974,37 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
   Blogs: [
     {
       image:
-        "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side.webp",
+        "/cdn/city_Blog/blog_side.svg",
       title: "Top 10 Data Science Course Training Institutes in Chandigarh",
       link: "https://skillslash.com/data-science-course-in-chandigarh",
     },
     {
       image:
-        "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_2.webp",
+        "/cdn/city_Blog/blog_side_2.svg",
       title: "Top 10 Data Science Course Training Institutes in Kolkata",
       link: "https://skillslash.com/data-science-course-training-kolkata",
     },
     {
       image:
-        "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_3.webp",
+        "/cdn/city_Blog/blog_side_3.svg",
       title: "Top 10 Data Science Course Training Institutes in Jaipur",
       link: "https://skillslash.com/data-science-course-in-jaipur",
     },
     {
       image:
-        "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_3.webp",
+        "/cdn/city_Blog/blog_side_3.svg",
       title: "Top 10 Data Science Course Training Institutes in Bangalore",
       link: "https://skillslash.com/data-science-course-in-bangalore",
     },
     {
       image:
-        "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_3.webp",
+        "/cdn/city_Blog/blog_side_3.svg",
       title: "Top 10 Data Science Course Training Institutes in Hyderabad",
       link: "https://skillslash.com/data-science-course-training-hyderabad",
     },
     {
         image:
-          "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_2.webp",
+          "/cdn/city_Blog/blog_side_2.svg",
         title: "Top 10 Data Analytcis Course Training Institutes in Hyderabad",
         link: "https://skillslash.com/data-analytcis-course-training-Hyderabad",
       },

@@ -120,7 +120,7 @@ const Header = ({
                     <p className="text-white font-medium">Powered by</p>
                     <div className="bg-white px-3 py-[3px] rounded-[4px]">
                       <Image
-                        src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Home/coursesection/microsoft.webp"
+                        src="/cdn/Home/coursesection/microsoft.svg"
                         alt="PoweredByMicrosoft"
                         width={90}
                         height={19}
@@ -136,9 +136,9 @@ const Header = ({
 
         {redirectFs && (
           <div className="relative w-[348px] max-sm:w-[310px] h-[32px] max-sm:h-[29px] mt-3 max-sm:mt-12 ">
-            {/* <Image src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/powered-by-microsoft-(White).png" alt="PoweredByMicrosoft" width={200} height={22}/> */}
+            {/* <Image src="/cdn/static/New_skillslash/Homepage/powered-by-microsoft--White.svg" alt="PoweredByMicrosoft" width={200} height={22}/> */}
             <Image
-              src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/NewDatascience/Header/FAANG+Software+Developer+as+Trainers.webp"
+              src="/cdn/NewDatascience/Header/FAANG-Software-Developer-as-Trainers.svg"
               alt="FAANG Operators"
               fill
               priority
@@ -157,7 +157,7 @@ const Header = ({
             </h2>
             <div className="flex flex-row items-center gap-2">
               <Image
-                src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/chatgpt-icon.webp"
+                src="/cdn/digital-marketing/chatgpt-icon.svg"
                 width={40}
                 height={40}
                 alt="chat-gpt"
@@ -195,7 +195,7 @@ const Header = ({
 
         <div className="grid grid-cols-3 gap-2 min-[1600px]:gap-0 border-[1px] mt-3 w-[75%] min-[1600px]:w-[60%] max-sm:w-[97%] rounded items-center px-4 py-1 justify-center max-sm:py-1 max-sm:px-2 max-sm:hidden">
           <Image
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/NewDatascience/googlereview-new.webp"
+            src="/cdn/NewDatascience/googlereview-new.svg"
             alt="Goole_RReviews"
             width={150}
             height={23}
@@ -203,7 +203,7 @@ const Header = ({
             className="mx-auto"
           />
           <Image
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/NewDatascience/Header/switch-up.webp"
+            src="/cdn/NewDatascience/Header/switch-up.svg"
             alt="switchup_RReviews"
             width={150}
             height={23}
@@ -211,7 +211,7 @@ const Header = ({
             className="mx-auto"
           />
           <Image
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/NewDatascience/course-report.webp"
+            src="/cdn/NewDatascience/course-report.svg"
             alt="CR_RReviews"
             width={150}
             height={23}
@@ -289,7 +289,7 @@ const Header = ({
               )} */}
             </p>
             {/* <Image
-              src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/CoursePage/icon/discount.png"
+              src="/cdn/static/New_skillslash/CoursePage/icon/discount.svg"
               alt="discount"
               width={20}
               height={20}

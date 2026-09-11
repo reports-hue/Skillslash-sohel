@@ -22,8 +22,8 @@ const Hiring = () => {
         <Image
           src={
             mobile
-              ? "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/getHired-mobile.webp"
-              : "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Hiring-image.webp"
+              ? "/cdn/static/web/New-UI/getHired-mobile.svg"
+              : "/cdn/static/web/New-UI/Hiring-image.svg"
           }
           priority
           layout="intrinsic"

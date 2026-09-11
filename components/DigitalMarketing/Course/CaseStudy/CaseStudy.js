@@ -18,38 +18,38 @@ const CaseStudy = ({
 
   const tabs = [
     {
-      title: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/moz.webp", // Path to the MOZ image
+      title: "/cdn/digital-marketing/moz.svg", // Path to the MOZ image
       content: [
         "Increase organic traffic to the Moz website, improve search engine rankings for target keywords, and enhance brand authority through strategic backlink acquisition",
       ],
       moduletitle: "Module: ",
       para: ["Search Engine Optimization 1.0 "],
       iconsImage: [
-        "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/mozo_tool.webp",
+        "/cdn/digital-marketing/mozo_tool.svg",
       ],
       redirect: { redirectDM: true },
     },
     {
-      title: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/titan.webp",
+      title: "/cdn/digital-marketing/titan.svg",
       content: [
         "Optimize Titan Watches' Google Ads campaigns to improve key performance indicators (KPIs) such as click-through rate (CTR), conversion rate, and return on ad spend (ROAS)",
       ],
       moduletitle: "Module: ",
       para: ["Search Engine Marketing 1.0"],
       iconsImage: [
-        "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/titan+tools.webp",
+        "/cdn/digital-marketing/titan-tools.svg",
       ],
       redirect: { redirectDM: true },
     },
     {
-      title: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/onePlus.webp",
+      title: "/cdn/digital-marketing/onePlus.svg",
       content: [
         "Develop and implement an effective organic marketing strategy for OnePlus India's social media channels to increase brand visibility, audience engagement, and community interactions",
       ],
       moduletitle: "Module:",
       para: [""],
       iconsImage: [
-        "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/_tool.webp",
+        "/cdn/digital-marketing/_tool.svg",
       ],
       redirect: { redirectDM: true },
     },
@@ -154,7 +154,7 @@ const CaseStudy = ({
                   Download all case studies <span className="text-[#F18350]">NOW</span>
                 </p>
                 <Image
-                  src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/29+plus+desk.webp"
+                  src="/cdn/digital-marketing/29-plus-desk.svg"
                   alt="More Icon"
                   width={700}
                   height={200}

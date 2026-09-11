@@ -1,256 +1,139 @@
-import React, { useEffect, useRef, useState } from "react";
-import {
-  FaAngleDown,
-  FaAngleUp,
-  FaTimes,
-  FaArrowCircleRight,
-} from "react-icons/fa";
-import styles from "./blogContent.module.css";
-import ShareButtons from "../ShareButton";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import SwiperCore, { Navigation, Pagination, Autoplay } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react"; // Import Swiper React components
-import ReactDOM from "react-dom";
-import "swiper/swiper-bundle.min.css";
+import { LuList, LuGraduationCap } from "react-icons/lu";
+import styles from "./blogContent.module.css";
+import ShareButtons from "../ShareButton";
+import { Newsletter } from "../../Blog/Sidebar/Sidebar";
 
-SwiperCore.use([Navigation, Pagination, Autoplay]);
+// The skillslash-cdn bucket is gone, so related-blog thumbnails resolve to
+// the locally generated cover for that post instead.
+const coverForLink = (link) => {
+  if (!link) return null;
+  const slug = String(link).split("?")[0].replace(/\/+$/, "").split("/").pop();
+  return slug ? `/covers/${slug}.svg` : null;
+};
 
-const BlogContent = ({ contentHtml, shareLink, MumbaiData }) => {
-  const [headingElements, setHeadingElements] = useState([]);
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const [ads, setAds] = useState([
-    {
-      id: 1,
-      show: false,
-      url: "https://www.learnbay.co/submit-info",
-      imgSrc:
-        "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/side_ad.webp",
-    },
-  ]);
-  const contentRef = useRef(null);
-  const [publishDate, setPublishDate] = useState("");
-  const [lastUpdated, setLastUpdated] = useState("");
+const formatArticleDate = (value) => {
+  if (!value) return "";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return value;
+  return date.toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+};
 
+const BlogContent = ({
+  contentHtml,
+  shareLink,
+  MumbaiData,
+  publishDate,
+  lastUpdated,
+}) => {
+  const [headings, setHeadings] = useState([]);
+
+  // Gives every <h2> in the article body a stable id and reads its text, so
+  // the sidebar Table of Contents can link straight to each section. The
+  // markup itself (contentHtml) is untouched - only ids are added to what's
+  // already rendered.
   useEffect(() => {
-    // const currentDate = new Date();
-    // const twoDaysAgo = new Date(currentDate);
-    // twoDaysAgo.setDate(currentDate.getDate() - 2);
-
-    const currentDate = new Date();
-    const twoDaysAgo = new Date (currentDate);
-    twoDaysAgo.setDate(currentDate.getDate() -2);
-
-
-    const formattedCurrentDate = currentDate.toLocaleDateString("en-US", {
-      year: "numeric",
-      month: "long",
-      day: "numeric",
+    const article = document.getElementById("city-blog-article");
+    if (!article) return;
+    const found = Array.from(article.querySelectorAll("h2")).map((heading, index) => {
+      const id = `heading-${index}`;
+      heading.setAttribute("id", id);
+      return { id, text: heading.textContent };
     });
-    const formattedTwoDaysAgo = twoDaysAgo.toLocaleDateString("en-US", {
-      year: "numeric",
-      month: "long",
-      day: "numeric",
-    });
-
-    setPublishDate(formattedTwoDaysAgo); 
-    setLastUpdated(formattedCurrentDate);
-
-    // Update last updated date daily
-    const interval = setInterval(() => {
-      setLastUpdated(
-        new Date().toLocaleDateString("en-US", {
-          year: "numeric",
-          month: "long",
-          day: "numeric",
-        })
-      );
-    }, 24 * 60 * 60 * 1000);
-
-    return () => clearInterval(interval);
-  }, []);
-
-  useEffect(() => {
-    if (contentRef.current) {
-      const headings = Array.from(contentRef.current.querySelectorAll("h2"));
-      headings.forEach((heading, index) => {
-        heading.setAttribute("id", `heading-${index}`);
-      });
-      setHeadingElements(headings);
-
-      const replacePlaceholders = (placeholderClass, center = false) => {
-        const placeholders =
-          contentRef.current.querySelectorAll(placeholderClass);
-        placeholders.forEach((placeholder) => {
-          const imgElement = document.createElement("div");
-          imgElement.classList.add(styles.contentImg);
-          if (center) {
-            imgElement.classList.add(styles.centerImg);
-          }
-
-          ReactDOM.render(
-            <Image
-              src={placeholder.getAttribute("data-src")}
-              alt={placeholder.getAttribute("data-alt")}
-              width={parseInt(placeholder.getAttribute("data-width"))}
-              height={parseInt(placeholder.getAttribute("data-height"))}
-            />,
-            imgElement
-          );
-
-          placeholder.replaceWith(imgElement);
-        });
-      };
-
-      // Replace specific placeholders
-      replacePlaceholders(".next-image-placeholder", true); // Center the image for this placeholder class
-      replacePlaceholders(".blog-center-image", true); // Another class for centered images
-      replacePlaceholders(".another-placeholder-class", true); // Non-centered images
-    }
+    setHeadings(found);
   }, [contentHtml]);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setAds((prevAds) => prevAds.map((ad) => ({ ...ad, show: true })));
-    }, 3000); // 3 seconds delay for all ads
-
-    return () => clearTimeout(timer);
-  }, []);
-
-  const scrollToElement = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
-  const handleAdClick = (url) => {
-    window.open(url, "_blank");
-  };
-
-  const handleAdClose = (id) => {
-    setAds((prevAds) =>
-      prevAds.map((ad) =>
-        ad.id === id ? { ...ad, show: false, closed: true } : ad
-      )
-    );
-  };
+  const related = (MumbaiData?.Blogs || []).slice(0, 4);
 
   return (
-    <>
-      <div className={styles.metaInfo}>
-        <div>
-          <p className="text-[#F18350]">
-            Publish Date: <span className="text-[#646464]">{publishDate}</span>
-          </p>
-          <p className="text-[#F18350]">
-            Last Updated: <span className="text-[#646464]">{lastUpdated}</span>
-          </p>
+    <div className={styles.page}>
+      <div className={styles.metaRow}>
+        <div className={styles.metaText}>
+          <time dateTime={publishDate}>{formatArticleDate(publishDate)}</time>
+          {lastUpdated ? (
+            <>
+              <span className={styles.dot}>·</span>
+              <span>Updated {formatArticleDate(lastUpdated)}</span>
+            </>
+          ) : null}
         </div>
         <ShareButtons url={shareLink} />
       </div>
-      <div className={styles.maincontent}>
-        <div className={styles.content}>
-          <div className={styles.firstdiv}>
-            <div className={styles.tableOfContents}>
-              <div className={styles.insidetable}>
-                <h3 onClick={() => setIsDropdownOpen(!isDropdownOpen)}>
-                  Table of Contents
-                  <div
-                    className={`${styles.icon} ${
-                      isDropdownOpen ? styles.active : ""
-                    }`}
-                  >
-                    {isDropdownOpen ? <FaAngleUp /> : <FaAngleDown />}
-                  </div>
-                </h3>
-                <ul className={`${isDropdownOpen ? styles.open : ""}`}>
-                  {headingElements.map((heading, index) => (
-                    <li key={index}>
-                      <Link
-                        href={`#heading-${index}`}
-                        onClick={(e) => {
-                          e.preventDefault();
-                          scrollToElement(`heading-${index}`);
-                        }}
-                      >
-                        {heading.textContent}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
+
+      <div className={styles.layout}>
+        <article
+          id="city-blog-article"
+          className={`${styles.markdown} markdown`}
+          dangerouslySetInnerHTML={{ __html: contentHtml }}
+        />
+
+        <aside className={styles.sidebar}>
+          {headings.length ? (
+            <nav className={styles.tocCard} aria-label="Table of contents">
+              <p className={styles.sidebarCardTitle}>
+                <LuList aria-hidden="true" /> Table of Contents
+              </p>
+              <ol className={styles.tocList}>
+                {headings.map((h, i) => (
+                  <li key={h.id}>
+                    <a href={`#${h.id}`} className={styles.tocLink}>
+                      <span className={styles.tocNum}>{i + 1}</span>
+                      {h.text}
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            </nav>
+          ) : null}
+
+          <div className={styles.ctaCard}>
+            <div className={styles.ctaIcon} aria-hidden="true">
+              <LuGraduationCap size={18} />
+            </div>
+            <p className={styles.ctaTitle}>Find the Right Course for Your Future</p>
+            <p className={styles.ctaText}>
+              Explore top-rated courses, compare programs and get expert guidance — all in one place.
+            </p>
+            <Link href="/" className={styles.ctaBtn}>
+              Explore Courses →
+            </Link>
+          </div>
+
+          {related.length ? (
+            <div className={styles.sidebarCard}>
+              <p className={styles.sidebarCardTitle}>Related blogs</p>
+              <div className={styles.relatedList}>
+                {related.map((blog, index) => (
+                  <Link key={index} href={blog.link} className={styles.relatedItem}>
+                    {coverForLink(blog.link) ? (
+                      <Image
+                        src={coverForLink(blog.link)}
+                        alt=""
+                        width={56}
+                        height={42}
+                        loading="lazy"
+                        className={styles.relatedThumb}
+                      />
+                    ) : null}
+                    <p className={styles.relatedItemTitle}>{blog.title}</p>
+                  </Link>
+                ))}
               </div>
             </div>
-            <div className={styles.related}>
-              <h3>Related blogs</h3>
-              <Swiper
-                direction={"vertical"} // Set direction to vertical
-                spaceBetween={10}
-                slidesPerView={3}
-                // pagination={{ clickable: true }}
-                loop={true}
-                autoplay={{ delay: 3000, disableOnInteraction: false }}
-                mousewheel={true} // Enable mouse wheel scrolling
-                className={styles.swiperContainer} // Add this class for styling purposes
-              >
-                {MumbaiData.Blogs.map((blog, index) => (
-                  <SwiperSlide key={index}>
-                    <div className={styles.bloglist}>
-                      <Image
-                        src={blog.image}
-                        width={80}
-                        height={80}
-                        alt="blog"
-                        loading="lazy"
-                      />
-                      <div className={styles.bloglistryt}>
-                        <p>{blog.title}</p>
-                        <Link href={blog.link}>
-                          <button>read more</button>
-                        </Link>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                ))}
-              </Swiper>
-            </div>
+          ) : null}
+
+          <div className={styles.sidebarNewsletter}>
+            <Newsletter />
           </div>
-          <article
-            ref={contentRef}
-            className={`${styles.markdown} markdown`}
-            dangerouslySetInnerHTML={{ __html: contentHtml }}
-          />
-          <div className={styles.adsContainer}>
-            {ads.map((ad) =>
-              ad.show ? (
-                <div key={ad.id} className={styles.stickyAds}>
-                  <Image
-                    title="Sponsored by Learnbay"
-                    src={ad.imgSrc}
-                    width={300}
-                    height={100}
-                    loading="lazy"
-                    alt="Loading Ads"
-                    onClick={() => handleAdClick(ad.url)}
-                  />
-                </div>
-              ) : (
-                ad.closed && (
-                  <div
-                    key={ad.id}
-                    className={`${styles.stickyAds} ${styles.adLink}`}
-                  >
-                    <Link href={ad.url}>
-                      Click here to visit our sponsor <FaArrowCircleRight />
-                    </Link>
-                  </div>
-                )
-              )
-            )}
-          </div>
-        </div>
+        </aside>
       </div>
-    </>
+    </div>
   );
 };
 

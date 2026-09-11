@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Head from "next/head";
 import { FaFlag } from "react-icons/fa";
 import PhoneInput from "react-phone-number-input";
 import "react-phone-number-input/style.css";
@@ -92,6 +93,14 @@ const ContactForm = () => {
   };
   return (
     <div className="flex flex-col items-center justify-center">
+      <Head>
+        <title>Book a Project Doubt Session - Skillslash</title>
+        <meta
+          name="description"
+          content="Register for a 1:1 project doubt-clearing session with Skillslash."
+        />
+        <meta name="robots" content="noindex,follow" />
+      </Head>
       <h2 className="text-center m-10">Project Doubt Session registration form</h2>
       <p className="w-[50%] text-center max-sm:w-[98%]">
         Trainer led Live Doubt clearing session is available every Saturday from

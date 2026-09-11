@@ -56,8 +56,8 @@
     "title": "Web Development Course in Hyderabad",
     "spanTitleText": "Live Interview Based Learning Program",
     "desc": "Equip yourself with Web development skills through live, interactive lectures guided by industry expert mentors",
-    "backgroundImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/web-development-banner-white.webp",
-    "mainHeaderImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/web-devlopment-girl-white-image.webp",
+    "backgroundImg": "/cdn/static/web/New-UI/web-development-banner-white.svg",
+    "mainHeaderImg": "/cdn/static/web/New-UI/web-devlopment-girl-white-image.svg",
     "mainAlt": "Student getting best Web Development course in Hyderabad",
     "usp1": " FAANG Instructor led",
     "usp2": "Solve 500+",
@@ -75,7 +75,7 @@
     "title": "Web Development Course in Hyderabad",
     "spanTitleText": "Live Project Based Learning Partnered with Tech Companies",
     "desc": "Equip yourself with Web development skills through live, interactive lectures guided by industry expert mentors",
-    "imgSrc": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/NewDatascience/Header/data-science-header+webp.webp",
+    "imgSrc": "/cdn/NewDatascience/Header/data-science-header-webp.svg",
     "dataScience": false,
     "FullStack": true,
     "hour": "228+",
@@ -151,7 +151,7 @@
     "desc": "Skillslash is not just a Tech-education entity but also into Tech-Consulting. Hence we have multiple ongoing projects with various tech startups and MNCs. Once you complete the classroom training with us, you will get the opportunity to work on ongoing projects as a web developer hence after completing the assigned project successfully, will also receive a project experience letter from that company. So now when you appear for an interview through our placement cell, you have relevant experience as a web developer.",
     "altM": "",
     "altR": "Get Real Work Experience Certificate by taking Web Development course in Hyderabad ",
-    "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/web-development-certificate.webp"
+    "src": "/cdn/static/web/web-development-certificate.svg"
   },
   "RealWork": {
     "desc": "Our web development course in Hyderabad strives to provide plenty of specified job referrals. Moreover, we bring forth various software development solutions through project-based learning courses guided by experienced mentors.    "

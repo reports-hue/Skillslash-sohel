@@ -1,13 +1,13 @@
 // pages/Bangalore.js
 
 import React from "react";
+import { toJsonLdGraph } from "../lib/jsonLdGraph";
 import Head from "next/head";
 import Navbar from "../components/Navbar/Navbar";
 import BlogHeader from "../components/CityBlog/BlogHeader/BlogHeader";
 import BlogContent from "../components/CityBlog/BlogContent/BlogConent";
 import Footer from "../components/Footer/Footer";
 import InternalLinking from "../components/InternalLinking/InternalLinking";
-import Popup from "../components/CityBlog/BlogPopup/Popup";
 
 
 import kanpurData from "../Data/Cities/Kanpur/DSKanpurData";
@@ -29,8 +29,10 @@ const Kanpur = ({ data }) => {
           rel="canonical"
           href="https://skillslash.com/data-science-course-in-kanpur"
         />
-        <script type="application/ld+json">
-          {JSON.stringify({
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: toJsonLdGraph({
        "@context": "https://schema.org/",
        "@type": "Product",
        "name": "Data science course in Kanpur",
@@ -46,8 +48,9 @@ const Kanpur = ({ data }) => {
          "ratingCount": "25987"
        }
 
-          })}
-        </script>
+          }),
+          }}
+        />
       </Head>
 
       <Navbar />
@@ -57,11 +60,11 @@ const Kanpur = ({ data }) => {
         title=" Data Science Course Training Institutes in "
         subTitle="Top 10"
         titleAuthor="Kanpur"
-        authorPro="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/ai_face.webp"
+        authorPro="/cdn/city_Blog/ai_face.svg"
         linkedinId="https://www.linkedin.com/in/amit-ambi-axh08/"
-        rytImg="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/mumbai_top_10_comp.webp"
-        backgroundImg="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_bg_mumbai.webp"
-        cityImg="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/mumbai_place.webp"
+        rytImg="/cdn/city_Blog/mumbai_top_10_comp.svg"
+        backgroundImg="/cdn/city_Blog/blog_bg_mumbai.svg"
+        cityImg="/cdn/city_Blog/mumbai_place.svg"
       />
 
       <BlogContent
@@ -74,7 +77,6 @@ const Kanpur = ({ data }) => {
 
       <InternalLinking />
       <Footer />
-      <Popup />
     </div>
   );
 };

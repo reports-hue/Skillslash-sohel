@@ -7,7 +7,7 @@ export const jobData = [
     exp: "3 Years",
     category: "Designer",
     salary: "20k-60k/month",
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Designer.webp",
+    img: "/cdn/static/web/New-UI/Designer.svg",
     applied: "305",
   },
   {
@@ -18,7 +18,7 @@ export const jobData = [
     exp: "1 Years",
     category: "Designer",
     salary: "25k-30k/month",
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Designer.webp",
+    img: "/cdn/static/web/New-UI/Designer.svg",
     applied: "94",
   },
   {
@@ -29,7 +29,7 @@ export const jobData = [
     location: "Bangalore, Karnataka, India",
     exp: "5 Years",
     salary: "60k-80k/month",
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/seo.webp",
+    img: "/cdn/static/web/New-UI/seo.svg",
     applied: "235",
   },
   {
@@ -40,7 +40,7 @@ export const jobData = [
     location: "Bangalore, Karnataka, India",
     exp: "5 Years",
     salary: "10k-25k/month",
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/seo.webp",
+    img: "/cdn/static/web/New-UI/seo.svg",
     applied: "117",
   },
   {
@@ -51,7 +51,7 @@ export const jobData = [
     location: "Bangalore, Karnataka, India",
     exp: "2 Years",
     salary: "20k-25k/month",
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/seo.webp",
+    img: "/cdn/static/web/New-UI/seo.svg",
     applied: "67",
   },
   {
@@ -62,7 +62,7 @@ export const jobData = [
     location: "Bangalore, Karnataka, India",
     exp: "4.5 Years",
     salary: "90k-95k/month",
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Developer.webp",
+    img: "/cdn/static/web/New-UI/Developer.svg",
     applied: "507",
   },
   {
@@ -73,7 +73,7 @@ export const jobData = [
     location: "Bangalore, Karnataka, India",
     exp: "1 Years",
     salary: "20k-35k/month",
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Developer.webp",
+    img: "/cdn/static/web/New-UI/Developer.svg",
     applied: "189",
   },
   {
@@ -84,7 +84,7 @@ export const jobData = [
     location: "Bangalore, Karnataka, India",
     exp: "2 Years",
     salary: "40k-55k/month",
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Developer.webp",
+    img: "/cdn/static/web/New-UI/Developer.svg",
     applied: "98",
   },
 
@@ -96,7 +96,7 @@ export const jobData = [
     location: "Bangalore, Karnataka, India",
     exp: "2.5 Years",
     salary: "45k-55k/month",
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Developer.webp",
+    img: "/cdn/static/web/New-UI/Developer.svg",
     applied: "147",
   },
   {
@@ -107,7 +107,7 @@ export const jobData = [
     location: "Bangalore, Karnataka, India",
     exp: "3.5 Years",
     salary: "55k-75k/month",
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Developer.webp",
+    img: "/cdn/static/web/New-UI/Developer.svg",
     applied: "378",
   },
   {
@@ -118,7 +118,7 @@ export const jobData = [
     location: "Bangalore, Karnataka, India",
     exp: "2 Years",
     salary: "40k-55k/month",
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Writer.webp",
+    img: "/cdn/static/web/New-UI/Writer.svg",
     applied: "98",
   },
   {
@@ -129,7 +129,7 @@ export const jobData = [
     location: "Bangalore, Karnataka, India",
     exp: "1.5 Years",
     salary: "15k-35k/month",
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Writer.webp",
+    img: "/cdn/static/web/New-UI/Writer.svg",
     applied: "234",
   },
   {
@@ -140,7 +140,7 @@ export const jobData = [
     location: "Bangalore, Karnataka, India",
     exp: "3.5 Years",
     salary: "35k-45k/month",
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Writer.webp",
+    img: "/cdn/static/web/New-UI/Writer.svg",
     applied: "154",
   },
   {
@@ -151,7 +151,7 @@ export const jobData = [
     location: "Bangalore, Karnataka, India",
     exp: "1.5 Years",
     salary: "25k-35k/month",
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/seo.webp",
+    img: "/cdn/static/web/New-UI/seo.svg",
     applied: "45",
   },
   {
@@ -162,7 +162,7 @@ export const jobData = [
     location: "Bangalore, Karnataka, India",
     exp: "5 Years",
     salary: "75k-95k/month",
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Designer.webp",
+    img: "/cdn/static/web/New-UI/Designer.svg",
     applied: "25",
   },
   {
@@ -173,7 +173,7 @@ export const jobData = [
     location: "Bangalore, Karnataka, India",
     exp: "1 Years",
     salary: "25k-30k/month",
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Others.webp",
+    img: "/cdn/static/web/New-UI/Others.svg",
     applied: "34",
   },
   {
@@ -184,7 +184,7 @@ export const jobData = [
     location: "Bangalore, Karnataka, India",
     exp: "6 Years",
     salary: "45k-80k/month",
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/D.M..webp",
+    img: "/cdn/static/web/New-UI/D.M..svg",
     applied: "56",
   },
   {
@@ -195,7 +195,7 @@ export const jobData = [
     location: "Bangalore, Karnataka, India",
     exp: "2 Years",
     salary: "18k-30k/month",
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/D.M..webp",
+    img: "/cdn/static/web/New-UI/D.M..svg",
     applied: "78",
   },
   {
@@ -206,7 +206,7 @@ export const jobData = [
     location: "Bangalore, Karnataka, India",
     exp: "3 Years",
     salary: "24k-37k/month",
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/D.M..webp",
+    img: "/cdn/static/web/New-UI/D.M..svg",
     applied: "178",
   },
   {
@@ -217,7 +217,7 @@ export const jobData = [
     location: "Bangalore, Karnataka, India",
     exp: "3 Years",
     salary: "44k-77k/month",
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/D.M..webp",
+    img: "/cdn/static/web/New-UI/D.M..svg",
     applied: "189",
   },
   {
@@ -228,7 +228,7 @@ export const jobData = [
     location: "Bangalore, Karnataka, India",
     exp: "3 Years",
     salary: "44k-77k/month",
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/D.M..webp",
+    img: "/cdn/static/web/New-UI/D.M..svg",
     applied: "189",
   },
   {
@@ -239,7 +239,7 @@ export const jobData = [
     location: "Bangalore, Karnataka, India",
     exp: "2 Years",
     salary: "14k-25k/month",
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Accountant.webp",
+    img: "/cdn/static/web/New-UI/Accountant.svg",
     applied: "78",
   },
   {
@@ -250,7 +250,7 @@ export const jobData = [
     location: "Bangalore, Karnataka, India",
     exp: "3 Years",
     salary: "24k-35k/month",
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Accountant.webp",
+    img: "/cdn/static/web/New-UI/Accountant.svg",
     applied: "378",
   },
   {
@@ -261,7 +261,7 @@ export const jobData = [
     location: "Bangalore, Karnataka, India",
     exp: "5 Years",
     salary: "44k-55k/month",
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Sales.png",
+    img: "/cdn/static/web/New-UI/Sales.svg",
     applied: "58",
   },
   {
@@ -272,7 +272,7 @@ export const jobData = [
     location: "Bangalore, Karnataka, India",
     exp: "2 Years",
     salary: "34k-45k/month",
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Sales.png",
+    img: "/cdn/static/web/New-UI/Sales.svg",
     applied: "148",
   },
   {
@@ -283,7 +283,7 @@ export const jobData = [
     location: "Bangalore, Karnataka, India",
     exp: "1.5 Years",
     salary: "24k-35k/month",
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Sales.png",
+    img: "/cdn/static/web/New-UI/Sales.svg",
     applied: "128",
   },
 ];

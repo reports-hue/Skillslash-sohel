@@ -27,7 +27,7 @@ const Tools = () => {
       <h2><span>Tools</span> Covered</h2>
       {isMobile ? (
         <Image
-          src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/tools_DM_mbl.webp"
+          src="/cdn/digital-marketing/tools_DM_mbl.svg"
           alt="Tools Mobile"
           width={600}
           height={200}
@@ -36,7 +36,7 @@ const Tools = () => {
         />
       ) : (
         <Image
-          src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/tools_DM.webp"
+          src="/cdn/digital-marketing/tools_DM.svg"
           alt="Tools Desktop"
           width={1000}
           height={300}

@@ -2,8 +2,6 @@ import React, { useState, useEffect } from "react";
 import styles from "./BatchDates.module.css";
 import { AiOutlineCalendar } from "react-icons/ai";
 import { MdDoneAll } from "react-icons/md";
-import Popup from "../Popup/Popup";
-import Form from "../Form/Form";
 
 const BatchDates = ({
   batchDetails,
@@ -15,7 +13,6 @@ const BatchDates = ({
   redirectFs,
   redirectWeb,
 }) => {
-  const [popups, setPopups] = useState(false);
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
     let width = window.innerWidth;
@@ -23,32 +20,9 @@ const BatchDates = ({
       setMobile(true);
     }
   }, [mobile]);
-  const popupShow = () => {
-    setPopups(true);
-  };
 
   return (
     <div className={styles.BatchDates}>
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-        <div className="leftPopup">
-          <div className="whiteP" />
-        </div>
-        <div className="RightPopup">
-          <h3>Apply For Counselling</h3>
-          <p>Fill the below Details to get started</p>
-          <Form
-            popup={true}
-            setTrigger={setPopups}
-            dataScience={dataScience}
-            redirectDs={redirectDs}
-            redirectFs={redirectFs}
-            redirectBa={redirectBa}
-            redirectBl={redirectBl}
-            redirectDe={redirectDe}
-            redirectWeb={redirectWeb}
-          />
-        </div>
-      </Popup>
       <h3 className={styles.MHeading}>
         Next coh<span>orts Dates</span>
       </h3>
@@ -199,11 +173,6 @@ const BatchDates = ({
               <MdDoneAll className={styles.spanIcon} />
               <p className={styles.status}>All Seats are filled up</p>
             </span>
-          </div>
-        </div>
-        <div className={styles.enrollWrap}>
-          <div className={styles.batchEnroll}>
-            <button className={styles.button}>Enroll Now</button>
           </div>
         </div>
       </div>

@@ -8,7 +8,7 @@ const FirstSection = () => {
     <div className="grid grid-cols-[58%,40%] gap-2 px-28 mt-[65px] py-16 relative h-[470px] max-sm:px-5 max-sm:py-10 max-sm:grid-cols-[100%] max-sm:bg-[#f8f5ff] max-sm:justify-center max-sm:items-center">
       <div className="bgWrap max-sm:hidden">
         <Image
-          src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/First-section-header-home-page.webp"
+          src="/cdn/static/New_skillslash/Homepage/First-section-header-home-page.svg"
           fill
           alt="first header"
         />

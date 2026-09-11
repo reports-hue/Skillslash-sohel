@@ -149,7 +149,7 @@ const CourseHeader = ({
               <div className={Styles.threeimg}>
                 <p>Featured by :</p>
                 <Image
-                  src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/3-logo.png"
+                  src="/cdn/digital-marketing/3-logo.svg"
                   alt="news"
                   priority
                   width={420}
@@ -164,7 +164,7 @@ const CourseHeader = ({
               <div className={Styles.threeimg}>
                 <p>Reviews :</p>
                 <Image
-                  src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/google_review.png"
+                  src="/cdn/digital-marketing/google_review.svg"
                   alt="news"
                   priority
                   width={420}
@@ -178,7 +178,7 @@ const CourseHeader = ({
               <div className={Styles.threeimg}>
                 <p>Reviews :</p>
                 <Image
-                  src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/google_review.png"
+                  src="/cdn/digital-marketing/google_review.svg"
                   alt="news"
                   priority
                   width={400}
@@ -187,7 +187,7 @@ const CourseHeader = ({
 
                 <p>Featured by :</p>
                 <Image
-                  src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/3-logo.png"
+                  src="/cdn/digital-marketing/3-logo.svg"
                   alt="news"
                   priority
                   width={420}
@@ -218,7 +218,7 @@ const CourseHeader = ({
         <div className={Styles.icons}>
           <div className={Styles.icondivs}>
             <Image
-              src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/Ind_icon.webp"
+              src="/cdn/digital-marketing/Ind_icon.svg"
               width={60}
               height={60}
               loading="lazy"
@@ -231,7 +231,7 @@ const CourseHeader = ({
           <hr className={Styles.iconHr} />
           <div className={Styles.icondivs}>
             <Image
-              src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/carr_icon.webp"
+              src="/cdn/digital-marketing/carr_icon.svg"
               width={60}
               height={60}
               loading="lazy"
@@ -242,7 +242,7 @@ const CourseHeader = ({
           <hr className={Styles.iconHr} />
           <div className={`${Styles.icondivs} ${Styles.center}`}>
             <Image
-              src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/live_icon.webp"
+              src="/cdn/digital-marketing/live_icon.svg"
               width={60}
               height={60}
               loading="lazy"

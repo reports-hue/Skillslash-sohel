@@ -3,7 +3,7 @@
     "title": "Data Science & AI Bootcamp",
     "spanTitleText": "Live Project based Self-paced Learning",
     "desc": "Microsoft guided triple certification blended learning course with video lessons and live doubt sessions and live project sessions.",
-    "imgSrc": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/NewDatascience/Header/data-science-header+webp.webp",
+    "imgSrc": "/cdn/NewDatascience/Header/data-science-header-webp.svg",
     "dataScience": true,
     "FullStack": false,
     "newDs": true,
@@ -157,19 +157,19 @@
         "projectImgSrc": [
           {
             "id": 1,
-            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Google_logo.webp",
+            "src": "/cdn/static/web/New-UI/Google_logo.svg",
             "width": "95",
             "height": "50"
           },
           {
             "id": 2,
-            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Uber.webp",
+            "src": "/cdn/static/web/Uber.svg",
             "width": "70",
             "height": "36"
           },
           {
             "id": 3,
-            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Youtube.webp",
+            "src": "/cdn/static/web/Youtube.svg",
             "width": "107",
             "height": "50"
           }
@@ -177,21 +177,21 @@
         "projectInfo": [
           {
             "id": 1,
-            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/Google_logo.webp",
+            "src": "/cdn/static/web/New-UI/Google_logo.svg",
             "title": "Mobility data ",
             "width": "95",
             "height": "50"
           },
           {
             "id": 2,
-            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Uber.webp",
+            "src": "/cdn/static/web/Uber.svg",
             "title": "Fare prediction",
             "width": "70",
             "height": "50"
           },
           {
             "id": 3,
-            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Youtube.webp",
+            "src": "/cdn/static/web/Youtube.svg",
             "title": "Video analytics",
             "width": "149",
             "height": "62"
@@ -245,19 +245,19 @@
         "projectImgSrc": [
           {
             "id": 1,
-            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Razorpay.webp",
+            "src": "/cdn/static/web/Razorpay.svg",
             "width": "107",
             "height": "50"
           },
           {
             "id": 3,
-            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon.png",
+            "src": "/cdn/static/web/New-UI/amazon.svg",
             "width": "93",
             "height": "28"
           },
           {
             "id": 2,
-            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/mercedez-inline-logo.png",
+            "src": "/cdn/static/web/New-UI/mercedez-inline-logo.svg",
             "width": "110",
             "height": "28"
           }
@@ -265,21 +265,21 @@
         "projectInfo": [
           {
             "id": 1,
-            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Razorpay.webp",
+            "src": "/cdn/static/web/Razorpay.svg",
             "title": "Understand mobile banking",
             "width": "107",
             "height": "50"
           },
           {
             "id": 2,
-            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/mercedez-inline-logo.png",
+            "src": "/cdn/static/web/New-UI/mercedez-inline-logo.svg",
             "title": "Reduce time",
             "width": "110",
             "height": "28"
           },
           {
             "id": 3,
-            "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/amazon.png",
+            "src": "/cdn/static/web/New-UI/amazon.svg",
             "title": "Food Reviews",
             "width": "93",
             "height": "28"

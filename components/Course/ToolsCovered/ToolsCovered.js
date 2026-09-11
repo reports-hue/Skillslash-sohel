@@ -16,7 +16,7 @@ function ToolsCovered() {
       <div>
         {mobile ? (
           <Image
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Tools_Covered_ Mobile.webp"
+            src="/cdn/static/web/Tools_Covered_.svg Mobile.webp"
             alt="tools you will read in our online flagship program"
             quality={100}
             style={{ objectFit: "contain" }}
@@ -26,7 +26,7 @@ function ToolsCovered() {
           />
         ) : (
           <Image
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Tools_Covered.webp"
+            src="/cdn/static/web/Tools_Covered.svg"
             alt="tools you will read in our online flagship program"
             quality={100}
             style={{ objectFit: "contain" }}

@@ -4,6 +4,7 @@ import Form from "../../Form/Form";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 import { FiUserCheck } from "react-icons/fi";
+import { BsArrowRightCircleFill } from "react-icons/bs";
 const EventHeader = dynamic(() => import("../EventHeader/EventHeader"));
 
 const EventHeaderWrap = ({ eventData, today, eventDateInfo, eventStart }) => {

@@ -23,7 +23,7 @@ const AutoPopUp = () => {
 
         <div className={style.img}>
           <Image
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/abhishek-bourai-24-05-2023-rounded.png"
+            src="/cdn/static/web/New-UI/abhishek-bourai-24-05-2023-rounded.svg"
             width={60}
             height={60}
             alt="Abhishek"

@@ -1,0 +1,39 @@
+.page { background: #f7f6fb; min-height: 100vh; }
+
+.shell { max-width: 1000px; margin: 0 auto; padding: 40px 24px 64px; }
+
+.header {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  background: #ffffff;
+  border: 1px solid #e6e3f0;
+  border-radius: 16px;
+  padding: 28px;
+  margin-bottom: 32px;
+}
+
+.avatar { width: 88px; height: 88px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
+.avatarFallback {
+  width: 88px; height: 88px; border-radius: 50%; flex-shrink: 0;
+  background: #eeecfb; color: #4f419a; font-weight: 800; font-size: 32px;
+  display: grid; place-items: center;
+}
+
+.name { font-size: 24px; font-weight: 800; color: #171330; margin: 0 0 4px; }
+.title { font-size: 14px; font-weight: 600; color: #726c88; margin: 0 0 10px; }
+.bio { font-size: 14.5px; color: #4a4460; line-height: 1.6; margin: 0 0 12px; max-width: 60ch; }
+.links { display: flex; gap: 16px; }
+.links a { font-size: 13px; font-weight: 700; color: #4f419a; text-decoration: none; }
+.links a:hover { text-decoration: underline; }
+
+.postsHeading { font-size: 15px; font-weight: 700; color: #726c88; margin: 0 0 18px; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.empty { color: #726c88; font-size: 14px; }
+.empty a { color: #4f419a; font-weight: 600; }

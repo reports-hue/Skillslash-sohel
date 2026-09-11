@@ -32,8 +32,11 @@ export default function DataScienceEvent({ eventData }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>{eventData.data.metaInfo.title}t</title>
+        <title>{eventData.data.metaInfo.title}</title>
         <meta name="description" content={eventData.data.metaInfo.desc} />
+        {/* These are registration pages for events that ran in 2022; they are
+            kept reachable by direct link but should not compete in search. */}
+        <meta name="robots" content="noindex,follow" />
       </Head>
       <Navbar event={true} />
       <EventHeaderWrap

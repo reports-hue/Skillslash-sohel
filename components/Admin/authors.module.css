@@ -1,0 +1,83 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  position: relative;
+  background: #fff;
+  border: 1px solid #e1ddec;
+  border-radius: 10px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.defaultBadge {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 10.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #c2681a;
+  background: #f8ebdf;
+  padding: 3px 8px;
+  border-radius: 999px;
+}
+.defaultBadge svg { width: 11px; height: 11px; }
+
+.cardTop { display: flex; align-items: center; gap: 12px; }
+
+.avatar { width: 48px; height: 48px; border-radius: 50%; object-fit: cover; }
+.avatarPlaceholder {
+  width: 48px; height: 48px; border-radius: 50%;
+  background: #eeecf7; color: #4f419a; font-weight: 800; font-size: 18px;
+  display: grid; place-items: center; flex-shrink: 0;
+}
+
+.name { font-weight: 700; font-size: 15px; color: #1c1830; }
+.title { font-size: 12.5px; color: #726c88; }
+.bio { font-size: 13px; color: #4a4460; line-height: 1.5; margin: 0; }
+
+.cardActions { display: flex; gap: 8px; margin-top: auto; padding-top: 6px; }
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(28, 24, 48, 0.45);
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  z-index: 50;
+}
+
+.modal {
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  width: 100%;
+  max-width: 440px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.modalTitle { font-size: 18px; font-weight: 800; margin: 0 0 16px; color: #1c1830; }
+
+.avatarRow { display: flex; align-items: center; gap: 12px; }
+.avatarSm { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; }
+.avatarPlaceholderSm {
+  width: 44px; height: 44px; border-radius: 50%;
+  background: #eeecf7; color: #4f419a; font-weight: 800;
+  display: grid; place-items: center;
+}
+
+.checkboxRow { display: flex; align-items: center; gap: 8px; font-size: 13.5px; color: #4a4460; cursor: pointer; }
+
+.modalActions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 18px; }

@@ -8,7 +8,7 @@
   display: none;
 }
 .feeWrapperTop {
-  /* background-image: url("https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Fee-and-finance.webp"); */
+  /* background-image: url("/cdn/static/web/Fee-and-finance.svg"); */
   display: flex;
   flex-flow: column;
   align-items: center;

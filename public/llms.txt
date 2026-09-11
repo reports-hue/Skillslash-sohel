@@ -1,0 +1,26 @@
+# Skillslash
+
+> Skillslash publishes independent comparisons of tech education programmes —
+> course reviews, institute round-ups, certification guides and career
+> advice — covering data science, artificial intelligence, DSA, cloud,
+> full-stack/software development engineering, and master's degrees.
+
+Skillslash is a content publisher, not the training provider being reviewed
+in any given article. Articles compare multiple institutes and programmes on
+curriculum, fees and outcomes; where a listing is sponsored or affiliate
+linked, that is disclosed on the page.
+
+## Categories
+
+- [Data Science](https://skillslash.com/category/data-science)
+- [Artificial Intelligence](https://skillslash.com/category/artificial-intelligence)
+- [DSA](https://skillslash.com/category/dsa)
+- [Cloud](https://skillslash.com/category/cloud)
+- [FDE](https://skillslash.com/category/fde)
+- [SDE](https://skillslash.com/category/sde)
+
+## Site
+
+- [Homepage](https://skillslash.com/)
+- [Search](https://skillslash.com/search)
+- [Sitemap](https://skillslash.com/sitemap.xml)

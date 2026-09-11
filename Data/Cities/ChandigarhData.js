@@ -2,9 +2,7 @@ const ChandigarhData = {
   contentHtml: ` <i><b>Imagine a tech-savvy career in the digital realm that empowers you to harness the power of data science with endless growth options.</b></i>
 
    
-   
     <p>India is welcoming a fast-paced rise of digital hubs with infinite growth options. Northern India, especially Chandigarh marks a notable move with its modern infrastructure. Many startups and rising MNCs witness the alluring growth of a data-driven business culture. In the interim, a surge in demand for skilled data experts has become a notable topic of debate. Hence, upskilling via a <b>data science course in Chandigarh</b> takes the charge for effortless career shifts.</p>
-       <span class="blog-center-image" data-src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/chandigrah_banner.webp" data-alt="Banner Image" data-width="800" data-height="400"></span></a>
  
     <div class="table-container" style="overflow-x: auto;">
 <table style="border-collapse: collapse; width: 100%; border: 2px solid #ccc;">
@@ -18,9 +16,6 @@ const ChandigarhData = {
 </tr>
 </thead>
 <tbody>
-
-
-
 
 <tr>
 <td style="border: 1px solid #ccc; ;"> <a href="#Learnbay">Learnbay</a></td>
@@ -75,15 +70,11 @@ const ChandigarhData = {
 <td style="border: 1px solid #ccc; ;">Basic to Advanced</td>
 </tr>
 
-
 </tbody>
 </table>
 </div>
 
 <a href="https://www.learnbay.co/submit-info">
-<span class="next-image-placeholder" data-src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/banner_c.webp" data-alt="Banner Image" data-width="800" data-height="400"></span></a>
-
-
 
     <p>According to <a href="https://timesofindia.indiatimes.com/business/india-business/india-tech-industry-decentralising-to-26-cities-from-7-major-hubs-11-15-talent-in-tier-2-3-cities-report/articleshow/103217429.cms" target="_blank" rel="nofollow">TOI reports</a>, India’s tech industry decentralizes its functions and market segments expanding to prime cities including Chandigarh. As a result, Chandigarh is about to witness rapid growth in talent search with absolute success chances. Many MNCs like <i><b>Infosys, Essenware, eClerx, Livspace, Gallagher, etc</b></i> thrive to bring up exciting job offers in data science.</p>
 
@@ -123,7 +114,6 @@ const ChandigarhData = {
     </ul>
 
     <p><b>4.Tools:</b> Upskilling from an industry-driven <b>data science institute in Chandigarh </b>helps you learn about in-demand tools and trends. </p>
-    
 
     <ul>
     <li><i>Excel</i> </li>
@@ -372,9 +362,6 @@ const ChandigarhData = {
     <p><i><b>Mode of training:</b></i>Join Learnbay’s live instructor-led training programs and drive career-oriented gains.</p>
 
     <p><i><b>Certifications:</b></i>Attest IBM & MS credentials to your career and explore global-scale career growth offers with the leading firms.</p>
-    
-
-    <i><b>Contact:</b><a href="mailto:contacts@learnbay.co" target="_blank"> contacts@learnbay.co</a></i>
 
      <h3 id="Simplilearn"><b><b>2. Data Scientist Course in Chandigarh by Simplilearn</b> </b></h3>
     <p><i><b>About: </b></i>Simplilearn’s data scientist course in Chandigarh presents an inclusively designed syllabus to cater to learners’ growth expectations. As digital advances become crucial, demand for data science learning grows vital for experts. Hence, joining Simplilearn’s front-age courses unlocks exciting career gains. Also, its alliance with IBM enriches success metrics with global-level approval.</p>
@@ -392,11 +379,8 @@ const ChandigarhData = {
     <p><i><b>Fee:</b></i>Simplilearn’s <b>data science course in Chandigarh</b>charges you around INR 57,000 with INR 4,750 as monthly EMI.</p>
 
     <p><i><b>Mode of training:</b></i> Experts joining Simplilearn will get online learning sessions to refine their skills and confirm global-scale success.</p>
-    
 
     <p><i><b>Certifications:</b></i> Simplilearn offers globally recognized credentials in alliance with IBM to enrich your success chances and help you land your dream job.</p>
-
-    <p><i><b>Contact:</b></i> Call @1800-212-7688 or<a href="https://www.simplilearn.com/contact-us" target="_blank" rel="nofollow"> contact here</a></p>
 
      <h3 id="Datamites"><b><b>3. Data Science Course in Chandigarh by Datamites</b> </b></h3>
     <p><i><b>About: </b></i> Today’s ever-evolving digital space in Chandigarh demands talented data experts to handle rising intricacies. Datamites offers leading-edge data science training programs in Chandigarh with definite success options. Also, its alliance with IABAC and FutureSkills paves the way for global-level gains.</p>
@@ -423,8 +407,6 @@ const ChandigarhData = {
 
     <p><i><b>Certifications:</b></i> Become a certified data scientist and attest globally valued credentials from Datamites and IABAC to your career.</p>
 
-    <i><b>Contact:</b><a href="mailto:info@datamites.com" target="_blank" rel="nofollow"> info@datamites.com </a></i>
-
      <h3 id="ThinkNEXT"><b><b>4. Data Science Training in Chandigarh by ThinkNEXT</b> </b></h3>
     <p><i><b>About:</b></i> Data science learning is inevitable. Yet, finding the best way to steer career success via proven training from experts. ThinkNEXT sets the basis for exciting career change with unique job-driven offers. Join the best <b>data science institute in Chandigarh</b> and explore the alluring gains.</p>
 
@@ -440,13 +422,10 @@ const ChandigarhData = {
     </ul>
 
     <p><i><b>Fee:</b></i> NA. For experts eager to join a <b>data science course in Chandigarh</b>, ThinkNEXT is the best place to proceed.</p>
-    
 
     <p><i><b>Mode of training:</b></i> ThinkNEXT offers flexible learning modes where you can opt for online or offline training best suited to your career goals.</p>
 
     <p><i><b>Certifications:</b></i> Obtain course completion and project certificates from ThinkNEXT with exclusive career-driven offers.</p>
-
-    <i><b>Contact:</b><a href="mailto:info@thinknext.co.in" target="_blank" rel="nofollow"> info@thinknext.co.in</a></i>
 
      <h3 id="Theta Academy"><b><b>5.Data Science Course in Chandigarh by Theta Academy </b> </b></h3>
     <p><i><b>About:</b></i> In today’s data-driven age, data science learning has become crucial for many experts from diverse fields. <a href="https://thetacademy.com/" target="_blank" rel="nofollow"></a>Theta Academy is a well-known data science training center with career-driven offers. If you’re eager for skill upgrades, enroll in industry-driven data science courses and advance your career. </p>
@@ -465,8 +444,6 @@ const ChandigarhData = {
     <p><i><b>Mode of training:</b></i> Get into Theta’s 100% live instructor-led training sessions and excel in your field with tempting gains.</p>
 
     <p><i><b>Certifications:</b></i> Embrace compelling success with globally valued credentials from Theta Academy in Chandigarh.</p>
-
-    <i><b>Contact:</b><a href="mailto:info@thetaacademy.com" target="_blank" rel="nofollow"> info@thetaacademy.com </a></i>
 
      <h3 id="CBitss"><b><b>6.Data Science Course in Chandigarh by CBitss</b> </b></h3>
     <p><i><b>About:</b></i> Amidst a fierce career growth race, <a href="https://www.cbitss.in/data_science_course_chandigarh/" target="_blank" rel="nofollow">CBitss</a> enters the upskilling space with its leading-edge <b>data science courses in Chandigarh</b>. Join its data science course in Chandigarh today and unleash your power to evolve. If you’re a fresher or experienced pro, learning with CBitss will never leave you stressed. Also, its approval by ISO and the Government of India unlocks endless career growth options. </p>
@@ -524,9 +501,6 @@ const ChandigarhData = {
     <p><i><b>Mode of training: </b></i> Experts can avail of online live sessions with VproTech and build a lucrative career path.</p>
     
     <p><i><b>Certifications:</b></i> Obtain a job-enriched certificate from VproTech and explore endless growth options.</p>
-    
-
-    <i><b>Contact:</b><a href="mailto:vprotechhead@gmail.com" target="_blank" rel="nofollow"> vprotechhead@gmail.com </a></i>
 
      <h3 id="TECHedo"><b>9.Data Science Course in Chandigarh by TECHedo </b></h3>
     <p><i><b>About:</b> </i><a href="https://techedo.com/data-Science-course-chandigarh.php" target="_blank" rel="nofollow">TECHedo</a>  is a well-known upskilling space in Chandigarh with job-driven career gains. Its inclusively curated data science learning modules process real-time skill upgrades with exciting returns. Also, its alliance with IBM lifts your career growth metrics with finite success.</p>
@@ -544,13 +518,11 @@ const ChandigarhData = {
     <p><i><b>Fee:</b></i> With the worthy investment of INR 300,000 kick-start an alluring data science career in Chandigarh. </p>
     <p><i><b>Mode of training:</b></i> TECHedo offers offline and online training sessions to guide you to shift your career with exciting gains. </p>
     <p><i><b>Certifications:</b></i> Attest job-driven certificates from TECHedo and IBM to your career and grab chances to work with global brands.</p>
-    
 
-    <p><i><b>Contact: Call </b>@ 0172-5265001</p></i> 
+</i> 
 
      <h3 id="DigiPerform"><b>10.Data Science Training Program in Chandigarh by DIGIPerform </b></h3>
     <p><i><b>About:</b></i><a href="https://digiperform.com/master-program-in-ai-ml-analytics/" target="_blank" rel="nofollow"> DigiPerform</a> is one of the top-ranked data science training centers in Chandigarh. Its premier dive into career-driven skill upgrades via elementary and practical training is worth noting. Enroll today to master in-demand data science skills with global-level success. </p>
-    
 
     <i><b>Course Highlights: </b></i>
     <ul>
@@ -588,12 +560,10 @@ const ChandigarhData = {
 
      <h3><b>4.What kind of certification does the online Data science course provide?  </b></h3>
     <p>Learning with a data science online course in Chandigarh will attest to globally valued certificates to your career. Here, you will obtain course completion and project certificates. These certificates are useful for you to unlock the right career rise options on a global scale. </p>
-    
-  
+
   
   <style>
-  
-  
+
           /* Inline CSS for specific styles */
           p {
             color: #333;
@@ -664,19 +634,19 @@ const ChandigarhData = {
   Blogs: [
     {
       image:
-        "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side.webp",
+        "/cdn/city_Blog/blog_side.svg",
       title: "Top 10 Data Science Course Training Institutes in Jaipur",
       link: "https://skillslash.com/data-science-course-in-jaipur",
     },
     {
       image:
-        "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_2.webp",
+        "/cdn/city_Blog/blog_side_2.svg",
       title: "Top 10 Data Science Course Training Institutes in Kolkata",
       link: "https://skillslash.com/data-science-course-training-kolkata",
     },
     {
       image:
-        "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_3.webp",
+        "/cdn/city_Blog/blog_side_3.svg",
       title: "Top 11 Data Science Course Training Institutes in Mumbai",
       link: "https://skillslash.com/data-science-course-in-mumbai",
     },

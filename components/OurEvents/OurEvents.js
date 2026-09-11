@@ -16,7 +16,7 @@ const OurEvents = () => {
       <div className={style.wrapperBlock}>
         <div className={style.wrapperBlock1}>
           <Image
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Home/event/MAANG1pic.webp"
+            src="/cdn/Home/event/MAANG1pic.svg"
             alt="Skillslash"
             layout="intrinsic"
             quality={100}
@@ -35,7 +35,7 @@ const OurEvents = () => {
         </div>
         <div className={style.wrapperBlock2}>
           <Image
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Home/event/AcingInterview2pic.webp"
+            src="/cdn/Home/event/AcingInterview2pic.svg"
             alt="Skillslash"
             layout="intrinsic"
             quality={100}
@@ -56,7 +56,7 @@ const OurEvents = () => {
         <div className={style.wrapperBlock3}>
           <Image
             layout="intrinsic"
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Home/event/interview3pic.webp"
+            src="/cdn/Home/event/interview3pic.svg"
             alt="Skillslash"
             quality={100}
             style={{ objectFit: "contain" }}

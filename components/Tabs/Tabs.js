@@ -86,7 +86,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Data+Science+And+Ai+header.webp"
+                      src="/cdn/static/New_skillslash/Homepage/Course-Header/Data-Science-And-Ai-header.svg"
                       alt="data science course"
                       width={232}
                       height={250}
@@ -137,7 +137,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Data+Science+And+Ai+header+final+year.webp"
+                      src="/cdn/static/New_skillslash/Homepage/Course-Header/Data-Science-And-Ai-header-final-year.svg"
                       alt="data science course"
                       width={232}
                       height={250}
@@ -188,7 +188,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Data-analytics-image.webp"
+                      src="/cdn/static/New_skillslash/Homepage/Course-Header/Data-analytics-image.svg"
                       alt="data science course"
                       width={232}
                       height={250}
@@ -291,7 +291,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Data+Science+And+Ai+header.webp"
+                      src="/cdn/static/New_skillslash/Homepage/Course-Header/Data-Science-And-Ai-header.svg"
                       alt="data science course"
                       width={232}
                       height={250}
@@ -342,7 +342,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Data+Science+And+Ai+header+final+year.webp"
+                      src="/cdn/static/New_skillslash/Homepage/Course-Header/Data-Science-And-Ai-header-final-year.svg"
                       alt="data science course"
                       width={232}
                       height={250}
@@ -393,7 +393,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Data-analytics-image.webp"
+                      src="/cdn/static/New_skillslash/Homepage/Course-Header/Data-analytics-image.svg"
                       alt="data science course"
                       width={232}
                       height={250}
@@ -444,7 +444,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Dsa-system-design-header.webp"
+                      src="/cdn/static/New_skillslash/Homepage/Course-Header/Dsa-system-design-header.svg"
                       alt="data science course"
                       width={232}
                       height={250}
@@ -495,7 +495,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/ml-with-statitics-header.webp"
+                      src="/cdn/static/New_skillslash/Homepage/Course-Header/ml-with-statitics-header.svg"
                       alt="data science course"
                       width={232}
                       height={250}
@@ -546,7 +546,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/NLP-header.webp"
+                      src="/cdn/static/New_skillslash/Homepage/Course-Header/NLP-header.svg"
                       alt="data science course"
                       width={232}
                       height={250}
@@ -595,7 +595,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/SQL-header-immage.webp"
+                      src="/cdn/static/New_skillslash/Homepage/Course-Header/SQL-header-immage.svg"
                       alt="data science course"
                       width={232}
                       height={250}
@@ -644,7 +644,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/python-header-image.webp"
+                      src="/cdn/static/New_skillslash/Homepage/Course-Header/python-header-image.svg"
                       alt="data science course"
                       width={232}
                       height={250}
@@ -693,7 +693,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Power-BI-header.webp"
+                      src="/cdn/static/New_skillslash/Homepage/Course-Header/Power-BI-header.svg"
                       alt="data science course"
                       width={232}
                       height={250}
@@ -742,7 +742,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/computer+vision+header.webp"
+                      src="/cdn/static/New_skillslash/Homepage/Course-Header/computer-vision-header.svg"
                       alt="data science course"
                       width={232}
                       height={250}
@@ -791,7 +791,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Deep-learnings-header.webp"
+                      src="/cdn/static/New_skillslash/Homepage/Course-Header/Deep-learnings-header.svg"
                       alt="data science course"
                       width={232}
                       height={250}
@@ -840,7 +840,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Tableau+header.webp"
+                      src="/cdn/static/New_skillslash/Homepage/Course-Header/Tableau-header.svg"
                       alt="data science course"
                       width={232}
                       height={250}
@@ -942,7 +942,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/fCourse.webp"
+                      src="/cdn/static/web/New-UI/fCourse.svg"
                       alt="full stack course"
                       width={406}
                       height={253}
@@ -975,7 +975,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/fsCourse.webp"
+                      src="/cdn/static/web/New-UI/fsCourse.svg"
                       alt="web development course"
                       width={406}
                       height={199}
@@ -1018,7 +1018,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Data+Science+And+Ai+header.webp"
+                      src="/cdn/static/New_skillslash/Homepage/Course-Header/Data-Science-And-Ai-header.svg"
                       alt="data science course"
                       width={232}
                       height={250}
@@ -1069,7 +1069,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Data+Science+And+Ai+header+final+year.webp"
+                      src="/cdn/static/New_skillslash/Homepage/Course-Header/Data-Science-And-Ai-header-final-year.svg"
                       alt="data science course"
                       width={232}
                       height={250}
@@ -1120,7 +1120,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Data-analytics-image.webp"
+                      src="/cdn/static/New_skillslash/Homepage/Course-Header/Data-analytics-image.svg"
                       alt="data science course"
                       width={232}
                       height={250}
@@ -1177,7 +1177,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Data+Science+And+Ai+header.webp"
+                      src="/cdn/static/New_skillslash/Homepage/Course-Header/Data-Science-And-Ai-header.svg"
                       alt="data science course"
                       width={232}
                       height={250}
@@ -1228,7 +1228,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Data+Science+And+Ai+header+final+year.webp"
+                      src="/cdn/static/New_skillslash/Homepage/Course-Header/Data-Science-And-Ai-header-final-year.svg"
                       alt="data science course"
                       width={232}
                       height={250}
@@ -1279,7 +1279,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Data-analytics-image.webp"
+                      src="/cdn/static/New_skillslash/Homepage/Course-Header/Data-analytics-image.svg"
                       alt="data science course"
                       width={232}
                       height={250}
@@ -1330,7 +1330,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Dsa-system-design-header.webp"
+                      src="/cdn/static/New_skillslash/Homepage/Course-Header/Dsa-system-design-header.svg"
                       alt="data science course"
                       width={232}
                       height={250}
@@ -1381,7 +1381,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/ml-with-statitics-header.webp"
+                      src="/cdn/static/New_skillslash/Homepage/Course-Header/ml-with-statitics-header.svg"
                       alt="data science course"
                       width={232}
                       height={250}
@@ -1432,7 +1432,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/NLP-header.webp"
+                      src="/cdn/static/New_skillslash/Homepage/Course-Header/NLP-header.svg"
                       alt="data science course"
                       width={232}
                       height={250}
@@ -1481,7 +1481,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/SQL-header-immage.webp"
+                      src="/cdn/static/New_skillslash/Homepage/Course-Header/SQL-header-immage.svg"
                       alt="data science course"
                       width={232}
                       height={250}
@@ -1530,7 +1530,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/python-header-image.webp"
+                      src="/cdn/static/New_skillslash/Homepage/Course-Header/python-header-image.svg"
                       alt="data science course"
                       width={232}
                       height={250}
@@ -1579,7 +1579,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Power-BI-header.webp"
+                      src="/cdn/static/New_skillslash/Homepage/Course-Header/Power-BI-header.svg"
                       alt="data science course"
                       width={232}
                       height={250}
@@ -1628,7 +1628,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/computer+vision+header.webp"
+                      src="/cdn/static/New_skillslash/Homepage/Course-Header/computer-vision-header.svg"
                       alt="data science course"
                       width={232}
                       height={250}
@@ -1677,7 +1677,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Deep-learnings-header.webp"
+                      src="/cdn/static/New_skillslash/Homepage/Course-Header/Deep-learnings-header.svg"
                       alt="data science course"
                       width={232}
                       height={250}
@@ -1726,7 +1726,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/Homepage/Course+Header/Tableau+header.webp"
+                      src="/cdn/static/New_skillslash/Homepage/Course-Header/Tableau-header.svg"
                       alt="data science course"
                       width={232}
                       height={250}
@@ -1782,7 +1782,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/fCourse.webp"
+                      src="/cdn/static/web/New-UI/fCourse.svg"
                       alt="full stack course"
                       width={406}
                       height={253}
@@ -1815,7 +1815,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/fsCourse.webp"
+                      src="/cdn/static/web/New-UI/fsCourse.svg"
                       alt="web development course"
                       width={406}
                       height={199}
@@ -1852,7 +1852,7 @@ const Tabs = () => {
                 <div className={styles.gridBox}>
                   <div className={styles.gridImg}>
                     <Image
-                      src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/fsCourse.webp"
+                      src="/cdn/static/web/New-UI/fsCourse.svg"
                       alt="web development course"
                       width={406}
                       height={199}

@@ -9,6 +9,10 @@ const terms = () => {
     <>
       <Head>
         <title>Terms and Condition</title>
+        <meta
+          name="description"
+          content="The terms and conditions governing use of the Skillslash website and courses."
+        />
       </Head>
       <Navbar course={false} />
       <TermsOfUse />

@@ -56,9 +56,9 @@
     "title": "Data Structures and System Design",
     "spanTitleText": "Live Project Based Learning Partnered with Tech Companies",
     "desc": "Update your data analytics skills through our comprehensive program that includes Case-based learning, Projects & certification, Domain Specialized Tracks and much more.",
-    "backgroundImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/business-analytics-header-banner-white.webp",
-    "mainHeaderImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/business-analytics-new-header-image-white.webp",
-    "iconImg": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/New-UI/HomepageDataCollection.webp",
+    "backgroundImg": "/cdn/static/web/New-UI/business-analytics-header-banner-white.svg",
+    "mainHeaderImg": "/cdn/static/web/New-UI/business-analytics-new-header-image-white.svg",
+    "iconImg": "/cdn/static/web/New-UI/HomepageDataCollection.svg",
     "mainAlt": "Get data structure - & - algorithm system design course",
     "usp1": " Live Interactive ",
     "usp2": " Company ",
@@ -76,7 +76,7 @@
     "title": "Data Structures and System Design",
     "spanTitleText": "Live Project Based Learning Partnered with Tech Companies",
     "desc": "Update your data analytics skills through our comprehensive program that includes Case-based learning, Projects & certification, Domain Specialized Tracks and much more.",
-    "imgSrc": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/NewDatascience/Header/data-science-header+webp.webp",
+    "imgSrc": "/cdn/NewDatascience/Header/data-science-header-webp.svg",
     "dataScience": false,
     "FullStack": false,
     "hour": "228+",
@@ -148,7 +148,7 @@
     "desc": "Join India’s Best System Design Course and get globally acknowledged project certifications. Download Brochure",
     "altM": "",
     "altR": "Get Real Work Experience Certificate by taking best  data structure course  online",
-    "src": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Certificate-DSA-course.webp"
+    "src": "/cdn/static/web/Certificate-DSA-course.svg"
   },
   "GetHired": {
     "heading1": "Get Hired",

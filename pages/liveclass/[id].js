@@ -14,7 +14,6 @@ import Reviews from "../../components/Review/Reviews";
 import DetailTable from "../../components/Skills/CoursePage/DetailTable/DetailTable";
 import Learn from "../../components/Skills/CoursePage/Learn/Learn";
 import Footer from "../../components/Footer/Footer";
-import WhatsappButton from "../../components/WhatsAppButton/WhatsappButton";
 import CTA from "../../components/CTA/CTA";
 import BottomPrice from "../../components/Skills/BottomPrice/BottomPrice";
 import SkillsContent from "../../components/Skills/CoursePage/SkillsContent/SkillsContent";
@@ -24,7 +23,6 @@ import ToolsCovered from "../../components/Skills/CoursePage/ToolsCovered/ToolsC
 import PriceCompare from "../../components/Skills/CoursePage/PriceCompare/PriceCompare";
 import NewChoose from "../../components/DigitalMarketing/Course/newChoose/NewChoose";
 import Tools from "../../components/DigitalMarketing/Course/Tools/Tools";
-import Talk from "../../components/DigitalMarketing/Talk/Talk";
 import Emi from "../../components/Course/EMI/Emi";
 import CourseHeader from "../../components/DigitalMarketing/Course/FirstSection/CourseHeader";
 import CaseStudy from "../../components/DigitalMarketing/Course/CaseStudy/CaseStudy";
@@ -49,6 +47,16 @@ const DataSciencePage = ({ DataScienceCourseData }) => {
         <meta
           name="description"
           content={DataScienceCourseData.data.header.desc}
+        />
+        {/* Ad-campaign variants of this page carry a `canonical` pointing at
+            the primary URL so they stay live for ad traffic without
+            competing with it as duplicate content. */}
+        <link
+          rel="canonical"
+          href={
+            DataScienceCourseData.data.header.canonical ||
+            `https://skillslash.com/liveclass/${DataScienceCourseData.id}`
+          }
         />
       </Head>
       <Navbar
@@ -171,13 +179,7 @@ const DataSciencePage = ({ DataScienceCourseData }) => {
           FaqData={DataScienceCourseData.data.FaqDATA}
         />
       </div>
-      <Talk />
       <Footer />
-      {/* <WhatsappButton
-        redirectDs={DataScienceCourseData.data.header.dataScience}
-        redirectDa={DataScienceCourseData.data.header.dataAnalytics}
-        redirectFs={DataScienceCourseData.data.header.FullStack}
-      /> */}
       <BottomPrice
         checkoutLink={DataScienceCourseData.data.header.indCheckout}
         offerPrice={offerPrice}

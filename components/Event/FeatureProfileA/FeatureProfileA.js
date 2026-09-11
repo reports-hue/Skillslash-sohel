@@ -28,7 +28,7 @@ const FeatureProfileA = ({ eventData }) => {
       <div className={styles.Profile}>
         <div className="bgWrap">
           <Image
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/event/Instructor_info_bg-09.webp"
+            src="/cdn/static/event/Instructor_info_bg-09.svg"
             fill={true}
             style={{ objectFit: "cover" }}
             quality={100}

@@ -1,7 +1,7 @@
 export const dsReview = [
   {
     id: 2,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/video-review/Meenakshi-Vashishta-review.webp",
+    img: "/cdn/Review/video-review/Meenakshi-Vashishta-review.svg",
     name: "Meenakshi,  Data Scientist",
     link: "QQ1SOsBE200",
     alt: "Meenakshi review",
@@ -10,7 +10,7 @@ export const dsReview = [
 
   {
     id: 4,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/video-review/Pragyan-Prakash-review.webp",
+    img: "/cdn/Review/video-review/Pragyan-Prakash-review.svg",
     name: "Pragyan Praksha",
     link: "jJPVqoui2HU",
     alt: "Pragyan Praksha review",
@@ -20,7 +20,7 @@ export const dsReview = [
 export const fsReview = [
   {
     id: 3,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/video-review/Akarsh-Srivastava-review.webp",
+    img: "/cdn/Review/video-review/Akarsh-Srivastava-review.svg",
     name: "Akarsh,  Data Analyst",
     link: "PaykTlWUmRA",
     alt: "Akarsh Srivastava review",
@@ -28,7 +28,7 @@ export const fsReview = [
   },
   {
     id: 1,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/Review/video-review/Mrinal-Sahay-review.webp",
+    img: "/cdn/Review/video-review/Mrinal-Sahay-review.svg",
     name: "Mrinal Sahay, Data Analyst ",
     link: "IftwFoDA3rI",
     alt: "Mrinal Sahay review",

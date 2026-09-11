@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Head from "next/head";
 import styles from "../styles/verifyCertificate.module.css";
 import { GoVerified } from "react-icons/go";
 
@@ -58,8 +59,27 @@ const verify = () => {
 
   return (
     <div className={styles.wrapper}>
+      <Head>
+        <title>Verify Your Skillslash Certificate</title>
+        <meta
+          name="description"
+          content="Enter a certificate ID to verify a Skillslash course completion certificate."
+        />
+      </Head>
       <div className={styles.FormWrappers}>
-        <h2>Verify Your Certificate</h2>
+        {/* h1, not h2: this is the page's main heading. Style is copied
+            from the global h2/h4 rule so the visual result is unchanged. */}
+        <h1
+          style={{
+            fontWeight: 700,
+            fontSize: "37px",
+            lineHeight: "43px",
+            margin: 0,
+            color: "#000000",
+          }}
+        >
+          Verify Your Certificate
+        </h1>
         <div className={styles.formContainer}>
           <form onSubmit={formSubmit}>
             <div className={styles.formWrapper}>

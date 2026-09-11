@@ -11,6 +11,10 @@ const terms = () => {
     <>
       <Head>
         <title>Refund and Cancellation</title>
+        <meta
+          name="description"
+          content="Skillslash's refund and cancellation policy for course enrolments."
+        />
       </Head>
       <Navbar course={false} />
       <RefundsCancellation />

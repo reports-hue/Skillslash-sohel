@@ -2,10 +2,8 @@ const PatnaData = {
     contentHtml: `
     <p> Envision a dynamic data science career with diverse skill sets and expertise to overpower the rising industry race with data-driven insights and factual decisions. </p>
   <p>The data science world has become the borderland of tech creations with learning and growth excellence. Gone are the days when experts relied on raw data sets and past project experience to decide. Today’s data-powered era revamps business practices and inspires working experts to flock toward career upskilling. Patna (historically known as Pataliputra), the capital city of Bihar, reports a rapid expansion of major IT firms. In the interim, its reliance on data-driven practices makes upskilling via a <b>data science course in Patna </b>vital. </p>
+
   
-  
-  
-  <span class="blog-center-image" data-src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_second_img.webp" data-alt="Banner Image" data-width="800" data-height="400"></span>
   <div class="table-container" style="overflow-x: auto;">
 <table
 style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
@@ -81,7 +79,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
   </div>
 
 <p>According to <a href="https://timesofindia.indiatimes.com/city/patna/huge-scope-for-it-sector-to-boom-in-bihar/articleshow/106007184.cms" target="_blank" rel="nofollow"><i>TOI reports,</i></a> the rapid surge in the growth of IT-enabled firms in Bihar has made Patna one of the promising places for career success. Indeed, the Bihar government's support and constant growth initiatives craft thriving career paths for experts. Also, Patna’s educational excellence is ready to make historic moves via industry-paced data science courses meeting contemporary demands. Hence, enrollment rates for a dynamic <b>data science institute in Patna</b> keep increasing. </p>
-<span class="next-image-placeholder" data-src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/banner_c.webp" data-alt="Banner Image" data-width="800" data-height="400"></span></a>
 <p>Experts from diverse fields prefer skills refinement to overcome career redundancies and attain compelling success. No wonder, steady learning is the gateway to rise amidst tech advances and build a thriving data science career.  </p>
 
 <i><b>Let’s simplify the role of a data scientist in the currently evolving digital space. </b></i>
@@ -100,7 +97,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 <li style="margin-top: 20px;"><b>Data visualization:</b>  Data scientists use visual analytics tools (Power BI & Tableau) to create engaging charts and make data-driven decisions.</li>
 <li style="margin-top: 20px;"><b>Team handling:</b>   Data scientists work with diverse teams (tech/non-tech) to seamlessly execute business activities.</li>
 </ul>
-
 
 <h2>Explain the differences between data scientist, data engineer, and data architect. </h2>
 <p>
@@ -249,8 +245,7 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
           </ul>
         </td>
       </tr>
-      
-      
+
       <tr>
         <td style="border: 1px solid #ccc; vertical-align: top; font-weight: 700;">
           <a href="" style="color:black" onmouseover="this.style.color='#4f419a'" onmouseout="this.style.color='black'"> Collaboration  </a>
@@ -293,8 +288,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
   </table>
 </div>
 
-
-
 <h2>What is the eligibility to learn data science? Is a degree mandatory to learn data science and get placed?</h2>
 <p>Modern city planning and rapid business expansions are trending, improving business growth prospects and career worth. Patna’s thriving business ecosystem lures individuals to launch their businesses or kick-start a proven career. If you’re willing to build a career in data science, you must check your eligibility first – </p>
 
@@ -305,7 +298,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
   <li>Experts with a minimum of 6 months of work experience in any field</li>
 </ul>
 <p>Yet, many experts worry if a master’s degree or related credentials are required to learn data science. Experts with a bachelor’s degree can pursue a data science career and enroll in an industry-paced upskilling program. Also, having a master’s degree from a relevant field can increase your job selection chances with better salary packages. Lastly, joining a <b>data science training in Patna</b> can escalate success rates and bring alluring job offers. </p>
-
 
 <h2>What is the difference between learning offline and online classes in Patna? </h2>
 <p>The rapidly evolving tech space welcomes splendid tech creations in Patna, which are leveraging its business space to attain a compelling edge. Owing to such changes, Patna’s education system adopts a tech-enabled method for preparing experts to enhance their skills. Thus, the demand for upskilling via a <b>data science course in Patna</b> has increased.  </p>
@@ -426,9 +418,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
   </table>
 </div>
 
-
-
-
 <h2>Is it worth it to have a data science certification?</h2>
 <p>Yes, having a data science certification is helpful for career advances with rewarding job offers. Anyone willing to make a hassle-free career change must join an industry-paced <b>data science institute in Patna</b> and master powerful tools. Having a data science certification can equip you with –</p>
 
@@ -466,7 +455,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
   <li style="margin-bottom: 5px;">Obtain globally valued credentials to build a data science career with exciting gains</li>
   <li style="margin-bottom: 5px;">Start applying for jobs and attend interviews </li>
 </ul>
-
 
 <h2>Salary Trends for Data Scientists in Patna Compared to Other PAN India Locations</h2>
 <div class="table-container" style="overflow-x: auto;">
@@ -561,8 +549,7 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
          <td style="border: 1px solid #ccc; padding: 8px">INR 10,50,000</td>
          <td style="border: 1px solid #ccc; padding: 8px">INR 20,00,000</td>
        </tr>
-      
-      
+
        <tr>
          <td style="border: 1px solid #ccc; padding: 8px">Mysore </td>
          <td style="border: 1px solid #ccc; padding: 8px">INR 220,000</td>
@@ -579,10 +566,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
    </table>
   </div>
 
-
-
-
-
 <h2>Enlisting Best 10 Data Science Institutes in Patna</h2>
 
 <h3 id="Learnbay"><b>1. Master’s in CS: Data Science and AI [Learnbay]</b></h3>
@@ -598,8 +581,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 <li style="margin-bottom: 10px;"><b>Fees:</b> INR 190,000 plus 18% GST.</li>
 </ul>
 
-<p>For further details, contact <a href="mailto:contacts@learnbay.co" target="_blank"> <i> here. </i></a></p>
-
 <h3 id=""> <b>2. Data Science Course Training in Patna [Intellipaat in Alliance with IIT Roorkee]</b></h3>
 
 <p> <b>About: </b>In the present data-driven scenario, the rising startups and MNCs in Patna showcase their reliance on data science trends. In the interim, working pros with outpaced skill sets prefer upskilling as an impactful growth metric. Thus, Intellipaat’s   <a href="https://intellipaat.com/data-scientist-course-training-patna/?US&utm_source=google&utm_medium=display&utm_campaign=p_performance-max_generic_in_dec_2023&gad_source=1&gclid=Cj0KCQjw2ou2BhCCARIsANAwM2EkTsZGrznEXo8bg0QwWCgh2vT_9AgjKY6DSkqM-Zt6uhemfm6ZTXAaApi7EALw_wcB" target="_blank" rel="nofollow"><i>data science course training in Patna </i></a> lures many experts to revamp their careers. Its industry-focused training sessions equip you with the best-suited skills to thrive. Anyone willing to grow and build a thriving data science career must join Intellipaat. Also, its alliance with IIT Roorkee escalates success rates with definite gains. </p>
@@ -614,8 +595,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
   <li style="margin-bottom: 10px;"><b>Certificates: </b> Obtain globally valued certificates from <b>Intellipaat in alliance with IIT Roorkee</b> to help you thrive.  </li>
   <li style="margin-bottom: 10px;"><b>Fees:</b>  INR 85,044 with taxes.   </li>
 </ul>
-<p>For further details call <b> +91-7022374614</b></p>
-
 
 <h3 id=""> <b>3. Data Science Certification Training Course in Patna [StarAgile]</b></h3>
 <p><b>About:</b> Patna is not only famous for its historic milestones and cultural heritage but also its educational excellence. The accelerating reliance on data usage across several sectors inspires working pros and business leaders to rethink their work practices. Hence, learning via a data science course in Patna is in demand now and then. StarAgile makes the learning process hassle-free via its <a href="https://staragile.com/data-science/data-science-course-training-patna" target="_blank" rel="nofollow"><i>data science certification training.</i></a>  Its unison with industry leader IBM structures the career paths with absolute gains. Join today to gain real-time wisdom of data science tools and trends. </p>
@@ -631,9 +610,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
   <li style="margin-bottom: 10px;"><b>Fees:</b>  INR 59,999 for the course plus INR 80,000 for career services after joining a company. </li>
 </ul>
 
-
-<p>For more details contact <a href="mailto:trainings@staragile.com" target="_blank" rel="nofollow"><i>here.</i></a></p>
-
 <h3 id=""> <b>4. Data Scientist Course in Patna [Simplilearn in Alliance with IBM] </b></h3>
 <p><b>About: </b> Patna is constantly in the race to become a smart city in Bihar and is evolving rapidly. Hence, the demand for skilled digital experts keeps growing, helping leaders reform the city via urban planning, tech hub expansion, and many more. In the interim, the rise of data science turns the table for compelling gains and success. In firms adopting data-driven practices, working pros prefer constant learning to attain alluring success. Simplilearn’s cutting-edge <a href="https://www.simplilearn.com/data-science-training-course-patna-city" target="_blank" rel="nofollow"><i>data scientist course in Patna,   </i></a>  in alliance with IBM, escalates success metrics. </p>
 <i><b>Highlights:</b></i>
@@ -646,9 +622,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
   <li style="margin-bottom: 10px;"><b>Credentials:</b>   Attain IBM-rich career advantage with Simplilearn’s worthy credentials and enrich your success rates. </li>
   <li style="margin-bottom: 10px;"><b>Fees:</b>  INR 57,000 inclusive of taxes.</li>
 </ul>
-
-<p>For more info call <b>@1800-212-7688.</b></p>
-
 
 <h3 id=""><b>5. Data Science Training Course in Patna [UnCodemy]  </b></h3>
 <p> <b>About:</b> Patna’s supportive business and career ecosystem encourages experts to rethink their career paths and ascertain global-level success. The rise in entrepreneurial mindset lures experts to update their skills to cope with the changing trends. Hence, joining <b>data science training in Patna</b> has become crucial for experts from diverse fields. UnCodemy sets the stage for an effortless career switch via its <a href="https://uncodemy.com/course/data-science-training-course-in-patna" target="_blank" rel="nofollow"><i>data science training course in Patna.</i></a> Join the course today and expand your earning potential with exciting job offers. </p>
@@ -663,8 +636,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
   <li style="margin-bottom: 10px;"><b>Fees:</b> NA</li>
 </ul>
 
-<p>For more info contact  <a href="mailto:info@uncodemy.com" target="_blank" rel="nofollow"><i> here.</i></a></p>
-
 <h3 id=""><b>6. Data Science Course in Patna [Datamites]</b></h3>
 <p><b>About: </b> Today’s rapidly evolving tech space inspires many experts and leaders to reform their actions and drive optimal gains. Several startups and established MNCs come forward to build a data-driven talent force capable of handling data intricacies. Hence, the urgency for skills refinement via a <b>data science course Patna</b> keeps growing. Datamites lays the basis for hassle-free career advances via its  <a href="https://datamites.com/data-science-course-training-patna/?srsltid=AfmBOorZuAvAwlnzll3RIgTm5qSjI-KODLxHhSaTHFQz43mPuWTls_ej" target="_blank" rel="nofollow"><i>data science program </i></a>  with endless access to hands-on practice of tools and IABAC credentials.   </p>
 
@@ -678,8 +649,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
   <li style="margin-bottom: 10px;"><b>Certificates: </b> Attest exciting certificates from Datamites in alliance with IABAC, NASSCOM, and Future Skills to your career and enhance its worth.</li>
   <li style="margin-bottom: 10px;"><b>Fees:</b>  INR 42,948 – INR 80,873 with taxes.</li>
 </ul>
-<p>For further info contact   <a href="mailto:info@datamites.com" target="_blank" rel="nofollow"><i> here.</i></a></p>
-
 
 <h3 id=""><b>7. Data Science Course in Patna for Working Professionals [Bosscoder Academy]</b></h3>
 <p><b>About: </b>  Patna’s job market sees massive growth and splendid success prospects due to the advent of data science lifting business yield. As data-driven decision-making has evolved and become crucial, so has upskilling from a leading-edge data science course. Bosscoder Academy sets an open learning platform ensuring successful career shifts. Its industry-paced <a href="https://www.bosscoderacademy.com/data-science-course?utm_campaign=DSML-GLP-GAds-26Apr24&utm_medium=Search&utm_source=Google-Ads&utm_term=data%20science%20course%20in%20patna&Ref=GoogleAds-DSML-GLP-Int-26Apr&gad_source=1&gclid=Cj0KCQjw2ou2BhCCARIsANAwM2FpUGpGOk-NmRrMWd0_2KCanPsS-cKcF61Fk_n-nwIZLSWz2NH0vJMaAskQEALw_wcB#reviews_sec" target="_blank" rel="nofollow"><i>data science program  </i></a> lures experts to learn and grow faster. Join the training institute today and land your dream job. </p>
@@ -693,9 +662,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
   <li style="margin-bottom: 10px;"><b>Certificates: </b>  Attest a Microsoft Azure certificate to your career, unlocking true potential to grow and thrive across the competitive edge.  </li>
   <li style="margin-bottom: 10px;"><b>Fees:</b> INR 5,709/month</li>
 </ul>
-<p>For more info, contact <a href="mailto:ask@bosscoderacademy.com" target="_blank" rel="nofollow"><i> here.</i></a></p>
-
-
 
 <h3 id=""><b>8. Data Science with Python Certification Training in Patna [Apponix Academy]</b></h3>
 <p> <b>About: </b>The rising startups and MNCs in Patna recognize the importance of data science in today’s rapidly changing tech space. Owing to the changing trends, career upskilling has become crucial for experts from diverse fields. Apponix Academy enters the space with its <a href="https://www.apponix.com/Python-Institute/Data-Science-Training-in-Patna.html" target="_blank" rel="nofollow"><i> Python-based data science certification program</i></a> to ease the learning process. If you’re keen to modernize your career, join this <b>data science institute in Patna</b> today.</p>
@@ -710,8 +676,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
   <li style="margin-bottom: 10px;"><b>Credentials: </b>  Obtain an IABAC-certified data scientist certification for your career and unleash growth options with exciting gains. </li>
   <li style="margin-bottom: 10px;"><b>Fees:</b> NA</li>
 </ul>
-<p>For further info contact <a href="mailto:info@apponix.com" target="_blank" rel="nofollow"><i>here</i></a></p>
-
 
 <h3 id=""><b>9. Best Data Science Course in Patna [QuickXpert]</b></h3>
 <p><b>About: </b> Learning is essential for anyone eager to switch careers to cope with today’s rapidly evolving tech space. Yet, finding the right course is the foremost hurdle affecting aspirant’s learning motives. Hence, QuickXpert has turned prime upskilling hub for busy working experts with assured placement offers and custom-fit career rise options. Its  <a href="https://quickxpert.in/data-science-course-in-patna" target="_blank" rel="nofollow"><i>ISO-certified training</i></a> sessions offer everything you need to build a compelling career. If you’re eager to modernize your career, join QuickXpert’s job-driven programs. </p>
@@ -725,13 +689,9 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
   <li style="margin-bottom: 10px;"><b>Certificates:</b>  Get an ISO-certified data science certificate and validate your skills globally. </li>
   <li style="margin-bottom: 10px;"><b>Fees:</b> INR 36,999 with taxes. </li>
 </ul>
-<p>For further details contact <a href="mailto:info@quickxpert.in" target="_blank" rel="nofollow"><i> here.</i></a></p>
-
-
 
 <h3 id=""><b>10. PG Program in Data Science, ML, & Neural Networks in Patna [DataTrained]</b></h3>
 <p> <b>About: </b> The 21st Century welcomes splendid tech creations leveraging business yields and career worth with absolute gains. Hence, upskilling has become vital for experts with outpaced skill sets. DataTrained lays the basis for global-level career upskilling via its <a href="https://datatrained.com/data-science-training-in-patna" target="_blank" rel="nofollow"><i> PG program in data science, ML, and neural networks.</i></a> Also, its alliance with NASSCOM validates your skills and helps you thrive globally.  </p>
-
 
 <i><b>Highlights:   </b></i>
 <ul>
@@ -743,8 +703,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
   <li style="margin-bottom: 10px;"><b>Credentials: </b>  Obtain PG certifications from DataTrained with global recognition from NASSCOM and Future Skills.</li>
   <li style="margin-bottom: 10px;"><b>Fees:</b> INR 160,000 plus 18% GST.</li>
 </ul>
-<p>For further details call at <b>+919560084091.</b></p>
-
 
 <h2>FAQs for Data Science Training in Patna: – </h2>
 
@@ -761,8 +719,7 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 <h3><b>4. What kind of certification does the Data science online course in Patna offer?  </b></h3>
 <p>Learning with a front-age online <b>data science course in Patna</b> will attest to globally recognized credentials to your career. Here, you will receive course and project certificates. These credentials are helpful to unlock proper career growth options on a global scale.  </p>
       <style>
-          
-          
+
                   /* Inline CSS for specific styles */
                   p {
                     color: #333;
@@ -838,37 +795,37 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
     Blogs: [
       {
         image:
-          "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side.webp",
+          "/cdn/city_Blog/blog_side.svg",
         title: "Top 10 Data Science Course Training Institutes in Chandigarh",
         link: "https://skillslash.com/data-science-course-in-chandigarh",
       },
       {
         image:
-          "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_2.webp",
+          "/cdn/city_Blog/blog_side_2.svg",
         title: "Top 10 Data Science Course Training Institutes in Kolkata",
         link: "https://skillslash.com/data-science-course-training-kolkata",
       },
       {
         image:
-          "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_3.webp",
+          "/cdn/city_Blog/blog_side_3.svg",
         title: "Top 10 Data Science Course Training Institutes in Jaipur",
         link: "https://skillslash.com/data-science-course-in-jaipur",
       },
       {
         image:
-          "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_3.webp",
+          "/cdn/city_Blog/blog_side_3.svg",
         title: "Top 10 Data Science Course Training Institutes in Bangalore",
         link: "https://skillslash.com/data-science-course-in-bangalore",
       },
       {
         image:
-          "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_3.webp",
+          "/cdn/city_Blog/blog_side_3.svg",
         title: "Top 10 Data Science Course Training Institutes in Hyderabad",
         link: "https://skillslash.com/data-science-course-training-hyderabad",
       },
       {
         image:
-          "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_3.webp",
+          "/cdn/city_Blog/blog_side_3.svg",
         title: "Top 10 Data Science Course Training Institutes in Delhi",
         link: "https://skillslash.com/data-science-course-in-delhi",
       },

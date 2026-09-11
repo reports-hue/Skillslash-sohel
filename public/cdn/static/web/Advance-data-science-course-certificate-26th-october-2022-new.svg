@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" width="420" height="300" role="img" aria-label="Advance data science course certificate 26th october 2022 new">
+<rect width="420" height="300" rx="12" fill="#ffffff" stroke="#7a4bbd" stroke-opacity="0.3"/>
+<rect x="24" y="24" width="372" height="252" rx="8" fill="none" stroke="#7a4bbd" stroke-opacity="0.25" stroke-dasharray="6 6"/>
+<rect x="60" y="72" width="300" height="12" rx="6" fill="#7a4bbd" opacity="0.18"/>
+<rect x="60" y="102" width="220" height="12" rx="6" fill="#7a4bbd" opacity="0.14"/>
+<rect x="60" y="132" width="260" height="12" rx="6" fill="#7a4bbd" opacity="0.14"/>
+<circle cx="330" cy="212" r="34" fill="#7a4bbd" opacity="0.15"/>
+<circle cx="330" cy="212" r="22" fill="#7a4bbd" opacity="0.35"/>
+<text x="60" y="220" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#7a4bbd">Certificate</text>
+</svg>

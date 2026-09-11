@@ -13,10 +13,10 @@ const Career = () => {
   return (
     <div>
       <Head>
-        <title>Skillslash- About Us</title>
+        <title>Careers at Skillslash - Open Roles &amp; How We Work</title>
         <meta
           name="description"
-          content="Being the leading data science training provider, we give you the opportunity to work directly with industry experts on latest projects."
+          content="Explore open roles at Skillslash, see how our team works, and find out what it takes to join the people behind our tech career guides and course comparisons."
         />
       </Head>
       <Navbar course={false} />

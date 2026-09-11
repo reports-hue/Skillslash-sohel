@@ -1,0 +1,85 @@
+.topRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.titleBlock { flex: 1 1 420px; min-width: 260px; }
+
+.titleInput {
+  width: 100%;
+  border: none;
+  background: none;
+  font-size: 28px;
+  font-weight: 800;
+  color: #1c1830;
+  padding: 4px 0;
+  outline: none;
+}
+.titleInput::placeholder { color: #c3bedb; }
+
+.slugRow {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 13px;
+  color: #726c88;
+  font-family: ui-monospace, monospace;
+}
+.slugInput {
+  border: none;
+  background: none;
+  outline: none;
+  color: #4f419a;
+  font-family: inherit;
+  font-size: 13px;
+  min-width: 160px;
+  flex: 1;
+  border-bottom: 1px dashed transparent;
+}
+.slugInput:focus { border-bottom-color: #4f419a; }
+
+.actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding-top: 6px;
+}
+
+.seoChecklist {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  font-size: 12.5px;
+  padding: 10px 0 18px;
+  color: #726c88;
+}
+.checkOk { color: #2f7d6b; font-weight: 600; }
+.checkWarn { color: #c2681a; }
+
+.grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 380px;
+  gap: 20px;
+  align-items: start;
+}
+
+.editorCol { min-width: 0; }
+.panelCol { position: sticky; top: 110px; max-height: calc(100vh - 130px); overflow-y: auto; }
+
+.editorLoading {
+  border: 1px solid #e1ddec;
+  border-radius: 10px;
+  padding: 40px;
+  text-align: center;
+  color: #726c88;
+  background: #fff;
+}
+
+@media (max-width: 980px) {
+  .grid { grid-template-columns: 1fr; }
+  .panelCol { position: static; max-height: none; }
+}

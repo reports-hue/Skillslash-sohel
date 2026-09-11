@@ -1,265 +1,129 @@
 .footer {
-  background-color: black;
-  padding: 40px 100px;
+  background: #16141f;
+  color: #c9c6d6;
+  padding: 64px 0 0;
 }
-.footer p {
-  color: white;
-}
-.firstFooter {
+
+.inner {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 24px 52px;
   display: grid;
-  grid-template-columns: 26% 22% 30% 18%;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 48px;
 }
-.firstFooter .desc {
-  font-size: 14px;
+
+/* ---------- brand column ---------- */
+
+.brandCol {
+  max-width: 380px;
 }
-.fPages {
-  padding-left: 50px;
+
+/* The S mark ships on a light ground, so it sits on a white chip here. */
+.logo {
+  display: inline-flex;
+  line-height: 0;
+  margin-bottom: 18px;
+  padding: 8px;
+  background: #ffffff;
+  border-radius: 12px;
 }
-.fPages p {
-  cursor: pointer;
+
+.desc {
+  margin: 0 0 24px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #918da3;
 }
-.sIcon {
+
+.socials {
   display: flex;
   gap: 10px;
 }
-.iconWrapper h5 {
-  color: white;
-  margin: 0;
-  font-size: 16px;
-  margin-bottom: 20px;
-}
-.FIcon {
-  color: white;
-  font-size: 20px;
-}
-.iconWrapper p {
-  display: flex;
-  gap: 5px;
-  cursor: pointer;
+
+.social {
+  display: inline-flex;
   align-items: center;
-}
-
-.fPages p {
-  margin: 0 0 5px 0;
-}
-.fPages h5,
-.FJoin h5,
-.FApp h5 {
-  margin-top: 20px !important;
-}
-.fPages h5,
-.FJoin h5,
-.FApp h5 {
-  margin: 0;
-  font-size: 20px;
-  margin-bottom: 20px;
-  color: white;
-}
-.FApp p {
-  display: flex;
-  gap: 10px;
-  cursor: pointer;
-  border-radius: 4px;
-  align-items: center;
-  border: 1px solid white;
-  width: max-content;
-  padding: 10px 20px;
-}
-.fPages p:hover {
-  color: white;
-}
-.officeWrapper {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  gap: 10px;
-}
-.officeWrapper div p {
-  height: 100px;
-}
-.secondFooter h5,
-.thirdFooter h5 {
-  margin: 0;
-  font-size: 20px;
-  margin-bottom: 20px;
-  color: white;
-}
-
-.secondFooter {
-  margin-bottom: 20px;
-}
-.linksWrap {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-.linksWrap span {
-  color: white;
-  font-size: 16px;
-  width: max-content;
-  margin-right: 20px;
-  cursor: pointer;
-  margin-top: 10px;
-}
-
-.FApp span {
-  color: white;
-}
-.linksWrap span:hover {
-  color: white;
-}
-.terms {
-  display: flex;
-  flex-flow: column;
-
   justify-content: center;
-  margin-top: 20px;
-}
-.terms span {
-  color: white;
-  display: flex;
-  margin-bottom: 10px;
-  align-items: center;
-
-  cursor: pointer;
-}
-.terms h5 {
-  margin-top: 0 !important;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #c9c6d6;
+  font-size: 16px;
+  transition: background 0.18s ease, color 0.18s ease,
+    border-color 0.18s ease;
 }
 
-.thirdFooter p {
-  text-align: center;
+.social:hover {
+  background: #4f419a;
+  border-color: #4f419a;
+  color: #ffffff;
 }
-.thirdFooter span {
-  color: white;
-  cursor: pointer;
-}
-.thirdFooter h5 {
-  margin-top: 20px !important;
-}
-.thirdFooter .top {
+
+/* ---------- link columns ---------- */
+
+.col {
   display: flex;
-  gap: 0.345rem;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
-.thirdFooter hr {
-  margin-top: 20px;
+
+.colTitle {
+  margin: 0 0 18px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
+
+.link {
+  padding: 7px 0;
+  font-size: 15px;
+  color: #918da3;
+  text-decoration: none;
+  transition: color 0.18s ease;
+}
+
+.link:hover {
+  color: #ffffff;
+}
+
+/* ---------- bottom bar ---------- */
+
+.bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.09);
+}
+
 .rights {
-  text-align: center;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 22px 24px;
+  font-size: 14px;
+  color: #7f7b93;
 }
-@media (max-width: 1281px) {
-  .footer {
-    padding: 40px;
-  }
-}
-@media (max-width: 1024px) {
-  .firstFooter {
-    display: grid;
-    grid-template-columns: 29% 20% 30% 20%;
-  }
-}
-@media (max-width: 961px) {
-  .footer {
-    padding: 20px;
-  }
-  .firstFooter {
-    display: grid;
-    grid-template-columns: 22% 22% 22% 22%;
-  }
-  .officeWrapper {
-    display: grid;
-    grid-template-columns: 24% 24% 24% 24%;
-    gap: 10px;
-  }
-}
-@media (max-width: 641px) {
-  .footer {
-    background-color: black;
-    padding: 40px 10px;
-  }
-  .firstFooter {
-    display: grid;
-    gap: 10px;
-    grid-template-columns: 33% 33% 33%;
-  }
-  .fPages {
-    padding-left: 30px;
-  }
-  .officeWrapper {
-    display: grid;
-    grid-template-columns: 49% 49%;
-    gap: 10px;
-  }
-  .terms {
-    display: flex;
-    flex-flow: column;
-    gap: 20px;
-  }
-}
-@media (max-width: 481px) {
-  .footer {
-    padding: 20px 10px;
-    width: 100vw;
-  }
-  .firstFooter {
-    gap: 30px;
-    grid-template-columns: 50% 40%;
-  }
-  .fPages h5,
-  .FJoin h5,
-  .FApp h5 {
-    font-size: 16px;
-  }
-  .secondFooter {
-    display: flex;
-    flex-flow: column;
-    gap: 20px;
 
-    justify-content: center;
-  }
-  .officeWrapper {
-    gap: 10px;
-  }
-  .officeWrapper div {
-    display: flex;
-    flex-flow: column;
+@media (max-width: 900px) {
+  .inner {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 32px;
   }
 
-  .secondFooter h5,
-  .thirdFooter h5 {
-    margin: 0;
-    font-size: 20px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-    color: white;
+  .brandCol {
+    grid-column: 1 / -1;
+    max-width: 520px;
   }
-  .secondFooter h5 {
-    margin-bottom: 0 !important;
+}
+
+@media (max-width: 520px) {
+  .footer {
+    padding-top: 44px;
   }
-  .FApp p {
-    width: 100%;
-    padding: 10px 5px;
-  }
-  .FIcon {
-    font-size: 29px;
-  }
-  .officeWrapper {
-    display: flex;
-    flex-flow: column;
-  }
-  .officeWrapper div p {
-    height: max-content;
-  }
-  .FIcon {
-    background-color: white;
-    border-radius: 50%;
-    padding: 5px;
-    margin-bottom: 5px;
-    color: #4f419a;
-  }
-  .terms {
-    flex-wrap: wrap;
-    gap: 10px;
+
+  .inner {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding-bottom: 36px;
   }
 }

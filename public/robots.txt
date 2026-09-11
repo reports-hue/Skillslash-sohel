@@ -1,4 +1,10 @@
-# Allow all crawlers
+# Allow all crawlers over the whole site.
 User-agent: *
-Allow:
+Allow: /
+Disallow: /api/
+# /admin/login already carries its own noindex tag; this stops bots from
+# repeatedly hitting the auth redirect for every other /admin/* page and
+# wasting crawl budget on pages that only ever 307 for them anyway.
+Disallow: /admin/
+
 Sitemap: https://skillslash.com/sitemap.xml

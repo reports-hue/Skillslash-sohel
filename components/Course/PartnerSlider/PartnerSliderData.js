@@ -1,7 +1,7 @@
 export const hPartner = [
   {
     id: 1,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Google.webp",
+    img: "/cdn/static/web/Google.svg",
     cWidth: "150",
     cHeight: "30",
     mWidth: "70",
@@ -10,7 +10,7 @@ export const hPartner = [
   },
   {
     id: 2,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Amazon.png",
+    img: "/cdn/static/web/Amazon.svg",
     cWidth: "120",
     cHeight: "40",
     mWidth: "124",
@@ -19,7 +19,7 @@ export const hPartner = [
   },
   {
     id: 3,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Microsoft.png",
+    img: "/cdn/static/web/Microsoft.svg",
     cWidth: "150",
     cHeight: "40",
     mWidth: "120",
@@ -28,7 +28,7 @@ export const hPartner = [
   },
   {
     id: 4,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Flipkart.png",
+    img: "/cdn/static/web/Flipkart.svg",
     cWidth: "100",
     cHeight: "40",
     mWidth: "100",
@@ -37,7 +37,7 @@ export const hPartner = [
   },
   {
     id: 5,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/facebook.png",
+    img: "/cdn/static/web/facebook.svg",
     cWidth: "150",
     cHeight: "40",
     mWidth: "120",
@@ -46,7 +46,7 @@ export const hPartner = [
   },
   {
     id: 6,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/TCS.png",
+    img: "/cdn/static/web/TCS.svg",
     cWidth: "120",
     cHeight: "40",
     mWidth: "120",
@@ -55,7 +55,7 @@ export const hPartner = [
   },
   {
     id: 7,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/PAYTM_logo.png",
+    img: "/cdn/static/web/PAYTM_logo.svg",
     cWidth: "140",
     cHeight: "44",
     mWidth: "140",
@@ -64,7 +64,7 @@ export const hPartner = [
   },
   {
     id: 8,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/Zoho.png",
+    img: "/cdn/static/web/Zoho.svg",
     cWidth: "140",
     cHeight: "48",
     mWidth: "140",
@@ -75,7 +75,7 @@ export const hPartner = [
 export const pPartner = [
   {
     id: 1,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/liquiloans.webp",
+    img: "/cdn/static/web/liquiloans.svg",
     cWidth: "300",
     cHeight: "120",
     mWidth: "90",
@@ -84,7 +84,7 @@ export const pPartner = [
   },
   {
     id: 2,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/propelld.webp",
+    img: "/cdn/static/web/propelld.svg",
     cWidth: "500",
     cHeight: "200",
     mWidth: "120",
@@ -93,7 +93,7 @@ export const pPartner = [
   },
   {
     id: 3,
-    img: "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/web/zest-logo.webp",
+    img: "/cdn/static/web/zest-logo.svg",
     cWidth: "200",
     cHeight: "58",
     mWidth: "80",

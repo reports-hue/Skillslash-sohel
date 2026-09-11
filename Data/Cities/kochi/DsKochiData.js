@@ -2,7 +2,6 @@ const KochiData = {
   contentHtml: `
   <p> Envision a data-friendly career with irrefutable expertise in handling massive data sets, decoding inherent patterns, and driving informed decisions. Kochi is a well-known cosmopolitan metropolis of Kerala with a thriving commercial space. According to <a href="https://www.india-briefing.com/news/investing-india-kochi-port-city-emerging-it-hub-14264.html/" target="_blank" rel="nofollow"><i>India Briefing,</i></a> Kochi’s rising IT hubs lure many young minds and talents for realistic gains. Hence, experts move toward career upskilling by joining a <b>data science course in Kochi</b> with metrics to make you job-ready.  </p>
 
-  <span class="blog-center-image" data-src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_second_img.webp" data-alt="Banner Image" data-width="800" data-height="400"></span>
   <div class="table-container" style="overflow-x: auto;">
 <table
 style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
@@ -28,7 +27,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 </td>
  </tr>
 
-
   
  <tr>
   
@@ -38,7 +36,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
     IBM 
    </td>
  </tr>
-
 
  <tr>
       
@@ -58,8 +55,7 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
       Datamites, in alliance with IABAC
      </td>
    </tr>
-     
-   
+
  <tr>
      
    <td style="border: 1px solid #ccc; padding: 8px"><a href="#UpGrad">UpGrad</a></td>
@@ -88,7 +84,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
     Great Lakes
    </td>
    </tr>
- 
 
   <tr>
         
@@ -122,9 +117,7 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 
 </div>
 <p>In today’s tech era, a demand surge for skilled data scientists is seen, altering age-old business practices. Kochi’s rising tech hubs lure several firms to redefine their future via a data-driven culture. Yet, persisting skill gaps create hurdles in the business and career growth race by various means. Hence, upskilling from a <b>data science institute in Kochi</b> is crucial for experts from diverse fields.  </p>
-<span class="next-image-placeholder" data-src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/banner_c.webp" data-alt="Banner Image" data-width="800" data-height="400"></span></a>
 <p>No wonder, the data science field unlocks several rewarding career roles leveraging success chances followed by exciting gains. Kochi’s tech space sees a never-ending demand surge for data scientists for its agile integration with several sectors. <b>Let’s know the role properly.</b>  </p>
-
 
 <h2>Who is a data scientist? Explain the daily activities that a data scientist performs.</h2>
 <p>A data scientist is an expert with proven abilities to handle data intricacies and extract meaningful facts paving the way for factual decisions. Such data experts are liable for managing huge data sets, extracting facts, and making optimal moves. Experts joining a top-rated <b>data science institute in Kochi</b> can better comprehend these activities. </p>
@@ -142,7 +135,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 <li style="margin-top: 20px;"><b>Data monitoring:</b>  Such experts regularly monitor the changing data trends and patterns and verify their quality for business growth.</li>
 <li style="margin-top: 20px;"><b> Team handling:</b>  Apart from data-driven practices, such experts must handle diverse teams for hassle-free functioning.</li>
 </ul>
-
 
 <h2>Explain the differences between data scientist, data engineer, and data architect.</h2>
 <p>Kochi’s tech sector reforms its workspace and industry dynamics following the rising data-driven trends and practices. The growing inclination toward data-driven work practices revamps related career paths with exciting futures. The demand for data scientists, engineers, and architects has increased in the interim. Even though all three roles have different requirements and growth aspects, upskilling is vital. </p>
@@ -322,12 +314,9 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
   </table>
 </div>
 
-
-
 <h2>What is the eligibility to pursue a data science course? Is a degree essential to learn data science and get placed? </h2>
 <p>The demand for skilled data experts keeps increasing now and then. Its seamless integration with top-tier sectors crafts a successful career path for many experts. Yet, experts with outdated skill sets may stay behind the race with limited success scopes. Hence, upskilling via <b>data science training in Kochi</b> is crucial for compelling success and growth in the present tech age. </p>
 <p>When it comes to upskilling, many experts think having a degree from a well-reputed university is necessary. To be precise, a master’s degree or well-recognized degree is not essential to learn data science. Experts with a basic bachelor’s degree in any field can pursue data science careers. </p>
-
 
 <i><b>Let’s know the eligibility criteria to craft a hassle-free learning path. </b></i>
 <ul>
@@ -474,7 +463,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
   <li>Promising career path with exciting job offers </li>
 </ul>
 
-
 <h2>What is the learning process for data science, mainly for busy working experts?  </h2>
 <p>Learning is crucial for experts in today’s fiercely changing career market outlook. Experts with redundant skill sets must join a trending data science institute in Kochi to drive a hassle-free learning journey. To be precise, let’s list the steps to <a href="https://medium.com/@dugaryash/a-comprehensive-guide-to-pursuing-a-career-in-data-science-ce0f1957b0c6" target="_blank" rel="nofollow"><i>guide</i></a> you in pursuing a data science career.  </p>
 <ul>
@@ -499,7 +487,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
   <li>Master’s degree program in data science by leading institutes like Learnbay, Techolas, UpGrad, Great Learning, etc</li>
   <li>Top-rated online data science courses by Simplilearn, Coursera, Udacity, Datamites, etc</li>
 </ul>
-
 
 <h2>Salary trends for data scientists in Kochi compared to other PAN India locations</h2>
 <div class="table-container" style="overflow-x: auto;">
@@ -624,10 +611,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
    </table>
   </div>
 
-
-
-
-
 <h2>Enlisting Best 10 Data Science Institutes in Kochi</h2>
 
 <h3 id="Learnbay"><b>1. Master’s in CS: Data Science and AI [Learnbay]</b></h3>
@@ -643,8 +626,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 <li style="margin-bottom: 10px;"><b>Fees:</b> INR 325,000 plus 18% GST</li>
 </ul>
 
-<p>For more info, contact <a href="mailto:contacts@learnbay.co" target="_blank"> <i> here. </i></a></p>
-
 <h3 id="Simplilearn"> <b>2. Data Scientist Course in Kochi, Kerala [Simplilearn]</b></h3>
 
 <p>Data science has become a priceless asset for firms and working pros hailing from diverse fields. Kochi’s smart city development and industry expansions lure firms to operate within a data-driven culture with optimal gains. In the interim, Simplilearn’s   <a href="https://www.simplilearn.com/data-science-training-course-kochi-city" target="_blank" rel="nofollow"><i>data scientist course </i></a> enters the frame with a scope of hassle-free career switches. Its visionary approach to helping experts drive a seamless career shift offers exciting growth options. In addition, its alliance with IBM helps experts to drive a reputed data science career.  </p>
@@ -659,8 +640,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
   <li style="margin-bottom: 10px;"><b>Certifications:</b>  Enrich your earning potential with an IBM certification and grow with definite gains to sustain your career</li>
   <li style="margin-bottom: 10px;"><b>Fees:</b>  INR 57,000 plus 18% GST</li>
 </ul>
-<p>For more details contact at <b>1800-212-7688</b></p>
-
 
 <h3 id="Techolas"> <b>3. Master in Data Science [Techolas Technologies]</b></h3>
 <p>Kochi’s bustling tech space looks for innovative solutions to upscale business yields and generates better profit margins. Meanwhile, the rise of data science alters working practices, causing a surge in demand for data experts. Hence, upskilling from a <b>data science institute in Kochi</b> has become vital for experts. Techolas Technologies makes the learning path smooth and effortless for freshers and working pros. Its <a href="https://techolas.com/datascience.html" target="_blank" rel="nofollow"><i>master’s in data science course</i></a>  ensures a secure career in today’s tech age. </p>
@@ -676,9 +655,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
   <li style="margin-bottom: 10px;"><b>Fees:</b> INR 60,000 plus taxes</li>
 </ul>
 
-
-<p>For further info contact  <a href="mailto:contact@techolas.com" target="_blank" rel="nofollow"><i>here.</i></a></p>
-
 <h3 id="Datamites"> <b>4. Data Science Course in Kochi [Datamites] </b></h3>
 <p>The growth and expansion of IT firms in Kochi set the stage for data-driven operations and factual decision-making. Owing to the corporate demand, experts prefer upskilling from a front-age <b>data science course in Kochi</b> with exciting gains. Datamites offers a leading-edge professional <a href="https://datamites.com/data-science-course-training-kochi/?srsltid=AfmBOorq26473iE6PITKaNXEqMGMNH2Ih3Fr2_L6OrqiKiRQ6UAWeJM2" target="_blank" rel="nofollow"><i>course in data science  </i></a>   to help you excel in today’s tech space. Its intensive training sessions, owing to the GenAI-rich and data-driven tools, lure experts to join the course and drive compelling gains. Also, its alliance with IABAC validates the skills to thrive globally. </p>
 <i><b>Key highlights:</b></i>
@@ -691,9 +667,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
   <li style="margin-bottom: 10px;"><b>Certifications:</b>   Obtain an industry-recognized certification from Datamites in alliance with IABAC to attain next-level success  </li>
   <li style="margin-bottom: 10px;"><b>Fees:</b> INR 42,948 – INR 80,873 with taxes  </li>
 </ul>
-
-<p>For more info contact  <a href="mailto:info@datamites.com" target="_blank" rel="nofollow"><i> here.</i></a></p>
-
 
 <h3 id="UpGrad"><b>5. Master of Science in Data Science [UpGrad]  </b></h3>
 <p> Career upskilling has become vital for experts from diverse fields. <b>Data science in Kochi</b> lays the basis for data-driven initiatives to stay ahead of the race and attain success. Hence, experts at any career level opt to learn to cope with the latest data trends and concepts. UpGrad envisions a thriving career via its <a href="https://upgradkochi.com/courses/master-of-science-in-data-science/" target="_blank" rel="nofollow"><i>master’s in data science course</i></a> with the privilege of inducing exciting gains. </p>
@@ -708,8 +681,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
   <li style="margin-bottom: 10px;"><b>Fees:</b> NA</li>
 </ul>
 
-<p>For more info contact  <a href="mailto:kochi@upgrad.com" target="_blank" rel="nofollow"><i> here.</i></a></p>
-
 <h3 id="IMS"><b>6. Data Science Course in Kochi [IMS Proschool] </b></h3>
 <p>No wonder <b>data science Kochi</b> alters the age-old business practices, driving realistic gains. Several startups and MNCs in Kochi leap forward to sharpen their functional effectiveness to decode the changing trends and attain global-scale success. Hence, the demand for skilled data experts keeps increasing, creating an urgency for upskilling. IMS Proschool paves the way for an effortless career shift with proven expertise. Its  <a href="https://proschoolonline.com/data-science-course" target="_blank" rel="nofollow"><i>cutting-edge course</i></a>  format prepares you to face the changing world and mark success.  </p>
 
@@ -723,8 +694,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
   <li style="margin-bottom: 10px;"><b>Certifications:</b>    Obtain a data science certificate from IMS with Skills India and NSDC validation, ensuring global-scale success </li>
   <li style="margin-bottom: 10px;"><b>Fees:</b> NA</li>
 </ul>
-<p>For more info contact  <a href="mailto:info@proschoolonline.com" target="_blank" rel="nofollow"><i> here.</i></a></p>
-
 
 <h3 id="Great"><b>7. MS in Data Science Programme [Great Learning]</b></h3>
 <p>The 21st-century digital space sets the stage for alluring tech creations leveraging business yields and career success rates with infinite gains. Working pros from diverse fields prefer joining a data science institute in Kochi with absolute career returns. Great Learning joins the progress with its industry-driven <a href="https://www.mygreatlearning.com/ms-data-science-programme" target="_blank" rel="nofollow"><i>MS in data science program </i></a>marking global-scale gains. Also, its alliance with Northwestern University fast-tracks your career success rates.</p>
@@ -738,9 +707,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
   <li style="margin-bottom: 10px;"><b>Certifications:</b>  Gain an elite certificate from Great Learning in alliance with Northwestern University</li>
   <li style="margin-bottom: 10px;"><b>Fees:</b> 13,000 USD (Indian students can contact authorities for exact course fees)</li>
 </ul>
-<p>For more info contact  <a href="mailto:info@greatlearning.in" target="_blank" rel="nofollow"><i> here.</i></a></p>
-
-
 
 <h3 id="IPCS"><b>8. Python and Data Science Training [IPCS Global]</b></h3>
 <p>The rise of <b>data science in Kochi</b> alters the thriving business ecosystem and encourages learners to learn constantly. Yet, many experts fail to develop the proper skills to cope with the rising data science trends, limiting their chances of success. IPCS Global enters the space with its visionary  <a href="https://ipcsglobal.com/python-data-science-training-institute-in-india/" target="_blank" rel="nofollow"><i>Python and data science course, </i></a>  marking an alluring future. Experts joining the course can refine their coding skills for decoding data intricacies and making factual decisions. </p>
@@ -757,7 +723,6 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 </ul>
 <p>For more info contact  <b> +91 98467 70771.</b></p>
 
-
 <h3 id="Luminar"><b>9. Data Science - ML - AI - & PowerBI Training in Kochi [Luminar Technolab]</b></h3>
 <p>The rising tech hubs in Kochi require a skilled talent force to cope with the emerging data science trends. The demand for skilled data scientists has grown over the past few years due to such changes. Hence, experts prefer joining a <b>data science course in Kochi</b> with reliable career growth and success. Luminar Technologies is one of the top-ranked <a href="https://www.luminartechnolab.com/course-detail/machine-learning-training-kochi" target="_blank" rel="nofollow"><i>training institutes in Kochi</i></a> with industry-focused learning modules. Join the course to enrich your data science, AI/ML, and PowerBI skills and ace your career. </p>
 <i><b>Key highlights:  </b></i>
@@ -770,13 +735,9 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
   <li style="margin-bottom: 10px;"><b>Certifications:</b> Attest globally valued credentials from Luminar in accreditation with NACTET having proper recognition across Middle East parts  </li>
   <li style="margin-bottom: 10px;"><b>Fees:</b> INR 64,500 (one-time payment) or INR 72,000 (no-cost EMI)</li>
 </ul>
-<p>For more info contact  <a href="mailto:info@greatlearning.in" target="_blank" rel="nofollow"><i> here.</i></a></p>
-
-
 
 <h3 id="FITA"><b>10. Data Science Course in Kochi [FITA Academy]</b></h3>
 <p>Data science learning has become crucial for working pros from diverse fields. Kochi’s urban city planning speeds up digital expansion, driving optimal gains for businesses. Also, working pros eager to revamp their careers can opt to join <b>data science training in Kochi</b> with job-driven gains. In the interim, FITA sets the stage for a career shift via its  <a href="https://www.fita.in/data-science-course-in-cochin/" target="_blank" rel="nofollow"><i> data science programs</i></a> to learn proven methods to deal with data intricacies.  </p>
-
 
 <i><b>Key highlights:  </b></i>
 <ul>
@@ -811,8 +772,7 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 <p>Programming is vital for data science; hence, experts eager to revamp their careers must refine their coding skills. Yet, Python works better with data science than Java because of its flexibility and easy usage. Python can easily blend with other complex technologies, delivering better results. Hence, experts must learn Python and related libraries for better performance. </p>
     
     <style>
-        
-        
+
                 /* Inline CSS for specific styles */
                 p {
                   color: #333;
@@ -888,37 +848,37 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
   Blogs: [
     {
       image:
-        "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side.webp",
+        "/cdn/city_Blog/blog_side.svg",
       title: "Top 10 Data Science Course Training Institutes in Chandigarh",
       link: "https://skillslash.com/data-science-course-in-chandigarh",
     },
     {
       image:
-        "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_2.webp",
+        "/cdn/city_Blog/blog_side_2.svg",
       title: "Top 10 Data Science Course Training Institutes in Kolkata",
       link: "https://skillslash.com/data-science-course-training-kolkata",
     },
     {
       image:
-        "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_3.webp",
+        "/cdn/city_Blog/blog_side_3.svg",
       title: "Top 10 Data Science Course Training Institutes in Jaipur",
       link: "https://skillslash.com/data-science-course-in-jaipur",
     },
     {
       image:
-        "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_3.webp",
+        "/cdn/city_Blog/blog_side_3.svg",
       title: "Top 10 Data Science Course Training Institutes in Bangalore",
       link: "https://skillslash.com/data-science-course-in-bangalore",
     },
     {
       image:
-        "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_3.webp",
+        "/cdn/city_Blog/blog_side_3.svg",
       title: "Top 10 Data Science Course Training Institutes in Hyderabad",
       link: "https://skillslash.com/data-science-course-training-hyderabad",
     },
     {
       image:
-        "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/city_Blog/blog_side_3.webp",
+        "/cdn/city_Blog/blog_side_3.svg",
       title: "Top 10 Data Science Course Training Institutes in Delhi",
       link: "https://skillslash.com/data-science-course-in-delhi",
     },

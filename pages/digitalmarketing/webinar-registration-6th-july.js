@@ -10,6 +10,7 @@ const webinar = () => {
     <div>
         <Head>
         <title>Skillslash- Webinar Registration</title>
+        <meta name="robots" content="noindex,follow" />
         <meta
           name="description"
           content="Being the leading data science training provider, we give you the opportunity to work directly with industry experts on latest projects."
@@ -20,7 +21,7 @@ const webinar = () => {
       <div className={styles.webinar}>
         <div className={styles.left}>
           <Image
-            src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/third_time.png"
+            src="/cdn/digital-marketing/third_time.svg"
             width={800}
             height={400}
             alt="form"

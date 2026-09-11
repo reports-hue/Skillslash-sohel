@@ -24,7 +24,7 @@ const HomeFirstSection = ({
     setPopups(true);
   };
   const GenImg =
-    "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/Bard_Dm.webp";
+    "/cdn/digital-marketing/Bard_Dm.svg";
   return (
     <>
       <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
@@ -103,7 +103,7 @@ const HomeFirstSection = ({
               {" "}
               <div className={Styles.rytdiv}>
                 <Image
-                  src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/first_right.webp"
+                  src="/cdn/digital-marketing/first_right.svg"
                   width={500}
                   height={800}
                   quality={100}
@@ -135,7 +135,7 @@ const HomeFirstSection = ({
         <div className={Styles.icons}>
           <div className={Styles.icondivs}>
             <Image
-              src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/Ind_icon.webp"
+              src="/cdn/digital-marketing/Ind_icon.svg"
               width={60}
               height={60}
               loading="lazy"
@@ -148,7 +148,7 @@ const HomeFirstSection = ({
           <hr className={Styles.iconHr} />
           <div className={Styles.icondivs}>
             <Image
-              src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/carr_icon.webp"
+              src="/cdn/digital-marketing/carr_icon.svg"
               width={60}
               height={60}
               loading="lazy"
@@ -159,7 +159,7 @@ const HomeFirstSection = ({
           <hr className={Styles.iconHr} />
           <div className={`${Styles.icondivs} ${Styles.center}`}>
             <Image
-              src="https://skillslash-cdn.s3.ap-south-1.amazonaws.com/digital-marketing/live_icon.webp"
+              src="/cdn/digital-marketing/live_icon.svg"
               width={60}
               height={60}
               loading="lazy"

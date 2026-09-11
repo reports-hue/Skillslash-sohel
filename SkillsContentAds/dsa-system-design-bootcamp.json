@@ -2,7 +2,7 @@
   "header": {
     "title": "DSA & System Design Bootcamp",
     "desc": "FAANG instructor’s blended learning course with video lessons and live doubt sessions and live project sessions to crack Software Developer interview in any product base company.",
-    "imgSrc": "https://skillslash-cdn.s3.ap-south-1.amazonaws.com/static/New_skillslash/CoursePage/Header/dsa%2Bheader.webp",
+    "imgSrc": "/cdn/static/New_skillslash/CoursePage/Header/dsa-header.svg",
     "hour": "76",
     "noProject": "15+ ",
     "otherHr": "50",
