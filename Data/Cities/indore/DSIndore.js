@@ -880,9 +880,9 @@ const IndoreData = {
           }
             </style>
         `,
-    lastUpdated: "2024-08-02",
+    lastUpdated: "2026-09-09",
     shareLink: "https://skillslash.com/data-science-course-in-bangalore",
-    publishDate: "2024-08-02",
+    publishDate: "2026-09-04",
   
     pinCode: {
       heading: "Data Science course Training offered in Mumbai location:",

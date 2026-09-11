@@ -37,6 +37,17 @@ async function hasValidSession(request) {
   }
 }
 
+// Belt-and-suspenders with each admin page's own `<meta name="robots">` tag
+// (pages/admin/**) and robots.txt's `Disallow: /admin/`: this header hits
+// every /admin/* response - including the redirect-to-login a bot gets when
+// it ignores robots.txt - without depending on a crawler parsing the HTML
+// first. Whichever signal a given bot actually honors, all three say the
+// same thing.
+function withNoindex(response) {
+  response.headers.set("X-Robots-Tag", "noindex, nofollow");
+  return response;
+}
+
 export async function proxy(request) {
   const { pathname } = request.nextUrl;
 
@@ -52,8 +63,12 @@ export async function proxy(request) {
       const url = request.nextUrl.clone();
       url.pathname = "/admin/login";
       url.searchParams.set("next", pathname);
-      return NextResponse.redirect(url);
+      return withNoindex(NextResponse.redirect(url));
     }
+  }
+
+  if (pathname.startsWith("/admin")) {
+    return withNoindex(NextResponse.next());
   }
 
   return NextResponse.next();

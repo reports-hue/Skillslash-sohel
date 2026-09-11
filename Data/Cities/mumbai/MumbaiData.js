@@ -620,9 +620,9 @@ Make a hassle-free career shift with job and placement support and land your dre
       }
         </style>
     `,
-  lastUpdated: "2024-07-10",
+  lastUpdated: "2026-09-10",
   shareLink: "https://skillslash.com/data-science-course-in-mumbai",
-  publishDate: "2024-07-01",
+  publishDate: "2026-09-05",
 
   pinCode: {
     heading: "Data Science course Training offered in Mumbai location:",

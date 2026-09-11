@@ -1,3 +1,31 @@
+.importRow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+.templateLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: #4f419a;
+  text-decoration: none;
+}
+.templateLink:hover { text-decoration: underline; }
+
+.importWarnings {
+  background: #fdf6e8;
+  border: 1px solid #f0dfa8;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-bottom: 14px;
+  font-size: 13px;
+  color: #6b5a1e;
+}
+.importWarnings ul { margin: 6px 0 0; padding-left: 18px; }
+
 .topRow {
   display: flex;
   align-items: flex-start;

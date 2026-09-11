@@ -10,11 +10,17 @@ const SITE_URL = "https://skillslash.com";
 // drives /event/*. Reading them directly here keeps the sitemap in sync
 // with whatever pages actually exist, instead of a hand-maintained list.
 function slugsFromDir(dirName) {
-  const dir = path.join(process.cwd(), dirName);
+  // dirName is a variable, not a literal, so Turbopack can't tell which
+  // directory this needs at build time - its fallback is to trace and ship
+  // the whole project into this route's serverless function. The three
+  // directories this is ever actually called with are declared explicitly
+  // in next.config.js's outputFileTracingIncludes for "/sitemap.xml"
+  // instead, so it's safe to tell the tracer not to try.
+  const dir = path.join(/*turbopackIgnore: true*/ process.cwd(), dirName);
   if (!fs.existsSync(dir)) return [];
-  return fs.readdirSync(dir).map((file) => ({
+  return fs.readdirSync(/*turbopackIgnore: true*/ dir).map((file) => ({
     slug: file.replace(/\.(json|md)$/i, ""),
-    mtime: fs.statSync(path.join(dir, file)).mtime,
+    mtime: fs.statSync(path.join(/*turbopackIgnore: true*/ dir, file)).mtime,
   }));
 }
 
@@ -62,7 +68,10 @@ const CONTENT_SHADOWED_BY_REDIRECT = new Set([
 function declaresForeignCanonical(dirName, slug) {
   try {
     const raw = fs.readFileSync(
-      path.join(process.cwd(), dirName, `${slug}.json`),
+      // Same reasoning as slugsFromDir above - only ever called with
+      // "content", which next.config.js's outputFileTracingIncludes for
+      // "/sitemap.xml" already covers.
+      path.join(/*turbopackIgnore: true*/ process.cwd(), dirName, `${slug}.json`),
       "utf8"
     );
     const canonical = JSON.parse(raw)?.metaInfo?.canonical;

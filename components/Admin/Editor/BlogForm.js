@@ -4,7 +4,16 @@ import dynamic from "next/dynamic";
 import styles from "../admin.module.css";
 import formStyles from "./BlogForm.module.css";
 import SeoPanel from "./SeoPanel";
-import { LuExternalLink, LuTrash2 } from "react-icons/lu";
+import { LuExternalLink, LuTrash2, LuFileUp, LuDownload } from "react-icons/lu";
+
+// Fields the Word import is allowed to touch. Author, category, content
+// type and every image stay whatever they already were - imported on
+// purpose, not an oversight (see lib/docxImport.js).
+const IMPORTABLE_FIELDS = [
+  "title", "slug", "excerpt", "metaTitle", "metaDescription", "canonicalUrl",
+  "focusKeyword", "keywords", "ogTitle", "ogDescription", "keyTakeaways",
+  "faqs", "courses", "contentHtml",
+];
 
 // TipTap touches document/window at import time - keep it client-only.
 const RichTextEditor = dynamic(() => import("./RichTextEditor"), {
@@ -48,7 +57,10 @@ export default function BlogForm({ initialPost, categories, authors = [], siteUr
   const [slugTouched, setSlugTouched] = useState(isEdit);
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState("");
+  const [importing, setImporting] = useState(false);
+  const [importWarnings, setImportWarnings] = useState([]);
   const wordCountRef = useRef(0);
+  const importInputRef = useRef(null);
 
   const setField = (field, value) => setPost((p) => ({ ...p, [field]: value }));
 
@@ -105,6 +117,40 @@ export default function BlogForm({ initialPost, categories, authors = [], siteUr
     }
   };
 
+  const handleImportClick = () => importInputRef.current?.click();
+
+  const handleImportFile = async (e) => {
+    const file = e.target.files?.[0];
+    e.target.value = "";
+    if (!file) return;
+
+    setError("");
+    setImportWarnings([]);
+    setImporting(true);
+    try {
+      const body = new FormData();
+      body.append("file", file);
+      const res = await fetch("/api/admin/blogs/import-docx", { method: "POST", body });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Could not import that file.");
+
+      const incoming = data.post || {};
+      setPost((p) => {
+        const next = { ...p };
+        for (const field of IMPORTABLE_FIELDS) {
+          if (incoming[field] !== undefined) next[field] = incoming[field];
+        }
+        return next;
+      });
+      if (incoming.slug) setSlugTouched(true);
+      setImportWarnings(data.warnings || []);
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setImporting(false);
+    }
+  };
+
   const handleDelete = async () => {
     if (!isEdit) return;
     if (!window.confirm(`Delete "${post.title}"? This cannot be undone.`)) return;
@@ -119,6 +165,37 @@ export default function BlogForm({ initialPost, categories, authors = [], siteUr
   return (
     <div>
       {error && <div className={styles.errorBanner}>{error}</div>}
+      {importWarnings.length > 0 && (
+        <div className={formStyles.importWarnings}>
+          <strong>Imported, with a few things to check:</strong>
+          <ul>
+            {importWarnings.map((w, i) => (
+              <li key={i}>{w}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      <div className={formStyles.importRow}>
+        <input
+          ref={importInputRef}
+          type="file"
+          accept=".docx"
+          hidden
+          onChange={handleImportFile}
+        />
+        <button
+          type="button"
+          className={`${styles.btn} ${styles.btnGhost}`}
+          onClick={handleImportClick}
+          disabled={importing}
+        >
+          <LuFileUp /> {importing ? "Importing..." : "Import from Word"}
+        </button>
+        <a href="/templates/blog-import-template.docx" download className={formStyles.templateLink}>
+          <LuDownload /> Download sample template
+        </a>
+      </div>
 
       <div className={formStyles.topRow}>
         <div className={formStyles.titleBlock}>

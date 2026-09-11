@@ -1,4 +1,4 @@
-import { useEffect, useCallback, useState } from "react";
+import { useEffect, useCallback, useMemo, useState } from "react";
 import { useEditor, EditorContent } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
 import Underline from "@tiptap/extension-underline";
@@ -82,8 +82,13 @@ export default function RichTextEditor({ value, onChange, wordCountRef }) {
   const [linkPanel, setLinkPanel] = useState(null); // { url, nofollow, newTab } | null
   const [imagePanel, setImagePanel] = useState(null); // { mode: "insert"|"edit", file?, alt } | null
 
-  const editor = useEditor({
-    extensions: [
+  // A fresh array/object here on every render (this component re-renders on
+  // every keystroke, since typing bubbles onChange -> parent state -> a new
+  // `value` prop back down) gives useEditor a new options identity each
+  // time. That's a known source of subtle TipTap/React desync - memoizing
+  // it once for the component's lifetime removes the variable entirely.
+  const extensions = useMemo(
+    () => [
       StarterKit.configure({ heading: { levels: [2, 3, 4] } }),
       Underline,
       Link,
@@ -96,6 +101,11 @@ export default function RichTextEditor({ value, onChange, wordCountRef }) {
       TableHeader,
       TableCell,
     ],
+    []
+  );
+
+  const editor = useEditor({
+    extensions,
     content: value || "",
     onUpdate: ({ editor: e }) => {
       onChange(e.getHTML());
@@ -104,14 +114,17 @@ export default function RichTextEditor({ value, onChange, wordCountRef }) {
     immediatelyRender: false,
   });
 
-  // Keep the editor in sync if the parent resets `value` (e.g. loading an
-  // existing post after the editor has already mounted).
+  // Keep the editor in sync if the parent resets `value` from outside a
+  // keystroke - loading an existing post after the editor has already
+  // mounted, or a Word-doc import overwriting the body. The `!== editor.getHTML()`
+  // guard is what keeps this from fighting the `onUpdate` above: typing a
+  // character updates `value` right back to what the editor already has, so
+  // this effect finds nothing to do and never re-sets the cursor mid-typing.
   useEffect(() => {
     if (editor && value !== undefined && value !== editor.getHTML()) {
       editor.commands.setContent(value || "", false);
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [editor]);
+  }, [editor, value]);
 
   const openLinkPanel = useCallback(() => {
     if (!editor) return;
@@ -235,9 +248,19 @@ export default function RichTextEditor({ value, onChange, wordCountRef }) {
           />
           <label className={styles.panelCheck}>
             <input
-              type="checkbox"
+              type="radio"
+              name="linkFollow"
+              checked={!linkPanel.nofollow}
+              onChange={() => setLinkPanel({ ...linkPanel, nofollow: false })}
+            />
+            dofollow
+          </label>
+          <label className={styles.panelCheck}>
+            <input
+              type="radio"
+              name="linkFollow"
               checked={linkPanel.nofollow}
-              onChange={(e) => setLinkPanel({ ...linkPanel, nofollow: e.target.checked })}
+              onChange={() => setLinkPanel({ ...linkPanel, nofollow: true })}
             />
             nofollow
           </label>

@@ -543,9 +543,9 @@ target="_blank" rel="nofollow"><i>DSA and system design program</i></a> to prepa
         }
           </style>
       `,
-    lastUpdated: "2024-07-26",
+    lastUpdated: "2026-09-09",
     shareLink: "https://skillslash.com/dsa-system-design",
-    publishDate: "2024-07-01",
+    publishDate: "2026-09-04",
   
     pinCode: {
       heading: "Data Science course Training offered in Mumbai location:",

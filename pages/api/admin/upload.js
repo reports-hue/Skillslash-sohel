@@ -20,7 +20,12 @@ export const config = { api: { bodyParser: false } };
 
 const ALLOWED = new Set(["image/jpeg", "image/png", "image/webp", "image/gif", "image/svg+xml"]);
 const EXT = { "image/jpeg": ".jpg", "image/png": ".png", "image/webp": ".webp", "image/gif": ".gif", "image/svg+xml": ".svg" };
-const MAX_BYTES = 8 * 1024 * 1024;
+// Vercel's Node.js serverless functions hard-cap the request body at 4.5MB -
+// not configurable higher even on Pro - regardless of this file's own
+// limit. Docker/EC2 has no such ceiling, but this has to stay under it on
+// both targets, or an image between 4.5MB and the old 8MB limit would pass
+// locally and 413 in production on Vercel.
+const MAX_BYTES = 4 * 1024 * 1024;
 
 async function saveToVercelBlob(file, name) {
   const { put } = await import("@vercel/blob");

@@ -730,9 +730,9 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
               }
                 </style>
             `,
-  lastUpdated: "2024-08-02",
+  lastUpdated: "2026-09-07",
   shareLink: "https://skillslash.com/data-science-course-in-mysore",
-  publishDate: "2024-08-02",
+  publishDate: "2026-09-02",
 
   pinCode: {
     heading: "Data Science course Training offered in Mumbai location:",

@@ -399,9 +399,14 @@ export default function SeoPanel({ post, setField, categories, authors, siteUrl 
           </label>
           <label className={panelStyles.toggle}>
             <input type="checkbox" checked={post.robotsFollow} onChange={(e) => setField("robotsFollow", e.target.checked)} />
-            Follow links
+            Follow links (whole page)
           </label>
         </div>
+        <p className={styles.hint}>
+          That&rsquo;s the page-wide signal, not per-link. To set dofollow/nofollow on
+          one specific link: select the text in the editor, click the 🔗 <strong>Link</strong> button
+          in its toolbar, and use the <strong>nofollow</strong> checkbox there.
+        </p>
       </Section>
 
       <Section

@@ -2,7 +2,18 @@
   border: 1px solid #e1ddec;
   border-radius: 10px;
   background: #fff;
-  overflow: hidden;
+  /* `overflow: hidden` here used to be the corner-clipping trick, but any
+     overflow other than `visible` makes this element the sticky positioning
+     container for .toolbar below. Since .wrap itself never scrolls, the
+     toolbar's `position: sticky; top: 57px` rendered permanently 57px below
+     its natural position - overlapping and hiding the first lines of typed
+     content under the toolbar's solid background. That was the real cause
+     of "typed text doesn't show up until I do something else": the text was
+     always there, just painted underneath the toolbar. Clipping the corners
+     on the toolbar/footer directly instead keeps .toolbar sticky to the real
+     (page-level) scroll container, where `top: 57px` (the site header's
+     height) actually makes sense. */
+  overflow: visible;
 }
 
 .toolbar {
@@ -13,6 +24,8 @@
   padding: 8px;
   border-bottom: 1px solid #e1ddec;
   background: #f6f5fa;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
   position: sticky;
   top: 57px;
   z-index: 5;
@@ -116,6 +129,8 @@
   font-size: 11.5px;
   color: #726c88;
   font-family: ui-monospace, monospace;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
 }
 
 .panel {

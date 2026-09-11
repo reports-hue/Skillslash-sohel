@@ -486,9 +486,9 @@ const BAHyderabadData = {
         }
           </style>
       `,
-    lastUpdated: "2024-07-26",
+    lastUpdated: "2026-09-11",
     shareLink: "https://skillslash.com/business-analytics-course-in-hyderabad",
-    publishDate: "2024-07-01",
+    publishDate: "2026-09-06",
   
     pinCode: {
       heading: "Data Science course Training offered in Mumbai location:",

@@ -743,9 +743,9 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
               }
                 </style>
             `,
-    lastUpdated: "2024-08-02",
+    lastUpdated: "2026-09-07",
     shareLink: "https://skillslash.com/data-science-course-in-kochi",
-    publishDate: "2024-08-02",
+    publishDate: "2026-09-01",
   
     pinCode: {
       heading: "Data Science course Training offered in Mumbai location:",

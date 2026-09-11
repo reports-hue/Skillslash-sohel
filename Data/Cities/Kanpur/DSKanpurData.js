@@ -966,9 +966,9 @@ a global scale.   </p>
               }
                 </style>
             `,
-    lastUpdated: "2024-08-02",
+    lastUpdated: "2026-09-08",
     shareLink: "https://skillslash.com/data-science-course-in-kanpur",
-    publishDate: "2024-08-02",
+    publishDate: "2026-09-02",
   
     pinCode: {
       heading: "Data Science course Training offered in Mumbai location:",

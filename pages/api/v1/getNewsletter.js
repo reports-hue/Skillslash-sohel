@@ -53,7 +53,7 @@ export default async function generatePage(req, res) {
 
                      <p>Once again, thank you for choosing Skillslash as your source for data science insights. We're excited to have you on board, and we look forward to a fruitful and enriching journey together.</p>
 
-                     <p> If you do not want to receive emails like these anymore, you can <a href="${`http://localhost:3000/unsubscribe?email=${emailHash}`}">unsubscribe</a>.</p>
+                     <p> If you do not want to receive emails like these anymore, you can <a href="${`https://skillslash.com/unsubscribe?email=${emailHash}`}">unsubscribe</a>.</p>
 
                      <p>Best regards</p>`,
             },

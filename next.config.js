@@ -10,6 +10,20 @@ const nextConfig = {
   // starts - see Dockerfile for how the standalone output is assembled.
   output: "standalone",
 
+  // pages/sitemap.xml.js reads content/, SkillsContent/ and
+  // DigitalMarketingContent/ through a directory-name *variable*
+  // (slugsFromDir(dirName)), which defeats Turbopack's static analysis of
+  // the fs calls inside it - it can't tell which directories are actually
+  // needed, so its fallback is to trace and ship the *entire project* into
+  // that one serverless function (flagged as a build warning). Declaring the
+  // three directories this route actually reads keeps that function's
+  // deploy small and correct on every target that relies on file tracing -
+  // both Vercel's per-route functions and this project's own `output:
+  // "standalone"` bundle above.
+  outputFileTracingIncludes: {
+    "/sitemap.xml": ["content/**", "SkillsContent/**", "DigitalMarketingContent/**"],
+  },
+
   // Next 16 removed `next build`'s built-in ESLint pass entirely (this used
   // to be `eslint: { ignoreDuringBuilds: true }`, now an unrecognized key) -
   // linting is no longer part of the build regardless. It still runs via
@@ -821,8 +835,17 @@ const nextConfig = {
   },
 
   images: {
-    // The skillslash-cdn bucket was deleted; all imagery now ships from
-    // /public locally, so no remote domain allowlist is needed.
+    // The skillslash-cdn bucket was deleted, so every legacy/marketing page
+    // ships its imagery from /public locally. CMS blog cover images are the
+    // one exception: pages/api/admin/upload.js stores them on Vercel Blob
+    // (public.blob.vercel-storage.com) when deployed there, and
+    // components/Blog/PostCard/PostCard.js renders that URL straight into
+    // next/image. Without this, the first cover image an admin uploads on
+    // Vercel 500s with "hostname is not configured under images" - this
+    // never surfaces locally/on Docker, where uploads stay on local disk.
+    remotePatterns: [
+      { protocol: "https", hostname: "*.public.blob.vercel-storage.com" },
+    ],
     minimumCacheTTL: 120,
     // Next 16 requires every `quality` value a component actually passes to
     // <Image> to be pre-declared here (undeclared values now warn, and are

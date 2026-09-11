@@ -827,9 +827,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
           </style>
       `,
-  lastUpdated: "2024-08-06",
+  lastUpdated: "2026-09-07",
   shareLink: "https://skillslash.com/data-science-course-in-pune",
-  publishDate: "2024-08-06",
+  publishDate: "2026-09-01",
 
   pinCode: {
     heading: "Data Science course Training offered in Mumbai location:",
