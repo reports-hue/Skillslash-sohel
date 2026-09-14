@@ -8,7 +8,14 @@ const nextConfig = {
   // shipping the full node_modules tree into the Docker image. Cuts the
   // container image from ~1GB+ down to well under 200MB and speeds up cold
   // starts - see Dockerfile for how the standalone output is assembled.
-  output: "standalone",
+  //
+  // Skipped when building on Vercel (Vercel sets VERCEL=1 during every
+  // build): Vercel does its own serverless-function packaging and expects
+  // the normal per-page .next/server output with .nft.json trace files.
+  // "standalone" mode replaces that with a single self-contained bundle
+  // instead, and Vercel's own post-build step then fails looking for a
+  // trace file that mode never produces (`ENOENT ... next-server.js.nft.json`).
+  output: process.env.VERCEL ? undefined : "standalone",
 
   // pages/sitemap.xml.js reads content/, SkillsContent/ and
   // DigitalMarketingContent/ through a directory-name *variable*
