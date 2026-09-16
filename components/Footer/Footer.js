@@ -4,7 +4,21 @@ import Link from "next/link"
 import { FaYoutube, FaInstagram, FaLinkedinIn } from "react-icons/fa"
 import { FaMeta, FaXTwitter } from "react-icons/fa6"
 import categories from "../../Data/blog/categories"
+import posts from "../../Data/blog/posts"
 import styles from "./Footer.module.css"
+
+// Same manual-rank convention pages/index.js uses for its own "Popular"
+// rail: lower `popular` = higher priority, 1 is the top pick. Reusing it
+// here means the footer surfaces the same cornerstone articles every page
+// on the site is a click away from - dense internal linking to a small set
+// of authoritative pages is one of the highest-leverage, lowest-effort SEO
+// (and GEO - it's exactly the kind of well-interlinked structure a
+// generative engine's crawler favors when deciding what to cite) moves a
+// footer can make, which a generic "Home / Careers / Verify" column wasn't.
+const popularGuides = posts
+  .filter((post) => typeof post.popular === "number")
+  .sort((a, b) => a.popular - b.popular)
+  .slice(0, 4)
 
 const socials = [
   {
@@ -84,17 +98,13 @@ const Footer = () => {
           ))}
         </nav>
 
-        <nav className={styles.col} aria-label="Site">
-          <h2 className={styles.colTitle}>Site</h2>
-          <Link href="/" className={styles.link}>
-            Home
-          </Link>
-          <Link href="/Career" className={styles.link}>
-            Careers
-          </Link>
-          <Link href="/verify-certificate" className={styles.link}>
-            Verify a Certificate
-          </Link>
+        <nav className={styles.col} aria-label="Popular guides">
+          <h2 className={styles.colTitle}>Popular Guides</h2>
+          {popularGuides.map((post) => (
+            <Link key={post.slug} href={`/${post.slug}`} className={styles.link}>
+              {post.title}
+            </Link>
+          ))}
         </nav>
 
         <nav className={styles.col} aria-label="Legal">
@@ -107,6 +117,12 @@ const Footer = () => {
           </Link>
           <Link href="/refunds-cancellation" className={styles.link}>
             Refund Policy
+          </Link>
+          <Link href="/Career" className={styles.link}>
+            Careers
+          </Link>
+          <Link href="/verify-certificate" className={styles.link}>
+            Verify a Certificate
           </Link>
         </nav>
       </div>

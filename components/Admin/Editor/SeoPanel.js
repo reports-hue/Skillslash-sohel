@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import styles from "../admin.module.css";
 import panelStyles from "./SeoPanel.module.css";
-import { LuPlus, LuTrash2, LuUpload } from "react-icons/lu";
+import { LuPlus, LuTrash2, LuUpload, LuChevronDown } from "react-icons/lu";
 import SeoScorePanel from "./SeoScorePanel";
 
 function Counter({ value, min, max }) {
@@ -14,13 +14,23 @@ function Counter({ value, min, max }) {
   );
 }
 
-function Section({ title, hint, children }) {
+// Native <details>/<summary> - each section collapses independently, with
+// no extra React state to manage and free keyboard/accessibility support.
+// `defaultOpen={false}` is only used for the one section (Structured data)
+// that's genuinely advanced/rarely touched; every other section stays open
+// by default so this doesn't change what anyone already sees today.
+function Section({ title, hint, children, defaultOpen = true }) {
   return (
-    <div className={panelStyles.section}>
-      <h3 className={panelStyles.sectionTitle}>{title}</h3>
-      {hint && <p className={panelStyles.sectionHint}>{hint}</p>}
-      {children}
-    </div>
+    <details className={panelStyles.section} open={defaultOpen}>
+      <summary className={panelStyles.sectionTitle}>
+        {title}
+        <LuChevronDown className={panelStyles.sectionChevron} />
+      </summary>
+      <div className={panelStyles.sectionBody}>
+        {hint && <p className={panelStyles.sectionHint}>{hint}</p>}
+        {children}
+      </div>
+    </details>
   );
 }
 
@@ -450,7 +460,7 @@ export default function SeoPanel({ post, setField, categories, authors, siteUrl 
         <ImageField label="OG image (falls back to cover image)" value={post.ogImageUrl} onChange={(url) => setField("ogImageUrl", url)} />
       </Section>
 
-      <Section title="Structured data" hint="Advanced - leave on BlogPosting unless you know what you need.">
+      <Section title="Structured data" hint="Advanced - leave on BlogPosting unless you know what you need." defaultOpen={false}>
         <div className={styles.field}>
           <label className={styles.label} htmlFor="schemaType">Schema @type</label>
           <select id="schemaType" className={styles.select} value={post.schemaType} onChange={(e) => setField("schemaType", e.target.value)}>

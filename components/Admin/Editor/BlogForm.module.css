@@ -26,6 +26,16 @@
 }
 .importWarnings ul { margin: 6px 0 0; padding-left: 18px; }
 
+.bodySyncNotice {
+  background: #e4f0ec;
+  border: 1px solid #bfe0d3;
+  border-radius: 8px;
+  padding: 8px 14px;
+  margin-bottom: 14px;
+  font-size: 13px;
+  color: #205943;
+}
+
 .topRow {
   display: flex;
   align-items: flex-start;
@@ -88,12 +98,31 @@
 .checkOk { color: #2f7d6b; font-weight: 600; }
 .checkWarn { color: #c2681a; }
 
+/* Sits flush right above the grid below, regardless of which column the
+   panel currently occupies. */
+.panelToggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 0 10px auto;
+  padding: 6px 12px;
+  border: 1px solid #e1ddec;
+  border-radius: 7px;
+  background: #fff;
+  color: #4a4460;
+  font-size: 12.5px;
+  cursor: pointer;
+}
+.panelToggle:hover { background: #f6f5fa; }
+.panelToggle svg { width: 14px; height: 14px; flex-shrink: 0; }
+
 .grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 380px;
   gap: 20px;
   align-items: start;
 }
+.gridPanelCollapsed { grid-template-columns: minmax(0, 1fr); }
 
 .editorCol { min-width: 0; }
 .panelCol { position: sticky; top: 110px; max-height: calc(100vh - 130px); overflow-y: auto; }

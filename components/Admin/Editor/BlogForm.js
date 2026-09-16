@@ -1,10 +1,11 @@
-import { useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/router";
 import dynamic from "next/dynamic";
 import styles from "../admin.module.css";
 import formStyles from "./BlogForm.module.css";
 import SeoPanel from "./SeoPanel";
-import { LuExternalLink, LuTrash2, LuFileUp, LuDownload } from "react-icons/lu";
+import { detectSectionsFromBody } from "../../../lib/bodySectionSync";
+import { LuExternalLink, LuTrash2, LuFileUp, LuDownload, LuChevronsRight, LuChevronsLeft } from "react-icons/lu";
 
 // Fields the Word import is allowed to touch. Author, category, content
 // type and every image stay whatever they already were - imported on
@@ -59,10 +60,42 @@ export default function BlogForm({ initialPost, categories, authors = [], siteUr
   const [error, setError] = useState("");
   const [importing, setImporting] = useState(false);
   const [importWarnings, setImportWarnings] = useState([]);
+  const [bodySyncNotice, setBodySyncNotice] = useState("");
+  const [panelCollapsed, setPanelCollapsed] = useState(false);
   const wordCountRef = useRef(0);
   const importInputRef = useRef(null);
+  const bodySyncTimerRef = useRef(null);
 
   const setField = (field, value) => setPost((p) => ({ ...p, [field]: value }));
+
+  // Typing (or pasting) an "FAQs" or "Courses Compared" heading followed by a
+  // table directly into the body - the same convention the Word importer
+  // teaches - keeps the SEO panel's FAQ/Courses fields in sync automatically,
+  // so that content is only ever authored once. One-directional (body ->
+  // sidebar) and only overwrites a field when the body actually contains a
+  // matching, non-empty section: removing the section from the body later
+  // does not clear what was already synced, and a field the admin filled in
+  // by hand is left alone until a body section actually appears to sync from.
+  useEffect(() => {
+    const { faqs, courses } = detectSectionsFromBody(post.contentHtml);
+    const synced = [];
+    if (faqs && JSON.stringify(faqs) !== JSON.stringify(post.faqs)) {
+      setField("faqs", faqs);
+      synced.push(`${faqs.length} FAQ${faqs.length === 1 ? "" : "s"}`);
+    }
+    if (courses && JSON.stringify(courses) !== JSON.stringify(post.courses)) {
+      setField("courses", courses);
+      synced.push(`${courses.length} course${courses.length === 1 ? "" : "s"}`);
+    }
+    if (synced.length) {
+      setBodySyncNotice(`Synced ${synced.join(" and ")} from the body content into the sidebar.`);
+      clearTimeout(bodySyncTimerRef.current);
+      bodySyncTimerRef.current = setTimeout(() => setBodySyncNotice(""), 5000);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [post.contentHtml]);
+
+  useEffect(() => () => clearTimeout(bodySyncTimerRef.current), []);
 
   const handleTitleChange = (title) => {
     setField("title", title);
@@ -165,6 +198,7 @@ export default function BlogForm({ initialPost, categories, authors = [], siteUr
   return (
     <div>
       {error && <div className={styles.errorBanner}>{error}</div>}
+      {bodySyncNotice && <div className={formStyles.bodySyncNotice}>{bodySyncNotice}</div>}
       {importWarnings.length > 0 && (
         <div className={formStyles.importWarnings}>
           <strong>Imported, with a few things to check:</strong>
@@ -291,7 +325,17 @@ export default function BlogForm({ initialPost, categories, authors = [], siteUr
         </div>
       )}
 
-      <div className={formStyles.grid}>
+      <button
+        type="button"
+        className={formStyles.panelToggle}
+        onClick={() => setPanelCollapsed((c) => !c)}
+        aria-label={panelCollapsed ? "Show SEO panel" : "Hide SEO panel"}
+      >
+        {panelCollapsed ? <LuChevronsLeft /> : <LuChevronsRight />}
+        {panelCollapsed ? "Show SEO panel" : "Hide SEO panel"}
+      </button>
+
+      <div className={`${formStyles.grid} ${panelCollapsed ? formStyles.gridPanelCollapsed : ""}`}>
         <div className={formStyles.editorCol}>
           <RichTextEditor
             value={post.contentHtml}
@@ -299,9 +343,11 @@ export default function BlogForm({ initialPost, categories, authors = [], siteUr
             wordCountRef={wordCountRef}
           />
         </div>
-        <div className={formStyles.panelCol}>
-          <SeoPanel post={post} setField={setField} categories={categories} authors={authors} siteUrl={siteUrl} />
-        </div>
+        {!panelCollapsed && (
+          <div className={formStyles.panelCol}>
+            <SeoPanel post={post} setField={setField} categories={categories} authors={authors} siteUrl={siteUrl} />
+          </div>
+        )}
       </div>
     </div>
   );
