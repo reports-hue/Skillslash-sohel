@@ -15,15 +15,6 @@ const features = [
   { Icon: LuFileText, label: "Real Student Stories" },
 ]
 
-// These are marketing copy, not verified metrics - kept as round, clearly
-// aspirational figures rather than presented as audited statistics.
-const stats = [
-  { value: "10K+", label: "Learners Monthly" },
-  { value: "500+", label: "In-depth Articles" },
-  { value: "50+", label: "Courses Covered" },
-  { value: "1M+", label: "Career Decisions Supported" },
-]
-
 const floatingCards = [
   { Icon: LuTrendingUp, title: "Trending Careers", subtitle: "Explore what's next" },
   { Icon: LuGraduationCap, title: "Course Comparisons", subtitle: "Find your best fit" },
@@ -164,15 +155,6 @@ const Hero = ({ hasPhoto = false }) => {
               </li>
             ))}
           </ul>
-
-          <dl className={styles.stats}>
-            {stats.map((stat) => (
-              <div key={stat.label} className={styles.stat}>
-                <dt>{stat.value}</dt>
-                <dd>{stat.label}</dd>
-              </div>
-            ))}
-          </dl>
         </div>
 
         <div className={styles.visual}>

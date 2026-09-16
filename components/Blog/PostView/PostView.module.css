@@ -101,6 +101,11 @@
 
 .shareRow { display: flex; align-items: center; gap: 8px; }
 .shareBtn {
+  /* styles/globals.css's `button { padding: 15px 20px }` reset otherwise
+     eats this 32px button's entire content box - see
+     components/CityBlog/shareButtons.module.css's .btn for the same fix
+     applied to the equivalent legacy component. */
+  padding: 0;
   width: 32px; height: 32px; border-radius: 8px;
   border: 1px solid var(--line); background: var(--surface); color: var(--ink-2);
   display: inline-flex; align-items: center; justify-content: center; cursor: pointer;

@@ -103,19 +103,22 @@
   justify-content: center;
   width: 38px;
   height: 38px;
+  /* styles/globals.css sets a sitewide `button { padding: 15px 20px }`
+     reset. This class never overrode it, so those 40px of horizontal
+     padding alone exceeded the button's own 38px width, squeezing the
+     icon's content box to ~0 and making it render invisible regardless of
+     the icon's own size - the actual cause of the menu toggle appearing
+     empty, not anything about the SVG/icon library. */
+  padding: 0;
   border-radius: 8px;
   border: 1px solid #ece9f5;
   background: #fff;
   color: #171330;
   flex-shrink: 0;
 }
-/* Belt-and-suspenders: the icon also gets a `size` prop in Navbar.js (sets
-   the width/height HTML attributes). In one rendering environment this was
-   verified against (this project's browser-automation preview), neither
-   the CSS width below nor the size-prop attributes alone was enough to
-   correctly size an SVG inside an element toggled visible via a CSS media
-   query - only the two together resolved it. */
-.hamburger svg { width: 18px; height: 18px; }
+/* The icon's own SVG width/height attributes (Navbar.js) are what actually
+   size it now - this is just a safety net, kept in agreement with those. */
+.hamburger svg { width: 20px; height: 20px; }
 
 .drawerHidden { display: none; }
 .drawer {

@@ -2,8 +2,31 @@ import { useEffect, useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { useRouter } from "next/router"
-import { LuSearch, LuMailPlus, LuMenu, LuX } from "react-icons/lu"
+import { LuSearch, LuMailPlus } from "react-icons/lu"
 import styles from "./Navbar.module.css"
+
+// Plain inline SVG, not a react-icons component: the mobile menu toggle was
+// reported (and independently reproduced) rendering at 0x0 regardless of
+// explicit width/height via CSS, `!important`, or the icon library's own
+// `size` prop - all of which should have worked. Writing the two paths out
+// by hand removes every layer (icon library sizing logic, its default
+// width="1em"/height="1em" attributes, any interaction between those and
+// this button's display:none-by-default/media-query-flex toggle) that
+// could have been the actual cause, rather than guessing at which one it
+// was.
+const MenuIcon = () => (
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+    <line x1="4" y1="7" x2="20" y2="7" />
+    <line x1="4" y1="12" x2="20" y2="12" />
+    <line x1="4" y1="17" x2="20" y2="17" />
+  </svg>
+)
+const CloseIcon = () => (
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+    <line x1="6" y1="6" x2="18" y2="18" />
+    <line x1="18" y1="6" x2="6" y2="18" />
+  </svg>
+)
 
 // Each tab is a content-type filter on the homepage (pages/index.js reads
 // ?type=<slug> from the URL and pre-selects that TypeTabs tab), matched to
@@ -102,7 +125,7 @@ const Navbar = () => {
           aria-expanded={menuOpen}
           aria-label={menuOpen ? "Close menu" : "Open menu"}
         >
-          {menuOpen ? <LuX size={18} /> : <LuMenu size={18} />}
+          {menuOpen ? <CloseIcon /> : <MenuIcon />}
         </button>
       </div>
 

@@ -129,13 +129,5 @@ export const TakeNextStep = () => (
     <Link href="/" className={styles.ctaBtn}>
       Explore Courses <LuArrowRight aria-hidden="true" />
     </Link>
-    <div className={styles.ctaFooter}>
-      <div className={styles.avatarStack} aria-hidden="true">
-        <span />
-        <span />
-        <span />
-      </div>
-      <span className={styles.ctaFooterText}>Join 50,000+ learners</span>
-    </div>
   </section>
 )
