@@ -12,7 +12,7 @@
   padding: 14px 24px;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 14px;
 }
 
 /* ---------- brand ---------- */
@@ -41,13 +41,22 @@
   gap: 2px;
   flex: 1;
   min-width: 0;
+  /* Safety net: if the six tabs ever don't fit the available width at some
+     viewport (as they didn't right at this breakpoint before the padding
+     below was tightened), this scrolls horizontally instead of silently
+     overflowing the flex box - which renders as tabs invisibly clipped
+     off-screen with no way to reach them, not merely a squeeze. */
+  overflow-x: auto;
+  scrollbar-width: none;
 }
+.tabs::-webkit-scrollbar { display: none; }
 
 .tab,
 .tabActive {
-  padding: 8px 14px;
+  flex-shrink: 0;
+  padding: 8px 11px;
   border-radius: 999px;
-  font-size: 14px;
+  font-size: 13.5px;
   font-weight: 600;
   text-decoration: none;
   white-space: nowrap;
@@ -63,7 +72,7 @@
   align-items: center;
   gap: 8px;
   flex-shrink: 0;
-  width: 220px;
+  width: 170px;
   padding: 9px 14px;
   border-radius: 999px;
   background: #f6f5fb;
@@ -177,13 +186,16 @@
   text-decoration: none;
 }
 
-/* .hamburger's fallback opens the same tabs (plus a search box) from the
-   drawer, so it has to appear at exactly the point .tabs/.search disappear
-   - previously the tabs hid at 1080px but the hamburger only appeared
-   below 720px, leaving a dead zone in between with no way to reach any of
-   Course Guides/Comparisons/Career Advice/Student Stories/Resources at
-   all. Both breakpoints now match. */
-@media (max-width: 1080px) {
+/* 1200px is the width the six tabs + search + Subscribe + logo actually
+   need to fit without crowding or clipping (verified live - even at
+   1100px, with the tightened tab padding/search width above, "Resources"
+   was still clipped mid-word). Hero.module.css's own breakpoint is set to
+   the same 1200px for that reason, rather than trying to force this row
+   into a narrower space than it needs - see the comment there.
+   .hamburger's fallback opens the same tabs (plus a search box) from the
+   drawer, so it has to appear at exactly the point .tabs/.search
+   disappear. */
+@media (max-width: 1200px) {
   .tabs { display: none; }
   .search { display: none; }
   .hamburger { display: flex; }

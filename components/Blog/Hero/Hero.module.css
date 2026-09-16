@@ -238,8 +238,14 @@
    the tablet's real width - capping the image at a small fixed px (as if
    it were still sharing a column with text) left it stranded in a sea of
    empty space either side, while the text column looked comparatively
-   cramped despite having the same width available to it. */
-@media (max-width: 980px) {
+   cramped despite having the same width available to it.
+   1200px, matching Navbar.module.css's own breakpoint: the six nav tabs +
+   search + Subscribe genuinely need that much room and clip mid-word
+   below it, so the hero switching to single-column earlier than the nav
+   collapsed to a hamburger left a width in between where the page
+   visually had "plenty of room" (wide single-column hero) while the nav
+   acted like it didn't. */
+@media (max-width: 1200px) {
   .inner {
     grid-template-columns: 1fr;
     padding: 40px 20px 32px;
