@@ -177,12 +177,18 @@
   text-decoration: none;
 }
 
+/* .hamburger's fallback opens the same tabs (plus a search box) from the
+   drawer, so it has to appear at exactly the point .tabs/.search disappear
+   - previously the tabs hid at 1080px but the hamburger only appeared
+   below 720px, leaving a dead zone in between with no way to reach any of
+   Course Guides/Comparisons/Career Advice/Student Stories/Resources at
+   all. Both breakpoints now match. */
 @media (max-width: 1080px) {
   .tabs { display: none; }
   .search { display: none; }
+  .hamburger { display: flex; }
 }
 
 @media (max-width: 720px) {
   .subscribe { display: none; }
-  .hamburger { display: flex; }
 }
