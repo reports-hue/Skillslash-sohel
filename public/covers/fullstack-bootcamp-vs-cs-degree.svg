@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Full Stack Bootcamp vs Computer Science Degree">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c2681a"/><stop offset="1" stop-color="#e0a04a"/>
+    </linearGradient>
+    <radialGradient id="r" cx="0.85" cy="0.2" r="0.6">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.22"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#g)"/>
+  <rect width="1200" height="675" fill="url(#r)"/>
+  <circle cx="1040" cy="560" r="260" fill="#fff" opacity="0.06"/>
+  <circle cx="120" cy="80" r="180" fill="#fff" opacity="0.05"/>
+  <g transform="translate(600,120)" fill="#fff" opacity="0.92" font-family="Segoe UI, monospace" font-size="60" font-weight="700">
+    <text x="0" y="0">&lt;/&gt;</text>
+  </g>
+  <text x="80" y="410" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="6" fill="#fff" opacity="0.85">COURSE GUIDE</text>
+  <text x="80" y="480" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="56" font-weight="800" fill="#fff">Bootcamp vs CS Degree</text>
+  <text x="80" y="545" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="500" fill="#fff" opacity="0.9">Full-stack development career paths</text>
+</svg>

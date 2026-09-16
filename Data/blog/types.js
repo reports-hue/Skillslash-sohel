@@ -7,7 +7,6 @@ const types = [
   { slug: "certifications", name: "Certifications", icon: "award" },
   { slug: "career", name: "Career Guidance", icon: "briefcase" },
   { slug: "trends", name: "Industry Trends", icon: "trending" },
-  { slug: "stories", name: "Student Stories", icon: "users" },
 ]
 
 export default types

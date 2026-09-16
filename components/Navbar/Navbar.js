@@ -37,7 +37,6 @@ const TABS = [
   { label: "Course Guides", type: "programs" },
   { label: "Comparisons", type: "course-comparison" },
   { label: "Career Advice", type: "career" },
-  { label: "Student Stories", type: "stories" },
   { label: "Resources", type: "certifications" },
 ]
 
