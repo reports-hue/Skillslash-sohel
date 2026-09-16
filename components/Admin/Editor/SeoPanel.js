@@ -2,6 +2,7 @@ import { useRef } from "react";
 import styles from "../admin.module.css";
 import panelStyles from "./SeoPanel.module.css";
 import { LuPlus, LuTrash2, LuUpload } from "react-icons/lu";
+import SeoScorePanel from "./SeoScorePanel";
 
 function Counter({ value, min, max }) {
   const len = (value || "").length;
@@ -276,6 +277,13 @@ export default function SeoPanel({ post, setField, categories, authors, siteUrl 
 
   return (
     <div className={panelStyles.panel}>
+      <Section
+        title="Content health"
+        hint="A live score across classic SEO plus how well this post is set up to be quoted by voice/answer engines (AEO), cited by AI chat tools (GEO), surfaced by Discover-style feeds (DEO), and lifted into AI Overviews (AIO)."
+      >
+        <SeoScorePanel post={post} />
+      </Section>
+
       <Section title="Publish">
         <div className={styles.field}>
           <label className={styles.label} htmlFor="status">Status</label>
