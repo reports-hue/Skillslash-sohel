@@ -118,12 +118,6 @@ const Footer = () => {
           <Link href="/refunds-cancellation" className={styles.link}>
             Refund Policy
           </Link>
-          <Link href="/Career" className={styles.link}>
-            Careers
-          </Link>
-          <Link href="/verify-certificate" className={styles.link}>
-            Verify a Certificate
-          </Link>
         </nav>
       </div>
 

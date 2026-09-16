@@ -107,9 +107,7 @@ async function buildSitemap() {
 
   // --- Homepage & evergreen static pages ---
   entries.push(urlEntry(`${SITE_URL}/`, now, "1.00"));
-  entries.push(urlEntry(`${SITE_URL}/Career`, now, "0.6"));
   entries.push(urlEntry(`${SITE_URL}/demo-videos`, now, "0.5"));
-  entries.push(urlEntry(`${SITE_URL}/verify-certificate`, now, "0.4"));
   entries.push(urlEntry(`${SITE_URL}/terms-of-use`, now, "0.3"));
   entries.push(urlEntry(`${SITE_URL}/privacy-statement`, now, "0.3"));
   entries.push(urlEntry(`${SITE_URL}/refunds-cancellation`, now, "0.3"));

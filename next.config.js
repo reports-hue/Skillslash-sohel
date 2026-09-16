@@ -52,6 +52,18 @@ const nextConfig = {
         permanent: true,
       },
       {
+        // Careers and Verify a Certificate were removed - also dropped
+        // from the footer (components/Footer/Footer.js).
+        source: "/Career",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/verify-certificate",
+        destination: "/",
+        permanent: true,
+      },
+      {
         // Data Analytics was folded into Data Science.
         source: "/category/data-analytics",
         destination: "/category/data-science",
