@@ -1,400 +1,185 @@
-/* The header sits in normal flow and sticks by pulling the utility bar
-   off-screen, so no page needs padding to compensate for it. */
 .header {
   position: sticky;
-  top: -44px;
+  top: 0;
   z-index: 999;
   background: #ffffff;
+  border-bottom: 1px solid #ece9f5;
 }
 
-/* ---------- utility bar ---------- */
-
-.utility {
-  height: 44px;
-  background: #f6f4fe;
-  border-bottom: 1px solid #eae6f8;
-}
-
-.utilityInner {
-  max-width: 1880px;
-  height: 100%;
+.inner {
+  max-width: 1360px;
   margin: 0 auto;
-  padding: 0 32px;
+  padding: 14px 24px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 24px;
+  gap: 20px;
 }
 
-.tagline {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  margin: 0;
-  min-width: 0;
-  font-size: 13.5px;
-  color: #4a4757;
-  white-space: nowrap;
-}
-
-.capIcon {
-  flex: none;
-  font-size: 17px;
-  color: #5b46d9;
-}
-
-.taglineLead {
-  font-weight: 500;
-  color: #3f3d4c;
-}
-
-.promises {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  min-width: 0;
-}
-
-.promise {
-  color: #6c6a7a;
-}
-
-.divider {
-  width: 1px;
-  height: 16px;
-  background: #d9d3ee;
-  flex: none;
-}
-
-.utilityRight {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  flex: none;
-}
-
-.subscribe {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 13.5px;
-  font-weight: 600;
-  color: #5b46d9;
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-.subscribe svg {
-  font-size: 17px;
-}
-
-.subscribe:hover {
-  color: #4f3dc2;
-}
-
-.utilityIcon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 28px;
-  height: 28px;
-  border-radius: 7px;
-  color: #3f3d4c;
-  font-size: 16px;
-  text-decoration: none;
-  transition: background 0.18s ease, color 0.18s ease;
-}
-
-.utilityIcon:hover {
-  background: #ece7fa;
-  color: #4f3dc2;
-}
-
-/* ---------- main bar ---------- */
-
-.mainBar {
-  background: #ffffff;
-  border-bottom: 1px solid #eceaf4;
-}
-
-.mainInner {
-  max-width: 1880px;
-  margin: 0 auto;
-  padding: 0 32px;
-  height: 74px;
-  display: flex;
-  align-items: center;
-  gap: 28px;
-}
+/* ---------- brand ---------- */
 
 .brand {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  flex: none;
-  text-decoration: none;
-}
-
-.mark {
-  border-radius: 8px;
-}
-
-.wordmark {
-  font-size: 25px;
-  font-weight: 800;
-  letter-spacing: 0.01em;
-  text-transform: uppercase;
-  color: #1d1b28;
-  white-space: nowrap;
-}
-
-.nav {
   display: flex;
   align-items: center;
-  gap: 4px;
-  flex: none;
-}
-
-.navLink,
-.navLinkActive {
-  padding: 9px 12px;
-  border-radius: 9px;
-  font-size: 15.5px;
-  font-weight: 500;
-  color: #2f2d3a;
+  gap: 10px;
   text-decoration: none;
-  white-space: nowrap;
-  transition: color 0.18s ease, background 0.18s ease;
+  flex-shrink: 0;
 }
-
-.navLink:hover {
-  color: #5b46d9;
-  background: #f4f1fd;
+.mark { border-radius: 9px; }
+.wordmark {
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: #171330;
 }
+.wordmarkAccent { color: #4f419a; }
 
-.navLinkActive {
-  color: #4f3dc2;
-  background: #ece7fa;
-  font-weight: 600;
-}
+/* ---------- tabs ---------- */
 
-/* ---------- inline search ---------- */
-
-.search {
-  position: relative;
+.tabs {
+  display: flex;
+  align-items: center;
+  gap: 2px;
   flex: 1;
   min-width: 0;
-  max-width: 360px;
-  margin-left: auto;
 }
 
-.search input,
-.drawerSearch input {
-  width: 100%;
-  height: 46px;
-  padding: 0 16px 0 46px;
-  border: 1px solid #e2ddf2;
+.tab,
+.tabActive {
+  padding: 8px 14px;
   border-radius: 999px;
-  background: #faf9fe;
-  font: inherit;
-  font-size: 14.5px;
-  color: #17151f;
-  outline: none;
-}
-
-.search input:focus,
-.drawerSearch input:focus {
-  border-color: #5b46d9;
-  background: #ffffff;
-  box-shadow: 0 0 0 3px rgba(91, 70, 217, 0.14);
-}
-
-.searchIcon {
-  position: absolute;
-  left: 17px;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 18px;
-  color: #8a879a;
-  pointer-events: none;
-}
-
-/* ---------- cta ---------- */
-
-.cta {
-  display: inline-flex;
-  align-items: center;
-  gap: 9px;
-  flex: none;
-  height: 48px;
-  padding: 0 24px;
-  border-radius: 12px;
-  background: #5b46d9;
-  color: #ffffff;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
   text-decoration: none;
   white-space: nowrap;
-  transition: background 0.18s ease;
 }
+.tab { color: #4a4460; }
+.tab:hover { background: #f6f5fb; color: #171330; }
+.tabActive { background: #eeecfb; color: #4f419a; }
 
-.cta:hover {
-  background: #4f3dc2;
+/* ---------- search ---------- */
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  width: 220px;
+  padding: 9px 14px;
+  border-radius: 999px;
+  background: #f6f5fb;
+  border: 1px solid #ece9f5;
 }
+.search input {
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 13.5px;
+  color: #171330;
+  width: 100%;
+}
+.search input::placeholder { color: #9992b3; }
+.searchIcon { width: 16px; height: 16px; color: #9992b3; flex-shrink: 0; }
+
+/* ---------- subscribe CTA ---------- */
+
+.subscribe {
+  flex-shrink: 0;
+  padding: 10px 22px;
+  border-radius: 999px;
+  background: linear-gradient(100deg, #5b6ef5, #7b4fe0);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.subscribe:hover { filter: brightness(1.06); }
 
 /* ---------- mobile ---------- */
 
 .hamburger {
   display: none;
-  margin-left: auto;
-  padding: 10px;
-  border: 0;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
   border-radius: 8px;
-  background: transparent;
-  color: #2b2937;
-  font-size: 20px;
-  line-height: 0;
-  cursor: pointer;
+  border: 1px solid #ece9f5;
+  background: #fff;
+  color: #171330;
+  flex-shrink: 0;
 }
+/* Belt-and-suspenders: the icon also gets a `size` prop in Navbar.js (sets
+   the width/height HTML attributes). In one rendering environment this was
+   verified against (this project's browser-automation preview), neither
+   the CSS width below nor the size-prop attributes alone was enough to
+   correctly size an SVG inside an element toggled visible via a CSS media
+   query - only the two together resolved it. */
+.hamburger svg { width: 18px; height: 18px; }
 
-.hamburger:hover {
-  background: #f4f1fd;
-  color: #5b46d9;
-}
-
-.drawer,
-.drawerHidden {
+.drawerHidden { display: none; }
+.drawer {
   position: fixed;
-  top: 74px;
-  left: 0;
-  width: 100%;
-  height: calc(100vh - 74px);
-  overflow-y: auto;
-  background: #ffffff;
-  padding: 18px 20px 40px;
+  inset: 65px 0 0 0;
+  z-index: 998;
+  background: #fff;
+  padding: 20px;
   display: flex;
   flex-direction: column;
-  gap: 2px;
-}
-
-.drawerHidden {
-  display: none;
+  gap: 4px;
+  overflow-y: auto;
 }
 
 .drawerSearch {
-  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 14px;
+  border-radius: 999px;
+  background: #f6f5fb;
+  border: 1px solid #ece9f5;
   margin-bottom: 14px;
 }
-
-.drawerLink {
-  padding: 15px 2px;
-  font-size: 17px;
-  font-weight: 500;
-  color: #2b2937;
-  text-decoration: none;
-  border-bottom: 1px solid #eeebf7;
+.drawerSearch input {
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 14px;
+  color: #171330;
+  width: 100%;
 }
 
-.drawerLink:hover {
-  color: #5b46d9;
-}
-
-.drawerCta {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 9px;
-  margin-top: 20px;
-  height: 50px;
-  border-radius: 12px;
-  background: #5b46d9;
-  color: #ffffff;
+.drawerLink,
+.drawerLinkActive {
+  padding: 13px 12px;
+  border-radius: 10px;
   font-size: 15.5px;
   font-weight: 600;
   text-decoration: none;
 }
+.drawerLink { color: #171330; }
+.drawerLinkActive { background: #eeecfb; color: #4f419a; }
 
-.drawerSocials {
+.drawerCta {
   display: flex;
-  gap: 10px;
-  margin-top: 22px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 14px;
+  padding: 13px;
+  border-radius: 10px;
+  background: linear-gradient(100deg, #5b6ef5, #7b4fe0);
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
 }
 
-/* Drop the supporting promises before they can crowd the right-hand controls. */
-@media (max-width: 1250px) {
-  .promises {
-    display: none;
-  }
+@media (max-width: 1080px) {
+  .tabs { display: none; }
+  .search { display: none; }
 }
 
-@media (max-width: 1320px) {
-  .search {
-    max-width: 260px;
-  }
-
-  .navLink,
-  .navLinkActive {
-    padding: 9px 9px;
-    font-size: 14.5px;
-  }
-
-  .mainInner {
-    gap: 18px;
-    padding: 0 20px;
-  }
-}
-
-@media (max-width: 1180px) {
-  .search {
-    display: none;
-  }
-}
-
-@media (max-width: 1024px) {
-  .utility {
-    display: none;
-  }
-
-  .header {
-    top: 0;
-  }
-
-  .nav {
-    display: none;
-  }
-
-  .cta {
-    margin-left: auto;
-  }
-
-  .hamburger {
-    display: inline-flex;
-    margin-left: 0;
-  }
-}
-
-@media (max-width: 560px) {
-  .mainInner {
-    height: 64px;
-    gap: 12px;
-    padding: 0 16px;
-  }
-
-  .wordmark {
-    font-size: 20px;
-  }
-
-  .cta {
-    display: none;
-  }
-
-  .hamburger {
-    margin-left: auto;
-  }
-
-  .drawer,
-  .drawerHidden {
-    top: 64px;
-    height: calc(100vh - 64px);
-  }
+@media (max-width: 720px) {
+  .subscribe { display: none; }
+  .hamburger { display: flex; }
 }

@@ -1,4 +1,5 @@
-import { useMemo, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
+import { useRouter } from "next/router"
 import Head from "next/head"
 import Link from "next/link"
 import dynamic from "next/dynamic"
@@ -21,7 +22,28 @@ export default function Home({
   typeCounts,
   hasHeroPhoto,
 }) {
+  const router = useRouter()
   const [activeType, setActiveType] = useState("all")
+
+  // The navbar's Course Guides/Comparisons/Career Advice/Student Stories/
+  // Resources links point at /?type=<slug> - keeping this in sync with the
+  // URL (instead of local-only state) is what makes those links actually
+  // land on the right tab instead of just dropping the visitor on "All
+  // Articles" and silently ignoring the query string.
+  useEffect(() => {
+    if (!router.isReady) return;
+    const fromUrl = typeof router.query.type === "string" ? router.query.type : "all";
+    setActiveType(fromUrl);
+  }, [router.isReady, router.query.type]);
+
+  const handleTypeChange = (type) => {
+    setActiveType(type);
+    router.push(
+      { pathname: "/", query: type === "all" ? {} : { type } },
+      undefined,
+      { shallow: true }
+    );
+  };
 
   const visible = useMemo(
     () =>
@@ -52,7 +74,7 @@ export default function Home({
           <main className={styles.main}>
             <TypeTabs
               active={activeType}
-              onChange={setActiveType}
+              onChange={handleTypeChange}
               counts={typeCounts}
             />
 

@@ -1,36 +1,21 @@
-import React, { useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { useRouter } from "next/router"
-import {
-  LuGraduationCap,
-  LuMailPlus,
-  LuSearch,
-  LuArrowRight,
-} from "react-icons/lu"
-import { FaLinkedinIn, FaXTwitter, FaYoutube } from "react-icons/fa6"
-import { FaBars, FaTimes } from "react-icons/fa"
-import categories from "../../Data/blog/categories"
+import { LuSearch, LuMailPlus, LuMenu, LuX } from "react-icons/lu"
 import styles from "./Navbar.module.css"
 
-const promises = ["In-depth reviews", "Honest comparisons", "Career guidance"]
-
-const socials = [
-  {
-    href: "https://www.linkedin.com/company/skillslash",
-    label: "Skillslash on LinkedIn",
-    Icon: FaLinkedinIn,
-  },
-  {
-    href: "https://twitter.com/skillslash",
-    label: "Skillslash on X",
-    Icon: FaXTwitter,
-  },
-  {
-    href: "https://www.youtube.com/c/Skillslash",
-    label: "Skillslash on YouTube",
-    Icon: FaYoutube,
-  },
+// Each tab is a content-type filter on the homepage (pages/index.js reads
+// ?type=<slug> from the URL and pre-selects that TypeTabs tab), matched to
+// the closest existing type in Data/blog/types.js - not a made-up route, so
+// none of these are dead links.
+const TABS = [
+  { label: "Blog", type: "all" },
+  { label: "Course Guides", type: "programs" },
+  { label: "Comparisons", type: "course-comparison" },
+  { label: "Career Advice", type: "career" },
+  { label: "Student Stories", type: "stories" },
+  { label: "Resources", type: "certifications" },
 ]
 
 // Legacy course-page props (redirectDs, ads, event, ...) are still passed by a
@@ -39,7 +24,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false)
   const [term, setTerm] = useState("")
   const router = useRouter()
-  const { asPath } = router
+  const { asPath, pathname, query } = router
 
   useEffect(() => {
     setMenuOpen(false)
@@ -52,9 +37,10 @@ const Navbar = () => {
     }
   }, [menuOpen])
 
-  const activeCategory = asPath.startsWith("/category/")
-    ? asPath.replace("/category/", "").split("?")[0]
-    : null
+  // Only the homepage's own tabs can ever be "active" - every other page
+  // (course pages, category pages, the blog post page itself) correctly
+  // shows no active tab rather than a misleading one.
+  const activeType = pathname === "/" ? (typeof query.type === "string" ? query.type : "all") : null
 
   const submit = (event) => {
     event.preventDefault()
@@ -62,112 +48,62 @@ const Navbar = () => {
     router.push(next ? `/search?q=${encodeURIComponent(next)}` : "/search")
   }
 
+  const tabHref = (type) => (type === "all" ? "/" : `/?type=${type}`)
+
   return (
     <header className={styles.header}>
-      <div className={styles.utility}>
-        <div className={styles.utilityInner}>
-          <p className={styles.tagline}>
-            <LuGraduationCap className={styles.capIcon} aria-hidden="true" />
-            <span className={styles.taglineLead}>
-              Guiding your next step in tech education
-            </span>
-            <span className={styles.promises}>
-              {promises.map((promise) => (
-                <React.Fragment key={promise}>
-                  <span className={styles.divider} aria-hidden="true" />
-                  <span className={styles.promise}>{promise}</span>
-                </React.Fragment>
-              ))}
-            </span>
-          </p>
+      <div className={styles.inner}>
+        <Link href="/" className={styles.brand} aria-label="Skillslash home">
+          <Image
+            src="/favicon.jpg"
+            alt=""
+            width={40}
+            height={40}
+            quality={100}
+            priority
+            className={styles.mark}
+          />
+          <span className={styles.wordmark}>
+            Skill<span className={styles.wordmarkAccent}>Slash</span>
+          </span>
+        </Link>
 
-          <div className={styles.utilityRight}>
-            <Link href="/#newsletter" className={styles.subscribe}>
-              <LuMailPlus aria-hidden="true" />
-              Subscribe to Newsletter
-            </Link>
-            <span className={styles.divider} aria-hidden="true" />
+        <nav className={styles.tabs} aria-label="Content types">
+          {TABS.map((tab) => (
             <Link
-              href="/search"
-              className={styles.utilityIcon}
-              aria-label="Search articles"
+              key={tab.label}
+              href={tabHref(tab.type)}
+              className={activeType === tab.type ? styles.tabActive : styles.tab}
             >
-              <LuSearch />
+              {tab.label}
             </Link>
-            <span className={styles.divider} aria-hidden="true" />
-            {socials.map(({ href, label, Icon }) => (
-              <a
-                key={href}
-                href={href}
-                target="_blank"
-                rel="noreferrer"
-                aria-label={label}
-                className={styles.utilityIcon}
-              >
-                <Icon />
-              </a>
-            ))}
-          </div>
-        </div>
-      </div>
+          ))}
+        </nav>
 
-      <div className={styles.mainBar}>
-        <div className={styles.mainInner}>
-          <Link href="/" className={styles.brand} aria-label="Skillslash home">
-            <Image
-              src="/favicon.jpg"
-              alt=""
-              width={44}
-              height={44}
-              quality={100}
-              priority
-              className={styles.mark}
-            />
-            <span className={styles.wordmark}>Skillslash</span>
-          </Link>
+        <form className={styles.search} onSubmit={submit} role="search">
+          <LuSearch className={styles.searchIcon} aria-hidden="true" />
+          <input
+            type="search"
+            value={term}
+            onChange={(event) => setTerm(event.target.value)}
+            placeholder="Search articles..."
+            aria-label="Search articles"
+          />
+        </form>
 
-          <nav className={styles.nav} aria-label="Categories">
-            {categories.map((category) => (
-              <Link
-                key={category.slug}
-                href={`/category/${category.slug}`}
-                className={
-                  activeCategory === category.slug
-                    ? styles.navLinkActive
-                    : styles.navLink
-                }
-              >
-                {category.name}
-              </Link>
-            ))}
-          </nav>
+        <Link href="/#newsletter" className={styles.subscribe}>
+          Subscribe
+        </Link>
 
-          <form className={styles.search} onSubmit={submit} role="search">
-            <LuSearch className={styles.searchIcon} aria-hidden="true" />
-            <input
-              type="search"
-              value={term}
-              onChange={(event) => setTerm(event.target.value)}
-              placeholder="Search articles, programs, colleges..."
-              aria-label="Search articles"
-            />
-          </form>
-
-          <Link href="/search" className={styles.cta}>
-            Explore Programs
-            <LuArrowRight aria-hidden="true" />
-          </Link>
-
-          <button
-            type="button"
-            className={styles.hamburger}
-            onClick={() => setMenuOpen(!menuOpen)}
-            aria-expanded={menuOpen}
-            aria-label={menuOpen ? "Close menu" : "Open menu"}
-          >
-            {menuOpen ? <FaTimes /> : <FaBars />}
-          </button>
-        </div>
+        <button
+          type="button"
+          className={styles.hamburger}
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-expanded={menuOpen}
+          aria-label={menuOpen ? "Close menu" : "Open menu"}
+        >
+          {menuOpen ? <LuX size={18} /> : <LuMenu size={18} />}
+        </button>
       </div>
 
       <div className={menuOpen ? styles.drawer : styles.drawerHidden}>
@@ -177,44 +113,25 @@ const Navbar = () => {
             type="search"
             value={term}
             onChange={(event) => setTerm(event.target.value)}
-            placeholder="Search articles, programs, colleges..."
+            placeholder="Search articles..."
             aria-label="Search articles"
           />
         </form>
 
-        {categories.map((category) => (
+        {TABS.map((tab) => (
           <Link
-            key={category.slug}
-            href={`/category/${category.slug}`}
-            className={styles.drawerLink}
+            key={tab.label}
+            href={tabHref(tab.type)}
+            className={activeType === tab.type ? styles.drawerLinkActive : styles.drawerLink}
           >
-            {category.name}
+            {tab.label}
           </Link>
         ))}
 
-        <Link href="/#newsletter" className={styles.drawerLink}>
-          Subscribe to Newsletter
+        <Link href="/#newsletter" className={styles.drawerCta}>
+          <LuMailPlus aria-hidden="true" />
+          Subscribe
         </Link>
-
-        <Link href="/search" className={styles.drawerCta}>
-          Explore Programs
-          <LuArrowRight aria-hidden="true" />
-        </Link>
-
-        <div className={styles.drawerSocials}>
-          {socials.map(({ href, label, Icon }) => (
-            <a
-              key={href}
-              href={href}
-              target="_blank"
-              rel="noreferrer"
-              aria-label={label}
-              className={styles.utilityIcon}
-            >
-              <Icon />
-            </a>
-          ))}
-        </div>
       </div>
     </header>
   )
