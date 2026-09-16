@@ -177,39 +177,47 @@ const Hero = ({ hasPhoto = false }) => {
 
         <div className={styles.visual}>
           {hasPhoto ? (
+            // public/hero.jpg is the full composed graphic (photo, floating
+            // cards, handwritten annotations and trust badge all baked into
+            // one image) - the synthetic HTML overlays below are only for
+            // the illustrated <Scene /> fallback, so they're skipped here
+            // entirely rather than risking a duplicate, misaligned copy of
+            // content the image already contains.
             // eslint-disable-next-line @next/next/no-img-element
             <img src="/hero.jpg" alt="" className={styles.photo} />
           ) : (
-            <Scene />
-          )}
+            <>
+              <Scene />
 
-          <div className={styles.floatingStack}>
-            {floatingCards.map(({ Icon, title, subtitle }) => (
-              <div key={title} className={styles.floatingCard}>
-                <span className={styles.floatingIcon}>
-                  <Icon aria-hidden="true" />
-                </span>
-                <span>
-                  <strong>{title}</strong>
-                  <small>{subtitle}</small>
-                </span>
-                <LuArrowRight className={styles.floatingArrow} aria-hidden="true" />
+              <div className={styles.floatingStack}>
+                {floatingCards.map(({ Icon, title, subtitle }) => (
+                  <div key={title} className={styles.floatingCard}>
+                    <span className={styles.floatingIcon}>
+                      <Icon aria-hidden="true" />
+                    </span>
+                    <span>
+                      <strong>{title}</strong>
+                      <small>{subtitle}</small>
+                    </span>
+                    <LuArrowRight className={styles.floatingArrow} aria-hidden="true" />
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
 
-          <div className={styles.trustBadge}>
-            <div className={styles.avatarStack} aria-hidden="true">
-              <span />
-              <span />
-              <span />
-              <span />
-            </div>
-            <span>
-              <LuHeart aria-hidden="true" className={styles.trustHeart} />
-              Trusted by learners globally
-            </span>
-          </div>
+              <div className={styles.trustBadge}>
+                <div className={styles.avatarStack} aria-hidden="true">
+                  <span />
+                  <span />
+                  <span />
+                  <span />
+                </div>
+                <span>
+                  <LuHeart aria-hidden="true" className={styles.trustHeart} />
+                  Trusted by learners globally
+                </span>
+              </div>
+            </>
+          )}
         </div>
       </div>
     </section>
