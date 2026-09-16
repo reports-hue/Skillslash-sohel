@@ -234,14 +234,29 @@
 }
 .avatarStack span:first-child { margin-left: 0; }
 
+/* Tablet: single column, but the image and body copy should actually use
+   the tablet's real width - capping the image at a small fixed px (as if
+   it were still sharing a column with text) left it stranded in a sea of
+   empty space either side, while the text column looked comparatively
+   cramped despite having the same width available to it. */
 @media (max-width: 980px) {
   .inner {
     grid-template-columns: 1fr;
     padding: 40px 20px 32px;
   }
   .copy { max-width: none; }
-  .visual { order: -1; min-height: 360px; margin-bottom: 12px; }
-  .scene, .photo { max-width: 340px; }
+  .lede { max-width: none; }
+  .visual { order: -1; min-height: auto; margin-bottom: 28px; }
+  .scene, .photo { width: 100%; max-width: 640px; }
   .floatingStack { display: none; }
   .trustBadge { display: none; }
+}
+
+/* Phone: the image scales back down with the viewport instead of staying
+   pinned to the tablet tier's 640px cap (which would overflow or dominate
+   a narrow screen), but still fills the available width rather than
+   sitting small and centered. */
+@media (max-width: 560px) {
+  .inner { padding: 32px 16px 28px; }
+  .scene, .photo { max-width: 460px; }
 }
