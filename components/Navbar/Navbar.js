@@ -33,7 +33,7 @@ const CloseIcon = () => (
 // the closest existing type in Data/blog/types.js - not a made-up route, so
 // none of these are dead links.
 const TABS = [
-  { label: "Blog", type: "all" },
+  { label: "Articles", type: "all" },
   { label: "Course Guides", type: "programs" },
   { label: "Comparisons", type: "course-comparison" },
   { label: "Career Advice", type: "career" },
