@@ -17,18 +17,22 @@ const nextConfig = {
   // trace file that mode never produces (`ENOENT ... next-server.js.nft.json`).
   output: process.env.VERCEL ? undefined : "standalone",
 
-  // pages/sitemap.xml.js reads content/, SkillsContent/ and
-  // DigitalMarketingContent/ through a directory-name *variable*
-  // (slugsFromDir(dirName)), which defeats Turbopack's static analysis of
-  // the fs calls inside it - it can't tell which directories are actually
-  // needed, so its fallback is to trace and ship the *entire project* into
-  // that one serverless function (flagged as a build warning). Declaring the
-  // three directories this route actually reads keeps that function's
-  // deploy small and correct on every target that relies on file tracing -
-  // both Vercel's per-route functions and this project's own `output:
-  // "standalone"` bundle above.
+  // lib/sitemapCore.js's slugsFromDir(dirName) reads content/,
+  // SkillsContent/ or DigitalMarketingContent/ through a directory-name
+  // *variable*, which defeats Turbopack's static analysis of the fs calls
+  // inside it - it can't tell which directory a given sitemap route
+  // actually needs, so its fallback is to trace and ship the *entire
+  // project* into that one serverless function (flagged as a build
+  // warning). Declaring each sitemap branch's own directory here keeps
+  // that function's deploy small and correct on every target that relies
+  // on file tracing - both Vercel's per-route functions and this
+  // project's own `output: "standalone"` bundle above. pages/sitemap.xml.js
+  // (the index) and sitemap-pages/blog/categories.xml.js don't call
+  // slugsFromDir at all, so they need no entry here.
   outputFileTracingIncludes: {
-    "/sitemap.xml": ["content/**", "SkillsContent/**", "DigitalMarketingContent/**"],
+    "/sitemap-courses.xml": ["content/**"],
+    "/sitemap-selfpaced.xml": ["SkillsContent/**"],
+    "/sitemap-liveclass.xml": ["DigitalMarketingContent/**"],
   },
 
   // Next 16 removed `next build`'s built-in ESLint pass entirely (this used
