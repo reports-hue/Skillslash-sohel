@@ -115,6 +115,7 @@ async function buildSitemap() {
   // --- Blog: Navbar's content-type pages (pages/course-guides.js etc.) -
   // real routes now, replacing the old "/" + "?type=" query pattern, so
   // they belong in the sitemap the same way category pages do below. ---
+  entries.push(urlEntry(`${SITE_URL}/articles`, now, "0.9"));
   entries.push(urlEntry(`${SITE_URL}/course-guides`, now, "0.7"));
   entries.push(urlEntry(`${SITE_URL}/comparisons`, now, "0.7"));
   entries.push(urlEntry(`${SITE_URL}/career-advice`, now, "0.7"));

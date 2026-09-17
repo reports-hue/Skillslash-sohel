@@ -31,11 +31,13 @@ const CloseIcon = () => (
 // Each tab is its own real, server-rendered, indexable page (not a "/"
 // URL under a ?type= query string, which read to crawlers as the same
 // homepage repeated with a query param rather than distinct content) -
-// see pages/course-guides.js, pages/comparisons.js, pages/career-advice.js
-// and pages/resources.js, all built on the same pattern
-// pages/category/[slug].js already uses for categories.
+// see pages/articles.js, pages/course-guides.js, pages/comparisons.js,
+// pages/career-advice.js and pages/resources.js, all built on the same
+// pattern pages/category/[slug].js already uses for categories. "/" is
+// the landing page (pages/index.js), not the article list, so Articles
+// points at its own /articles page rather than "/".
 const TABS = [
-  { label: "Articles", href: "/" },
+  { label: "Articles", href: "/articles" },
   { label: "Course Guides", href: "/course-guides" },
   { label: "Comparisons", href: "/comparisons" },
   { label: "Career Advice", href: "/career-advice" },

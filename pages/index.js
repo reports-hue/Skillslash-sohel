@@ -1,12 +1,20 @@
-import { useEffect, useMemo, useState } from "react"
-import { useRouter } from "next/router"
+// The homepage is a landing page, not the article feed - it introduces
+// the site and routes a visitor into the right section (SectionShowcase),
+// rather than being an infinite list of posts itself. The full article
+// list lives at pages/articles.js; this page links to it like any other
+// section. Split out this way so "/" can be optimized as a landing page
+// (a clear value proposition, a real FAQ for AEO/GEO, fast to scan) while
+// pages/articles.js is optimized as a content hub (paginatable, crawlable
+// post listing) - the two had been the same page and same URL before,
+// which served neither job well.
+import dynamic from "next/dynamic"
 import Head from "next/head"
 import Link from "next/link"
-import dynamic from "next/dynamic"
 import { LuArrowRight } from "react-icons/lu"
 import Navbar from "../components/Navbar/Navbar"
 import Hero from "../components/Blog/Hero/Hero"
-import TypeTabs from "../components/Blog/TypeTabs/TypeTabs"
+import SectionShowcase from "../components/Blog/SectionShowcase/SectionShowcase"
+import HomeFaq from "../components/Blog/HomeFaq/HomeFaq"
 import PostCard from "../components/Blog/PostCard/PostCard"
 import { Newsletter, PopularArticles, TakeNextStep } from "../components/Blog/Sidebar/Sidebar"
 import posts from "../Data/blog/posts"
@@ -16,46 +24,11 @@ import styles from "../styles/blog.module.css"
 const Footer = dynamic(() => import("../components/Footer/Footer"))
 
 export default function Home({
-  sorted,
+  latestPosts,
   popularCategories,
   popularPosts,
-  typeCounts,
   hasHeroPhoto,
 }) {
-  const router = useRouter()
-  const [activeType, setActiveType] = useState("all")
-
-  // The navbar's Course Guides/Comparisons/Career Advice/Student Stories/
-  // Resources links point at /?type=<slug> - keeping this in sync with the
-  // URL (instead of local-only state) is what makes those links actually
-  // land on the right tab instead of just dropping the visitor on "All
-  // Articles" and silently ignoring the query string.
-  useEffect(() => {
-    if (!router.isReady) return;
-    const fromUrl = typeof router.query.type === "string" ? router.query.type : "all";
-    setActiveType(fromUrl);
-  }, [router.isReady, router.query.type]);
-
-  const handleTypeChange = (type) => {
-    setActiveType(type);
-    router.push(
-      { pathname: "/", query: type === "all" ? {} : { type } },
-      undefined,
-      { shallow: true }
-    );
-  };
-
-  const visible = useMemo(
-    () =>
-      activeType === "all"
-        ? sorted
-        : sorted.filter((post) => post.type === activeType),
-    [activeType, sorted]
-  )
-
-  const [featured, ...rest] = visible
-  const grid = rest.slice(0, 6)
-
   return (
     <div className={styles.page}>
       <Head>
@@ -70,42 +43,42 @@ export default function Home({
       <Hero hasPhoto={hasHeroPhoto} />
 
       <div className={styles.shell}>
+        <section className={styles.section} style={{ paddingBottom: 0 }}>
+          <div className={styles.sectionHead}>
+            <div>
+              <h2 className={styles.sectionTitle}>Explore Skillslash</h2>
+              <p className={styles.sectionDesc}>
+                Five ways into the same research: pick the one that matches what you're deciding right now.
+              </p>
+            </div>
+          </div>
+          <SectionShowcase />
+        </section>
+
         <div className={styles.layout}>
           <main className={styles.main}>
-            <TypeTabs
-              active={activeType}
-              onChange={handleTypeChange}
-              counts={typeCounts}
-            />
-
-            {featured ? (
-              <>
-                <div className={styles.sectionHead}>
-                  <h2 className={styles.sectionTitle}>Featured Article</h2>
-                </div>
-                <PostCard post={featured} variant="featured" />
-              </>
-            ) : (
-              <div className={styles.empty}>
-                <p className={styles.emptyTitle}>Nothing here yet</p>
-                <p className={styles.emptyText}>
-                  We have not published in this format yet. Try another tab.
-                </p>
-              </div>
-            )}
-
-            {grid.length ? (
-              <>
+            {latestPosts.length ? (
+              <section className={styles.section} style={{ paddingTop: 0 }}>
                 <div className={styles.sectionHead}>
                   <h2 className={styles.sectionTitle}>Latest Articles</h2>
+                  <Link href="/articles" className={styles.sectionLink}>
+                    View all articles <LuArrowRight aria-hidden="true" />
+                  </Link>
                 </div>
                 <div className={styles.grid}>
-                  {grid.map((post) => (
+                  {latestPosts.map((post) => (
                     <PostCard key={post.slug} post={post} />
                   ))}
                 </div>
-              </>
+              </section>
             ) : null}
+
+            <section className={styles.section}>
+              <div className={styles.sectionHead}>
+                <h2 className={styles.sectionTitle}>Frequently Asked Questions</h2>
+              </div>
+              <HomeFaq />
+            </section>
           </main>
 
           <aside className={styles.sidebar}>
@@ -116,7 +89,7 @@ export default function Home({
         </div>
 
         {popularCategories.map((category) => (
-          <section key={category.slug} className={styles.section}>
+          <section key={category.slug} className={styles.section} style={{ paddingTop: 0 }}>
             <div className={styles.sectionHead}>
               <div>
                 <h2 className={styles.sectionTitle}>{category.name}</h2>
@@ -149,8 +122,8 @@ export async function getStaticProps() {
   const path = require("path")
 
   // Merge in published CMS posts (written from /admin) alongside the
-  // hand-authored articles. `revalidate` below keeps this page mostly
-  // static while still picking up new/edited CMS posts within a minute.
+  // hand-authored articles, same as pages/articles.js, so the "Latest
+  // Articles" teaser below reflects everything actually published.
   let cmsPosts = []
   try {
     // Dynamic import, not a top-level one - see pages/category/[slug].js
@@ -177,6 +150,8 @@ export async function getStaticProps() {
     a.publishedAt < b.publishedAt ? 1 : -1
   )
 
+  const latestPosts = sorted.slice(0, 6)
+
   const popularCategories = categories
     .filter((category) => sorted.some((post) => post.category === category.slug))
     .map((category) => {
@@ -190,18 +165,13 @@ export async function getStaticProps() {
     .filter((post) => typeof post.popular === "number")
     .sort((a, b) => a.popular - b.popular)
 
-  const typeCounts = { all: sorted.length }
-  sorted.forEach((post) => {
-    typeCounts[post.type] = (typeCounts[post.type] || 0) + 1
-  })
-
   // The hero photo is optional: drop public/hero.jpg in and it is used.
   const hasHeroPhoto = fs.existsSync(
     path.join(process.cwd(), "public", "hero.jpg")
   )
 
   return {
-    props: { sorted, popularCategories, popularPosts, typeCounts, hasHeroPhoto },
+    props: { latestPosts, popularCategories, popularPosts, hasHeroPhoto },
     revalidate: 60,
   }
 }

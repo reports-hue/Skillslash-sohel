@@ -84,6 +84,7 @@ async function buildLlmsTxt() {
   lines.push("## Site");
   lines.push("");
   lines.push(mdLink("Homepage", `${SITE_URL}/`));
+  lines.push(mdLink("All Articles", `${SITE_URL}/articles`));
   lines.push(mdLink("Course Guides", `${SITE_URL}/course-guides`));
   lines.push(mdLink("Comparisons", `${SITE_URL}/comparisons`));
   lines.push(mdLink("Career Advice", `${SITE_URL}/career-advice`));

@@ -1,0 +1,24 @@
+.faqs {
+  max-width: 760px;
+}
+
+.faqItem {
+  border: 1px solid #ece9f7;
+  border-radius: 12px;
+  padding: 14px 18px;
+  margin-bottom: 10px;
+  background: #ffffff;
+}
+
+.faqItem summary {
+  font-weight: 700;
+  cursor: pointer;
+  color: #1d1b28;
+  font-size: 15px;
+}
+
+.faqItem p {
+  margin: 10px 0 0;
+  color: #565656;
+  line-height: 1.6;
+}
