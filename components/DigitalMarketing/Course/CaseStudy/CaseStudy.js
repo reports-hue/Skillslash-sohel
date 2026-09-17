@@ -1,9 +1,6 @@
 import { useState } from "react";
 import Image from "next/image"; // Import the Image component from next/image
 import styles from "./CaseStudy.module.css"; // Import CSS module
-import Form from "../../../Skills/Global/Form/Form";
-import Popup from "../../../Skills/Global/Popup/Popup";
-import { MdDownload } from "react-icons/md"; // Import MdDownload icon
 
 const CaseStudy = ({
   changeHeading,
@@ -14,7 +11,6 @@ const CaseStudy = ({
   redirectCaseS,
 }) => {
   const [activeTab, setActiveTab] = useState(0);
-  const [popups, setPopups] = useState(false);
 
   const tabs = [
     {
@@ -65,10 +61,6 @@ const CaseStudy = ({
     },
   ];
 
-  const popupShow = () => {
-    setPopups(true);
-  };
-
   const handleTabClick = (index) => {
     setActiveTab(index);
   };
@@ -79,24 +71,6 @@ const CaseStudy = ({
     <div className={styles.CaseStudyhead}>
       <h2>20+ Branded Case Studies</h2>
       <div className={styles.container}>
-        <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-          <div className="RightPopup">
-            {changeHeading ? (
-              <h5>Download Program Handbook</h5>
-            ) : (
-              <h5>
-                Get a chance to understand this course in detail from our
-                counsellors
-              </h5>
-            )}
-            <p>Fill the below Details to get started</p>
-            <Form
-              popup={true}
-              setTrigger={setPopups}
-              {...currentRedirect}
-            />
-          </div>
-        </Popup>
         <div className={styles.tab}>
           {tabs.map((tab, index) => (
             <div
@@ -160,14 +134,6 @@ const CaseStudy = ({
                   height={200}
                 />
               </div>
-              <button
-                id="clck-free-counselling"
-                onClick={popupShow}
-                className={styles.syllbtn}
-              >
-                All Case Studies
-                <MdDownload />
-              </button>
             </div>
           )}
         </div>
