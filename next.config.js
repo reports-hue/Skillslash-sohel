@@ -874,6 +874,10 @@ const nextConfig = {
     // never surfaces locally/on Docker, where uploads stay on local disk.
     remotePatterns: [
       { protocol: "https", hostname: "*.public.blob.vercel-storage.com" },
+      // Real YouTube video thumbnails for the testimonial cards
+      // (components/VideoTestimonial/VideoTestimonialSwiper.js), fetched by
+      // video id instead of shipping a static placeholder graphic per review.
+      { protocol: "https", hostname: "i.ytimg.com" },
     ],
     minimumCacheTTL: 120,
     // Next 16 requires every `quality` value a component actually passes to

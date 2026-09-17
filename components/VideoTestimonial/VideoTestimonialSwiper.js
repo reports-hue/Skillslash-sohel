@@ -72,8 +72,12 @@ const VideoTestimonialSwiper = ({ event, review }) => {
           return (
             <SwiperSlide key={data.id} id="1" className={styles.ReviewBox}>
               <div className={styles.profileWrapper}>
+                {/* The real YouTube thumbnail for this testimonial's own
+                    video, not a generic placeholder graphic - so what a
+                    visitor sees before clicking play is an actual frame
+                    from the video they're about to watch. */}
                 <Image
-                  src={data.img}
+                  src={`https://i.ytimg.com/vi/${data.link}/hqdefault.jpg`}
                   alt={data.alt}
                   loading="lazy"
                   fill={true}
