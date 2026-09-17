@@ -134,7 +134,7 @@ class MyDocument extends Document {
     };
 
     return (
-      <Html>
+      <Html lang="en">
         <Head>
           {/* Meta Pixel now loads from _app.js via next/script (strategy
               "lazyOnload") instead of here - a raw synchronous <script> in

@@ -1,6 +1,7 @@
 // import "tailwindcss/tailwind.css";
 import "../styles/globals.css";
 import "../styles/form.css";
+import Head from "next/head";
 import Script from "next/script";
 import { GoogleTagManager } from "@next/third-parties/google";
 import { Raleway} from "next/font/google";
@@ -15,6 +16,14 @@ const raleway= Raleway({
 function MyApp({ Component, pageProps }) {
   return (
     <>
+      {/* Declared here (next/head, inside the hydrated tree) rather than in
+          _document.js's own <Head> - Next's built-in default viewport tag is
+          only suppressed when a page's own <head> content declares one via
+          next/head; a tag added directly in _document.js doesn't suppress
+          it and produced a duplicate, conflicting viewport meta tag. */}
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
       {/* <Script
         type="text/javascript"
         id="zsiqchat"
