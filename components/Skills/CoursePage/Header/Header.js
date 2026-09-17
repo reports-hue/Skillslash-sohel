@@ -15,7 +15,18 @@ import {
 import ButtonWaveAnimation from "../../../ButtonWaveAnimation/WaveAnimation";
 import { PiCertificateBold, PiMedal } from "react-icons/pi";
 import VideoPlaylist from "../../Global/VideoPlaylist/VideoPlaylist";
+import TabData from "../../Global/VideoPlaylist/VideoData";
 import { ratingData } from "../../../../components/VideoTestimonial/ratingData";
+
+// Mirrors VideoPlaylist's own "which category plays first" logic (same
+// redirectDs/redirectFs/redirectDa priority, same default) so the hero
+// thumbnail is a real frame from the video that actually opens when it's
+// clicked, instead of a generic illustration unrelated to the video.
+function demoVideoId(redirectDs, redirectFs, redirectDa) {
+  if (redirectDs) return TabData[2].desc[0].link;
+  if (redirectFs) return TabData[1].desc[0].link;
+  return TabData[0].desc[0].link;
+}
 
 const Header = ({
   title,
@@ -270,8 +281,10 @@ const Header = ({
               /> */}
             
             </div></>):(<> <div onClick={() => showVideo(true)} id={idBtnV}>
+              {/* Real thumbnail of the demo video this click opens, not a
+                  generic course illustration - see demoVideoId() above. */}
               <Image
-                src={imgSrc}
+                src={`https://i.ytimg.com/vi/${demoVideoId(redirectDs, redirectFs, redirectDa)}/hqdefault.jpg`}
                 alt="headerImg"
                 fill
                 blurDataURL={rgbDataURL(237, 181, 6)}
