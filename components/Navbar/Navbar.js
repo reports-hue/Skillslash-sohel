@@ -28,16 +28,18 @@ const CloseIcon = () => (
   </svg>
 )
 
-// Each tab is a content-type filter on the homepage (pages/index.js reads
-// ?type=<slug> from the URL and pre-selects that TypeTabs tab), matched to
-// the closest existing type in Data/blog/types.js - not a made-up route, so
-// none of these are dead links.
+// Each tab is its own real, server-rendered, indexable page (not a "/"
+// URL under a ?type= query string, which read to crawlers as the same
+// homepage repeated with a query param rather than distinct content) -
+// see pages/course-guides.js, pages/comparisons.js, pages/career-advice.js
+// and pages/resources.js, all built on the same pattern
+// pages/category/[slug].js already uses for categories.
 const TABS = [
-  { label: "Articles", type: "all" },
-  { label: "Course Guides", type: "programs" },
-  { label: "Comparisons", type: "course-comparison" },
-  { label: "Career Advice", type: "career" },
-  { label: "Resources", type: "certifications" },
+  { label: "Articles", href: "/" },
+  { label: "Course Guides", href: "/course-guides" },
+  { label: "Comparisons", href: "/comparisons" },
+  { label: "Career Advice", href: "/career-advice" },
+  { label: "Resources", href: "/resources" },
 ]
 
 // Legacy course-page props (redirectDs, ads, event, ...) are still passed by a
@@ -46,7 +48,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false)
   const [term, setTerm] = useState("")
   const router = useRouter()
-  const { asPath, pathname, query } = router
+  const { asPath, pathname } = router
 
   useEffect(() => {
     setMenuOpen(false)
@@ -59,18 +61,11 @@ const Navbar = () => {
     }
   }, [menuOpen])
 
-  // Only the homepage's own tabs can ever be "active" - every other page
-  // (course pages, category pages, the blog post page itself) correctly
-  // shows no active tab rather than a misleading one.
-  const activeType = pathname === "/" ? (typeof query.type === "string" ? query.type : "all") : null
-
   const submit = (event) => {
     event.preventDefault()
     const next = term.trim()
     router.push(next ? `/search?q=${encodeURIComponent(next)}` : "/search")
   }
-
-  const tabHref = (type) => (type === "all" ? "/" : `/?type=${type}`)
 
   return (
     <header className={styles.header}>
@@ -94,8 +89,8 @@ const Navbar = () => {
           {TABS.map((tab) => (
             <Link
               key={tab.label}
-              href={tabHref(tab.type)}
-              className={activeType === tab.type ? styles.tabActive : styles.tab}
+              href={tab.href}
+              className={pathname === tab.href ? styles.tabActive : styles.tab}
             >
               {tab.label}
             </Link>
@@ -143,8 +138,8 @@ const Navbar = () => {
         {TABS.map((tab) => (
           <Link
             key={tab.label}
-            href={tabHref(tab.type)}
-            className={activeType === tab.type ? styles.drawerLinkActive : styles.drawerLink}
+            href={tab.href}
+            className={pathname === tab.href ? styles.drawerLinkActive : styles.drawerLink}
           >
             {tab.label}
           </Link>

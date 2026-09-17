@@ -112,6 +112,14 @@ async function buildSitemap() {
   entries.push(urlEntry(`${SITE_URL}/privacy-statement`, now, "0.3"));
   entries.push(urlEntry(`${SITE_URL}/refunds-cancellation`, now, "0.3"));
 
+  // --- Blog: Navbar's content-type pages (pages/course-guides.js etc.) -
+  // real routes now, replacing the old "/" + "?type=" query pattern, so
+  // they belong in the sitemap the same way category pages do below. ---
+  entries.push(urlEntry(`${SITE_URL}/course-guides`, now, "0.7"));
+  entries.push(urlEntry(`${SITE_URL}/comparisons`, now, "0.7"));
+  entries.push(urlEntry(`${SITE_URL}/career-advice`, now, "0.7"));
+  entries.push(urlEntry(`${SITE_URL}/resources`, now, "0.7"));
+
   // --- Blog: category pages (only ones that actually have a post) ---
   categories.forEach((category) => {
     const count = posts.filter((p) => p.category === category.slug).length;
