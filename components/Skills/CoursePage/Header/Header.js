@@ -67,13 +67,7 @@ const Header = ({
     );
   };
   return (
-    <div
-      className={`grid ${
-        hideSelling
-          ? "grid-cols-1"
-          : "grid-cols-[60%,39%] max-[901px]:grid-cols-[55%,44%]"
-      } max-[741px]:flex max-[741px]:flex-col max-sm:flex max-sm:flex-col gap-5 max-sm:mb-[10px] bg-[#111621] w-full mt-[40px] max-sm:mt-[60px] max-sm:pt-4 min-[1600px]:mt-[70px] px-28 max-[1024px]:px-10 min-[1600px]:px-48 max-sm:px-0 py-[60px] min-[1600px]:py-[90px] pb-[70px] max-sm:pb-[30px] max-sm:py-4 relative`}
-    >
+    <div className="grid grid-cols-[60%,39%] max-[741px]:flex max-[741px]:flex-col max-[901px]:grid-cols-[55%,44%] max-sm:flex max-sm:flex-col gap-5 max-sm:mb-[10px] bg-[#111621] w-full mt-[40px] max-sm:mt-[60px] max-sm:pt-4 min-[1600px]:mt-[70px] px-28 max-[1024px]:px-10 min-[1600px]:px-48 max-sm:px-0 py-[60px] min-[1600px]:py-[90px] pb-[70px] max-sm:pb-[30px] max-sm:py-4 relative">
       <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
         <div className="RightPopup">
           {changeHeading ? (
@@ -236,8 +230,8 @@ const Header = ({
         <p className="text-[#cccccc] w-[91%] min-[1600px]:w-[75%] text-[17px] max-sm:text-[16px] max-[1281px]:text-[16px] leading-[28px] max-sm:leading-[24px] font-light mt-2 max-sm:mt-2 min-[1600px]:text-[20px] max-sm:hidden">
           {desc}
         </p>
-        {!hideSelling && (
-          <div className="flex  gap-3  max-[642px]:w-[80%]">
+        <div className="flex  gap-3  max-[642px]:w-[80%]">
+          {!hideSelling && (
             <button
               className="w-full min-[642px]:w-max px-3 bg-[#f18350] text-[15px] text-white rounded py-2 font-medium  flex justify-center items-center max-sm:text-[12px] max-sm:px-2"
               id="clck-free-counselling"
@@ -245,6 +239,7 @@ const Header = ({
             >
               Free Counselling
             </button>
+          )}
            {dmPage ? (<> </>):(<> <button
               className="w-full min-[642px]:w-max text-[15px] px-3 border-[1px] bg-transparent border-solid border-[#fff] text-white rounded py-2 font-medium  flex justify-center items-center
             max-sm:text-[12px] max-sm:px-2"
@@ -254,10 +249,8 @@ const Header = ({
               Watch Demo{" "}
               <FaYoutube className="text-[#FF0000] text-[24px] max-sm:text-[16px]" />
             </button></>)}
-          </div>
-        )}
+        </div>
       </div>
-      {!hideSelling && (
       <div className="flex flex-col gap-7 relative w-full items-end justify-end">
         <div className="bg-white top-0 px-11 max-[1024px]:px-5 py-3 max-sm:px-0 rounded shadow flex flex-col w-full z-[1] max-sm:hidden absolute mt-28 max-[741px]:w-[52%] max-[741px]:top-0 max-[741px]:right-[-15px]">
           <div className="relative w-full  max-sm:w-[313px] h-[290px] max-[1281px]:h-[200px] max-sm:h-[220px] top-[-120px] max-sm:top-[-100px]  min-[1600px]:h-[320px] max-sm:left-7 max-sm:flex max-sm:justify-center">
@@ -296,6 +289,7 @@ const Header = ({
               />
             </div></>)}
           </div>
+          {!hideSelling && (
           <div className="flex gap-2 w-full items-center mt-[-100px] max-sm:mt-[120px] max-sm:px-4">
             <p className="text-[#000000] flex gap-4 text-2xl font-bold items-center mr-3 mb-2">
               {offerPrice}
@@ -315,7 +309,8 @@ const Header = ({
             />
             <p className="text-[#f18350] font-bold">({discount} Off)</p> */}
           </div>
-{dmPage ? (<>
+          )}
+{!hideSelling && (dmPage ? (<>
   <div className="flex flex-col gap-5 max-sm:px-4">
             {newDataScience ? (
               <>
@@ -392,8 +387,8 @@ const Header = ({
                 </>
               </>
             )}
-          </div></>)}
-         
+          </div></>))}
+
           <div className="flex flex-col gap-2 py-4">
             <h3 className="text-xl font-bold px-5 py-1">Course Content</h3>
             <hr />
@@ -563,7 +558,6 @@ const Header = ({
           </div>
         </div>
       </div>
-      )}
     </div>
   );
 };
