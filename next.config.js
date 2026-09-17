@@ -45,16 +45,19 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        // Contact and About pages were removed in the blog revamp.
+        // Contact page was removed in the blog revamp with no replacement.
         source: "/Contact-us",
         destination: "/",
         permanent: true,
       },
-      {
-        source: "/About",
-        destination: "/",
-        permanent: true,
-      },
+      // No /About -> /about redirect: Next.js matches a redirect `source`
+      // case-insensitively while the page router itself is case-sensitive
+      // (same gotcha documented further down for the Indore casing
+      // redirects), so a rule here would also catch requests to the real
+      // /about page itself and 308 it to its own URL forever. Verified live
+      // (curl -I /about looped 308 -> /about before this was removed).
+      // The old capital-A /About now 404s, same convention already used
+      // elsewhere in this file for a non-canonical casing.
       {
         // Careers and Verify a Certificate were removed - also dropped
         // from the footer (components/Footer/Footer.js).

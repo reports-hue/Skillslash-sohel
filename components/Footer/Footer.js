@@ -109,6 +109,9 @@ const Footer = () => {
 
         <nav className={styles.col} aria-label="Legal">
           <h2 className={styles.colTitle}>Legal</h2>
+          <Link href="/about" className={styles.link}>
+            About Skillslash
+          </Link>
           <Link href="/terms-of-use" className={styles.link}>
             Terms of Use
           </Link>

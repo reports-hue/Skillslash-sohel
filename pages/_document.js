@@ -118,6 +118,12 @@ class MyDocument extends Document {
       name: SITE_NAME,
       url: SITE_URL,
       logo: `${SITE_URL}/favicon.jpg`,
+      // Explicit, present-tense statement of what the site is today - the
+      // same identity every page's own description and llms.txt already
+      // state, now also machine-readable at the entity level. See
+      // pages/about.js for the full statement this is a summary of.
+      description:
+        "Skillslash helps people choose the right courses, certifications and degrees to grow their career in tech, through independent, researched comparisons and guidance.",
       sameAs: [
         "https://www.facebook.com/SkillSlash-100623872122442",
         "https://twitter.com/skillslash",
@@ -131,6 +137,7 @@ class MyDocument extends Document {
       "@type": "WebSite",
       name: SITE_NAME,
       url: SITE_URL,
+      description: DEFAULT_DESCRIPTION,
     };
 
     return (

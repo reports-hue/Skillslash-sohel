@@ -7,6 +7,7 @@ function buildSitemap() {
   const now = new Date().toISOString();
   const entries = [
     urlEntry(`${SITE_URL}/`, { lastmod: now, priority: "1.00", changefreq: "weekly" }),
+    urlEntry(`${SITE_URL}/about`, { lastmod: now, priority: "0.6", changefreq: "monthly" }),
     urlEntry(`${SITE_URL}/articles`, { lastmod: now, priority: "0.9", changefreq: "daily" }),
     urlEntry(`${SITE_URL}/course-guides`, { lastmod: now, priority: "0.7", changefreq: "weekly" }),
     urlEntry(`${SITE_URL}/comparisons`, { lastmod: now, priority: "0.7", changefreq: "weekly" }),

@@ -11,10 +11,11 @@ import categories from "../Data/blog/categories";
 const SITE_URL = "https://skillslash.com";
 const SITE_NAME = "Skillslash";
 const DESCRIPTION =
-  "Skillslash publishes independent comparisons of tech education programmes " +
-  "- course reviews, institute round-ups, certification guides and career " +
-  "advice - covering data science, artificial intelligence, DSA, cloud, " +
-  "full-stack/software development engineering, and master's degrees.";
+  "Skillslash helps people choose the right courses, certifications and " +
+  "degrees to grow their career in tech, through independent, researched " +
+  "comparisons and guidance - covering data science, artificial " +
+  "intelligence, DSA, cloud, full-stack/software development engineering, " +
+  "and master's degrees.";
 const DISCLOSURE =
   "Skillslash is a content publisher, not the training provider being " +
   "reviewed in any given article. Articles compare multiple institutes and " +
@@ -84,6 +85,7 @@ async function buildLlmsTxt() {
   lines.push("## Site");
   lines.push("");
   lines.push(mdLink("Homepage", `${SITE_URL}/`));
+  lines.push(mdLink("About Skillslash", `${SITE_URL}/about`));
   lines.push(mdLink("All Articles", `${SITE_URL}/articles`));
   lines.push(mdLink("Course Guides", `${SITE_URL}/course-guides`));
   lines.push(mdLink("Comparisons", `${SITE_URL}/comparisons`));
