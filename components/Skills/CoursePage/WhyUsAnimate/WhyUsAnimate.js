@@ -5,9 +5,6 @@ import ThirdFeature from "./ThreeFeature";
 import FourthFeature from "./FourthFeature";
 import Image from "next/image";
 import { motion, useScroll } from "framer-motion";
-import { FaDownload } from "react-icons/fa6";
-import Form from "../../Global/Form/Form";
-import Popup from "../../Global/Popup/Popup";
 
 const WhyUsAnimate = ({
   redirectDa,
@@ -49,10 +46,6 @@ const WhyUsAnimate = ({
       : "/cdn/meta.svg",
   ];
 
-  const [popups, setPopups] = useState(false);
-  const popupShow = (demoClass, changeText) => {
-    setPopups(true);
-  };
   return (
     <>
       {/* <div
@@ -86,28 +79,6 @@ const WhyUsAnimate = ({
         <div></div>
       </div>
     </div> */}
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-        <div className="RightPopup">
-          {changeHeading ? (
-            <h5>Download Program Handbook</h5>
-          ) : (
-            <h5>
-              Get a chance to understand this course in detail from our
-              counsellors
-            </h5>
-          )}
-          <p>Fill the below Details to get started</p>
-          <Form
-            popup={true}
-            setTrigger={setPopups}
-            redirectDs={redirectDs}
-            redirectFs={redirectFs}
-            redirectDa={redirectDa}
-            redirectDM={redirectDM}
-            redirectCertificate={redirectCertificate}
-          />
-        </div>
-      </Popup>
       <div className="mb-10">
      
         {(redirectDs || redirectDM || home) && (
@@ -276,17 +247,6 @@ const WhyUsAnimate = ({
                         </div>
                       </>
                     )}
-
-                    <>
-                      <div className="bg-black shadow d-flex justify-center items-center text-center rounded-lg px-7 py-4 flex flex-col gap-3 min-[481px]:w-[75%] h-[100%]">
-                        <h2 className="text-white">
-                          Download All 10+ Certificates{" "}
-                        </h2>
-                        <button onClick={() => popupShow()}>
-                          Download <FaDownload />
-                        </button>
-                      </div>
-                    </>
                   </div>
                 </>
               )}

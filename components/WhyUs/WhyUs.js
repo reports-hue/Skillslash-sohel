@@ -3,9 +3,6 @@ import { FaDownLong, FaRegCirclePlay } from "react-icons/fa6";
 import Image from "next/image";
 import { IoIosArrowBack } from "react-icons/io";
 import { motion, useScroll } from "framer-motion";
-import { FaDownload } from "react-icons/fa";
-import Form from "../Skills/Global/Form/Form";
-import Popup from "../Skills/Global/Popup/Popup";
 
 const WhyUs = ({ redirectDs, home, redirectDa, nomicrosoft, dmPage, redirectDM, changeHeading,redirectFs, redirectCertificate }) => {
   const certRef = useRef(null);
@@ -57,35 +54,9 @@ const WhyUs = ({ redirectDs, home, redirectDa, nomicrosoft, dmPage, redirectDM, 
     return () => clearInterval(intervalId);
   }, [currentIndex, imageSrc]);
 
-  const [popups, setPopups] = useState(false);
-  const popupShow = (demoClass, changeText) => {
-    setPopups(true);
-  };
   return (
-    
+
     <div className="py-14 flex flex-col gap-11 max-sm:hidden min-[1600px]:px-[150px] max-[741px]:mt-[70px] ">
-        <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-        <div className="RightPopup">
-          {changeHeading ? (
-            <h5>Download Program Handbook</h5>
-          ) : (
-            <h5>
-              Get a chance to understand this course in detail from our
-              counsellors
-            </h5>
-          )}
-          <p>Fill the below Details to get started</p>
-          <Form
-            popup={true}
-            setTrigger={setPopups}
-            redirectDs={redirectDs}
-            redirectFs={redirectFs}
-            redirectDa={redirectDa}
-            redirectDM={redirectDM}
-            redirectCertificate={redirectCertificate}
-          />
-        </div>
-      </Popup>
       {dmPage ? (<></>):(<> {nomicrosoft ? (
         <></>
       ) : (
@@ -506,9 +477,6 @@ const WhyUs = ({ redirectDs, home, redirectDa, nomicrosoft, dmPage, redirectDM, 
                   </div>
                 </>
               )}</>)}
-         <div className="flex justify-end">
-                     <button onClick={() => popupShow()} className="cursor-pointer">All Certificates <FaDownload/></button>
-                     </div>
             </div>
             
             <div className="w-full h-[220px] flex gap-2"></div>

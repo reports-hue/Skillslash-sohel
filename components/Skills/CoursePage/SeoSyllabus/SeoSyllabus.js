@@ -4,8 +4,6 @@ import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
 import { BiCheck } from "react-icons/bi";
 import { IoRemoveOutline } from "react-icons/io5";
 import { MdOutlineOnlinePrediction } from "react-icons/md";
-import Form from "../../Global/Form/Form";
-import Popup from "../../Global/Popup/Popup";
 import Tabs from "../../../DigitalMarketing/Course/Syllabus/Tab";
 
 function DataScienceSyllabus({
@@ -24,10 +22,6 @@ function DataScienceSyllabus({
   tabs,
 }) {
   const [state, setState] = useState(seoSyllabus);
-  const [popups, setPopups] = useState(false);
-  const popupShow = (demoClass, changeText) => {
-    setPopups(true);
-  };
   const handleChange = (index) => {
     setState(
       state.map((faq, i) => {
@@ -43,31 +37,10 @@ function DataScienceSyllabus({
 
   return (
     <section className={styles.Syllabus}>
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-        <div className="RightPopup">
-          <h5>Download Program Handbook</h5>
-          <p>Fill the below Details to get started</p>
-          <Form
-            popup={true}
-            setTrigger={setPopups}
-            redirectDs={redirectDs}
-            redirectFs={redirectFs}
-            redirectDa={redirectDa}
-            redirectDM={redirectDM}
-    
-           
-          />
-        </div>
-      </Popup>
       <div className={styles.syllabusLeft}>
         <div className={styles.Syllabusbutton}>
           <div>
             <h2 className="text-[#f18350]">{heading}</h2>
-          </div>
-          <div>
-            <button onClick={() => popupShow()} id="clck-download-syllabus">
-              Download Syllabus
-            </button>
           </div>
         </div>
         <p>{syllabusDesc}</p>
@@ -150,15 +123,6 @@ function DataScienceSyllabus({
                               </div>
                             );
                           })}
-                          <div className="flex gap-2 items-center mt-3">
-                            <p>For more details </p>
-                            <button
-                              onClick={() => popupShow()}
-                              className="px-4 py-[8px] text-sm font-normal"
-                            >
-                              Download Syllabus
-                            </button>
-                          </div>
                         </div>
                       ) : (
                         ""
@@ -176,29 +140,6 @@ function DataScienceSyllabus({
         
         redirectgrowth={redirectgrowth}
         redirectsocialSeo={redirectsocialSeo}/>
-      </div>
-
-      <div>
-        <div className={styles.syllabusRight}>
-          <h5 className={styles.rightHeading}>
-            Understand the complete program in 15 mins
-          </h5>
-          <p className={styles.rightDesc}>
-            Speak with out counsellors to understand the program in details and
-            clarify your doubts
-          </p>
-          <div>
-            <Form
-              redirectDs={redirectDs}
-              redirectFs={redirectFs}
-              redirectDa={redirectDa}
-              redirectDM={redirectDM}
-              redirectgrowth={redirectgrowth}
-              redirectsocialSeo={redirectsocialSeo}
-              redirectPerforSocia={redirectPerforSocia}
-            />
-          </div>
-        </div>
       </div>
     </section>
   );

@@ -14,6 +14,12 @@
   grid-template-columns: 59% 32%;
   gap: 100px;
 }
+/* Single-column variant of .BoxDiv for pages with the lead-gen form
+   column removed (components/Course/Boxshape/BoxShape.js) - the feature
+   boxes alone, full width, instead of a 59% column with a blank gap. */
+.BoxDivNoForm {
+  display: block;
+}
 .left {
   display: flex;
   flex-flow: column;

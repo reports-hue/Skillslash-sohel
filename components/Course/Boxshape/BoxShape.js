@@ -1,8 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import dynamic from "next/dynamic";
 import styles from "./BoxShape.module.css";
-const Form = dynamic(() => import("../../Form/Form"));
 
 const BoxShape = ({
   title,
@@ -33,7 +31,7 @@ const BoxShape = ({
       {seoPage ? (
         ""
       ) : (
-        <div className={styles.BoxDiv}>
+        <div className={styles.BoxDivNoForm}>
           <div className={styles.left}>
             <h2>{title}</h2>
 
@@ -101,28 +99,6 @@ const BoxShape = ({
                   <h5>{Box4h5}</h5>
                   <p>{box4desc}</p>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div className={styles.right}>
-            <div className={styles.imgBack}>
-              <div className={styles.formWrapper}>
-                <div className={styles.formHeadWrap}>
-                  <h5>
-                    Land In Your Dream Job With <br />
-                    <span>Real Work Experience</span>
-                  </h5>
-                </div>
-                <Form
-                  dataScience={dataScience}
-                  redirectDs={redirectDs}
-                  redirectFs={redirectFs}
-                  redirectBa={redirectBa}
-                  redirectBl={redirectBl}
-                  redirectDe={redirectDe}
-                  redirectDSA={redirectDSA}
-                  redirectWeb={redirectWeb}
-                />
               </div>
             </div>
           </div>

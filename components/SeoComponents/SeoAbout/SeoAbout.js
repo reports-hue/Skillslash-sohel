@@ -2,10 +2,8 @@ import React, { useState } from "react";
 import styles from "./SeoAbout.module.css";
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
 import Link from "next/link";
-import Form from "../../../components/Skills/Global/Form/Form";
 import { BiCheck } from "react-icons/bi";
 import Image from "next/image";
-import Popup from "../../Popup/Popup";
 
 function DataScienceSyllabus({
   seoAbout,
@@ -20,11 +18,6 @@ function DataScienceSyllabus({
   redirectDSA,
   seoAboutHeading,
 }) {
-  const [popups, setPopups] = useState(false);
-
-  const popupShow = () => {
-    setPopups(true);
-  };
   const [state, setState] = useState(seoAbout);
 
   const handleChange = (index) => {
@@ -42,35 +35,6 @@ function DataScienceSyllabus({
 
   return (
     <section className={styles.Syllabus}>
-      <Popup
-        trigger={popups}
-        setTrigger={setPopups}
-        className="popupModal"
-        downloadBrochure
-      >
-        <div className="leftPopup">
-          <div
-            className="whiteP"
-            style={{ width: "350px", height: "400px" }}
-          ></div>
-        </div>
-        <div className="RightPopup">
-          <h5>{popupHead}</h5>
-          <p>Please enter the following details to initiate your download</p>
-          <Form
-            setTrigger={setPopups}
-            downloadBrochure
-            dataScience={dataScience}
-            redirectDs={redirectDs}
-            redirectFs={redirectFs}
-            redirectBa={redirectBa}
-            redirectBl={redirectBl}
-            redirectDe={redirectDe}
-            redirectWeb={redirectWeb}
-            redirectDSA={redirectDSA}
-          />
-        </div>
-      </Popup>
       <div className={styles.syllabusLeft}>
         <div className={styles.Syllabusbutton}>
           <div>
@@ -199,19 +163,6 @@ function DataScienceSyllabus({
             );
           })}
         </ul>
-      </div>
-      {/* Right-side Form Part */}
-      <div className={styles.syllabusRight}>
-        <div className={styles.syllabusRight}>
-          <div className={styles.PProgrammain} style={{ marginTop: "20px" }}>
-            <div className={styles.PProgram}>
-              <p className={styles.req}>Request More Information</p>
-            </div>
-            <div className={styles.PProgramInner}>
-              <Form />
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

@@ -1,6 +1,8 @@
 .Syllabus {
-  display: grid;
-  grid-template-columns: 70% 30%;
+  /* Single column now that the lead-gen "Request More Information" form
+     column is removed (components/SeoComponents/SeoAbout/SeoAbout.js) -
+     was a 70%/30% grid split with the form. */
+  display: block;
   margin: 10px 100px 100px 100px;
 }
 .syllabusLeft {

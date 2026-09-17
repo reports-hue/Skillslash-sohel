@@ -4,11 +4,9 @@ import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
 
 import Link from "next/link";
 import { AiOutlineTool } from "react-icons/ai";
-import Form from "../../Form/Form";
 import { BiCheck, BiTimeFive } from "react-icons/bi";
 import { BsDot } from "react-icons/bs";
 import Image from "next/image";
-import Popup from "../../Popup/Popup";
 
 function DataScienceSyllabus({
   seoSyllabus,
@@ -24,11 +22,6 @@ function DataScienceSyllabus({
   redirectDSA,
   heading,
 }) {
-  const [popups, setPopups] = useState(false);
-
-  const popupShow = () => {
-    setPopups(true);
-  };
   const [state, setState] = useState(seoSyllabus);
 
   const handleChange = (index) => {
@@ -46,44 +39,10 @@ function DataScienceSyllabus({
 
   return (
     <section className={styles.Syllabus}>
-      <Popup
-        trigger={popups}
-        setTrigger={setPopups}
-        className="popupModal"
-        downloadBrochure
-      >
-        <div className="leftPopup">
-          <div
-            className="whiteP"
-            style={{ width: "350px", height: "400px" }}
-          ></div>
-        </div>
-        <div className="RightPopup">
-          <h5>{popupHead}</h5>
-          <p>Please enter the following details to initiate your download</p>
-          <Form
-            setTrigger={setPopups}
-            downloadBrochure
-            dataScience={dataScience}
-            redirectDs={redirectDs}
-            redirectFs={redirectFs}
-            redirectBa={redirectBa}
-            redirectBl={redirectBl}
-            redirectDe={redirectDe}
-            redirectWeb={redirectWeb}
-            redirectDSA={redirectDSA}
-          />
-        </div>
-      </Popup>
       <div className={styles.syllabusLeft}>
         <div className={styles.Syllabusbutton}>
           <div>
             <h2>{heading}</h2>
-          </div>
-          <div>
-            <button className={styles.buttonDownload} onClick={popupShow}>
-              Download Brochure
-            </button>
           </div>
         </div>
         <p>{syllabusDesc}</p>
@@ -261,9 +220,6 @@ function DataScienceSyllabus({
               <span>Tools and Project</span>
             </div>
           </div>
-          <button className={styles.buttonDownload} onClick={popupShow}>
-            Download Brochure
-          </button>
         </div>
       </div>
     </section>
