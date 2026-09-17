@@ -263,6 +263,16 @@ const nextConfig = {
         permanent: true,
       },
 
+      {
+        // /blog itself (no sub-path) has no index page - the blog's home is
+        // the site root (Navbar's "Articles" tab links to "/", not "/blog";
+        // see components/Navbar/Navbar.js's tabHref). Was a real 404 for
+        // anyone hitting the bare legacy root URL.
+        source: "/blog",
+        destination: "/",
+        permanent: true,
+      },
+
       // Legacy /blog/<topic> hubs from the old WordPress blog, mapped to the
       // closest category on the new blog. Topics with no equivalent
       // (block-chain, cyber-security, iot) are deliberately left as 404s -
