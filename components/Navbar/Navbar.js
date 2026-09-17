@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { useRouter } from "next/router"
-import { LuSearch, LuMailPlus } from "react-icons/lu"
+import { LuSearch, LuMailPlus, LuHome } from "react-icons/lu"
 import styles from "./Navbar.module.css"
 
 // Plain inline SVG, not a react-icons component: the mobile menu toggle was
@@ -34,9 +34,11 @@ const CloseIcon = () => (
 // see pages/articles.js, pages/course-guides.js, pages/comparisons.js,
 // pages/career-advice.js and pages/resources.js, all built on the same
 // pattern pages/category/[slug].js already uses for categories. "/" is
-// the landing page (pages/index.js), not the article list, so Articles
-// points at its own /articles page rather than "/".
+// the landing page (pages/index.js), not the article list - the brand
+// logo already links there, but a dedicated Home tab makes it a visible,
+// explicit menu choice rather than something only implied by the logo.
 const TABS = [
+  { label: "Home", href: "/", Icon: LuHome },
   { label: "Articles", href: "/articles" },
   { label: "Course Guides", href: "/course-guides" },
   { label: "Comparisons", href: "/comparisons" },
@@ -94,6 +96,7 @@ const Navbar = () => {
               href={tab.href}
               className={pathname === tab.href ? styles.tabActive : styles.tab}
             >
+              {tab.Icon && <tab.Icon aria-hidden="true" className={styles.tabIcon} />}
               {tab.label}
             </Link>
           ))}
@@ -143,6 +146,7 @@ const Navbar = () => {
             href={tab.href}
             className={pathname === tab.href ? styles.drawerLinkActive : styles.drawerLink}
           >
+            {tab.Icon && <tab.Icon aria-hidden="true" className={styles.tabIcon} />}
             {tab.label}
           </Link>
         ))}

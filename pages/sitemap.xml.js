@@ -26,7 +26,9 @@ function buildIndex() {
   const entries = CHILD_SITEMAPS.map(
     (name) => `<sitemap><loc>${SITE_URL}/${name}</loc><lastmod>${now}</lastmod></sitemap>`
   );
-  return `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">\n${entries.join(
+  // Same fixed-string namespace requirement as lib/sitemapCore.js's
+  // urlset() - must be "http://" (no s).
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries.join(
     "\n"
   )}\n</sitemapindex>`;
 }
