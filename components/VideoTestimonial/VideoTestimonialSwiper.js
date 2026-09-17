@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Pagination, FreeMode } from "swiper";
+import { Pagination, FreeMode, Autoplay } from "swiper";
 import Image from "next/image";
 import VideoPopup from "../VideoPopup/VideoPopup";
 
@@ -60,7 +60,12 @@ const VideoTestimonialSwiper = ({ event, review }) => {
         style={{ "--swiper-theme-color": "#4f419a" }}
         loopFillGroupWithBlank={true}
         grabCursor={true}
-        modules={[FreeMode, Pagination]}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true,
+        }}
+        modules={[FreeMode, Pagination, Autoplay]}
         className="mySwiper"
       >
         {review.map((data) => {
