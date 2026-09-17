@@ -1,0 +1,64 @@
+.updated {
+  margin: 0;
+  font-size: 13px;
+  color: #9992b3;
+}
+
+.body {
+  max-width: 760px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #3a3846;
+}
+
+.body h2 {
+  margin: 36px 0 14px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #1d1b28;
+}
+
+.body h2:first-child {
+  margin-top: 0;
+}
+
+.body h3 {
+  margin: 28px 0 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #1d1b28;
+}
+
+.body p {
+  margin: 0 0 16px;
+}
+
+/* Tailwind's base/preflight layer (styles/globals.css's @tailwind base)
+   resets list-style to none and strips ul/ol margin+padding globally -
+   restored explicitly here since this is real prose, not a UI widget. */
+.body ul {
+  list-style: disc;
+  margin: 0 0 16px;
+  padding-left: 22px;
+}
+
+.body ol {
+  list-style: decimal;
+  margin: 0 0 16px;
+  padding-left: 22px;
+}
+
+.body li {
+  display: list-item;
+  margin-bottom: 8px;
+}
+
+.body a {
+  color: #4f419a;
+  text-decoration: underline;
+}
+
+.body strong,
+.body b {
+  color: #1d1b28;
+}

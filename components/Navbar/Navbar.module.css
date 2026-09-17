@@ -12,6 +12,15 @@
   padding: 14px 24px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  /* .tabs has flex:1 and fills the remaining row on desktop, which is
+     what actually spaces brand/tabs/search/subscribe apart there - this
+     justify-content only matters once .tabs (and .search, .subscribe)
+     are display:none at narrower widths and the hamburger is the sole
+     item left after the logo. Without it, the hamburger sat flush next
+     to the logo with a dead empty stretch of header on the right
+     (reported live: only logo + hamburger visible at that width, hugged
+     together on the left) instead of at the row's far end. */
   gap: 14px;
 }
 
