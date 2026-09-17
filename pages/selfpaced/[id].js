@@ -11,16 +11,10 @@ import WhyUsAnimate from "../../components/Skills/CoursePage/WhyUsAnimate/WhyUsA
 import WhyUs from "../../components/WhyUs/WhyUs";
 import VideoTestimonial from "../../components/VideoTestimonial/VideoTestimonial";
 import Reviews from "../../components/Review/Reviews";
-import DetailTable from "../../components/Skills/CoursePage/DetailTable/DetailTable";
 import Learn from "../../components/Skills/CoursePage/Learn/Learn";
 import Footer from "../../components/Footer/Footer";
-import CTA from "../../components/CTA/CTA";
-import BottomPrice from "../../components/Skills/BottomPrice/BottomPrice";
 import SkillsContent from "../../components/Skills/CoursePage/SkillsContent/SkillsContent";
-import PricingSection from "../../components/Skills/CoursePage/PricingSection/PricingSection"
-import CareerSupport from "../../components/Skills/CoursePage/CareerSupport/CareerSupport"
 import ToolsCovered from "../../components/Skills/CoursePage/ToolsCovered/ToolsCovered";
-import PriceCompare from "../../components/Skills/CoursePage/PriceCompare/PriceCompare";
 
 // "-ac1" / "-ps1" slugs are ad-campaign copies of an existing landing page
 // with identical copy. Paid traffic still lands on them, so they stay live,
@@ -30,15 +24,6 @@ const CAMPAIGN_VARIANT = /-(ac1|ps1)$/;
 const DataSciencePage = ({ DataScienceCourseData, slug }) => {
   const canonicalSlug = slug.replace(CAMPAIGN_VARIANT, "");
   const [showNigeriaForm, setShowNigeriaForm] = useState(false);
-  const [actualPrice, setActualPrice] = useState(
-    DataScienceCourseData.data.header.actualPrice
-  );
-  const [offerPrice, setOfferPrice] = useState(
-    DataScienceCourseData.data.header.offerPrice
-  );
-  const [link, setLink] = useState(
-    DataScienceCourseData.data.header.indCheckout
-  );
 
   // useEffect(() => {
   //   const fetchLocation = async () => {
@@ -108,14 +93,14 @@ const DataSciencePage = ({ DataScienceCourseData, slug }) => {
         imgSrc={DataScienceCourseData.data.header.imgSrc}
         hrs={DataScienceCourseData.data.header.hour}
         certification={DataScienceCourseData.data.header.certification}
-        offerPrice={offerPrice}
-        actualPrice={actualPrice}
-        checkoutLink={link}
+        offerPrice={DataScienceCourseData.data.header.offerPrice}
+        actualPrice={DataScienceCourseData.data.header.actualPrice}
         discount={DataScienceCourseData.data.header.discount}
         link={DataScienceCourseData.data.header.link}
         redirectDs={DataScienceCourseData.data.header.dataScience}
         redirectDa={DataScienceCourseData.data.header.dataAnalytics}
         nomicrosoft={DataScienceCourseData.data.header.nomicrosoft}
+        hideSelling
       />
       <Learn
         firstPoint={DataScienceCourseData.data.header.firstPoint}
@@ -132,16 +117,7 @@ const DataSciencePage = ({ DataScienceCourseData, slug }) => {
         redirectDa={DataScienceCourseData.data.header.dataAnalytics}
         nomicrosoft={DataScienceCourseData.data.header.nomicrosoft}
 
-      /> 
-      <PricingSection
-        offerPrice={offerPrice}
-        actualPrice={actualPrice}
-        redirectDs={DataScienceCourseData.data.header.dataScience}
-        redirectFs={DataScienceCourseData.data.header.FullStack}
-        redirectDa={DataScienceCourseData.data.header.dataAnalytics}
-        checkoutLink={DataScienceCourseData.data.header.indCheckout}
       />
-      <CareerSupport />
       <div id="modules">
         <DataScienceSyllabus
           NigeriaForm={showNigeriaForm}
@@ -171,16 +147,6 @@ const DataSciencePage = ({ DataScienceCourseData, slug }) => {
           redirectFs={DataScienceCourseData.data.header.FullStack}
         />
       </div>
-      <PriceCompare
-        hrs={DataScienceCourseData.data.header.hour}
-        offerPrice={offerPrice}
-        otherHr={DataScienceCourseData.data.header.otherHr}
-        liveHr={DataScienceCourseData.data.header.liveHr}
-        redirectDs={DataScienceCourseData.data.header.dataScience}
-        redirectFs={DataScienceCourseData.data.header.FullStack}
-        redirectDa={DataScienceCourseData.data.header.dataAnalytics}
-        nomicrosoft={DataScienceCourseData.data.header.nomicrosoft}
-      />
       <div id="certificate">
         <WhyUs
           redirectDs={DataScienceCourseData.data.header.dataScience}
@@ -208,17 +174,6 @@ const DataSciencePage = ({ DataScienceCourseData, slug }) => {
 
       <Reviews redirectFs={DataScienceCourseData.data.header.FullStack} />
 
-      <DetailTable
-        offerPrice={actualPrice}
-        hrs={DataScienceCourseData.data.header.hour}
-        otherHr={DataScienceCourseData.data.header.otherHr}
-        liveHr={DataScienceCourseData.data.header.liveHr}
-        redirectDs={DataScienceCourseData.data.header.dataScience}
-        redirectFs={DataScienceCourseData.data.header.FullStack}
-        redirectDa={DataScienceCourseData.data.header.dataAnalytics}
-        nomicrosoft={DataScienceCourseData.data.header.nomicrosoft}
-      />
-
       {/* <WhyUsAnimate /> */}
       {/* <CourseDetails hour={DataScienceCourseData.data.header.hour} /> */}
 
@@ -229,16 +184,6 @@ const DataSciencePage = ({ DataScienceCourseData, slug }) => {
         />
       </div>
       <Footer />
-      <BottomPrice
-        checkoutLink={DataScienceCourseData.data.header.indCheckout}
-        offerPrice={offerPrice}
-        actualPrice={actualPrice}
-        redirectDs={DataScienceCourseData.data.header.dataScience}
-        redirectFs={DataScienceCourseData.data.header.FullStack}
-        redirectDa={DataScienceCourseData.data.header.dataAnalytics}
-        link={DataScienceCourseData.data.header.link}
-        nomicrosoft={DataScienceCourseData.data.header.nomicrosoft}
-      />
       {/* <MiddlePopup
         redirectDs={DataScienceCourseData.data.header.dataScience}
         redirectDa={DataScienceCourseData.data.header.dataAnalytics}

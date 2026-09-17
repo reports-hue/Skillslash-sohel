@@ -32,8 +32,6 @@ const DataScienceSyllabus = dynamic(() =>
 );
 // const Navbar = dynamic(() => import("../components/Navbar/Navbar"));
 import Navbar from "../components/Navbar/Navbar";
-const Emi = dynamic(() => import("../components/Course/EMI/Emi"));
-const BatchDates = dynamic(() => import("../components/Batch/BatchDates"));
 const ProjectSlider = dynamic(() =>
   import("../components/Skills/Global/Project/ProjectSlider")
 );
@@ -69,8 +67,6 @@ import Learn from "../components/Skills/CoursePage/Learn/Learn";
 import WhyUs from "../components/WhyUs/WhyUs";
 import Slider from "../components/Animation/Slider/Slider";
 import SkillsContent from "../components/Skills/CoursePage/SkillsContent/SkillsContent";
-import PricingSection from "../components/Skills/CoursePage/PricingSection/PricingSection";
-import BottomPrice from "../components/Skills/BottomPrice/BottomPrice";
 // import Newsletter from "../components/Newsletter/Newsletter";
 const VideoTestimonial = dynamic(() =>
   import("../components/VideoTestimonial/VideoTestimonial")
@@ -94,8 +90,6 @@ export default function Home({
   const redirectWeb = DataScienceCourseData.data.form.webDevelopment;
   const redirectBa = DataScienceCourseData.data.form.BusinessAnalytics;
   const redirectBl = DataScienceCourseData.data.form.blockchain;
-  let pageName;
-  const [batchDateData, setBatchDateData] = useState("");
 
   // const getHired = useRef();
   // const trainer = useRef();
@@ -111,15 +105,6 @@ export default function Home({
   const today = new Date();
 
   const [showNigeriaForm, setShowNigeriaForm] = useState(false);
-  const [actualPrice, setActualPrice] = useState(
-    DataScienceCourseData.data.header.actualPrice
-  );
-  const [offerPrice, setOfferPrice] = useState(
-    DataScienceCourseData.data.header.offerPrice
-  );
-  const [link, setLink] = useState(
-    DataScienceCourseData.data.header.indCheckout
-  );
 
   useEffect(() => {
     let width = window.innerWidth;
@@ -135,43 +120,6 @@ export default function Home({
       setMobile(false);
       setTablet(false);
     }
-  }, []);
-
-  //for batch date
-  useEffect(() => {
-    if (redirectDs) {
-      pageName = "Adv Data Science and AI";
-    }
-    if (redirectFs) {
-      pageName = "Full Stack Developer course with certification";
-    }
-    if (redirectBl) {
-      pageName = "Full Stack Developer course with certification";
-    }
-    if (redirectBa) {
-      pageName = "Business Analytics Program For Professionals";
-    }
-    if (redirectDSA) {
-      pageName = "Data Structures and Algorithms + System Design";
-    }
-    if (redirectWeb) {
-      pageName = "Web Development Course";
-    }
-
-    const fetchBatch = async () => {
-      const data = await fetch("/api/v1/getBatchDate", {
-        method: "POST",
-        body: JSON.stringify(pageName),
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
-      if (data.status === 200) {
-        const { batchDate } = await data.json();
-        setBatchDateData(batchDate);
-      }
-    };
-    fetchBatch();
   }, []);
 
   //for pageData
@@ -346,6 +294,7 @@ export default function Home({
             redirectDs={DataScienceCourseData.data.header.dataScience}
             redirectDa={DataScienceCourseData.data.header.dataAnalytics}
             nomicrosoft={DataScienceCourseData.data.header.nomicrosoft}
+            hideSelling
           />
           <Learn
             firstPoint={DataScienceCourseData.data.header.firstPoint}
@@ -363,15 +312,6 @@ export default function Home({
             redirectDa={DataScienceCourseData.data.header.dataAnalytics}
             nomicrosoft={DataScienceCourseData.data.header.nomicrosoft}
           />
-          <PricingSection
-            offerPrice={offerPrice}
-            actualPrice={actualPrice}
-            redirectDs={DataScienceCourseData.data.header.dataScience}
-            redirectFs={DataScienceCourseData.data.header.FullStack}
-            redirectDa={DataScienceCourseData.data.header.dataAnalytics}
-            checkoutLink={DataScienceCourseData.data.header.indCheckout}
-          />
-
           {/* <AutoPopUp /> */}
 
           {/* <div className={styles.program}>
@@ -564,45 +504,6 @@ export default function Home({
           </div>
         </div>
 
-        <div id="fee">
-          <Emi
-            web={DataScienceCourseData.data.form.webDevelopment}
-            price={DataScienceCourseData.data.Fee.ProPrice}
-            emi={DataScienceCourseData.data.Fee.emi}
-            redirectDs={DataScienceCourseData.data.form.dataScience}
-            redirectFs={DataScienceCourseData.data.form.FullStack}
-            redirectDe={DataScienceCourseData.data.form.DataEngineering}
-            redirectWeb={DataScienceCourseData.data.form.webDevelopment}
-            redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-            redirectDSA={DataScienceCourseData.data.form.dsa}
-          />
-        </div>
-
-        <div id="date">
-          {batchDateData === "" ? (
-            ""
-          ) : batchDateData === null ? (
-            <BatchDates
-              batchDetails=""
-              redirectDs={DataScienceCourseData.data.form.dataScience}
-              redirectFs={DataScienceCourseData.data.form.FullStack}
-              redirectDe={DataScienceCourseData.data.form.DataEngineering}
-              redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-              redirectDSA={DataScienceCourseData.data.form.dsa}
-              redirectWeb={DataScienceCourseData.data.form.webDevelopment}
-            />
-          ) : (
-            <BatchDates
-              batchDetails={batchDateData.batchDetails}
-              redirectDs={DataScienceCourseData.data.form.dataScience}
-              redirectFs={DataScienceCourseData.data.form.FullStack}
-              redirectDe={DataScienceCourseData.data.form.DataEngineering}
-              redirectBa={DataScienceCourseData.data.form.BusinessAnalytics}
-              redirectDSA={DataScienceCourseData.data.form.dsa}
-              redirectWeb={DataScienceCourseData.data.form.webDevelopment}
-            />
-          )}
-        </div>
         {redirectDs || redirectBa ? (
           <BatchProfile
           // seoPage={   DataScienceCourseData.data.form.seoPage}
@@ -664,16 +565,6 @@ export default function Home({
           redirectDSA={DataScienceCourseData.data.form.dsa}
           redirectWeb={DataScienceCourseData.data.form.webDevelopment}
         /> */}
-        <BottomPrice
-          checkoutLink={DataScienceCourseData.data.header.indCheckout}
-          offerPrice={offerPrice}
-          actualPrice={actualPrice}
-          redirectDs={DataScienceCourseData.data.header.dataScience}
-          redirectFs={DataScienceCourseData.data.header.FullStack}
-          redirectDa={DataScienceCourseData.data.header.dataAnalytics}
-          link={DataScienceCourseData.data.header.link}
-          nomicrosoft={DataScienceCourseData.data.header.nomicrosoft}
-        />
         <Footer />
       </div>
     </>
