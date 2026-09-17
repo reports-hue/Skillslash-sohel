@@ -3,7 +3,7 @@ import "../styles/globals.css";
 import "../styles/form.css";
 import Head from "next/head";
 import Script from "next/script";
-import { GoogleTagManager } from "@next/third-parties/google";
+import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
 import { Raleway} from "next/font/google";
 
 const raleway= Raleway({
@@ -70,6 +70,14 @@ function MyApp({ Component, pageProps }) {
       <main className={raleway.className}>
         <Component {...pageProps} />
         <GoogleTagManager gtmId="GTM-WJVZHTB" />
+        {/* GA4 (gtag.js) - separate from the GTM container above, added
+            directly per the site's own Google Analytics setup instructions.
+            @next/third-parties' GoogleAnalytics component is Next's
+            recommended way to install this exact tag (same gtag.js load +
+            dataLayer/config calls Google's own snippet asks for), correctly
+            deferred and de-duplicated across client-side navigations instead
+            of a hand-written <script> per page. */}
+        <GoogleAnalytics gaId="G-KELMYF4W5D" />
       </main>
     </>
   );
