@@ -7,9 +7,9 @@ import SeoPanel from "./SeoPanel";
 import { detectSectionsFromBody } from "../../../lib/bodySectionSync";
 import { LuExternalLink, LuTrash2, LuFileUp, LuDownload, LuChevronsRight, LuChevronsLeft } from "react-icons/lu";
 
-// Fields the Word import is allowed to touch. Author, category, content
-// type and every image stay whatever they already were - imported on
-// purpose, not an oversight (see lib/docxImport.js).
+// Fields the Word/Markdown import is allowed to touch. Author, category,
+// content type and every image stay whatever they already were - imported
+// on purpose, not an oversight (see lib/docxImport.js and lib/mdImport.js).
 const IMPORTABLE_FIELDS = [
   "title", "slug", "excerpt", "metaTitle", "metaDescription", "canonicalUrl",
   "focusKeyword", "keywords", "ogTitle", "ogDescription", "keyTakeaways",
@@ -157,13 +157,16 @@ export default function BlogForm({ initialPost, categories, authors = [], siteUr
     e.target.value = "";
     if (!file) return;
 
+    const isMarkdown = /\.(md|markdown)$/i.test(file.name);
+    const endpoint = isMarkdown ? "/api/admin/blogs/import-md" : "/api/admin/blogs/import-docx";
+
     setError("");
     setImportWarnings([]);
     setImporting(true);
     try {
       const body = new FormData();
       body.append("file", file);
-      const res = await fetch("/api/admin/blogs/import-docx", { method: "POST", body });
+      const res = await fetch(endpoint, { method: "POST", body });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Could not import that file.");
 
@@ -214,7 +217,7 @@ export default function BlogForm({ initialPost, categories, authors = [], siteUr
         <input
           ref={importInputRef}
           type="file"
-          accept=".docx"
+          accept=".docx,.md,.markdown"
           hidden
           onChange={handleImportFile}
         />
@@ -224,10 +227,13 @@ export default function BlogForm({ initialPost, categories, authors = [], siteUr
           onClick={handleImportClick}
           disabled={importing}
         >
-          <LuFileUp /> {importing ? "Importing..." : "Import from Word"}
+          <LuFileUp /> {importing ? "Importing..." : "Import from Word or Markdown"}
         </button>
         <a href="/templates/blog-import-template.docx" download className={formStyles.templateLink}>
-          <LuDownload /> Download sample template
+          <LuDownload /> Word template
+        </a>
+        <a href="/templates/blog-import-template.md" download className={formStyles.templateLink}>
+          <LuDownload /> Markdown template
         </a>
       </div>
 
