@@ -2,14 +2,21 @@
 .mainbox {
     display: flex;
     flex-wrap: wrap;
-    
+
     justify-content: center;
     margin: 36px 0;
     margin: 80px auto;
     align-items: center;
     justify-items: center;
     gap: 80px;
-    width: 1200px;
+    /* Was a fixed width: 1200px with no responsive constraint below the
+       max-width:600px media query further down, overflowing the page
+       horizontally on anything narrower than 1200px (a scrollbar and
+       cut-off content, same bug as CaseStudy.module.css's .CaseStudyhead). */
+    width: 100%;
+    max-width: 1200px;
+    box-sizing: border-box;
+    padding: 0 40px;
 
 }
 .headus{

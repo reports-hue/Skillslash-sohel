@@ -51,7 +51,13 @@ margin: 90px auto;
   justify-content: center;
   color: #FFF; /* Keep the text color consistent */
   font-size: 24px; /* Match the existing font size */
-  width: 800px;
+  /* Was a fixed 800px, wider than the viewport (and than .toolsdiv's own
+     padding-adjusted content box) on anything smaller than a wide
+     desktop - same fixed-width-overflow pattern as .CaseStudyhead and
+     .mainbox, fixed here too. */
+  width: 100%;
+  max-width: 800px;
+  box-sizing: border-box;
   text-align: center;
 }
 
