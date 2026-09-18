@@ -71,6 +71,14 @@ const nextConfig = {
         permanent: true,
       },
       {
+        // A dated one-off webinar landing page (event long past) -
+        // removed, redirected to the canonical undated registration page
+        // rather than /: same page family/purpose, not a dead end.
+        source: "/digitalmarketing/webinar-registration-29th-june",
+        destination: "/digitalmarketing/webinar-registration",
+        permanent: true,
+      },
+      {
         // Data Analytics was folded into Data Science.
         source: "/category/data-analytics",
         destination: "/category/data-science",
