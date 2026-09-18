@@ -1,7 +1,6 @@
 // pages/Indore.js
 
 import React from "react";
-import { toJsonLdGraph } from "../lib/jsonLdGraph";
 import Head from "next/head";
 import Navbar from "../components/Navbar/Navbar";
 import BlogHeader from "../components/CityBlog/BlogHeader/BlogHeader";
@@ -30,7 +29,7 @@ const Mumbai = ({ data }) => {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: toJsonLdGraph({
+            __html: JSON.stringify({
              "@context": "https://schema.org/",
              "@type": "Product",
              "name": "Data science course in Indore",
