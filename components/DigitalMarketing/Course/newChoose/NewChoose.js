@@ -1,28 +1,17 @@
 import React from "react";
 import styles from "./Newhoose.module.css";
-import Image from "next/image";
+import { LuBuilding2, LuUserCheck, LuMessageCircle, LuUsers } from "react-icons/lu";
 
+// Each card used to show an <Image> pointed at a "four_dm.svg"/"three_dm.svg"/
+// etc. file under /cdn/digital-marketing/ - every one of those turned out to
+// be an auto-generated placeholder (a flat rectangle with the filename as
+// its own text label, not real icon artwork), same as every other asset in
+// that directory. Real icons instead of fake ones standing in for them.
 const boxesData = [
-  {
-    src: "/cdn/digital-marketing/four_dm.svg",
-    alt: "box",
-    description: "Own Digital Marketing Agency",
-  },
-  {
-    src: "/cdn/digital-marketing/three_dm.svg",
-    alt: "box",
-    description: "Dedicated Learning Coordinator",
-  },
-  {
-    src: "/cdn/digital-marketing/two_dm.svg",
-    alt: "box",
-    description: "Daily 1:1 Doubt clearing sessions",
-  },
-  {
-    src: "/cdn/digital-marketing/one_dm.svg",
-    alt: "box",
-    description: "Strong Alumni & recruiter network",
-  },
+  { Icon: LuBuilding2, description: "Own Digital Marketing Agency" },
+  { Icon: LuUserCheck, description: "Dedicated Learning Coordinator" },
+  { Icon: LuMessageCircle, description: "Daily 1:1 Doubt clearing sessions" },
+  { Icon: LuUsers, description: "Strong Alumni & recruiter network" },
 ];
 
 const NewChoose = () => {
@@ -35,16 +24,10 @@ const NewChoose = () => {
         </h2>
 
         <div className={styles.mainbox}>
-          {boxesData.map((box, index) => (
+          {boxesData.map(({ Icon, description }, index) => (
             <div key={index} className={styles.boxes}>
-              <Image
-                src={box.src}
-                width={60}
-                height={40}
-                alt={box.alt}
-                loading="lazy"
-              />
-              <p>{box.description}</p>
+              <Icon className={styles.boxIcon} aria-hidden="true" />
+              <p>{description}</p>
             </div>
           ))}
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import Form from "../../components/DigitalMarketing/webinar/Form";
+import WebinarPromo from "../../components/DigitalMarketing/webinar/WebinarPromo";
 import Navbar from "../../components/Navbar/Navbar";
-import Image from "next/image";
 import styles from "../../components/DigitalMarketing/webinar/webinar.module.css"
 import Head from "next/head";
 
@@ -20,13 +20,7 @@ const webinar = () => {
 
       <div className={styles.webinar}>
         <div className={styles.left}>
-          <Image
-            src="/cdn/digital-marketing/29th_webinar.svg"
-            width={800}
-            height={400}
-            alt="form"
-            loading="lazy"
-          />
+          <WebinarPromo />
         </div>
 
         <div className={styles.ryt}>

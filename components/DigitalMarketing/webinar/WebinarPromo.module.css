@@ -1,0 +1,53 @@
+.promo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 48px 40px;
+  border-radius: 24px;
+  background: linear-gradient(135deg, #4f419a, #7a4bbd);
+  color: #ffffff;
+  min-height: 300px;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 34px;
+  opacity: 0.85;
+}
+
+.eyebrow {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #d9d1f7;
+}
+
+.title {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.desc {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #e6e1f7;
+  max-width: 44ch;
+}
+
+@media (max-width: 641px) {
+  .promo {
+    align-items: center;
+    text-align: center;
+    padding: 36px 24px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+}

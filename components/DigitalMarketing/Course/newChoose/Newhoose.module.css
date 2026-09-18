@@ -59,6 +59,11 @@ margin-right: 16px;
     gap: 10px;
 }
 
+.boxIcon {
+    font-size: 40px;
+    color: #6659b8;
+}
+
 
 
 
@@ -111,12 +116,11 @@ text-transform: capitalize;
     .boxes p {
         font-size: 10px;
     }
-    .boxes img {
-        width: 50px;
-        height: auto;
+    .boxIcon {
+        font-size: 28px;
     }
 
-    
+
 }
 
 @media only screen and (max-width: 361px) {
@@ -134,9 +138,8 @@ text-transform: capitalize;
 .boxes p {
     font-size: 10px;
 }
-.boxes img {
-    width: 50px;
-    height: auto;
+.boxIcon {
+    font-size: 28px;
 }
 .headus  h2{
     font-size: 19px;

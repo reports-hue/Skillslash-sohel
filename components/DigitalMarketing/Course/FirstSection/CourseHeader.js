@@ -55,14 +55,6 @@ const CourseHeader = ({
               <h2>{subtitle}</h2>
               <div className={Styles.EleCourse}>
                 <p>Powered by Gen-AI</p>
-                <Image
-                  src={GenImg}
-                  width={30}
-                  height={20}
-                  alt="Bard"
-                  quality={50}
-                  priority
-                />
               </div>
               <div>{AdsDM ? <Counter AdsDM={AdsDM} /> : <></>}</div>
             </div>
@@ -109,58 +101,6 @@ const CourseHeader = ({
                 <FaYoutube className={Styles.IconYou} />
               </button>
             </div>
-            {logoN ? (
-              <div className={Styles.threeimg}>
-                <p>Featured by :</p>
-                <Image
-                  src="/cdn/digital-marketing/3-logo.svg"
-                  alt="news"
-                  priority
-                  width={420}
-                  height={200}
-                />
-              </div>
-            ) : (
-              <></>
-            )}
-
-            {logoG ? (
-              <div className={Styles.threeimg}>
-                <p>Reviews :</p>
-                <Image
-                  src="/cdn/digital-marketing/google_review.svg"
-                  alt="news"
-                  priority
-                  width={420}
-                  height={200}
-                />
-              </div>
-            ) : (
-              <></>
-            )}
-            {logoGN ? (
-              <div className={Styles.threeimg}>
-                <p>Reviews :</p>
-                <Image
-                  src="/cdn/digital-marketing/google_review.svg"
-                  alt="news"
-                  priority
-                  width={400}
-                  height={100}
-                />
-
-                <p>Featured by :</p>
-                <Image
-                  src="/cdn/digital-marketing/3-logo.svg"
-                  alt="news"
-                  priority
-                  width={420}
-                  height={200}
-                />
-              </div>
-            ) : (
-              <></>
-            )}
           </div>
         </div>
         {/* 
