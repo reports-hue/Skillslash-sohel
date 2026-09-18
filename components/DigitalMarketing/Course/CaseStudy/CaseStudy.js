@@ -14,39 +14,30 @@ const CaseStudy = ({
 
   const tabs = [
     {
-      title: "/cdn/digital-marketing/moz.svg", // Path to the MOZ image
+      title: "Moz",
       content: [
         "Increase organic traffic to the Moz website, improve search engine rankings for target keywords, and enhance brand authority through strategic backlink acquisition",
       ],
       moduletitle: "Module: ",
       para: ["Search Engine Optimization 1.0 "],
-      iconsImage: [
-        "/cdn/digital-marketing/mozo_tool.svg",
-      ],
       redirect: { redirectDM: true },
     },
     {
-      title: "/cdn/digital-marketing/titan.svg",
+      title: "Titan Watches",
       content: [
         "Optimize Titan Watches' Google Ads campaigns to improve key performance indicators (KPIs) such as click-through rate (CTR), conversion rate, and return on ad spend (ROAS)",
       ],
       moduletitle: "Module: ",
       para: ["Search Engine Marketing 1.0"],
-      iconsImage: [
-        "/cdn/digital-marketing/titan-tools.svg",
-      ],
       redirect: { redirectDM: true },
     },
     {
-      title: "/cdn/digital-marketing/onePlus.svg",
+      title: "OnePlus India",
       content: [
         "Develop and implement an effective organic marketing strategy for OnePlus India's social media channels to increase brand visibility, audience engagement, and community interactions",
       ],
       moduletitle: "Module:",
       para: [""],
-      iconsImage: [
-        "/cdn/digital-marketing/_tool.svg",
-      ],
       redirect: { redirectDM: true },
     },
     {
@@ -80,16 +71,7 @@ const CaseStudy = ({
               }`}
               onClick={() => handleTabClick(index)}
             >
-              {index < 3 ? (
-                <Image
-                  src={tab.title}
-                  alt={`Tab ${index + 1} image`}
-                  width={100} // Increase width
-                  height={50} // Increase height
-                />
-              ) : (
-                <span>{tab.title}</span>
-              )}
+              <span>{tab.title}</span>
             </div>
           ))}
         </div>
