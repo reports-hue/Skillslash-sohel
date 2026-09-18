@@ -258,12 +258,21 @@
     display: flex;
     gap: 10px;
     flex-direction: column;
-   
+
 margin-top: 20px;
   }
 .threeimg p {
    color: #fff;
    font-weight: 600;
+}
+/* logoN/logoG/logoGN images (CourseHeader.js) are given explicit
+   width={420} height={200} (or 400x100) props with nothing here
+   constraining them responsively, so they rendered at that literal
+   pixel size regardless of viewport - same class of bug as the Tools
+   and CaseStudy icon images on this page family. */
+.threeimg img {
+  max-width: 100%;
+  height: auto;
 }
 
 

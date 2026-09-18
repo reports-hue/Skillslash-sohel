@@ -106,19 +106,6 @@ const CaseStudy = ({
                 {tabs[activeTab].para.map((para, index) => (
                   <p key={index}>{para}</p>
                 ))}
-                <div className={styles.icons}>
-                  <h4 className="text-[20px] sm:mb-0 sm:text-[10px]">Tools:</h4>
-                  {tabs[activeTab].iconsImage.map((icon, index) => (
-                    <Image
-                      key={index}
-                      src={icon}
-                      alt={`Icon ${index + 1}`}
-                      width={600} // Icon width
-                      height={300} // Icon height
-                      quality={100}
-                    />
-                  ))}
-                </div>
               </div>
             </div>
           ) : (

@@ -10,7 +10,11 @@ margin: 90px auto;
   gap: 30px;
   background-size: cover;
   background-position: center;
-  width: 1200px;
+  /* Was a fixed 1200px, wider than the viewport on anything smaller and
+     overflowing the page horizontally there. */
+  width: 100%;
+  max-width: 1200px;
+  box-sizing: border-box;
 }
 
 .toolsdiv h2 {
