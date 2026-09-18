@@ -14,31 +14,15 @@ import Reviews from "../../components/Review/Reviews";
 import DetailTable from "../../components/Skills/CoursePage/DetailTable/DetailTable";
 import Learn from "../../components/Skills/CoursePage/Learn/Learn";
 import Footer from "../../components/Footer/Footer";
-import CTA from "../../components/CTA/CTA";
-import BottomPrice from "../../components/Skills/BottomPrice/BottomPrice";
 import SkillsContent from "../../components/Skills/CoursePage/SkillsContent/SkillsContent";
-import PricingSection from "../../components/Skills/CoursePage/PricingSection/PricingSection";
-import CareerSupport from "../../components/Skills/CoursePage/CareerSupport/CareerSupport";
-import ToolsCovered from "../../components/Skills/CoursePage/ToolsCovered/ToolsCovered";
-import PriceCompare from "../../components/Skills/CoursePage/PriceCompare/PriceCompare";
 import NewChoose from "../../components/DigitalMarketing/Course/newChoose/NewChoose";
 import Tools from "../../components/DigitalMarketing/Course/Tools/Tools";
-import Emi from "../../components/Course/EMI/Emi";
 import CourseHeader from "../../components/DigitalMarketing/Course/FirstSection/CourseHeader";
 import CaseStudy from "../../components/DigitalMarketing/Course/CaseStudy/CaseStudy";
 import Review from "../../components/DigitalMarketing/Reviews/Reviews";
 
 const DataSciencePage = ({ DataScienceCourseData }) => {
   const [showNigeriaForm, setShowNigeriaForm] = useState(false);
-  const [actualPrice, setActualPrice] = useState(
-    DataScienceCourseData.data.header.actualPrice
-  );
-  const [offerPrice, setOfferPrice] = useState(
-    DataScienceCourseData.data.header.offerPrice
-  );
-  const [link, setLink] = useState(
-    DataScienceCourseData.data.header.indCheckout
-  );
 
   return (
     <div>
@@ -90,16 +74,6 @@ const DataSciencePage = ({ DataScienceCourseData }) => {
         nomicrosoft={DataScienceCourseData.data.header.nomicrosoft}
         dmPage={DataScienceCourseData.data.header.dmPage}
       />
-      <PricingSection
-        offerPrice={offerPrice}
-        actualPrice={actualPrice}
-        redirectDs={DataScienceCourseData.data.header.dataScience}
-        redirectFs={DataScienceCourseData.data.header.FullStack}
-        redirectDa={DataScienceCourseData.data.header.dataAnalytics}
-        redirectDM={DataScienceCourseData.data.header.digitalmarketing}
-        checkoutLink={DataScienceCourseData.data.header.indCheckout}
-        dmPage={DataScienceCourseData.data.header.dmPage}
-      />
       <NewChoose />
       <div id="certificate">
         <WhyUs
@@ -131,8 +105,6 @@ const DataSciencePage = ({ DataScienceCourseData }) => {
         redirectDM={DataScienceCourseData.data.header.digitalmarketing}
         redirectCaseS={DataScienceCourseData.data.header.redirectgrowth}
       />
-      <CareerSupport />
-
       <div id="modules">
         <DataScienceSyllabus
           NigeriaForm={showNigeriaForm}
@@ -148,14 +120,6 @@ const DataSciencePage = ({ DataScienceCourseData }) => {
           redirectsocialSeo={DataScienceCourseData.data.header.redirectgrowth}
           redirectPerforSocia={DataScienceCourseData.data.header.redirectgrowth}
           redirectPSeo={DataScienceCourseData.data.header.redirectgrowth}
-        />
-      </div>
-
-      <div id="fee">
-        <Emi
-          price={DataScienceCourseData.data.Fee.ProPrice}
-          emi={DataScienceCourseData.data.Fee.emi}
-          redirectDM={DataScienceCourseData.data.header.digitalmarketing}
         />
       </div>
 
@@ -180,19 +144,6 @@ const DataSciencePage = ({ DataScienceCourseData }) => {
         />
       </div>
       <Footer />
-      <BottomPrice
-        checkoutLink={DataScienceCourseData.data.header.indCheckout}
-        offerPrice={offerPrice}
-        actualPrice={actualPrice}
-        redirectDs={DataScienceCourseData.data.header.dataScience}
-        redirectFs={DataScienceCourseData.data.header.FullStack}
-        redirectDa={DataScienceCourseData.data.header.dataAnalytics}
-        link={DataScienceCourseData.data.header.link}
-        nomicrosoft={DataScienceCourseData.data.header.nomicrosoft}
-        dmPage={DataScienceCourseData.data.header.dmPage}
-        redirectDM={DataScienceCourseData.data.header.digitalmarketing}
-        gst={DataScienceCourseData.data.header.gst}
-      />
     </div>
   );
 };

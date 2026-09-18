@@ -1,8 +1,6 @@
 import React from "react";
 import Styles from "./courseHeader.module.css";
 import Image from "next/image";
-import Form from "../../../Skills/Global/Form/Form";
-import Popup from "../../../Skills/Global/Popup/Popup";
 import { useState } from "react";
 import Link from "next/link";
 import { FaYoutube, FaToggleOn } from "react-icons/fa";
@@ -10,7 +8,6 @@ import VideoPlaylist from "../../../Skills/Global/VideoPlaylist/VideoPlaylist";
 import { MdOutlineToggleOff } from "react-icons/md";
 import { IoToggleSharp } from "react-icons/io5";
 import { PiToggleRightThin } from "react-icons/pi";
-import { FaDownload } from "react-icons/fa6";
 
 import Counter from "../Counter/Counter";
 
@@ -30,10 +27,6 @@ const CourseHeader = ({
   logoG,
   logoGN,
 }) => {
-  const [popups, setPopups] = useState(false);
-  const popupShow = (demoClass, changeText) => {
-    setPopups(true);
-  };
   const [show, setShow] = useState(false);
   const showVideo = (data) => {
     setShow(data);
@@ -41,27 +34,6 @@ const CourseHeader = ({
 
   return (
     <>
-      <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
-        <div className="RightPopup">
-          {changeHeading ? (
-            <h5>Download Program Handbook</h5>
-          ) : (
-            <h5>
-              Get a chance to understand this course in detail from our
-              counsellors
-            </h5>
-          )}
-          <p>Fill the below Details to get started</p>
-          <Form
-            popup={true}
-            setTrigger={setPopups}
-            redirectDs={redirectDs}
-            redirectFs={redirectFs}
-            redirectDa={redirectDa}
-            redirectDM={redirectDM}
-          />
-        </div>
-      </Popup>
       {show && (
         <VideoPlaylist
           setShow={showVideo}
@@ -130,14 +102,6 @@ const CourseHeader = ({
             <div className={Styles.buttondiv}>
               <button
                 id="clck-free-counselling"
-                onClick={() => popupShow()}
-                className={Styles.btn}
-              >
-                Brochure
-                <FaDownload />
-              </button>
-              <button
-                id="clck-free-counselling"
                 onClick={() => showVideo(true)}
                 className={Styles.btnDemo}
               >
@@ -198,21 +162,6 @@ const CourseHeader = ({
               <></>
             )}
           </div>
-
-          <>
-            <div className={Styles.formDiv}>
-              <h2 className={Styles.formhead}>
-                <p>Free Counselling</p> with Experts
-              </h2>
-
-              <Form
-                redirectDs={redirectDs}
-                redirectFs={redirectFs}
-                redirectDa={redirectDa}
-                redirectDM={redirectDM}
-              />
-            </div>
-          </>
         </div>
         {/* 
         <div className={Styles.icons}>

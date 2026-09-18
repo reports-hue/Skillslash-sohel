@@ -7,9 +7,11 @@
 
 /* Grid container */
 .gridDiv {
-  display: grid;
-  grid-template-columns: 52% 40%;
-  /* align-items: center; */
+  /* Single column now that the lead-gen "Free Counselling with Experts"
+     form column is removed (components/DigitalMarketing/Course/
+     FirstSection/CourseHeader.js) - was a 52%/40% grid split with the
+     form. */
+  display: block;
   border-radius: 50px;
   margin: 0px 100px;
   background: rgba(217, 217, 217, 0.05);
