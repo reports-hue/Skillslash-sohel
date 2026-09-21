@@ -450,43 +450,6 @@
     "ProMaxPrice": "₹ 1,35,000 + GST",
     "ProMaxDesc": " Get System Design Course with Guaranteed job referral"
   },
-  "BatchDates": [
-    {
-      "batchDate": "11",
-      "batchMonth": "DEC",
-      "batchStatus": "Filled",
-      "batchType": "Morning Batch, ",
-      "batchTime": "09:00 to 12:00",
-      "batchDesc": "Enrollment has been closed",
-      "batchWeek": "weekend batch (Sat - Sun)",
-      "batchMsg": "Seats are filled",
-      "activeBatch": false
-    },
-
-    {
-      "batchDate": "18",
-      "batchMonth": "DEC",
-      "batchStatus": "new",
-      "batchType": "Morning Batch, ",
-      "batchTime": "09:00 to 12:00",
-      "batchDesc": "2 seats are available",
-      "batchDescSpan": "Hurry!",
-      "batchWeek": "weekend batch (Sat - Sun)",
-      "batchMsg": "Seats are almost filled",
-      "activeBatch": true
-    },
-    {
-      "batchDate": "24",
-      "batchMonth": "DEC",
-      "batchStatus": "Filled",
-      "batchType": "Afternoon Batch, ",
-      "batchTime": "02:00 to 05:00",
-      "batchDesc": "Enrollment has been closed",
-      "batchWeek": "weekend batch (Sat - Sun)",
-      "batchMsg": "Seats are filled",
-      "activeBatch": false
-    }
-  ],
   "FAQ": {
     "heading": "Frequently Asked Questions",
     "desc": "Know in detail about the syllabus of our system design course, fees and scholarship"
@@ -494,38 +457,38 @@
   "FaqDATA": [
     {
       "id": 0,
-      "ques": "Under the system design course, what learning options are offered?      ",
+      "ques": "What learning options are offered under the system design course?",
 
-      "ans": "Skillslash offers the best system design course with project certification. The fact that we provide offline and online learning options for our system design course with real-world experience is a focal point.   In addition, we provide a blended learning curriculum created especially for professionals. Additionally, as part of our system design course, you can take part in live classes that use a hybrid learning approach. Also, you will be doing some practical work at the industrial project site. However, because of the epidemic, we can only provide fully online courses through live sessions. This implies that you can communicate with your instructor in real time, just as you would during a typical face-to-face session. Additionally, at this time, cloud-based services will be used for all practical sessions of our system design course.      ",
+      "ans": "The course runs as live, instructor-led classes, with a blended track built specifically for working professionals. You can also join hybrid-format live sessions and get hands-on practice on real project work, so you're not just watching theory - you're talking to your instructor in real time, much like a face-to-face session, with all practical work run through cloud-based services.",
       "open": false
     },
     {
       "id": 1,
-      "ques": "If I have to skip a lesson because of an emergency, would there be a make-up session?",
+      "ques": "Is there a make-up session if I miss a class due to an emergency?",
 
-      "ans": "First off all, we offer the best system design course with live online classes. Additionally, recordings of such classes are provided to all of our students. We also give you unrestricted access to these recorded sessions, thus enabling you to refer to them whenever you need theoretical support for your career in  DSA. So,  you need not feel bad if you miss a live class of our python dsa course training. However, you are strongly encouraged to attend all live classes.",
+      "ans": "Yes - all live classes are recorded, and you get unrestricted access to those recordings, so you can refer back to them whenever you need to reinforce a concept. You needn't worry about missing a session, though we do encourage attending live classes whenever you can.",
       "open": false
     },
     {
       "id": 2,
-      "ques": "What if I didn't fully comprehend a module? Will I be able to take the best system design course again?",
+      "ques": "What if I didn't fully understand a module? Can I take the class again?",
 
-      "ans": "Most significantly, you can take the training of our best system design Course in python again with a different batch if you did not comprehend a whole module. Hence, there is absolutely no chance that you will continue to be confused about the learning modules.",
+      "ans": "Yes - if a module didn't fully click, you can sit in on it again with a different batch, so there's no lasting confusion about the learning material.",
       "open": false
     },
 
     {
       "id": 4,
-      "ques": "What is Skillslash’s system design course scholarship program?      ",
+      "ques": "What is Skillslash's scholarship program for this course?",
 
-      "ans": "Primarily, under the system design certification scholarship program, every candidate will have to take a 20-minute online aptitude exam. If a candidate passes the aptitude exam with a score of more than 65 percent, he or she will be eligible for a 10 percent discount on the course fees. Besides, candidates who lost their jobs as a result of the COVID situation, as well as mothers who want to begin their careers, can receive up to a 100% scholarship based on their exam score. Thus, opening the doors to sign up for the best system design course. ",
+      "ans": "Under the scholarship program, every candidate takes a 20-minute online aptitude exam. Scoring above 65% makes you eligible for a 10% discount on course fees. Candidates who are currently unemployed, as well as mothers returning to the workforce, can receive scholarships of up to 100% based on their exam score.",
       "open": false
     },
     {
       "id": 5,
-      "ques": "What kind of certification does this best system design course provide?",
+      "ques": "What kind of certification does this course provide?",
 
-      "ans": "The important aspect is that, by enrolling in Skillslash’s best system design course, you will receive practical training experience. In addition to that, you can avail shareable, globally acknowledged project certifications directly from top startups. Which means you get certifications from the companies with which you are associated with for live projects. ",
+      "ans": "You get practical, project-based training experience along with a shareable, globally recognized project certification. If your project work was done in partnership with a startup, you can also receive direct certification from that company.",
       "open": false
     }
   ]

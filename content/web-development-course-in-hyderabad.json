@@ -42,7 +42,7 @@
       "altM": "",
       "altR": "",
       "CertificationPara": "",
-      "MicrosoftPara": "J ",
+      "MicrosoftPara": "",
       "RealWorkPara": ""
     },
     "trainerMentor": "",
@@ -622,65 +622,6 @@
     "ProMaxPrice": "₹ 1,35,000 + GST",
     "ProMaxDesc": "Learn Full Stack Web Development with unlimited job referrals"
   },
-  "BatchDates": [
-    {
-      "batchDate": "17",
-      "batchMonth": "DEC",
-      "batchStatus": "Filled",
-      "batchType": "Afternoon Batch, ",
-      "batchTime": "12:00 to 03:00",
-      "batchDesc": "Enrollment has been closed",
-      "batchWeek": "weekend batch (Sat - Sun)",
-      "batchMsg": "Seats are filled",
-      "activeBatch": false
-    },
-
-    {
-      "batchDate": "26",
-      "batchMonth": "DEC",
-      "batchStatus": "Filled",
-      "batchType": "Evening Batch, ",
-      "batchTime": "08:00 to 10:00",
-      "batchDesc": "Enrollment has been closed",
-      "batchDescSpan": "Hurry!",
-      "batchWeek": "weekend batch (Mon - Fri)",
-      "batchMsg": "Seats are filled",
-      "activeBatch": false
-    },
-    {
-      "batchDate": "08",
-      "batchMonth": "JAN",
-      "batchStatus": "Filled",
-      "batchType": "Afternoon Batch, ",
-      "batchTime": "12:00 to 03:00",
-      "batchDesc": "Enrollment has been closed",
-      "batchWeek": "weekend batch (Sat - Sun)",
-      "batchMsg": "Seats are filled",
-      "activeBatch": false
-    },
-    {
-      "batchDate": "16",
-      "batchMonth": "JAN",
-      "batchStatus": "Filled",
-      "batchType": "Afternoon Batch, ",
-      "batchTime": "8:00 to 10:00",
-      "batchDesc": "Enrollment has been closed",
-      "batchWeek": "weekend batch (Mon - Fri)",
-      "batchMsg": "Seats are filled",
-      "activeBatch": false
-    },
-    {
-      "batchDate": "29",
-      "batchMonth": "JAN",
-      "batchStatus": "Filled",
-      "batchType": "Afternoon Batch, ",
-      "batchTime": "12:00 to 03:00",
-      "batchDesc": "Enroll for this batch",
-      "batchWeek": "weekend batch (Mon - Fri)",
-      "batchMsg": "Seats are available",
-      "activeBatch": true
-    }
-  ],
   "FAQ": {
     "heading": "Frequently Asked Questions",
     "desc": "Check out our FAQs on the best Web Development Course about course features, fees, scholarships, and much more."
@@ -690,98 +631,98 @@
       "id": 0,
       "ques": "Who is Skillslash? What do they do?",
 
-      "ans": "Skillslash is an Ed-tech company that offers higher career opportunities for coders and professionals in various domains including Full Stack Web Development, Data Science, Web Development, Business Analytics, and Blockchain. We encourage our learners to acquire high-level certification through industrial real work experience. Based on the company demands and requirements, we have designed an excellent course curriculum for all our courses at variable affordable course fees",
+      "ans": "Skillslash is an ed-tech company that helps coders and working professionals build stronger careers across domains like Full Stack Web Development, Data Science, Business Analytics, and Blockchain. We focus on getting learners real, industry-recognised certification through actual work experience rather than just classroom theory, and we've designed each course curriculum around what companies are actually hiring for, at fees that stay accessible.",
       "open": false
     },
     {
       "id": 1,
       "ques": "How will I benefit from industry mentors?",
 
-      "ans": "Our industry experts have experienced the professional environment by working with top prestigious companies like Google, Amazon, Meta, etc. They help you with industrial coding metrics and reviews. Through Web Development training and technical coding knowledge, you will be given the opportunity to work in companies to gain experience from live projects. Being the best Web Development course provider online, we help you to ace various MNC interviews at ease through guided mentoring from our experts. This Web Development syllabus assists in such a way of letting learners gain enhanced professional knowledge over practical learning. ",
+      "ans": "Our mentors have worked at top companies like Google, Amazon, and Meta, and they bring that industry experience into how they review your code and guide your progress. Alongside the technical training, you get the chance to work on live projects with real companies, which makes cracking MNC interviews a lot more manageable. The syllabus itself is built around helping you turn that practical exposure into genuine, job-ready skill.",
       "open": false
     },
     {
       "id": 2,
       "ques": "Is any academic degree necessary to apply for a Web Development Course?",
 
-      "ans": "Our Full Stack Web Development online course is crafted for professionals and recent graduates. Also, freshers who have fundamental coding skills can attempt to apply for our Web Development course. In our Web Development institute, the eligibility criteria falls down to a minimum of 1-year work experience for professionals. If you hold an academic degree in the required field of the domain, it will be advantageous. For your reference, our Web Developer course fees start at INR  excluding GST. Also, our Web Development course duration lasts for 11-month provided scholarship concessions.",
+      "ans": "No, an academic degree isn't a strict requirement. This programme is built for working professionals and recent graduates, and freshers with basic coding skills are also welcome to apply. For professionals, we generally look for around a year of work experience, though a relevant academic degree is an added advantage. The course fee starts at INR 95,000 excluding GST, and it runs for 11 months, with scholarship concessions available.",
       "open": false
     },
 
     {
       "id": 4,
-      "ques": "What does Skillslash’s Web Development Course provide?",
-      "ans": "Skillslash provides real-work experience providing both offline and online learning options. Furthermore, live online sessions are available for hybrid learning in our Web Development institute. Being the best Web Development course provider online, we will assist you in working directly on the industrial coding projects that the firms are offering. Due to the pandemic situation, we are able to offer only online through real-time, interactive live sessions. Our specialized Web Development training covers all the core concepts at the affordableWeb Developer course fees starting at INR 95,000 without GST. We also provide scholarships and concessions which can be paid throughout the Web Development course duration. According to the scholarship test score, you’ll be given discounts on Web Developer course fees. Reach our consultants to know more about the program and others. In recent days, obtaining certification in Web Development has become significantly higher.",
+      "ques": "What does Skillslash’s Web Development Course include?",
+      "ans": "The course gives you real work experience through both offline and online learning options, including live, interactive sessions for a hybrid learning experience. You'll work directly on industrial coding projects offered by our partner firms, and the training covers all the core concepts at an affordable fee starting at INR 95,000 without GST. We also offer scholarships and concessions, with discounts on the course fee based on your scholarship test score - reach out to our consultants for more details on the program.",
       "open": false
     },
     {
       "id": 5,
       "ques": "When can I start the course? What if I miss any of the sessions in the Full Stack Web Development online course?",
 
-      "ans": "You can start your course at any time according to the availability of the upcoming cohorts. Our classes are always recorded and you will be given access to refer to the recordings whenever you want to. Being the best Web Development course provider online, we concentrate on your flexibility so that you can cover up the recorded sessions. You can take up the recorded sessions in your flexible timings if you want to assist yourself with further reference of the coding concepts. You need not worry if you miss any of the class sessions, you can always take up the upcoming live sessions without losing the continuity. For a better conceptual clearance on coding skill set, taking up a course will be helpful. For coping with the upcoming session, you won’t be needed to provide any other additional fee other than the Web Developer course fees stated in the program features.",
+      "ans": "You can start whenever the next cohort is available. All our classes are recorded, so if you miss a live session you can catch up on your own schedule without losing continuity - there's no extra fee for this beyond what's already included in the course.",
       "open": false
     },
     {
       "id": 6,
       "ques": "What kind of certification does Skillslash’s Full Stack Web Development training provide?",
 
-      "ans": "Learners who join our Web Development Course online won't only receive an academic certification or degree. Instead, we give project management certifications that would be globally recognized. You will also be given direct certifications from the business corporations by working on live industrial projects. Our Web Development syllabus includes core concepts to keep in track with the on-demand skills that company prefers. With our Web Development online course, you will be provided with certification from our institute as well as the companies you collaborate with their live projects.",
+      "ans": "You won't just get an academic certificate. Instead, you receive a globally recognised project-based certification, and if you work on live industrial projects, the partner company can issue you direct certification for that work too. The syllabus is kept aligned with the skills companies are actually looking for, so what you're certified in reflects real, current demand.",
       "open": false
     },
     {
       "id": 7,
       "ques": "How does Skillslash provide scholarships?",
 
-      "ans": "The simplest approach to get scholarships is to apply in our Web Development institute and be eligible with at least 65% of the possible points. Candidates who met the qualifying score requirements have received scholarships with a 10% discount on the Web Developer course fees. In addition to these, we also offer scholarships to COVID-affected applicants and to mothers who decide to return to the workforce post maternity leave. Our Web Development online course is being offered to the enthusiasts to bring forth better career prospects. To learn more about the terms and conditions of the scholarship, speak with our academic counselor. ",
+      "ans": "To qualify, you'll need to score at least 65% on our scholarship assessment, which gets you a 10% discount on the course fee. We also extend scholarships to unemployed candidates and to mothers returning to the workforce after a career break. Speak with our academic counsellor to learn more about the terms and conditions.",
       "open": false
     },
     {
       "id": 8,
       "ques": " How many mock interviews and job referrals will I have throughout the Web Development training?",
 
-      "ans": "By enrolling in Web Development training, we are able to secure a respectable placement with MNCs. Our main objective will be to work as a Web developer for a firm that focuses on products. Being the best Web Development course provider online, we offer limitless job referrals and mentor support to help you get ready for ace interviews with leading product-based firms. Until and unless you are fully prepared to present yourself with highlighted projects and a presentation of your experience, we will help you in the process by performing innumerable mock interviews. We have built our Web Development syllabus on the basis of domain specific skills. Our instructors, who are experienced experts, will examine you as well and concentrate on your areas of weakness. You can reach our mentors and counselors for guidance throughout the Web Development course duration. ",
+      "ans": "There's no fixed cap - we offer unlimited job referrals along with mentor support aimed at getting you into product-based firms. We'll keep running mock interviews with you until you're genuinely ready to present your projects and experience confidently. Since the syllabus is built around domain-specific skills, our instructors can also pinpoint your weak areas and work with you on those throughout the programme.",
       "open": false
     },
     {
       "id": 9,
       "ques": "Which role will I be eligible for after completing a Web Development course online?",
 
-      "ans": "Once you complete a Web Development online course, you will be able to present your stronger portfolio in accordance with the needs of industries. You will get placed in companies for Web Developer, Front End Developer, Back End Developer and SDE roles respectively. In our Web Development institute, we assist you with the mentor guidance to crack interviews of higher MNCs. ",
+      "ans": "Once you finish the course, you'll walk away with a portfolio built to match what industries are actually looking for. Graduates typically get placed as Web Developers, Front End Developers, Back End Developers, or SDEs, with mentor guidance along the way to help you crack interviews at larger MNCs.",
       "open": false
     },
     {
       "id": 10,
       "ques": "How will the doubts get resolved?",
 
-      "ans": "Due to the fact that our Web Development course incorporates weekend cohorts, we offer a special doubt-clearing session every Wednesday as well as during class hours. Our 250+ problem-solving challenges will aid in your understanding and make fixing mistakes simple. This Web Development syllabus is built in such a way to upscale your technical strength from scratch to brush up and become an expert through it. Our compact class strength in our Web Development course online makes it easy for our instructors to review your performance. Being the best Web Development course provider online, we keep a track of industry metrics with the on-demand features. For instance, if you are uncertain about how to solve a Java code, the mentor will assist you. ",
+      "ans": "Since the cohorts run on weekends, we hold a dedicated doubt-clearing session every Wednesday in addition to regular class hours. Our 250+ problem-solving challenges also help reinforce your understanding as you go. Class sizes are kept small so instructors can actually review your progress individually - so if you're stuck on a Java problem, for instance, a mentor is there to help you through it.",
       "open": false
     },
     {
       "id": 11,
       "ques": "What is the program duration for a Web Development online course?",
 
-      "ans": "With Skillslash, you will get 11-month Web Development course duration for the learners to get clear with the concepts and get assistance for acing interviews at top companies like MAANG. You will be guided throughout the Web Development course by our experienced tutors from scratch to master level.",
+      "ans": "The programme runs for 11 months, giving you enough time to build a solid grasp of the concepts and prepare for interviews at top companies like the MAANG firms. Experienced tutors guide you through it from the basics right up to an advanced level.",
       "open": false
     },
     {
       "id": 12,
       "ques": "Is EMI payment acceptable in this Web Development institute?",
 
-      "ans": "Yes, Skillslash offers EMI with *T&C applied. That is, there will be no interest throughout the payment getting processed completely. We have the intervals of payment process till 12 months during the Web Development course online. You can also customize the amount to be paid accordingly.",
+      "ans": "Yes, EMI is available with *T&C applied, and there's no interest added through the repayment period. Payments can be spread out over up to 12 months, and the amount can be customised to suit your budget.",
       "open": false
     },
     {
       "id": 13,
-      "ques": "How will the classes be conducted? What are the course timings for Web Development course?",
+      "ques": "How are the classes conducted, and what are the timings?",
 
-      "ans": "All the classes will be conducted live through online learning platforms by our experienced mentors. In our Web Development course, we will record the live classes for future reference of our learners. Our Web Development course duration will be 11-month on a whole to cover up the entire modules. The course timings fall according to the availability of the cohorts and most probably, our Web Development course is on weekends. ",
+      "ans": "Classes are conducted live through our online learning platform by experienced mentors, and every session is recorded for later reference. The full programme spans 11 months to cover all the modules, and timings generally depend on cohort availability - most batches run on weekends.",
       "open": false
     },
     {
       "id": 14,
       "ques": "What is the refund policy for Skillslash’s Web Development online training?",
 
-      "ans": "As per the policies concerned, your refund request will be processed till 15 days from the start of the course. If in case you haven’t attended the course and you want a refund, your request will be considered accordingly.  ",
+      "ans": "Refund requests are accepted within 15 days from the start of the course. If you haven't attended any classes and want a refund within that window, your request will be considered accordingly.",
       "open": false
     }
   ]

@@ -2,7 +2,7 @@
   "metaInfo": {
     "title": "Data Structures Algorithms Course | Skillslash",
     "desc": "Enroll in the Data Structures and Algorithms Specialization with System Design course and Get certified.",
-    "keyword": "best data structures and algorithms course, data structures course, data structures and algorithms course, best data structures and algorithms course, System Design Certification, data structures and algorithms ",
+    "keyword": "best data structures and algorithms course, data structures course, data structures and algorithms course, System Design Certification",
     "canonical": "https://skillslash.com/data-structures-algorithms",
     "ReviewSchema": {
       "@context": "https://schema.org/",
@@ -451,43 +451,6 @@
     "ProMaxPrice": "₹ 1,35,000 + GST",
     "ProMaxDesc": " Get Data Structures Algorithms with Guaranteed job referral"
   },
-  "BatchDates": [
-    {
-      "batchDate": "11",
-      "batchMonth": "DEC",
-      "batchStatus": "Filled",
-      "batchType": "Morning Batch, ",
-      "batchTime": "09:00 to 12:00",
-      "batchDesc": "Enrollment has been closed",
-      "batchWeek": "weekend batch (Sat - Sun)",
-      "batchMsg": "Seats are filled",
-      "activeBatch": false
-    },
-
-    {
-      "batchDate": "18",
-      "batchMonth": "DEC",
-      "batchStatus": "new",
-      "batchType": "Morning Batch, ",
-      "batchTime": "09:00 to 12:00",
-      "batchDesc": "2 seats are available",
-      "batchDescSpan": "Hurry!",
-      "batchWeek": "weekend batch (Sat - Sun)",
-      "batchMsg": "Seats are almost filled",
-      "activeBatch": true
-    },
-    {
-      "batchDate": "24",
-      "batchMonth": "DEC",
-      "batchStatus": "Filled",
-      "batchType": "Afternoon Batch, ",
-      "batchTime": "02:00 to 05:00",
-      "batchDesc": "Enrollment has been closed",
-      "batchWeek": "weekend batch (Sat - Sun)",
-      "batchMsg": "Seats are filled",
-      "activeBatch": false
-    }
-  ],
   "FAQ": {
     "heading": "Frequently Asked Questions",
     "desc": "Know in detail about the syllabus of our data structures algorithm course, fees and scholarship"
@@ -495,38 +458,38 @@
   "FaqDATA": [
     {
       "id": 0,
-      "ques": "Under the data structures algorithms course, what learning options are offered?      ",
+      "ques": "What learning options are offered under this course?",
 
-      "ans": "Skillslash offers the Best data structures and algorithms with System Design Course with project certification. The fact that we provide offline and online learning options for our data structures and algorithms course with real-world experience is a focal point.   In addition, we provide a blended learning curriculum created especially for professionals. Additionally, as part of our data structures online course, you can take part in live classes that use a hybrid learning approach. Also, you will be doing some practical work at the industrial project site. However, because of the epidemic, we can only provide fully online courses through live sessions. This implies that you can communicate with your instructor in real time, just as you would during a typical face-to-face session. Additionally, at this time, cloud-based services will be used for all practical sessions of our data structures course.      ",
+      "ans": "Skillslash offers this Data Structures and Algorithms course with System Design and project certification, with both offline and online learning options so you can pick what suits your schedule. There's also a blended curriculum built for working professionals, with live classes that combine hybrid learning and hands-on practical work at the project site. Live sessions let you interact with your instructor in real time, and all practical work is carried out through cloud-based services.",
       "open": false
     },
     {
       "id": 1,
       "ques": "If I have to skip a lesson because of an emergency, would there be a make-up session?",
 
-      "ans": "First off all, we offer the best System Design Course with live online classes. Additionally, recordings of such classes are provided to all of our students. We also give you unrestricted access to these recorded sessions, thus enabling you to refer to them whenever you need theoretical support for your career in  DSA. So,  you need not feel bad if you miss a live class of our python dsa course training. However, you are strongly encouraged to attend all live classes.",
+      "ans": "We offer this System Design course with live online classes, and recordings of every session are made available to all students. You get unrestricted access to these recordings, so you can refer back to them whenever you need to revisit a concept for your DSA career. That said, we'd still recommend attending live classes wherever possible.",
       "open": false
     },
     {
       "id": 2,
-      "ques": "What if I didn't fully comprehend a module? Will I be able to take the dsa course again?",
+      "ques": "What if I didn't fully comprehend a module? Will I be able to take it again?",
 
-      "ans": "Most significantly, you can take the training of our best dsa course in c++ again with a different batch if you did not comprehend a whole module. Hence, there is absolutely no chance that you will continue to be confused about the learning modules.",
+      "ans": "Yes - you can sit in on that module again with a different batch at no extra cost. This way, there's no chance of moving forward while still confused about earlier material.",
       "open": false
     },
 
     {
       "id": 4,
-      "ques": "What is Skillslash’s data structures and algorithms with system design course scholarship program?      ",
+      "ques": "What is Skillslash’s scholarship program for this course?",
 
-      "ans": "Primarily, under best Course for data structures and algorithms scholarship program, every candidate will have to take a 20-minute online aptitude exam. If a candidate passes the aptitude exam with a score of more than 65 percent, he or she will be eligible for a 10 percent discount on the course fees. Besides, candidates who lost their jobs as a result of the COVID situation, as well as mothers who want to begin their careers, can receive up to a 100% scholarship based on their exam score. Thus, opening the doors to sign up for the best course for data structures and algorithms. ",
+      "ans": "Under the scholarship program, every candidate takes a 20-minute online aptitude exam. Candidates who score above 65 percent are eligible for a 10 percent discount on the course fee. Unemployed candidates and mothers returning to the workforce can receive up to a 100 percent scholarship based on their exam score.",
       "open": false
     },
     {
       "id": 5,
-      "ques": "What kind of certification does this best dsa course provide?",
+      "ques": "What kind of certification does this course provide?",
 
-      "ans": "The important aspect is that, by enrolling in Skillslash’s best data structure online course, you will receive practical training experience. In addition to that, you can avail shareable, globally acknowledged project certifications directly from top startups. Which means you get certifications from the companies with which you are associated with for live projects. ",
+      "ans": "By enrolling in this data structures course, you'll receive practical training experience reflected in your certificate. You can also avail shareable, globally acknowledged project certifications directly from the startups you're associated with for live projects.",
       "open": false
     }
   ]

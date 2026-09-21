@@ -42,7 +42,7 @@
       "altM": "",
       "altR": "",
       "CertificationPara": "",
-      "MicrosoftPara": "J ",
+      "MicrosoftPara": "",
       "RealWorkPara": ""
     },
     "trainerMentor": "",
@@ -1271,30 +1271,6 @@
     "ProMaxPrice": "₹ 1,49,999 + GST",
     "ProMaxDesc": "Guaranteed job referral"
   },
-  "BatchDates": [
-    {
-      "batchDate": "16",
-      "batchMonth": "DEC",
-      "batchStatus": "New",
-      "batchType": "Morning Batch, ",
-      "batchTime": "08:00 to 10:00",
-      "batchDesc": "Enroll for this batch",
-      "batchWeek": "weekday batch (Mon - Fri)",
-      "batchMsg": "Seats are available",
-      "activeBatch": true
-    },
-    {
-      "batchDate": "24",
-      "batchMonth": "DEC",
-      "batchStatus": "New",
-      "batchType": "Afternoon Batch, ",
-      "batchTime": "12:00 to 2:00",
-      "batchDesc": "Enroll for this batch",
-      "batchWeek": "weekend batch (Sat - Sun)",
-      "batchMsg": "Seats are available",
-      "activeBatch": true
-    }
-  ],
   "AboutCourseHeading": {
     "heading": "About Data Science",
     "para": "Data science is a field that combines statistical analysis, programming, and domain expertise to extract insights from data. A data scientist is a professional who uses a combination of statistical and programming skills to extract insights from data, and often works with data in a business or organizational setting. They typically have a strong background in mathematics and computer science, as well as experience in fields such as statistics and machine learning. They use this knowledge to analyze and interpret complex data sets, and use their findings to inform business decisions and drive growth."
@@ -1338,11 +1314,11 @@
   "FaqDATA": [
     {
       "id": 0,
-      "ques": " What are the different learning alternatives available for Data Science course ? ",
+      "ques": "What are the different learning alternatives available for the Data Science course?",
 
-      "ans": "Most crucially, for the",
+      "ans": "You can also check out our",
       "linkText": "Data Science course in Ludhiana",
-      "ansAfter": "One of the most important features of our data science course is the emphasis on real-world experience. We provide a live interactive learning option including blended learning curriculum tailored to the needs of working professionals. In addition, the data science course includes live online sessions in hybrid learning mode and hands-on work on industrial projects. This allows for real-time communication with instructors, as well as practical sessions in data science, artificial intelligence, and machine learning.",
+      "ansAfter": "for comparison. One of the most important features of this course is the emphasis on real-world experience. We offer a live interactive learning option, along with a blended curriculum tailored to the needs of working professionals. Sessions run in hybrid mode alongside hands-on work on industrial projects, so you get real-time communication with instructors as well as practical experience in data science, artificial intelligence, and machine learning.",
       "linkURL": "https://skillslash.com/data-science-course-in-ludhiana",
       "link": true,
       "open": false
@@ -1351,16 +1327,16 @@
       "id": 1,
       "ques": "If I have to miss a lesson in data science training due to an emergency, would there be a make-up class available to cover our data science syllabus?",
 
-      "ans": "For starters, their Data Science course in Mangalore includes live online sessions. Additionally, all of their students have access to video recordings of those classes. Furthermore, they provide you with unrestricted access to these recorded sessions so that you may refer to them anytime you need theoretical assistance in your AI and ML career. As a consequence, you won't be disappointed if you miss any of our artificial intelligence and machine learning training's live sessions. They do, however, strongly suggest you attend all live sessions.",
+      "ans": "The Data Science course in Mangalore runs as live online sessions, and every class is recorded. You get unrestricted access to these recordings, so you can catch up whenever you need to revisit a topic in your AI or ML learning. That means missing a live session won't set you back, though we still strongly recommend attending live wherever possible.",
       "open": false
     },
     {
       "id": 2,
       "ques": " What is the Data Science Course Scholarship Program at Skillslash?",
 
-      "ans": "In",
+      "ans": "The",
       "linkText": "Data Science",
-      "ansAfter": "Course Scholarship Program at Skillslash offers students the opportunity to earn a reduced course fee. Each candidate will have the chance to complete a 20-minute online aptitude test. If a candidate scores more than 65 percent on the aptitude exam, they will be eligible for a 10% reduction in data science course costs. Furthermore, applicants who lost their employment as a result of the COVID scenario, as well as mothers who wish to start a profession, may be eligible for a scholarship of up to 100% based on their exam score. This  data science program is designed to make our Data Science course more accessible and affordable for a diverse range of students.",
+      "ansAfter": "Course Scholarship Program at Skillslash gives students a chance to earn a reduced course fee. Each candidate can take a 20-minute online aptitude test, and scoring more than 65 percent makes you eligible for a 10% reduction in course costs. Candidates facing financial hardship, as well as mothers returning to the workforce, may also be eligible for a scholarship of up to 100% based on their exam score. The program is designed to make this course more accessible and affordable for a diverse range of students.",
       "linkURL": "https://en.wikipedia.org/wiki/Data_science",
       "link": true,
       "open": false
@@ -1369,20 +1345,20 @@
       "id": 3,
       "ques": "Will the data scientist certification in Mangalore take place online or in a classroom?",
 
-      "ans": "At present, Skillslash offering online data science certification programs with 100% live interactive sessions to make your learning journey truly unforgettable. Our live sessions provide real-time doubt clearance, so you won't miss out on the benefits of a physical setting where you can communicate and get your questions answered quickly.",
+      "ans": "Skillslash runs this data science certification program online, with 100% live interactive sessions. Our live format gives you real-time doubt clearance, so you get the same back-and-forth you'd expect from an in-person classroom, with quick answers to your questions.",
       "open": false
     },
     {
       "id": 4,
       "ques": "What is Skillslash’s Data Science scholarship program in Mangalore?",
 
-      "ans": "Skillslash's Data Science scholarship program in Mangalore is designed to provide financial assistance for students who want to take our Data Science course but may face financial barriers. Candidates who pass the aptitude test with a score of more than 65 percent will be eligible for a 30 percent discount on the data science course fees. Additionally, candidates who lost their jobs as a result of the COVID situation, as well as mothers who want to begin their careers, can receive up to a 100% scholarship based on their exam score. This data science program is an excellent opportunity for students who are looking to gain knowledge and skills in the field of Data Science.",
+      "ans": "Skillslash's Data Science scholarship program in Mangalore provides financial assistance to students who want to take the course but may face financial barriers. Candidates who score more than 65 percent on the aptitude test are eligible for a 30 percent discount on course fees, and candidates facing financial hardship, along with mothers returning to the workforce, can receive up to a 100% scholarship based on their exam score. It's a good opportunity for anyone looking to build skills in data science without letting cost get in the way.",
       "open": false
     },
     {
       "id": 5,
-      "ques": " Are there any fee discounts available for Data Science training in Mangalore?",
-      "ans": "Yes, we offer fee discounts for our Data Science training in Mangalore. Eligible students can save up to 30% on their data science course fees. Additionally, we also offer scholarships to Covid-affected candidates, unemployed candidates, and mothers returning to the workforce after a vacation. These discounts and scholarships are designed to make our data science course more accessible and affordable for a diverse range of students.",
+      "ques": "Are there any fee discounts available for Data Science training in Mangalore?",
+      "ans": "Yes, we offer fee discounts for this training. Eligible students can save up to 30% on their course fees, and we also offer scholarships to unemployed candidates and mothers returning to the workforce after a break. These discounts are designed to make the program more accessible and affordable for a diverse range of students.",
       "open": false
     },
     {
@@ -1394,13 +1370,13 @@
     {
       "id": 7,
       "ques": "Are your data science course training sessions live or pre-recorded?",
-      "ans": "All of our data science course training sessions are conducted live, in real-time, with an experienced instructor leading the way. These data science sessions are designed to be interactive, allowing participants to engage with the material and ask questions as they arise.You'll log in at a specific time and join a virtual classroom where you'll be able to connect with other participants and our data science trainers. This allows for a collaborative learning environment where everyone can share their experiences and insights.And don't worry if you miss a data science session or need to review the material again, we understand that everyone learns at a different pace. That's why we record all of our data sience sessions and make them available to you after the fact. This way, you'll have the opportunity to revisit the material, reinforce your understanding, and make sure you're keeping up with the rest of the data science class. So, whether you're a visual, auditory, or kinesthetic learner, we've got you covered.",
+      "ans": "All of our training sessions are conducted live, in real-time, with an experienced instructor leading the way. They're designed to be interactive, so you can engage with the material and ask questions as they come up. You'll log in at a set time and join a virtual classroom where you can connect with other participants and our trainers, which creates a collaborative environment where everyone shares experiences and insights. And if you miss a session or want to review the material again, we understand everyone learns at a different pace — that's why we record every session and make it available afterward, so you can revisit topics, reinforce your understanding, and stay on track with the rest of the class.",
       "open": false
     },
     {
       "id": 8,
       "ques": " What kind of certification does the Data Science course in Mangalore provide?",
-      "ans": "The Data Science course in Mangalore provides a globally recognized project management certification. Upon completion of the data science course, students will not only gain a solid understanding of data science, artificial intelligence, and machine learning but also receive a globally recognized project management certificate. Furthermore, the company with which you completed your industrial project can also give you direct certification, which is a valuable asset in the job market. This certification is a testament to the quality of our course and the skills and knowledge that students will gain during the course.",
+      "ans": "The Data Science course in Mangalore provides a globally recognized project management certification. On completion, you'll come away with a solid understanding of data science, artificial intelligence, and machine learning, plus that certificate. The company you complete your industrial project with can also give you direct certification, which is a valuable asset in the job market and reflects the skills and knowledge you'll build along the way.",
       "open": false
     }
   ]

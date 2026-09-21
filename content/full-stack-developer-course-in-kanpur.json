@@ -2,7 +2,7 @@
   "metaInfo": {
     "title": "Full Stack Developer course in Kanpur -Skillslash",
     "desc": "Enroll in the Full Stack Developer course in Kanpur and get certified. Learn core programming with industry exposure.",
-    "keyword": "full stack developer course in Kanpur, full stack development course in Kanpur, full stack training in Kanpur, , full stack developer course fee",
+    "keyword": "full stack developer course in Kanpur, full stack development course in Kanpur, full stack training in Kanpur, full stack developer course fee",
     "canonical": "https://skillslash.com/full-stack-developer-course-in-kanpur",
     "ReviewSchema": {
       "@context": "https://schema.org/",
@@ -451,43 +451,6 @@
     "ProMaxPrice": "₹ 1,35,000 + GST",
     "ProMaxDesc": " Get Full Stack training with Guaranteed job referral"
   },
-  "BatchDates": [
-    {
-      "batchDate": "11",
-      "batchMonth": "DEC",
-      "batchStatus": "Filled",
-      "batchType": "Morning Batch, ",
-      "batchTime": "09:00 to 12:00",
-      "batchDesc": "Enrollment has been closed",
-      "batchWeek": "weekend batch (Sat - Sun)",
-      "batchMsg": "Seats are filled",
-      "activeBatch": false
-    },
-
-    {
-      "batchDate": "18",
-      "batchMonth": "DEC",
-      "batchStatus": "new",
-      "batchType": "Morning Batch, ",
-      "batchTime": "09:00 to 12:00",
-      "batchDesc": "2 seats are available",
-      "batchDescSpan": "Hurry!",
-      "batchWeek": "weekend batch (Sat - Sun)",
-      "batchMsg": "Seats are almost filled",
-      "activeBatch": true
-    },
-    {
-      "batchDate": "24",
-      "batchMonth": "DEC",
-      "batchStatus": "Filled",
-      "batchType": "Afternoon Batch, ",
-      "batchTime": "02:00 to 05:00",
-      "batchDesc": "Enrollment has been closed",
-      "batchWeek": "weekend batch (Sat - Sun)",
-      "batchMsg": "Seats are filled",
-      "activeBatch": false
-    }
-  ],
   "FAQ": {
     "heading": "Frequently Asked Questions",
     "desc": "Go through the FAQ’s to know more about our Full Stack developer course, fees and project details."
@@ -495,38 +458,38 @@
   "FaqDATA": [
     {
       "id": 0,
-      "ques": "What are the various learning options offered under the Full Stack developer course in Kanpur? ",
+      "ques": "What are the learning options for the course?",
 
-      "ans": "Most importantly, we offer online learning choices for our full stack developer course in Kanpur. Aside from that, we provide a blended learning program designed specifically for working professionals. In addition, you can participate in live online sessions in hybrid learning mode under our Full Stack developer course in Kanpur. Besides, you will also be performing some hands-on work on the industrial project site.That said, we can only offer fully online classes via live sessions due to the outbreak. This means you can talk to your instructor in real time, just like in a traditional face-to-face session. Additionally, at this time, all practical sessions of our Full stack developer course in Kanpur will be conducted using cloud-based services.",
+      "ans": "The programme runs as live, instructor-led online sessions rather than pre-recorded video - so you're learning in real time with an instructor you can ask questions. Alongside the live classes, there's a blended track for working professionals who need more flexibility, and a hands-on project component where you apply what you've learned on real industry-style work rather than isolated exercises.",
       "open": false
     },
     {
       "id": 1,
-      "ques": "Will there be a make-up session available if I have to miss a class of Full Stack developer course in Kanpur?",
+      "ques": "What happens if I miss a live class?",
 
-      "ans": "Firstly, we offer live online classes for full stack developer courses in Kanpur. Also, all of our students have access to recorded versions of those classes. In addition, we also give you unlimited access to these recorded sessions, so you can go back to them whenever you need theoretical help in your full stack career. As a result, you need not be disappointed if you miss any of the live classes under our full stack developer training in Kanpur. However, we strongly advise you to participate in all live classes.",
+      "ans": "Every live session is recorded, and you get unlimited access to those recordings - so missing a class doesn't mean losing the material. That said, we'd still recommend attending live where you can, since the real-time Q&A with the instructor is harder to replicate afterward.",
       "open": false
     },
     {
       "id": 2,
-      "ques": "What if I did not understand an entire module? Will I be able to repeat the class?",
+      "ques": "What if I don't fully understand a module?",
 
-      "ans": "Most importantly, if you do not understand an entire module under the Full Stack developer course in Kanpur, you can repeat the same class with another batch. Thus, leaving no chance for you to remain in confusion about the learning modules.",
+      "ans": "You can sit in on that same module again with a later batch at no extra cost. The goal is that you actually come away understanding the material, not just that you sat through it once.",
       "open": false
     },
 
     {
       "id": 4,
-      "ques": "Are there any fee discounts available for full stack developer course in Kanpur?",
+      "ques": "Are there fee discounts or scholarships available?",
 
-      "ans": "If you are considered eligible for a scholarship, you may be able to save up to 10% on your fees for ai and ml course in Kanpur. Moreover, we also offer scholarships to Covid-affected candidates, unemployed candidates, and mothers returning to the workforce after a vacation.",
+      "ans": "Eligible candidates can get up to 10% off the course fee through our scholarship programme, which also extends to unemployed candidates and mothers returning to the workforce after a career break.",
       "open": false
     },
     {
       "id": 5,
-      "ques": "What kind of certification does the Full Stack developer course in Kanpur provide?",
+      "ques": "What certification do I get at the end?",
 
-      "ans": "The hitch is that if you take the full stack developer course in Kanpur, you will not just obtain any ordinary type of certification or academic degree. Instead, we offer a globally recognized project management certificate. The firm with which you completed your industrial project can also give you direct certification.",
+      "ans": "You get a project-based certificate that reflects the real work you built during the course, not just attendance. If your industry project was completed in partnership with a hiring company, that company can also issue you direct certification for the work.",
       "open": false
     }
   ]

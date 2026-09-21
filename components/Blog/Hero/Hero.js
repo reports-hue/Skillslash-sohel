@@ -23,26 +23,41 @@ const floatingCards = [
 
 // Illustrated stand-in for a hero photograph, built from real page content
 // (not a stock photo - see Hero.module.css for the composition notes): a
-// person at a desk with a browser-mock "article" card, a stack of labelled
-// books, a plant and a mug, echoing the floating info cards beside it.
+// person at a desk with a laptop, a browser-mock "article" card, a stack of
+// labelled books, a plant and a mug, echoing the floating info cards beside
+// it. Deliberately illustrated rather than a stock photo - no licensing to
+// track, and it reads consistently at any crop/size.
 const Scene = () => (
-  <svg className={styles.scene} viewBox="0 0 520 480" aria-hidden="true">
+  <svg className={styles.scene} viewBox="0 0 520 520" aria-hidden="true">
     <defs>
       <linearGradient id="heroBg" x1="0" y1="0" x2="1" y2="1">
         <stop offset="0" stopColor="#efeafd" />
         <stop offset="1" stopColor="#f7f3ff" />
       </linearGradient>
+      <linearGradient id="heroSweater" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stopColor="#8f7ae8" />
+        <stop offset="1" stopColor="#6b53d6" />
+      </linearGradient>
     </defs>
-    <circle cx="260" cy="240" r="220" fill="url(#heroBg)" />
+    <circle cx="260" cy="250" r="230" fill="url(#heroBg)" />
 
-    {/* stacked, labelled books - top left, clear of everything else */}
-    <g transform="translate(30 30)">
+    {/* handwritten annotation pointing up at the floating card stack */}
+    <g transform="translate(150 46)">
+      <text x="0" y="0" fontFamily="Georgia, serif" fontStyle="italic" fontSize="14" fill="#4f419a">Guides</text>
+      <text x="0" y="18" fontFamily="Georgia, serif" fontStyle="italic" fontSize="14" fill="#4f419a">Comparisons</text>
+      <text x="0" y="36" fontFamily="Georgia, serif" fontStyle="italic" fontSize="14" fill="#4f419a">+ Real Stories</text>
+      <path d="M112 8 C 150 2, 168 14, 172 34" fill="none" stroke="#4f419a" strokeWidth="2.2" strokeLinecap="round" />
+      <path d="M162 26 L172 34 L166 20" fill="none" stroke="#4f419a" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+    </g>
+
+    {/* stacked, labelled books - left of the person, clear of everything else */}
+    <g transform="translate(24 300)">
       <rect x="0" y="52" width="150" height="24" rx="5" fill="#8fd6bd" />
-      <text x="14" y="68" fontSize="12" fontWeight="700" fill="#134634">Global Careers</text>
-      <rect x="8" y="26" width="134" height="24" rx="5" fill="#b7a6f2" />
+      <text x="14" y="68" fontSize="12" fontWeight="700" fill="#134634">Better Skills</text>
+      <rect x="8" y="26" width="150" height="24" rx="5" fill="#b7a6f2" />
       <text x="22" y="42" fontSize="12" fontWeight="700" fill="#2e2159">Better Opportunities</text>
-      <rect x="16" y="0" width="118" height="24" rx="5" fill="#9fd1f2" />
-      <text x="30" y="16" fontSize="12" fontWeight="700" fill="#173a52">New Skills</text>
+      <rect x="16" y="0" width="126" height="24" rx="5" fill="#9fd1f2" />
+      <text x="30" y="16" fontSize="12" fontWeight="700" fill="#173a52">A Brighter You</text>
     </g>
 
     {/* browser card - top right */}
@@ -57,35 +72,54 @@ const Scene = () => (
       <text x="16" y="176" fontSize="15" fontWeight="800" fill="#171330">Tech Skills in 2026</text>
     </g>
 
-    {/* desk + laptop - centered lower half, clear of the books and card above it */}
-    <g transform="translate(110 260)">
-      <rect x="-20" y="140" width="330" height="16" rx="8" fill="#241f3d" opacity="0.08" />
+    {/* person - seated, chin on hand, centered above the desk */}
+    <g transform="translate(260 210)">
+      <ellipse cx="0" cy="150" rx="86" ry="18" fill="#241f3d" opacity="0.06" />
+      {/* shoulders / sweater */}
+      <path d="M-92 150 C -92 78 -50 40 0 40 C 50 40 92 78 92 150 Z" fill="url(#heroSweater)" />
+      {/* neck */}
+      <rect x="-14" y="18" width="28" height="30" rx="10" fill="#e8b58c" />
+      {/* head */}
+      <circle cx="0" cy="-18" r="46" fill="#f0c49a" />
+      {/* hair */}
+      <path d="M-46 -14 C -52 -62 -18 -78 0 -78 C 20 -78 54 -64 46 -12 C 40 -30 30 -18 30 -4 C 22 -30 -22 -30 -30 -4 C -30 -18 -40 -30 -46 -14 Z" fill="#2c2140" />
+      {/* smile + cheek */}
+      <path d="M-14 -6 C -8 2 8 2 14 -6" fill="none" stroke="#7a4a30" strokeWidth="2.4" strokeLinecap="round" />
+      <circle cx="-16" cy="-18" r="3" fill="#2c2140" />
+      <circle cx="16" cy="-18" r="3" fill="#2c2140" />
+      {/* raised arm, hand resting near chin (thinking pose) */}
+      <path d="M56 60 C 78 36 70 4 44 -4 C 60 0 66 24 52 44" fill="none" stroke="url(#heroSweater)" strokeWidth="22" strokeLinecap="round" />
+      <circle cx="42" cy="-8" r="11" fill="#f0c49a" />
+    </g>
+
+    {/* desk + open laptop */}
+    <g transform="translate(110 330)">
+      <rect x="-20" y="150" width="330" height="16" rx="8" fill="#241f3d" opacity="0.08" />
       <rect x="0" y="0" width="290" height="152" rx="12" fill="#241f3d" />
       <rect x="10" y="10" width="270" height="122" rx="6" fill="#f3f0ff" />
       <rect x="-16" y="152" width="322" height="13" rx="6" fill="#312a52" />
-      <text x="26" y="66" fontSize="15" fontWeight="700" fill="#4f419a">Better Skills</text>
-      <text x="26" y="88" fontSize="15" fontWeight="700" fill="#241f3d">Brighter You</text>
+      {/* SkillSlash wordmark on the laptop screen */}
+      <rect x="26" y="30" width="14" height="14" rx="4" fill="#5b46d9" />
+      <text x="46" y="42" fontSize="15" fontWeight="800" fill="#171330">SkillSlash</text>
+      <text x="26" y="70" fontSize="13" fontWeight="700" fill="#4f419a">Learn</text>
+      <text x="26" y="90" fontSize="13" fontWeight="700" fill="#4f419a">Compare</text>
+      <text x="26" y="110" fontSize="13" fontWeight="700" fill="#241f3d">Grow</text>
     </g>
 
     {/* mug - bottom right, clear of the laptop */}
-    <g transform="translate(430 380)">
-      <rect x="0" y="0" width="50" height="46" rx="7" fill="#fff" stroke="#e4dffa" strokeWidth="2" />
-      <path d="M50 9 C 66 9 66 35 50 35" fill="none" stroke="#e4dffa" strokeWidth="3" />
-      <text x="9" y="20" fontSize="8" fontWeight="700" fill="#4f419a">Good</text>
-      <text x="9" y="30" fontSize="8" fontWeight="700" fill="#4f419a">Learners</text>
+    <g transform="translate(422 420)">
+      <rect x="0" y="0" width="58" height="52" rx="8" fill="#fff" stroke="#e4dffa" strokeWidth="2" />
+      <path d="M58 10 C 76 10 76 40 58 40" fill="none" stroke="#e4dffa" strokeWidth="3" />
+      <text x="8" y="20" fontSize="7.5" fontWeight="700" fill="#4f419a">Good</text>
+      <text x="8" y="30" fontSize="7.5" fontWeight="700" fill="#4f419a">Learners</text>
+      <text x="8" y="40" fontSize="7.5" fontWeight="700" fill="#4f419a">Build Great</text>
     </g>
 
     {/* plant - bottom left, clear of the laptop and books */}
-    <g transform="translate(40 400)">
+    <g transform="translate(34 440)">
       <rect x="6" y="30" width="38" height="34" rx="6" fill="#e2ddf5" />
       <path d="M25 30 C 8 16 6 -4 22 -12 C 26 6 22 22 25 30 Z" fill="#5fb39e" />
       <path d="M25 30 C 42 22 46 2 34 -8 C 30 8 28 20 25 30 Z" fill="#6fc2ad" />
-    </g>
-
-    {/* handwritten annotation pointing at the browser card */}
-    <g transform="translate(178 60)" fill="none" stroke="#4f419a" strokeWidth="2.5" strokeLinecap="round">
-      <path d="M28 -20 C 4 -14, -8 4, 2 24" />
-      <path d="M-6 14 L2 24 L14 18" />
     </g>
   </svg>
 )
@@ -159,12 +193,13 @@ const Hero = ({ hasPhoto = false }) => {
 
         <div className={styles.visual}>
           {hasPhoto ? (
-            // public/hero.jpg is the full composed graphic (photo, floating
-            // cards, handwritten annotations and trust badge all baked into
-            // one image) - the synthetic HTML overlays below are only for
-            // the illustrated <Scene /> fallback, so they're skipped here
-            // entirely rather than risking a duplicate, misaligned copy of
-            // content the image already contains.
+            // public/hero.jpg is the composed photo with its own floating
+            // cards, handwritten annotations and trust badge baked in - the
+            // synthetic <Scene/> fallback below is skipped for it so we
+            // don't risk a duplicate, misaligned copy of content the image
+            // already contains. The 1M+ learner badge isn't baked into the
+            // photo, though, so it renders as a real overlay either way -
+            // see below.
             // eslint-disable-next-line @next/next/no-img-element
             <img src="/hero.jpg" alt="" className={styles.photo} />
           ) : (

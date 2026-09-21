@@ -42,7 +42,7 @@
       "altM": "",
       "altR": "",
       "CertificationPara": "",
-      "MicrosoftPara": "J ",
+      "MicrosoftPara": "",
       "RealWorkPara": ""
     },
     "trainerMentor": "",
@@ -1037,7 +1037,7 @@
   ],
   "Review": {
     "title": "Why pratical learning experience is vital?",
-    "desc": " Skillslash’s online business analytics certification in Gurugram is designed for creative minds and made for everyone.Take business analytics course with us. And, experience the new era of education."
+    "desc": " Skillslash’s online business analytics certification in Gurugram is designed for creative minds and made for everyone. Take this course with us and experience the new era of education."
   },
   "Fee": {
     "FullStack": true,
@@ -1050,30 +1050,6 @@
     "ProMaxPrice": "₹ 1,30,000 + GST",
     "ProMaxDesc": "Guaranteed job referral"
   },
-  "BatchDates": [
-    {
-      "batchDate": "16",
-      "batchMonth": "DEC",
-      "batchStatus": "New",
-      "batchType": "Morning Batch, ",
-      "batchTime": "08:00 to 10:00",
-      "batchDesc": "Enroll for this batch",
-      "batchWeek": "weekday batch (Mon - Fri)",
-      "batchMsg": "Seats are available",
-      "activeBatch": true
-    },
-    {
-      "batchDate": "24",
-      "batchMonth": "DEC",
-      "batchStatus": "New",
-      "batchType": "Afternoon Batch, ",
-      "batchTime": "12:00 to 2:00",
-      "batchDesc": "Enroll for this batch",
-      "batchWeek": "weekend batch (Sat - Sun)",
-      "batchMsg": "Seats are available",
-      "activeBatch": true
-    }
-  ],
   "FAQ": {
     "heading": "Frequently Asked Questions",
     "desc": "Have a look at the FAQ’s below to know more about our business analytics training, fees and project details."
@@ -1082,37 +1058,37 @@
     {
       "id": 0,
       "ques": " What is the business analytics course duration in Gurugram and what modules are covered?",
-      "ans": "The duration of the business analytics course in Gurugram is 5 months. But, depending on your schedule (weekdays/weekends), the amount of time you spend learning will vary. Under our business analytics training, in different modules you will be able to study about a variety of topics. Beginning with the fundamentals of programming, such as python and cloud basics, and progressing to advanced Excel, DBMS - SQL and NoSQL, and data visualization using power BI and Tableau.",
+      "ans": "This course runs for 5 months, though the exact time you spend learning will vary depending on whether you pick weekday or weekend batches. Across the different modules, you'll study a wide range of topics - starting with programming fundamentals like Python and cloud basics, and progressing to advanced Excel, DBMS (SQL and NoSQL), and data visualization using Power BI and Tableau.",
       "open": false
     },
     {
       "id": 1,
       "ques": "What are the requirements to take a business analytics certification course in Gurugram?",
-      "ans": "Every enthusiastic data science aspirant, we believe, is capable of making a successful data science career move. But, no, we don't have any stringent eligibility requirements. However, we do assess candidates' aptitude for the learning module in the business analytics sector. Specifically, on the basis of programming skills and statistical knowledge. The business analytics course is specifically curated for professionals. Also, a candidate must have at least one year of professional experience in any field.",
+      "ans": "We believe any enthusiastic aspirant is capable of making a successful career move into data or business analytics, so there aren't any stringent eligibility requirements. That said, we do assess candidates' aptitude for the learning modules, mainly based on programming skills and statistical knowledge. This course is curated for professionals, so candidates should have at least one year of professional experience in any field.",
       "open": false
     },
     {
       "id": 2,
       "ques": "What is the business analytics course fee at Skillslash?",
-      "ans": "The business analytics training has a course fee start from INR 60,000. In addition, you can also avail a scholarship program under our business analytics course in Gurugram. Besides, you can get up to a 10% scholarship for the business analytics training in Gurugram if you take an aptitude exam. So, if a candidate has a score of more than 65 percent on the aptitude exam, he or she will be eligible for a 10 percent reduction on the course fees.",
+      "ans": "The course fee starts from INR 60,000, and there's a scholarship program you can apply for as well. You can get up to a 10% discount by taking an aptitude exam - candidates who score above 65 percent are eligible for a 10 percent reduction on the course fees.",
       "open": false
     },
     {
       "id": 3,
       "ques": "If I have to miss a class due to an emergency, will there be a make-up class available?",
-      "ans": "Firstly, we provide live online classes. Additionally, all of our students have access to video recordings of those classes. Besides, we provide you with unrestricted access to these recorded sessions. So, you can refer to them whenever you need theoretical assistance in your business analytics, AI or ML career. As a result, if you miss any of the live classes, you need not be disappointed. That said, we do, however, strongly encourage you to attend all live classes.",
+      "ans": "We provide live online classes, and all students get access to video recordings of every session with no restrictions. So you can refer back to them whenever you need theoretical support for your business analytics, AI, or ML career, and there's no need to worry if you miss a live class. That said, we'd still strongly encourage you to attend live classes wherever possible.",
       "open": false
     },
     {
       "id": 4,
       "ques": " How many projects are included in this business analytics course in Gurugram?",
-      "ans": "The business analytics certification in Gurugram offers 15+ real-world projects from which you can choose a couple for case study learning based on the demands of your domain. Aside from that, under the business analytics course curriculum, you will have the opportunity to work on three industry projects (capstone projects) with a variety of MNCs and startups.",
+      "ans": "This course offers 15+ real-world projects, from which you can choose a couple for case study learning based on the demands of your domain. On top of that, the curriculum gives you the opportunity to work on three industry capstone projects with a variety of MNCs and startups.",
       "open": false
     },
     {
       "id": 5,
       "ques": "What kind of certification does the business analytics course provide",
-      "ans": "The catch is that you will not receive any form of certification or academic degree if you attend the business analytics training. Instead, we provide a project management certificate that is recognized all over the world. Besides, under this business analytics course in Gurugram, you can get direct certifications from the company with which you completed your industrial project.",
+      "ans": "You won't receive a formal academic degree for attending this training - instead, we provide a project management certificate that's recognized globally. Beyond that, you can also get direct certifications from the company you completed your industrial project with.",
       "open": false
     }
   ]

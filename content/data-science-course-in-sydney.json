@@ -42,7 +42,7 @@
       "altM": "",
       "altR": "",
       "CertificationPara": "",
-      "MicrosoftPara": "J ",
+      "MicrosoftPara": "",
       "RealWorkPara": ""
     },
     "trainerMentor": "",
@@ -1243,30 +1243,6 @@
     "ProMaxPrice": "₹ 1,49,999 + GST",
     "ProMaxDesc": "Guaranteed job referral"
   },
-  "BatchDates": [
-    {
-      "batchDate": "16",
-      "batchMonth": "DEC",
-      "batchStatus": "New",
-      "batchType": "Morning Batch, ",
-      "batchTime": "08:00 to 10:00",
-      "batchDesc": "Enroll for this batch",
-      "batchWeek": "weekday batch (Mon - Fri)",
-      "batchMsg": "Seats are available",
-      "activeBatch": true
-    },
-    {
-      "batchDate": "24",
-      "batchMonth": "DEC",
-      "batchStatus": "New",
-      "batchType": "Afternoon Batch, ",
-      "batchTime": "12:00 to 2:00",
-      "batchDesc": "Enroll for this batch",
-      "batchWeek": "weekend batch (Sat - Sun)",
-      "batchMsg": "Seats are available",
-      "activeBatch": true
-    }
-  ],
   "FAQ": {
     "heading": "Frequently Asked Questions",
     "desc": "Go through the FAQs to know more about our Data Science course in Sydney. Also, learn about our Data Science course fees, project certifications, other Data Science and AI course details."
@@ -1274,8 +1250,8 @@
   "FaqDATA": [
     {
       "id": 0,
-      "ques": " What does Skillslash guarantee a job in the Data Science field? ",
-      "ans": "Skillslash’s Data Science course is fully aligned to meet students’ success. Starting from the curriculum of the Data Science programs, attention is given to ensure the meeting of industry standards. The Artificial Intelligence and Data Science Syllabus is extensive, giving particular emphasis to real-time project training. Besides, by enrolling in Skillslash’s Data Science course in Sydney, students can earn real-work experience and direct project certifications from top Startups. This can undoubtedly boost their portfolios to get weightage in interviews.Under Skillslash’s flagship Guaranteed job referral program, special focus is given to resume/portfolio building assistance, career mentorship, and counseling. Moreover, to top it all, we set up interviews for our students. And also, give them mock interview trials and unlimited job referrals. So as to assure a sure placement in top Data Science firms.",
+      "ques": "How does Skillslash guarantee a job in the Data Science field?",
+      "ans": "Skillslash's Data Science course is built around student outcomes. The curriculum is designed to meet industry standards, with the AI and Data Science syllabus giving particular emphasis to real-time project training. By enrolling, students can earn real-work experience and direct project certifications from top startups, which strengthens their portfolio for interviews. Under our Guaranteed job referral program, we also provide resume and portfolio building assistance, career mentorship, and counseling. On top of that, we set up interviews, run mock interview trials, and offer unlimited job referrals to help ensure a placement in a top firm.",
       "open": false
     },
     {
@@ -1283,7 +1259,7 @@
       "ques": "Will there be a make-up class available if I have to miss a Data Science class due to an emergency?",
       "ans": "Firstly, we offer live online classes for our",
       "linkText": "Data Science course in Kolkata",
-      "ansAfter": "Also, all of our students have access to the recorded versions of these data science classes. In addition, we also give you unlimited access to these Data Science training sessions. So, you can go back to them whenever you need theoretical help in Data science, in your AI and ML career. As a result, you need not be disappointed if you miss any of the live classes under our Data science courses. However, we strongly advise you to participate in all live classes.",
+      "ansAfter": "and all students get access to the recorded versions of every class. You have unlimited access to these recordings, so you can go back to them whenever you need theoretical help in your AI and ML career. As a result, you won't be left behind if you miss a live class, though we strongly advise attending as many as you can.",
       "linkURL": "https://skillslash.com/data-science-course-in-kolkata",
       "link": true,
       "open": false
@@ -1291,25 +1267,25 @@
     {
       "id": 2,
       "ques": "What are the various learning options offered under Skillslash's Data Science Course?",
-      "ans": "Most importantly, we offer online learning choices for our Data Science with real-work experience. Aside from that, we provide a blended learning program designed specifically for working professionals. In addition, you can participate in live online Data science training sessions in hybrid learning mode. Besides, under our Data science training course in Sydney, you will also be performing some hands-on work on the industrial project site.That said, we can only offer fully online data science classes via live sessions due to the outbreak. This means you can talk to your instructor in real time, just like in a traditional face-to-face session. Besides, now, all practical sessions of our Data Science and Artificial Intelligence courses in Sydney will be conducted using cloud-based services.",
+      "ans": "We offer online learning options built around real-work experience, along with a blended program designed specifically for working professionals. You can join live online training sessions in a hybrid learning mode, and you'll also get hands-on work through industrial projects. Live sessions mean you can talk to your instructor in real time, much like a traditional classroom, and practical sessions for this course are conducted using cloud-based services.",
       "open": false
     },
     {
       "id": 3,
-      "ques": "What kind of Certification does the Data Science training in Sydney provide",
-      "ans": "Most importantly, by getting our Data science course training in Sydney, you will not just obtain any ordinary type of certification or academic degree. Instead, we offer a globally recognized project management certificate. The firm with which you completed your industrial project can also give you direct certifications.",
+      "ques": "What kind of certification does the Data Science training in Sydney provide?",
+      "ans": "This isn't just an ordinary certificate or academic credential — we offer a globally recognized project management certification. On top of that, the firm you complete your industrial project with can also issue you direct certification.",
       "open": false
     },
     {
       "id": 4,
       "ques": " What is Skillslash's scholarship program under the Data Science course?",
-      "ans": "First of all, every candidate will be given the opportunity to take a 20-minute online exam. So that, their aptitude in Data science can by analyzed. If a candidate passes the aptitude exam with a score of more than 65 percent, he or she will be eligible for a 30 percent discount on the course fees. Besides, candidates who lost their jobs as a result of the COVID situation, as well as mothers who want to begin their careers, can receive up to a 100% scholarship based on their exam score.",
+      "ans": "Every candidate gets the opportunity to take a 20-minute online exam that assesses their aptitude in data science. Scoring above 65 percent on the exam qualifies you for a 30 percent discount on course fees, and candidates such as mothers looking to begin their careers can receive up to a 100% scholarship based on their exam score.",
       "open": false
     },
     {
       "id": 5,
-      "ques": "Is their a difference in teaching quality between Pro and Pro-max program feature under Skillslash's Data Science courses?",
-      "ans": "No, absolutely not. Under both Pro and Pro-max features in our Data Science course in Sydney, the classes are taken by Data Science experts in 100% live-interactive classes. Also, you can achieve a personalized learning experience with individual attention under our Data Science courses, irrespective of it being Pro or Pro-Max. In addition, for both program features, you can avail domain training and elective tracks for functional/industry specialization.",
+      "ques": "Is there a difference in teaching quality between the Pro and Pro-Max program features?",
+      "ans": "No, not at all. Under both the Pro and Pro-Max features, classes are taken by data science experts in 100% live-interactive sessions, and you get a personalized learning experience with individual attention either way. Both program features also give you access to domain training and elective tracks for functional or industry specialization.",
       "open": false
     }
   ]

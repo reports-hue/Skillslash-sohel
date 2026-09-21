@@ -42,7 +42,7 @@
       "altM": "",
       "altR": "",
       "CertificationPara": "",
-      "MicrosoftPara": "J ",
+      "MicrosoftPara": "",
       "RealWorkPara": ""
     },
     "trainerMentor": "",
@@ -156,7 +156,7 @@
     "altR": "Get Real Work Experience Certificate by taking best data science course in Canada online"
   },
   "RealWork": {
-    "desc": "Sign up in India’s best Data Science course with Guaranteed job referral. The Data Science courses are designed with an application-based learning approach. Furthermore, the extensive Artificial Intelligence and Data Science Syllabus focuses on helping learners build relevant experience. Especially, in the technologies they upskill to prove expertise."
+    "desc": "Sign up for a Data Science course with a Guaranteed job referral. The course is designed with an application-based learning approach. Furthermore, the extensive Artificial Intelligence and Data Science syllabus focuses on helping learners build relevant experience, especially in the technologies they upskill in to prove expertise."
   },
   "syllabusDesc": "Skillslash’s best Data Science course in Canada comes with a Guaranteed job referral. Besides, the Data Science and AI courses are curated by leading faculties and industry leaders. Especially, with the aim to provide practical data science learning experience with live interactive classes and projects.",
   "popupHead": "Download Data science Course Brochure",
@@ -1270,30 +1270,6 @@
     "ProMaxPrice": "₹ 1,49,999 + GST",
     "ProMaxDesc": "Guaranteed job referral"
   },
-  "BatchDates": [
-    {
-      "batchDate": "16",
-      "batchMonth": "DEC",
-      "batchStatus": "New",
-      "batchType": "Morning Batch, ",
-      "batchTime": "08:00 to 10:00",
-      "batchDesc": "Enroll for this batch",
-      "batchWeek": "weekday batch (Mon - Fri)",
-      "batchMsg": "Seats are available",
-      "activeBatch": true
-    },
-    {
-      "batchDate": "24",
-      "batchMonth": "DEC",
-      "batchStatus": "New",
-      "batchType": "Afternoon Batch, ",
-      "batchTime": "12:00 to 2:00",
-      "batchDesc": "Enroll for this batch",
-      "batchWeek": "weekend batch (Sat - Sun)",
-      "batchMsg": "Seats are available",
-      "activeBatch": true
-    }
-  ],
   "FAQ": {
     "heading": "Frequently Asked Questions",
     "desc": "Go through the FAQs to know more about our Data Science course in Canada. Also, learn about our Data Science course fees, project certifications, other Data Science and AI course details."
@@ -1302,15 +1278,15 @@
     {
       "id": 0,
       "ques": " What does Skillslash guarantee a job in the Data Science field? ",
-      "ans": "Skillslash’s Data Science course is fully aligned to meet students’ success. Starting from the curriculum of the Data Science course, attention is given to ensure the meeting of industry standards. The Artificial Intelligence and Data Science Syllabus is extensive, giving particular emphasis to real-time project training. Besides, by enrolling in Skillslash’s Data Science course in Canada, students can earn real-work experience and direct project certifications from top Startups. This can undoubtedly boost their portfolios to get weightage in interviews.Under Skillslash’s flagship Guaranteed job referral program, special focus is given to resume/portfolio building assistance, career mentorship, and counseling. Moreover, to top it all, we set up interviews for our students. And also, give them mock interview trials and unlimited job referrals. So as to assure a sure placement in top Data Science firms.",
+      "ans": "Skillslash's Data Science course is built around student outcomes from the ground up. The curriculum is designed to meet industry standards, and the Artificial Intelligence and Data Science syllabus puts particular emphasis on real-time project training. By enrolling, students earn real-work experience and direct project certifications from top startups, which strengthens their portfolio for interviews. Under our flagship Guaranteed job referral program, we also provide resume and portfolio building assistance, career mentorship, and counseling, along with mock interview trials, arranged interviews, and unlimited job referrals to help you land a role at a top firm.",
       "open": false
     },
     {
       "id": 1,
       "ques": "Will there be a make-up class available if I have to miss a Data Science class due to an emergency?",
-      "ans": "Firstly, we offer live online classes for our",
+      "ans": "We offer live online classes, similar to our",
       "linkText": "Data Science course in Kolkata",
-      "ansAfter": "Also, all of our students have access to the recorded versions of these data science classes. In addition, we also give you unlimited access to these Data Science training sessions. So, you can go back to them whenever you need theoretical help in Data science, in your AI and ML career. As a result, you need not be disappointed if you miss any of the live classes under our Data science courses. However, we strongly advise you to participate in all live classes.",
+      "ansAfter": "and all students get access to recorded versions of every class. You have unlimited access to these recordings, so you can revisit them anytime you need theoretical help in your AI and ML journey. This means missing a live class won't set you back, though we still strongly advise attending all live sessions whenever possible.",
       "linkURL": "https://skillslash.com/data-science-course-in-kolkata",
       "link": true,
       "open": false
@@ -1318,25 +1294,25 @@
     {
       "id": 2,
       "ques": "What are the various learning options offered under Skillslash's Data Science Course?",
-      "ans": "Most importantly, we offer online learning choices for our Data Science with real-work experience. Aside from that, we provide a blended learning program designed specifically for working professionals. In addition, you can participate in live online Data science training sessions in hybrid learning mode. Besides, under our Data science training course in Canada, you will also be performing some hands-on work on the industrial project site.That said, we can only offer fully online data science classes via live sessions due to the outbreak. This means you can talk to your instructor in real time, just like in a traditional face-to-face session. Besides, now, all practical sessions of our Data Science and Artificial Intelligence courses in Canada will be conducted using cloud-based services.",
+      "ans": "We offer online learning options that include real-work experience, along with a blended learning program designed specifically for working professionals. You can participate in live online training sessions in a hybrid learning mode, and you'll also get hands-on work on an industrial project. Live sessions let you talk to your instructor in real time, just like in a traditional classroom, and all practical sessions are conducted using cloud-based services.",
       "open": false
     },
     {
       "id": 3,
       "ques": "What kind of Certification does the Data Science training in Canada provide",
-      "ans": "Most importantly, by getting our Data science course training in Canada, you will not just obtain any ordinary type of certification or academic degree. Instead, we offer a globally recognized project management certificate. The firm with which you completed your industrial project can also give you direct certifications.",
+      "ans": "This course goes beyond an ordinary certificate or academic degree. We offer a globally recognized project management certification, and the firm you complete your industrial project with can also issue you direct certification.",
       "open": false
     },
     {
       "id": 4,
       "ques": " What is Skillslash's scholarship program under the Data Science course?",
-      "ans": "First of all, every candidate will be given the opportunity to take a 20-minute online exam. So that, their aptitude in Data science can by analyzed. If a candidate passes the aptitude exam with a score of more than 65 percent, he or she will be eligible for a 30 percent discount on the course fees. Besides, candidates who lost their jobs as a result of the COVID situation, as well as mothers who want to begin their careers, can receive up to a 100% scholarship based on their exam score.",
+      "ans": "Every candidate gets the opportunity to take a 20-minute online exam so their aptitude in data science can be assessed. Candidates who score above 65 percent on the aptitude exam are eligible for a 30 percent discount on course fees. Candidates who are currently unemployed, as well as mothers looking to begin their careers, can receive up to a 100% scholarship based on their exam score.",
       "open": false
     },
     {
       "id": 5,
       "ques": "Is their a difference in teaching quality between Pro and Pro-max program feature under Skillslash's Data Science courses?",
-      "ans": "No, absolutely not. Under both Pro and Pro-max features in our Data Science course in Canada, the classes are taken by Data Science experts in 100% live-interactive classes. Also, you can achieve a personalized learning experience with individual attention under our Data Science courses, irrespective of it being Pro or Pro-Max. In addition, for both program features, you can avail domain training and elective tracks for functional/industry specialization.",
+      "ans": "No, absolutely not. Both the Pro and Pro-Max plans are taught by data science experts in 100% live, interactive classes, and you get a personalized learning experience with individual attention either way. Both plans also include domain training and elective tracks for functional or industry specialization.",
       "open": false
     }
   ]

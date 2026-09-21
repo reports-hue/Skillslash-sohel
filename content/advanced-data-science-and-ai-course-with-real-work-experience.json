@@ -2,7 +2,7 @@
   "metaInfo": {
     "title": "Advanced Data Science and Artificial Intelligence Course| Skillslash",
     "desc": "Learn to effectively lead end-to-end Python for Data Science, SQL, Artificial Intelligence, and Machine Learning projects that deliver business impact. get Microsoft certification with Skillslash Academy and learn from home.",
-    "keyword": "data science course near me, data science classes, data science training , data science certification course , data scientist course fees, learn data science, python for data science, best data science courses, data science online course, data science course fees, data science certificate, data science, data science and ai course, artificial intelligence and data science engineering, b tech artificial intelligence and data science, artificial intelligence and data science course, ai and data science course, advanced certification in data science and ai",
+    "keyword": "data science course near me, data science classes, data science training, data science certification course, data scientist course fees, learn data science, python for data science, best data science courses, data science online course, data science course fees, data science certificate, data science, data science and ai course, artificial intelligence and data science engineering, b tech artificial intelligence and data science, artificial intelligence and data science course, ai and data science course, advanced certification in data science and ai",
     "canonical": "https://skillslash.com/advanced-data-science-and-ai-course-with-real-work-experience",
     "ReviewSchema": {
       "@context": "https://schema.org/",
@@ -50,7 +50,7 @@
       "altM": "",
       "altR": "",
       "CertificationPara": "",
-      "MicrosoftPara": "J ",
+      "MicrosoftPara": "",
       "RealWorkPara": ""
     },
     "trainerMentor": "",
@@ -1471,31 +1471,6 @@
     "ProMaxPrice": "₹ 1,49,999 + GST",
     "ProMaxDesc": "Guaranteed job referral"
   },
-  "BatchDates": [
-    {
-      "batchDate": "16",
-      "batchMonth": "DEC",
-      "batchStatus": "New",
-      "batchType": "Morning Batch, ",
-      "batchTime": "08:00 to 10:00",
-      "batchDesc": "Enroll for this batch",
-      "batchWeek": "weekday batch (Mon - Fri)",
-      "batchMsg": "Seats are available",
-      "activeBatch": true
-    },
-    {
-      "batchDate": "24",
-      "batchMonth": "DEC",
-      "batchStatus": "New",
-      "batchType": "Afternoon Batch, ",
-      "batchTime": "12:00 to 2:00",
-      "batchDesc": "Enroll for this batch",
-      "batchWeek": "weekend batch (Sat - Sun)",
-      "batchMsg": "Seats are available",
-      "activeBatch": true
-    }
-  ],
-
   "AboutCourseHeading": {
     "heading": "About Data Science",
     "para": "Data science is a field that combines statistical analysis, programming, and domain expertise to extract insights from data. A data scientist is a professional who uses a combination of statistical and programming skills to extract insights from data, and often works with data in a business or organizational setting. They typically have a strong background in mathematics and computer science, as well as experience in fields such as statistics and machine learning. They use this knowledge to analyze and interpret complex data sets, and use their findings to inform business decisions and drive growth."
@@ -1652,7 +1627,7 @@
     {
       "data": {
         "heading": "How big is the demand for Data Science course online in India ?",
-        "para": "The field of data science is garnering increasing attention and need in present day India, and this need is constantly rising with the increasing need for people to be able to gather, collect and analyze data in almost all the working sectors of the nation, majorly in the business, stock market and healthcare sectors post covid wherein the need to collect and organize all healthcare data became increasingly important. Data is currently a highly valued form of information in the nation, and the data science market is on a spree looking for talented data scientists to hire to handle their heaps of data in the best possible way.",
+        "para": "The field of data science is garnering increasing attention and need in present day India, and this need is constantly rising with the growing demand for people who can gather, collect and analyze data across nearly every working sector, majorly in business, the stock market and healthcare, where organizing and interpreting large volumes of data has become increasingly important. Data is currently a highly valued form of information in the nation, and the data science market is actively looking for talented data scientists to hire to handle their heaps of data in the best possible way.",
         "list": [],
 
         "listActive": false,
@@ -1748,7 +1723,7 @@
 
       "ans": "Firstly, we offer live online classes for our",
       "linkText": "Data Science course",
-      "ansAfter": "Also, all of our students have access to the recorded versions of these data science classes. In addition, we also give you unlimited access to these Data Science training sessions. So, you can go back to them whenever you need theoretical help in Data science, in your AI and ML career. As a result, you need not be disappointed if you miss any of the live classes under our Data science courses. However, we strongly advise you to participate in all live classes.",
+      "ansAfter": "and all students get access to the recorded versions of every class. You have unlimited access to these recordings, so you can go back to them whenever you need theoretical help in your AI and ML career. As a result, you won't be left behind if you miss a live class, though we strongly advise participating in as many as you can.",
       "linkURL": "https://skillslash.com/data-science-course",
       "link": true,
       "open": false
@@ -1757,14 +1732,14 @@
       "id": 2,
       "ques": "What are the various learning options offered under Skillslash's Data Science Course?",
 
-      "ans": "Most importantly, we offer online learning choices for our Data Science with real-work experience. Aside from that, we provide a blended learning program designed specifically for working professionals. In addition, you can participate in live online Data science training sessions in hybrid learning mode. Besides, under our Data science course with 100% placement, you will also be performing some hands-on work on the industrial project site.That said, we can only offer fully online data science classes via live sessions due to the outbreak. This means you can talk to your instructor in real time, just like in a traditional face-to-face session. Besides, now, all practical sessions of our Data Science courses will be conducted using cloud-based services.",
+      "ans": "We offer online learning options built around real-work experience, along with a blended program designed specifically for working professionals. You can join live online training sessions in a hybrid learning mode, and as part of the course, you'll also do hands-on work on an industrial project. Live sessions mean you can talk to your instructor in real time, much like a traditional classroom, and practical sessions are conducted using cloud-based services.",
       "open": false
     },
     {
       "id": 3,
       "ques": "What kind of Certification does the Data Science training in Bangalore provide?",
 
-      "ans": "Most importantly, by getting our Data science course training in Bangalore, you will not just obtain any ordinary type of certification or academic degree. Instead, we offer a globally recognized real work experience certificate from companies and Microsoft Certification for Data scientist for completing the Data Science training. The firm with which you completed your industrial project can also give you direct certifications. ",
+      "ans": "By taking this course, you won't just get an ordinary certificate or academic degree. Instead, you'll receive a globally recognized real work experience certificate from companies, plus a Microsoft certification for completing the training. The firm you complete your industrial project with can also give you direct certification.",
       "open": false
     },
     {
@@ -1777,7 +1752,7 @@
       "id": 5,
       "ques": "Is their a difference in teaching quality between Pro and Pro-max program feature under Skillslash's Data Science courses?",
 
-      "ans": "No, absolutely not. Under both Pro and Pro-max features in our Data Science course, the classes are taken by Data Science experts in 100% live-interactive classes. Also, you can achieve a personalized learning experience with individual attention under our Data Science courses, irrespective of it being Pro or Pro-Max. In addition, for both program features, you can avail domain training and elective tracks for functional/industry specialization.",
+      "ans": "No, not at all. Under both the Pro and Pro-Max features, classes are taken by data science experts in 100% live-interactive sessions, and you get a personalized learning experience with individual attention either way. Both program features also give you access to domain training and elective tracks for functional or industry specialization.",
       "open": false
     },
     {
@@ -1796,7 +1771,7 @@
     {
       "id": 8,
       "ques": "Are your data science course training sessions live or pre-recorded?",
-      "ans": "All of our data science course training sessions are conducted live, in real-time, with an experienced instructor leading the way. These data science sessions are designed to be interactive, allowing participants to engage with the material and ask questions as they arise.You'll log in at a specific time and join a virtual classroom where you'll be able to connect with other participants and our data science trainers. This allows for a collaborative learning environment where everyone can share their experiences and insights.And don't worry if you miss a data science session or need to review the material again, we understand that everyone learns at a different pace. That's why we record all of our data sience sessions and make them available to you after the fact. This way, you'll have the opportunity to revisit the material, reinforce your understanding, and make sure you're keeping up with the rest of the data science class. So, whether you're a visual, auditory, or kinesthetic learner, we've got you covered.",
+      "ans": "All of our training sessions are conducted live, in real time, with an experienced instructor leading the way. They're designed to be interactive, so participants can engage with the material and ask questions as they arise. You'll log in at a specific time and join a virtual classroom where you can connect with other participants and our trainers, creating a collaborative learning environment where everyone can share experiences and insights. And don't worry if you miss a session or need to review the material again — we understand everyone learns at a different pace, which is why we record every session and make it available afterward. This way you can revisit the material, reinforce your understanding, and keep up with the rest of the class, whether you're a visual, auditory, or kinesthetic learner.",
       "open": false
     },
     {

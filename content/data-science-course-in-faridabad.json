@@ -2,7 +2,7 @@
   "metaInfo": {
     "title": "Data Science Course in Faridabad | Skillslash",
     "desc": "Best Data science course in Faridabad at budget-friendly prices at Skillslash. Enrol in our data science course with placement support.",
-    "keyword": "data analyst course in Faridabad, Data Science training, Data Science certification, Data Science course, Data Science institute, Data Science institute in Faridabad, Data science courses in Faridabad, Data science courses, Data science course in Faridabad, Data scientist course, Data scientist course in Faridabad, Best data science course in Faridabad, Best institute for data science in Faridabad, Data science training",
+    "keyword": "data analyst course in Faridabad, Data Science training, Data Science certification, Data Science course, Data Science institute, Data Science institute in Faridabad, Data science courses in Faridabad, Data science courses, Data science course in Faridabad, Data scientist course, Data scientist course in Faridabad, Best data science course in Faridabad, Best institute for data science in Faridabad",
     "canonical": "https://skillslash.com/data-science-course-in-faridabad",
     "ReviewSchema": {
       "@context": "https://schema.org/",
@@ -1269,30 +1269,6 @@
     "ProMaxPrice": "₹ 1,49,999 + GST",
     "ProMaxDesc": "Guaranteed job referral"
   },
-  "BatchDates": [
-    {
-      "batchDate": "16",
-      "batchMonth": "DEC",
-      "batchStatus": "New",
-      "batchType": "Morning Batch, ",
-      "batchTime": "08:00 to 10:00",
-      "batchDesc": "Enroll for this batch",
-      "batchWeek": "weekday batch (Mon - Fri)",
-      "batchMsg": "Seats are available",
-      "activeBatch": true
-    },
-    {
-      "batchDate": "24",
-      "batchMonth": "DEC",
-      "batchStatus": "New",
-      "batchType": "Afternoon Batch, ",
-      "batchTime": "12:00 to 2:00",
-      "batchDesc": "Enroll for this batch",
-      "batchWeek": "weekend batch (Sat - Sun)",
-      "batchMsg": "Seats are available",
-      "activeBatch": true
-    }
-  ],
   "FAQ": {
     "heading": "Frequently Asked Questions",
     "desc": "Learn more about our Data Science courses in Faridabad  by reading the FAQs. Find out more about our Data Analyst course in Faridabad costs, project certifications, and other Data Analyst and AI course information."
@@ -1302,30 +1278,30 @@
       "id": 0,
       "ques": " What are the different learning alternatives available for Data Science and AI? ",
 
-      "ans": "Most crucially, for the   Data Science and AI course with real-world experience, we provide both offline and online learning options. Aside from that, they provide a blended learning curriculum tailored to the needs of working professionals. In addition, as part of their Data Science and AI course, you may engage in live online sessions in hybrid learning mode. On top of that, you'll be doing some hands-on work on the industrial project site.Due to the epidemic, they can only provide completely online education via live sessions. This means you can communicate with your instructor in real time, just as you would in a regular face-to-face class. In addition, all practical sessions of their artificial intelligence and machine learning course will be held utilising cloud-based technologies at this time.",
+      "ans": "For this course, with its focus on real-world experience, we provide both offline and online learning options, along with a blended learning curriculum tailored to working professionals. You can also engage in live online sessions in a hybrid learning mode, with hands-on work on an industrial project. These live sessions let you communicate with your instructor in real time, just as you would in a regular face-to-face class, and all practical sessions for the artificial intelligence and machine learning modules are conducted using cloud-based technologies.",
       "open": true
     },
     {
       "id": 1,
       "ques": "If I have to miss a lesson due to an emergency, would there be a make-up class available?",
 
-      "ans": "For starters, their   Data Science and AI course includes live online sessions. Additionally, all of their students have access to video recordings of those classes. Furthermore, they provide you with unrestricted access to these recorded sessions so that you may refer to them anytime you need theoretical assistance in your AI and ML career. As a consequence, you won't be disappointed if you miss any of our artificial intelligence and machine learning training's live sessions. They do, however, strongly suggest you attend all live sessions.",
+      "ans": "The course includes live online sessions, and all students have access to video recordings of those classes. You also get unrestricted access to these recorded sessions, so you can refer back to them anytime you need theoretical help in your AI and ML career. As a result, missing a live session won't set you back, though we do strongly suggest attending all live sessions.",
       "open": false
     },
     {
       "id": 2,
       "ques": "What is the Data Science and AI Scholarship Program at Skillslash?",
 
-      "ans": "First and foremost, each candidate will have the chance to complete a 20-minute online aptitude test. If a candidate has a score of more than 65 percent on the aptitude exam, he or she will be entitled for a 10% reduction on the course costs. Furthermore, applicants who lost their employment as a result of the COVID scenario, as well as moms who wish to start a profession, may be eligible for a scholarship of up to 100% based on their exam score.",
+      "ans": "Each candidate has the chance to complete a 20-minute online aptitude test. Scoring more than 65 percent on the exam makes you eligible for a 10% reduction on course costs, and candidates facing financial hardship, as well as mothers who wish to restart their careers, may be eligible for a scholarship of up to 100% based on their exam score.",
       "open": false
     },
     {
       "id": 3,
       "ques": " Are there any fee discounts available for Data Science course in Faridabad?",
 
-      "ans": "If you are considered eligible for a scholarship, you may be able to save up to 30% on your fees for",
+      "ans": "If you're eligible for a scholarship, you may be able to save up to 30% on your fees, similar to our",
       "linkText": "Data Science course in Hyderabad.",
-      "ansAfter": "Moreover,we also offer scholarships to Covid-affected candidates, unemployed candidates, and mothers returning to the workforce after a vacation.",
+      "ansAfter": " We also offer scholarships to unemployed candidates and mothers returning to the workforce after a break.",
       "linkURL": "https://skillslash.com/data-science-course-in-hyderabad",
       "link": true,
       "open": false
@@ -1333,9 +1309,9 @@
     {
       "id": 4,
       "ques": " What kind of certification does the online Data Science course provide?",
-      "ans": "The hitch is that if you take the",
+      "ans": "Taking this",
       "linkText": "Data Science course in Faridabad.",
-      "ansAfter": "you will not just obtain any ordinary type of certification or academic degree. Instead, we offer a globally recognized project management certificate. The firm with which you completed your industrial project can also give you direct certification.",
+      "ansAfter": " earns you more than an ordinary certificate or academic degree. Instead, we offer a globally recognized project management certificate, and the firm you complete your industrial project with can also give you direct certification.",
       "linkURL": "https://skillslash.com/data-science-course-in-Faridabad",
       "link": true,
       "open": true
@@ -1344,7 +1320,7 @@
       "id": 5,
       "ques": "What is Skillslash's Data Science scholarship program in Faridabad?",
 
-      "ans": "First of all, every candidate will be given the opportunity to take a 20-minute online aptitude exam. If a candidate passes the aptitude exam with a score of more than 65 percent, he or she will be eligible for a 30 percent discount on the data science course fees. Besides, candidates who lost their jobs as a result of the COVID situation, as well as mothers who want to begin their careers, can receive up to a 100% scholarship based on their exam score.",
+      "ans": "Every candidate gets the opportunity to take a 20-minute online aptitude exam. Passing with a score of more than 65 percent makes you eligible for a 30 percent discount on course fees, and candidates facing financial hardship, as well as mothers who want to restart their careers, can receive up to a 100% scholarship based on their exam score.",
       "open": false
     }
   ]

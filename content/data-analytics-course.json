@@ -2,7 +2,7 @@
   "metaInfo": {
     "title": "Best Data Analytics Courses Training Online Certification - Skillslash  ",
     "desc": "Choose from a wide range of Data Analytics courses offered by Skillslash Academy. Uplift Your Career with an Immersive Learning Data Analytics Program, R, Python, SQL, Power BI, Tableau, Basic and Advanced Excel From Industry Experts. Get a Microsoft Certification after completing the course.",
-    "keyword": "data analyst course near me, data analyst course fees, microsoft data analyst certification, data analyst certification course, data analyst classes, python for data analysis, learn data analytics, best data analytics certification, data analyst certification online, data analyst training, data analyst course online, data analytics course, data analytics certification, data analytics course fees, popular big data analytics courses, best data analytics courses, online data analytics certification courses, data analytics certification courses, data analytics course duration, Data Analytics courses online",
+    "keyword": "data analyst course near me, data analyst course fees, microsoft data analyst certification, data analyst certification course, data analyst classes, python for data analysis, learn data analytics, best data analytics certification, data analyst training, data analyst course online, data analytics course, data analytics course fees, popular big data analytics courses, best data analytics courses, data analytics course duration",
     "canonical": "https://skillslash.com/data-analytics-course",
     "ReviewSchema": {
       "@context": "https://schema.org/",
@@ -1187,30 +1187,6 @@
     "ProMaxPrice": "₹ 1,30,000 + GST",
     "ProMaxDesc": "Guaranteed job referral"
   },
-  "BatchDates": [
-    {
-      "batchDate": "16",
-      "batchMonth": "DEC",
-      "batchStatus": "New",
-      "batchType": "Morning Batch, ",
-      "batchTime": "08:00 to 10:00",
-      "batchDesc": "Enroll for this batch",
-      "batchWeek": "weekday batch (Mon - Fri)",
-      "batchMsg": "Seats are available",
-      "activeBatch": true
-    },
-    {
-      "batchDate": "24",
-      "batchMonth": "DEC",
-      "batchStatus": "New",
-      "batchType": "Afternoon Batch, ",
-      "batchTime": "12:00 to 2:00",
-      "batchDesc": "Enroll for this batch",
-      "batchWeek": "weekend batch (Sat - Sun)",
-      "batchMsg": "Seats are available",
-      "activeBatch": true
-    }
-  ],
   "AboutCourseHeading": {
     "heading": "Why is Data Analytics training popular?",
     "para": "All industries use Data Analytics since it assists businesses in thoroughly understanding their clients and services. It also sufficiently provides data insights and is helpful in planning future outcomes with the analysis. Every business demand operational efficiency by improvising the technical ability, engaging users, and revenue generation. For the purpose of taking business decisions at their best, the need for Data Analyst professionals has come up. Start your career by enrolling in Data Analytics training that will help you attain success."
@@ -1415,55 +1391,55 @@
       "id": 0,
       "ques": " What is the duration of the Data Analytics Course and what modules are covered?",
 
-      "ans": "The duration of our Data Analytics Course lasts for five months. But the time you spend learning will vary according to your schedule (weekdays/weekends). You are allowed to choose your preference of modules through customization, for your reference you can check the syllabus part. In particular, the Data Analytics Course will be starting with programming principles like Python and cloud basics and work up to sophisticated Excel, DBMS like SQL and NoSQL, and data visualization with tools like Power BI and Tableau.",
+      "ans": "The course runs for five months, though the exact time you spend will depend on whether you pick weekday or weekend batches. You can also customize which modules you take - check the syllabus section for the full breakdown. Broadly, it starts with programming fundamentals in Python and cloud basics, then moves into Excel, SQL and NoSQL databases, and finishes with data visualization using Power BI and Tableau.",
       "open": false
     },
     {
       "id": 1,
-      "ques": "Is the Data Analytics Course only online? ",
+      "ques": "Is the Data Analytics Course only available online? ",
 
-      "ans": "We do provide hybrid learning approaches for both offline and online courses along with real work experience. Due to the pandemic outbreak, we can only provide Data Analytics Course online through interactive live lectures from top-tier working professionals to assist you with the industry metrics and demands. ",
+      "ans": "We offer both offline and online formats, along with hands-on project work either way. The course is delivered through interactive live lectures led by experienced working professionals who keep the material grounded in current industry practice.",
       "open": false
     },
     {
       "id": 2,
       "ques": "How does the Data Analytics Course benefit me? ",
 
-      "ans": "The Data Analytics Course has a compact class strength for concentrating on every individual learner thereby clearing doubts and providing clarifications on their weaknesses. Along with 250+ problematic assignments, you are made to tackle errors and come up with creative solutions. You can also have personalized 1:1 mentoring and doubt-solving sessions with mentors in our Data Analytics Course.",
+      "ans": "Class sizes are kept small so every learner gets attention, which makes it easier to clear doubts and work on individual weak spots. You'll also work through 250+ practice assignments that push you to troubleshoot and think through problems on your own, alongside 1:1 mentoring and doubt-solving sessions.",
       "open": false
     },
     {
       "id": 3,
-      "ques": " Is there any possibility to retake the Data Analytics Course classes if missed?",
-      "ans": "Yes, you can always catch up on your missed lectures on the Data Analytics Course with the upcoming cohorts. Also, you will be provided with recorded sessions of the same classes through LMS. This supports you to refer to the previous sessions for any of the doubts that might come up. ",
+      "ques": " Is there any possibility to retake classes if I miss one?",
+      "ans": "Yes - you can sit in on the same lectures with a later cohort at no extra cost. You'll also get recorded sessions through the LMS, so you can revisit anything you need to before moving forward.",
       "open": false
     },
     {
       "id": 4,
-      "ques": "Is an academic degree needed to signup for the Data Analytics Course?",
+      "ques": "Is an academic degree needed to sign up?",
 
-      "ans": "No, you need not have any academic degree particularly. Anybody who is keen on building their career in their preferred field can enroll in Data Analytics Course. If you already have an academic degree that might be an advantage to skill up your knowledge level with respect to the course you studied. Getting a professional certificate is highly recommended, particularly in terms of career transition.",
+      "ans": "No specific degree is required. Anyone serious about building a career in this field can enroll. That said, if you already hold a relevant degree, it can give you a head start on some of the concepts, and earning a professional certificate alongside it is a useful boost when transitioning careers.",
       "open": false
     },
     {
       "id": 5,
-      "ques": "Does Skillslash’s Data Analytics Course have EMI and refund policies?",
+      "ques": "Does Skillslash have EMI and refund policies for this course?",
 
-      "ans": "Skillslash has both EMI and refund policies as per the terms and conditions applied. Concerning EMI, we do provide learner’s preference of payments for up to 12 months. Also, the refund procedure is considered only if it is approached within 15 days of the start of the Data Analytics Course.",
+      "ans": "Yes, both are available under our standard terms and conditions. EMI payments can be spread over up to 12 months, and refunds are considered if requested within 15 days of the course start date.",
       "open": false
     },
     {
       "id": 6,
-      "ques": "What kind of certification does the Data Analytics Course provide?",
+      "ques": "What kind of certification do I receive?",
 
-      "ans": "Regardless of the basic academic certification, Skillslash’s Data Analytics Course provides globally recognized course certification for their learners. Along with this, you will also receive project certification from companies for collaboration with their live projects while doing Data Analytics Course.",
+      "ans": "Alongside the standard course completion certificate, which is globally recognized, you'll also receive project certification from the companies you collaborate with on live projects during the course.",
       "open": false
     },
     {
       "id": 7,
-      "ques": "What are the course fees for the Data Analytics Course?",
+      "ques": "What are the course fees?",
 
-      "ans": "The course fees of the Data Analytics Course begin at INR 55,000. We also provide scholarship offers in our courses. That is, your aptitude test qualifies you for up to a 10% scholarship in the course fees. A candidate will be qualified for a 10% discount on the course costs if they receive a score on the aptitude test of greater than 65 percent. ",
+      "ans": "Fees begin at INR 55,000. We also offer scholarship discounts based on an aptitude test - score above 65 percent and you qualify for up to a 10% discount on the course fee.",
       "open": false
     }
   ]

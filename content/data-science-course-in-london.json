@@ -155,7 +155,7 @@
     "heading": "Work on live projects to get hired at:"
   },
   "RealWork": {
-    "desc": "Sign up in India’s best Data Science course with Guaranteed job referral. The Data Science courses are designed with an application-based learning approach. Furthermore, the extensive Artificial Intelligence and Data Science Syllabus focuses on helping learners build relevant experience. Especially, in the technologies they upskill to prove expertise."
+    "desc": "Sign up for a top Data Science course with Guaranteed job referral. The course is designed with an application-based learning approach, and the extensive Artificial Intelligence and Data Science syllabus focuses on helping learners build relevant experience in the technologies they upskill in, so they can prove their expertise."
   },
   "syllabusDesc": "Skillslash’s best Data Science course in London comes with a Guaranteed job referral. Besides, the Data Science and AI courses are curated by leading faculties and industry leaders. Especially, with the aim to provide practical data science learning experience with live interactive classes and projects.",
   "popupHead": "Download Data science Course Brochure",
@@ -1242,30 +1242,6 @@
     "ProMaxPrice": "₹ 1,49,999 + GST",
     "ProMaxDesc": "Guaranteed job referral"
   },
-  "BatchDates": [
-    {
-      "batchDate": "16",
-      "batchMonth": "DEC",
-      "batchStatus": "New",
-      "batchType": "Morning Batch, ",
-      "batchTime": "08:00 to 10:00",
-      "batchDesc": "Enroll for this batch",
-      "batchWeek": "weekday batch (Mon - Fri)",
-      "batchMsg": "Seats are available",
-      "activeBatch": true
-    },
-    {
-      "batchDate": "24",
-      "batchMonth": "DEC",
-      "batchStatus": "New",
-      "batchType": "Afternoon Batch, ",
-      "batchTime": "12:00 to 2:00",
-      "batchDesc": "Enroll for this batch",
-      "batchWeek": "weekend batch (Sat - Sun)",
-      "batchMsg": "Seats are available",
-      "activeBatch": true
-    }
-  ],
   "FAQ": {
     "heading": "Frequently Asked Questions",
     "desc": "Go through the FAQs to know more about our Data Science course in London. Also, learn about our Data Science course fees, project certifications, other Data Science and AI course details."
@@ -1274,15 +1250,15 @@
     {
       "id": 0,
       "ques": " What does Skillslash guarantee a job in the Data Science field? ",
-      "ans": "Skillslash’s Data Science course is fully aligned to meet students’ success. Starting from the curriculum of the Data Science programs, attention is given to ensure the meeting of industry standards. The Artificial Intelligence and Data Science Syllabus is extensive, giving particular emphasis to real-time project training. Besides, by enrolling in Skillslash’s Data Science course in London, students can earn real-work experience and direct project certifications from top Startups. This can undoubtedly boost their portfolios to get weightage in interviews.Under Skillslash’s flagship Guaranteed job referral program, special focus is given to resume/portfolio building assistance, career mentorship, and counseling. Moreover, to top it all, we set up interviews for our students. And also, give them mock interview trials and unlimited job referrals. So as to assure a sure placement in top Data Science firms.",
+      "ans": "The course is built around student outcomes from the ground up. The curriculum is designed to meet industry standards, with an extensive syllabus that puts particular emphasis on real-time project training. By enrolling, students earn real-work experience and direct project certifications from top startups, which can meaningfully boost their portfolios in interviews. Under our flagship Guaranteed job referral program, we also focus on resume and portfolio building assistance, career mentorship, and counseling, and we set up interviews along with mock interview practice and unlimited job referrals to support your placement in a top firm.",
       "open": false
     },
     {
       "id": 1,
       "ques": "Will there be a make-up class available if I have to miss a Data Science class due to an emergency?",
-      "ans": "Firstly, we offer live online classes for our",
+      "ans": "We offer live online classes, similar to our",
       "linkText": "Data Science course in Kolkata",
-      "ansAfter": "Also, all of our students have access to the recorded versions of these data science classes. In addition, we also give you unlimited access to these Data Science training sessions. So, you can go back to them whenever you need theoretical help in Data science, in your AI and ML career. As a result, you need not be disappointed if you miss any of the live classes under our Data science courses. However, we strongly advise you to participate in all live classes.",
+      "ansAfter": ", and all students have access to recorded versions of every class. You also get unlimited access to these recordings, so you can revisit them whenever you need help with a concept for your AI and ML career. As a result, missing a live class won't set you back, though we do strongly encourage you to attend live whenever possible.",
       "linkURL": "https://skillslash.com/data-science-course-in-kolkata",
       "link": true,
       "open": false
@@ -1290,19 +1266,19 @@
     {
       "id": 2,
       "ques": "What are the various learning options offered under Skillslash's Data Science Course?",
-      "ans": "Most importantly, we offer online learning choices for our Data Science with real-work experience. Aside from that, we provide a blended learning program designed specifically for working professionals. In addition, you can participate in live online Data science training sessions in hybrid learning mode. Besides, under our Data science training course in London, you will also be performing some hands-on work on the industrial project site.That said, we can only offer fully online data science classes via live sessions due to the outbreak. This means you can talk to your instructor in real time, just like in a traditional face-to-face session. Besides, now, all practical sessions of our Data Science and Artificial Intelligence courses in London will be conducted using cloud-based services.",
+      "ans": "We offer a few different learning formats with real-work experience built in. There's a blended learning program designed specifically for working professionals, and you can also join live online training sessions in a hybrid learning mode, with hands-on work on an industrial project. These live sessions let you talk to your instructor in real time, just like in a traditional face-to-face class, and all practical sessions are conducted using cloud-based services.",
       "open": false
     },
     {
       "id": 3,
       "ques": "What kind of Certification does the Data Science training in London provide",
-      "ans": "Most importantly, by getting our Data science course training in London, you will not just obtain any ordinary type of certification or academic degree. Instead, we offer a globally recognized project management certificate. The firm with which you completed your industrial project can also give you direct certifications.",
+      "ans": "You won't just walk away with an ordinary certificate or academic degree. Instead, we offer a globally recognized project management certification, and the firm you complete your industrial project with can also give you direct certification of its own.",
       "open": false
     },
     {
       "id": 4,
       "ques": " What is Skillslash's scholarship program under the Data Science course?",
-      "ans": "First of all, every candidate will be given the opportunity to take a 20-minute online exam. So that, their aptitude in Data science can by analyzed. If a candidate passes the aptitude exam with a score of more than 65 percent, he or she will be eligible for a 30 percent discount on the course fees. Besides, candidates who lost their jobs as a result of the COVID situation, as well as mothers who want to begin their careers, can receive up to a 100% scholarship based on their exam score.",
+      "ans": "Every candidate gets the opportunity to take a 20-minute online exam that assesses their aptitude for data science. Scoring more than 65 percent makes you eligible for a 30 percent discount on course fees, and candidates facing financial hardship, as well as mothers restarting their careers, can receive up to a 100% scholarship based on their exam score.",
       "open": false
     },
     {
