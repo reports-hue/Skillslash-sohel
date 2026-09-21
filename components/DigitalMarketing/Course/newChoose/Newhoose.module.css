@@ -47,7 +47,7 @@ margin-right: 16px;
 .boxes {
     border-radius: 11.456px;
     background: #FFF;
-    box-shadow: 3.273px 2.455px 27.74px 0px rgba(102, 89, 184, 0.42);
+    box-shadow: 3.273px 2.455px 27.74px 0px rgba(102, 89, 184, 0.18);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -56,12 +56,38 @@ margin-right: 16px;
     padding: 20px;
     width: 199px;
     height: 200px;
-    gap: 10px;
+    gap: 14px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.boxes:hover {
+    transform: translateY(-6px);
+    box-shadow: 3.273px 12px 32px 0px rgba(102, 89, 184, 0.38);
+}
+
+.boxIconWrap {
+    display: grid;
+    place-items: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+    background: #f1eefb;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.boxes:hover .boxIconWrap {
+    background: linear-gradient(135deg, #7b6ce0, #6659b8);
+    transform: scale(1.08) rotate(-4deg);
 }
 
 .boxIcon {
-    font-size: 40px;
+    font-size: 30px;
     color: #6659b8;
+    transition: color 0.2s ease;
+}
+
+.boxes:hover .boxIcon {
+    color: #fff;
 }
 
 
@@ -116,8 +142,12 @@ text-transform: capitalize;
     .boxes p {
         font-size: 10px;
     }
+    .boxIconWrap {
+        width: 48px;
+        height: 48px;
+    }
     .boxIcon {
-        font-size: 28px;
+        font-size: 22px;
     }
 
 
@@ -138,8 +168,12 @@ text-transform: capitalize;
 .boxes p {
     font-size: 10px;
 }
+.boxIconWrap {
+    width: 48px;
+    height: 48px;
+}
 .boxIcon {
-    font-size: 28px;
+    font-size: 22px;
 }
 .headus  h2{
     font-size: 19px;

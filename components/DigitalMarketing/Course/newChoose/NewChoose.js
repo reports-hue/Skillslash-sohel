@@ -26,7 +26,9 @@ const NewChoose = () => {
         <div className={styles.mainbox}>
           {boxesData.map(({ Icon, description }, index) => (
             <div key={index} className={styles.boxes}>
-              <Icon className={styles.boxIcon} aria-hidden="true" />
+              <span className={styles.boxIconWrap}>
+                <Icon className={styles.boxIcon} aria-hidden="true" />
+              </span>
               <p>{description}</p>
             </div>
           ))}

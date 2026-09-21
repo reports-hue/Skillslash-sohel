@@ -4,14 +4,14 @@
 // route a visitor to the right one of these, not to be the article feed
 // itself (see pages/index.js).
 import Link from "next/link"
-import { LuFileText, LuGraduationCap, LuScale, LuBriefcase, LuAward, LuArrowRight } from "react-icons/lu"
+import { LuNewspaper, LuGraduationCap, LuScale, LuCompass, LuAward, LuArrowRight } from "react-icons/lu"
 import styles from "./SectionShowcase.module.css"
 
 const SECTIONS = [
-  { href: "/articles", Icon: LuFileText, title: "Articles", desc: "Every guide and story we've published, newest first." },
+  { href: "/articles", Icon: LuNewspaper, title: "Articles", desc: "Every guide and story we've published, newest first." },
   { href: "/course-guides", Icon: LuGraduationCap, title: "Course Guides", desc: "What a bootcamp or master's programme actually covers." },
   { href: "/comparisons", Icon: LuScale, title: "Comparisons", desc: "Course vs. course, side by side on cost and outcomes." },
-  { href: "/career-advice", Icon: LuBriefcase, title: "Career Advice", desc: "Roadmaps and hiring realities for breaking into tech." },
+  { href: "/career-advice", Icon: LuCompass, title: "Career Advice", desc: "Roadmaps and hiring realities for breaking into tech." },
   { href: "/resources", Icon: LuAward, title: "Resources", desc: "Certification guides - what each one tests and costs." },
 ]
 

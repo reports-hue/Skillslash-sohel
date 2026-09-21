@@ -3,7 +3,7 @@ import Link from "next/link"
 import { useRouter } from "next/router"
 import {
   LuSparkles, LuBookOpen, LuCompass, LuUsers, LuFileText,
-  LuTrendingUp, LuGraduationCap, LuSearch, LuArrowRight, LuHeart,
+  LuTrendingUp, LuScale, LuMessageSquare, LuSearch, LuArrowRight, LuHeart,
 } from "react-icons/lu"
 import categories from "../../../Data/blog/categories"
 import styles from "./Hero.module.css"
@@ -17,8 +17,8 @@ const features = [
 
 const floatingCards = [
   { Icon: LuTrendingUp, title: "Trending Careers", subtitle: "Explore what's next" },
-  { Icon: LuGraduationCap, title: "Course Comparisons", subtitle: "Find your best fit" },
-  { Icon: LuFileText, title: "Real Student Stories", subtitle: "Learn from real journeys" },
+  { Icon: LuScale, title: "Course Comparisons", subtitle: "Find your best fit" },
+  { Icon: LuMessageSquare, title: "Real Student Stories", subtitle: "Learn from real journeys" },
 ]
 
 // Illustrated stand-in for a hero photograph, built from real page content
