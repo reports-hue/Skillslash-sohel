@@ -55,7 +55,7 @@ const Footer = () => {
         <div className={styles.brandCol}>
           <Link href="/" className={styles.logo} aria-label="Skillslash home">
             <Image
-              src="/favicon.jpg"
+              src="/favicon.png"
               alt="Skillslash"
               quality={100}
               width={44}

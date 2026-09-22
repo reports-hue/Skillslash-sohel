@@ -75,7 +75,7 @@ const Navbar = () => {
       <div className={styles.inner}>
         <Link href="/" className={styles.brand} aria-label="Skillslash home">
           <Image
-            src="/favicon.jpg"
+            src="/favicon.png"
             alt=""
             width={40}
             height={40}

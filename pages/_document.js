@@ -117,7 +117,10 @@ class MyDocument extends Document {
       "@type": "Organization",
       name: SITE_NAME,
       url: SITE_URL,
-      logo: `${SITE_URL}/favicon.jpg`,
+      // Google's Organization logo guidance also wants a square image;
+      // the 180x180 square PNG (see the <link rel="icon"> comment above)
+      // fits that better than the old non-square favicon.jpg did.
+      logo: `${SITE_URL}/favicon.png`,
       // Explicit, present-tense statement of what the site is today - the
       // same identity every page's own description and llms.txt already
       // state, now also machine-readable at the entity level. See
@@ -149,8 +152,17 @@ class MyDocument extends Document {
               costs real Performance-score points for no benefit a pixel
               needs; deferring it until the page is idle doesn't lose any
               tracking fidelity. */}
-          <link rel="icon" href="/favicon.jpg" type="image/jpeg" />
-          <link rel="apple-touch-icon" href="/favicon.jpg" />
+          {/* The old favicon.jpg was 77x72 - not square, which Google's
+              favicon guidelines require (a non-square source can get the
+              favicon dropped from Search entirely, independent of
+              anything else on the page). favicon.ico/.png are freshly
+              generated square versions of the same mark. /favicon.ico is
+              also served at its default path - browsers and crawlers
+              (including Googlebot) probe that exact URL as a fallback
+              regardless of these <link> tags, and it didn't exist before. */}
+          <link rel="icon" href="/favicon.ico" sizes="48x48" />
+          <link rel="icon" href="/favicon.png" type="image/png" sizes="180x180" />
+          <link rel="apple-touch-icon" href="/favicon.png" />
           <meta name="theme-color" content="#4f419a" />
           <meta
             name="google-site-verification"
