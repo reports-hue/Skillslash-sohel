@@ -216,6 +216,17 @@ const posts = [
     type: "course-comparison",
     readMinutes: 20,
   },
+  {
+    slug: "ai-courses-india-2026-curriculum-gap",
+    title: "AI Courses in India 2026: Why Two Programmes Cost the Same and Teach Different Decades",
+    excerpt: "Nine Indian AI courses compared on published curricula, not marketing. Five are light on LLMOps, the layer that separates a demo from a production system.",
+    category: "artificial-intelligence",
+    publishedAt: "2026-09-10",
+    updatedAt: "2026-09-10",
+    cover: "/covers/_default.svg",
+    type: "course-comparison",
+    readMinutes: 7,
+  },
 ]
 
 export default posts
