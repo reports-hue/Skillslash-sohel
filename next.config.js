@@ -79,6 +79,15 @@ const nextConfig = {
         permanent: true,
       },
       {
+        // The Bangalore AI-courses comparison article was consolidated onto
+        // a single canonical URL - the /blogs/-prefixed page it originally
+        // published at was removed (see pages/ai-courses-bangalore-2026-
+        // operations-gap.js, which now serves the same content this used to).
+        source: "/blogs/best-ai-courses-in-bangalore-with-placement-assistance",
+        destination: "/ai-courses-bangalore-2026-operations-gap",
+        permanent: true,
+      },
+      {
         // Data Analytics was folded into Data Science.
         source: "/category/data-analytics",
         destination: "/category/data-science",
