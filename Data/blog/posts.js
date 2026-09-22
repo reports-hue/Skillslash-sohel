@@ -205,6 +205,17 @@ const posts = [
     type: "course-comparison",
     readMinutes: 28,
   },
+  {
+    slug: "ai-courses-bangalore-2026-operations-gap",
+    title: "AI Courses in Bangalore 2026: The Operations Gap That Decides Who Gets Hired",
+    excerpt: "Bengaluru holds 25.4% of India's AI jobs, yet six of nine AI courses sold there teach no MLOps or LLMOps. A syllabus-level comparison of the 2026 market.",
+    category: "artificial-intelligence",
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+    cover: "/covers/_default.svg",
+    type: "course-comparison",
+    readMinutes: 8,
+  },
 ]
 
 export default posts
