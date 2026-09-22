@@ -65,6 +65,9 @@
 
 .pill {
   align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.07em;
@@ -76,6 +79,8 @@
   border-radius: 999px;
   text-decoration: none;
 }
+
+.pill svg { width: 12px; height: 12px; flex-shrink: 0; }
 
 .pill:hover {
   background: color-mix(in srgb, var(--accent, #4f419a) 20%, #ffffff);
@@ -136,6 +141,14 @@
   font-size: 13px;
   color: #85828f;
 }
+
+.metaItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.metaItem svg { width: 13px; height: 13px; flex-shrink: 0; }
 
 .dot {
   width: 4px;

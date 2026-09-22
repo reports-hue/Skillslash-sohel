@@ -1,6 +1,31 @@
-/* eslint-disable @next/next/no-img-element */
 import React from "react";
+import {
+  LuBriefcase, LuMessageSquare, LuAward, LuTarget, LuSlidersHorizontal,
+  LuUserCheck, LuGraduationCap, LuVideo, LuRepeat, LuSparkles,
+} from "react-icons/lu";
 import styles from "./BoxShape.module.css";
+
+// The 4 box titles are free-text per page (Data/*.js / content/*.json) and
+// don't mean the same thing in the same position on every page - e.g. Box1
+// is "Real Work Experience" on the data science page but "Ace Developers
+// Interviews" on the web dev page. A fixed icon-per-position mapping would
+// be right on some pages and wrong on others (this is exactly how two of
+// the four positions ended up reusing the same "work experience" icon
+// image for two different concepts). Picking the icon from the title text
+// itself keeps it correct regardless of which page renders this component.
+const iconFor = (label = "") => {
+  const text = label.toLowerCase();
+  if (/interview/.test(text)) return LuMessageSquare;
+  if (/certif|credential/.test(text)) return LuAward;
+  if (/referral|placement|\bjob\b/.test(text)) return LuTarget;
+  if (/custom|tailor|build your own|personali[sz]ed/.test(text)) return LuSlidersHorizontal;
+  if (/eligib|professional|experience required/.test(text)) return LuUserCheck;
+  if (/instructor|faang|mentor/.test(text)) return LuGraduationCap;
+  if (/class|session|live/.test(text)) return LuVideo;
+  if (/subscription|program/.test(text)) return LuRepeat;
+  if (/work experience|hands-on|real-time project/.test(text)) return LuBriefcase;
+  return LuSparkles;
+};
 
 const BoxShape = ({
   title,
@@ -36,70 +61,25 @@ const BoxShape = ({
             <h2>{title}</h2>
 
             <div className={styles.boxWrap}>
-              <div className={styles.box}>
-                <div className={styles.ImgB}>
-                  <img
-                    src="/cdn/static/web/New-UI/work-experience-icon.svg"
-                    alt={alt1}
-                    className={styles.icon}
-                    width="40"
-                    height="40"
-                    loading="lazy"
-                  />
-                </div>
-                <div className={styles.contentWrapper}>
-                  <h5>{Box1h5}</h5>
-                  <p>{box1desc}</p>
-                </div>
-              </div>
-              <div className={styles.box}>
-                <div className={styles.ImgC}>
-                  <img
-                    src="/cdn/static/web/New-UI/professional-icon.svg"
-                    alt={alt2}
-                    className={styles.icon}
-                    width="35"
-                    height="35"
-                    loading="lazy"
-                  />
-                </div>
-                <div className={styles.contentWrapper}>
-                  <h5>{Box2h5}</h5>
-                  <p>{box2desc}</p>
-                </div>
-              </div>
-              <div className={styles.box}>
-                <div className={styles.ImgC}>
-                  <img
-                    src="/cdn/static/web/New-UI/chat-inerview-icon.svg"
-                    alt={alt3}
-                    className={styles.icon}
-                    width="35"
-                    height="35"
-                    loading="lazy"
-                  />
-                </div>
-                <div className={styles.contentWrapper}>
-                  <h5>{Box3h5}</h5>
-                  <p>{box3desc}</p>
-                </div>
-              </div>
-              <div className={styles.box}>
-                <div className={styles.ImgC}>
-                  <img
-                    src="/cdn/static/web/New-UI/work-experience-icon.svg"
-                    alt={alt4}
-                    className={styles.icon}
-                    width="35"
-                    height="35"
-                    loading="lazy"
-                  />
-                </div>
-                <div className={styles.contentWrapper}>
-                  <h5>{Box4h5}</h5>
-                  <p>{box4desc}</p>
-                </div>
-              </div>
+              {[
+                { heading: Box1h5, desc: box1desc },
+                { heading: Box2h5, desc: box2desc },
+                { heading: Box3h5, desc: box3desc },
+                { heading: Box4h5, desc: box4desc },
+              ].map(({ heading, desc }, index) => {
+                const Icon = iconFor(heading);
+                return (
+                  <div className={styles.box} key={index}>
+                    <div className={styles.iconBadge}>
+                      <Icon aria-hidden="true" />
+                    </div>
+                    <div className={styles.contentWrapper}>
+                      <h5>{heading}</h5>
+                      <p>{desc}</p>
+                    </div>
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>

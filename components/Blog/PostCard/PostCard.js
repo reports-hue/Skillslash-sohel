@@ -1,7 +1,26 @@
 import Image from "next/image"
 import Link from "next/link"
+import {
+  LuBrainCircuit, LuBarChart3, LuNetwork, LuCloud, LuLayers, LuTerminal,
+  LuCalendar, LuClock,
+} from "react-icons/lu"
 import { categoryBySlug } from "../../../Data/blog/categories"
 import styles from "./PostCard.module.css"
+
+// One icon per taxonomy category (Data/blog/categories.js) - kept here
+// rather than on the category objects themselves since only the card
+// needs it, and categories.js is plain serializable data used in a few
+// other places. Picked to actually mean something per topic rather than
+// a generic file icon: a brain/circuit for ML-flavoured AI, a network
+// graph for DSA (nodes and edges, not just "code"), etc.
+const CATEGORY_ICONS = {
+  "data-science": LuBarChart3,
+  "artificial-intelligence": LuBrainCircuit,
+  "dsa": LuNetwork,
+  "cloud": LuCloud,
+  "fde": LuLayers,
+  "sde": LuTerminal,
+}
 
 export const formatDate = (value) => {
   if (!value) return ""
@@ -16,11 +35,17 @@ export const formatDate = (value) => {
 
 const Meta = ({ post }) => (
   <p className={styles.meta}>
-    <time dateTime={post.publishedAt}>{formatDate(post.publishedAt)}</time>
+    <span className={styles.metaItem}>
+      <LuCalendar aria-hidden="true" />
+      <time dateTime={post.publishedAt}>{formatDate(post.publishedAt)}</time>
+    </span>
     {post.readMinutes ? (
       <>
         <span className={styles.dot} aria-hidden="true" />
-        <span>{post.readMinutes} min read</span>
+        <span className={styles.metaItem}>
+          <LuClock aria-hidden="true" />
+          {post.readMinutes} min read
+        </span>
       </>
     ) : null}
   </p>
@@ -31,6 +56,7 @@ const Meta = ({ post }) => (
 const PostCard = ({ post, variant = "card" }) => {
   const category = categoryBySlug(post.category)
   const accent = category ? category.accent : "#4f419a"
+  const CategoryIcon = category ? CATEGORY_ICONS[category.slug] : null
   // CMS-authored posts (Data/blog/posts.js is hand-authored file-based
   // articles) live at /blog/<slug> instead of the root; they set `href`
   // explicitly rather than this component guessing from `source`.
@@ -82,6 +108,7 @@ const PostCard = ({ post, variant = "card" }) => {
       <div className={styles.body}>
         {category ? (
           <Link href={`/category/${category.slug}`} className={styles.pill}>
+            {CategoryIcon ? <CategoryIcon aria-hidden="true" /> : null}
             {category.name}
           </Link>
         ) : null}
