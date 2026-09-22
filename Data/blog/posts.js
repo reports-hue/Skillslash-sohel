@@ -207,14 +207,14 @@ const posts = [
   },
   {
     slug: "ai-courses-bangalore-2026-operations-gap",
-    title: "Best AI Courses in Bangalore (2026): A Side-by-Side Comparison",
-    excerpt: "We read the published syllabus of 10 AI courses in Bangalore, module by module, and checked what learners actually said on Trustpilot, Shiksha and Course Report - so you don't have to take the brochure's word for it.",
+    title: "AI Courses in Bangalore 2026: The Operations Gap That Decides Who Gets Hired",
+    excerpt: "Bengaluru holds 25.4% of India's AI jobs, yet six of nine AI courses sold there teach no MLOps or LLMOps. A syllabus-level comparison of the 2026 market.",
     category: "artificial-intelligence",
-    publishedAt: "2026-09-09",
+    publishedAt: "2026-09-08",
     updatedAt: "2026-09-23",
     cover: "/covers/_default.svg",
     type: "course-comparison",
-    readMinutes: 20,
+    readMinutes: 8,
   },
   {
     slug: "ai-courses-india-2026-curriculum-gap",
