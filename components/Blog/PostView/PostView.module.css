@@ -233,6 +233,80 @@
 .content :global(th), .content :global(td) { border: 1px solid var(--line); padding: 10px 12px; text-align: left; }
 .content :global(th) { background: var(--ground); font-weight: 700; }
 
+/* ---------- inline promo/CTA cards (M1-M5 in a placement map supplied
+   with an article's source doc) - a light variant for informational asks
+   ("download this", "book a call") and a dark variant for the harder
+   conversion moments, matching the doc's own "dark navy" spec. Scoped
+   under .content so they only ever apply inside injected article HTML. ---------- */
+.content :global(.promoCard) {
+  margin: 8px 0 24px;
+  padding: 20px 22px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--accent-soft);
+}
+.content :global(.promoCardDark) {
+  border: none;
+  background: linear-gradient(155deg, #1c1830, #2c2650);
+  color: #e9e6f2;
+}
+.content :global(.promoCard .promoTitle) {
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--ink);
+}
+.content :global(.promoCardDark .promoTitle) { color: #fff; }
+.content :global(.promoCard p) { margin: 0 0 12px; font-size: 14.5px; }
+.content :global(.promoCardDark p) { color: #cfc9e6; }
+.content :global(.promoCard ul) { margin: 0 0 14px; padding-left: 20px; font-size: 14px; }
+.content :global(.promoCardDark ul) { color: #e9e6f2; }
+.content :global(.promoCard li) { margin-bottom: 4px; }
+.content :global(.promoBtn),
+.content :global(.promoBtnGhost) {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13.5px;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 9px;
+  margin: 0 8px 0 0;
+}
+.content :global(.promoBtn) { background: var(--accent); color: #fff; }
+.content :global(.promoBtn:hover) { background: #3d3178; }
+.content :global(.promoBtnGhost) { background: transparent; border: 1px solid var(--accent); color: var(--accent); }
+.content :global(.promoCardDark .promoBtnGhost) { border-color: #a99bef; color: #cbc0f7; }
+.content :global(.promoBtnGhost:hover) { background: var(--accent-soft); }
+.content :global(.promoCardDark .promoBtnGhost:hover) { background: rgba(255,255,255,0.08); }
+
+/* M4: three-track picker row */
+.content :global(.promoTrackRow) {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+.content :global(.promoTrack) {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.content :global(.promoTrackLabel) {
+  font-size: 11px; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--accent); margin: 0 0 6px;
+}
+.content :global(.promoTrackName) { font-size: 14.5px; font-weight: 700; color: var(--ink); margin: 0 0 6px; }
+.content :global(.promoTrackDesc) { font-size: 13px; color: var(--ink-2); margin: 0 0 14px; flex: 1; }
+.content :global(.promoTrack .promoBtn) { align-self: flex-start; margin: 0; }
+
+@media (max-width: 640px) {
+  .content :global(.promoTrackRow) { grid-template-columns: 1fr; }
+}
+
 /* ---------- skills / chip block (reused for keyword chips inline in body via .chipCard) ---------- */
 .chipCard {
   background: var(--surface);
@@ -393,4 +467,40 @@
   .layout { grid-template-columns: 1fr; }
   .sidebar { position: static; max-height: none; }
   .takeawaysGrid { grid-template-columns: 1fr; }
+}
+
+/* ---------- M8: mobile-only sticky CTA bar ---------- */
+.mobileStickyBar {
+  display: none;
+}
+@media (max-width: 640px) {
+  .mobileStickyBar {
+    display: flex;
+    gap: 10px;
+    position: sticky;
+    bottom: 0;
+    z-index: 20;
+    padding: 12px 16px;
+    background: #fff;
+    border-top: 1px solid var(--line);
+    box-shadow: 0 -8px 20px rgba(23, 19, 48, 0.08);
+  }
+  .mobileStickyBar a {
+    flex: 1;
+    text-align: center;
+    padding: 11px 14px;
+    border-radius: 9px;
+    font-size: 13.5px;
+    font-weight: 700;
+    text-decoration: none;
+    background: var(--accent-soft);
+    color: var(--accent);
+  }
+  .mobileStickyPrimary {
+    background: var(--accent) !important;
+    color: #fff !important;
+  }
+  /* Leaves room at the bottom of the article so this bar never overlaps
+     the FAQ section's last items on a short viewport. */
+  .page { padding-bottom: 0; }
 }
