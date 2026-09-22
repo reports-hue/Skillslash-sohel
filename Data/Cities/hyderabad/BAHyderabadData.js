@@ -20,7 +20,7 @@ const BAHyderabadData = {
    </thead>
    <tbody>
      <tr>
-       <td style="border: 1px solid #ccc; padding: 8px"><a href="#Learnbay"><b>Learnbay </b></a></td>
+       <td style="border: 1px solid #ccc; padding: 8px"><a href="https://www.learnbay.co/datascience/business-analytics-certification-course?utm_source=skillslash&utm_medium=hyderabad&utm_campaign=ba&utm_content=blog_hyderabad" target="_blank" rel="noopener noreferrer"><b>Learnbay </b></a></td>
        <td style="border: 1px solid #ccc; padding: 8px">INR 95,000 + 18% GST</td>
        <td style="border: 1px solid #ccc; padding: 8px">Yes </td>
      </tr>

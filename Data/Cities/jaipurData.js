@@ -28,7 +28,7 @@ const JaipurData = {
       <tbody>
         <tr>
  
-          <td style="border: 1px solid #ccc; padding: 8px"><a href="#Learnbay">Learnbay</a> </td>
+          <td style="border: 1px solid #ccc; padding: 8px"><a href="https://www.learnbay.co/datascience/india/data-science-course-training-in-jaipur?utm_source=skillslash&utm_medium=jaipur&utm_campaign=ds_blog_jaipur" target="_blank" rel="noopener noreferrer">Learnbay</a> </td>
         
           <td style="border: 1px solid #ccc; padding: 8px">INR 135,000</td>
           <td style="border: 1px solid #ccc; padding: 8px">IBM & Microsoft</td>

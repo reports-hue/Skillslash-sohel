@@ -34,7 +34,7 @@ const IndoreData = {
     
     <tr>
     
-     <td style="border: 1px solid #ccc; padding: 8px">   <a href="#Learnbay">Learnbay</a></td>
+     <td style="border: 1px solid #ccc; padding: 8px">   <a href="https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs?utm_source=skillslash&utm_medium=indore&utm_campaign=ds&utm_content=blog_indore" target="_blank" rel="noopener noreferrer">Learnbay</a></td>
     
      <td style="border: 1px solid #ccc; padding: 8px">INR 3,25,000 + 18% GST</td>
     

@@ -20,7 +20,7 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 
  <tr>
 
-   <td style="border: 1px solid #ccc; padding: 8px">   <a href="#Learnbay">Learnbay</a></td>
+   <td style="border: 1px solid #ccc; padding: 8px">   <a href="https://www.learnbay.co/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati?utm_source=skillslash&utm_medium=delhi&utm_campaign=ds&utm_content=blog_delhi" target="_blank" rel="noopener noreferrer">Learnbay</a></td>
 
    <td style="border: 1px solid #ccc; padding: 8px">INR 325,000 + 18% GST</td>
    <td style="border: 1px solid #ccc; padding: 8px">IBM project certificate 

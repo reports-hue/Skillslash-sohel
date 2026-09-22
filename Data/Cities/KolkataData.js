@@ -19,7 +19,7 @@ const KolkataData = {
         </thead>
           <tbody>
             <tr>
-              <td    style="border: 1px solid #ccc; "> <a href="#Learnbay"> Learnbay </a></td>
+              <td    style="border: 1px solid #ccc; "> <a href="https://www.learnbay.co/datascience/india/data-science-course-training-in-kolkata?utm_source=skillslash&utm_medium=kolkata&utm_campaign=ds_blog_kolkata" target="_blank" rel="noopener noreferrer"> Learnbay </a></td>
               <td style="border: 1px solid #ccc; ">INR 75,000 to INR 325,000</td>
               <td style="border: 1px solid #ccc; ">IBM & Microsoft </td>
             </tr>

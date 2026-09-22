@@ -18,7 +18,7 @@ const ChandigarhData = {
 <tbody>
 
 <tr>
-<td style="border: 1px solid #ccc; ;"> <a href="#Learnbay">Learnbay</a></td>
+<td style="border: 1px solid #ccc; ;"> <a href="https://www.learnbay.co/datascience/advance-data-science-certification-courses?utm_source=skillslash&utm_medium=chandigarh&utm_campaign=ds_blog_chandigarh" target="_blank" rel="noopener noreferrer">Learnbay</a></td>
 <td style="border: 1px solid #ccc; ;">INR 75,000 to INR 325,000</td>
 <td style="border: 1px solid #ccc; ;">Basic to Advanced</td>
 </tr>

@@ -21,7 +21,7 @@ style="border-collapse: collapse; width: 100%; border: 2px solid #ccc"
 <tbody>
 
  <tr>
-   <td style="border: 1px solid #ccc; padding: 8px">   <a href="#Learnbay">Learnbay</a></td>
+   <td style="border: 1px solid #ccc; padding: 8px">   <a href="https://www.learnbay.co/datascience/data-science-and-ai-masters-in-cs?utm_source=skillslash&utm_medium=patna&utm_campaign=ds&utm_content=blog_patna" target="_blank" rel="noopener noreferrer">Learnbay</a></td>
 
    <td style="border: 1px solid #ccc; padding: 8px">INR 190,000 plus 18% GST</td>
    <td style="border: 1px solid #ccc; padding: 8px">Hybrid (online for courses and offline for projects)   

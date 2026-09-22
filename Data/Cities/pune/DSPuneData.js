@@ -16,7 +16,7 @@ const PuneData = {
     <tbody>
       <tr>
         <td style="border: 1px solid #ccc; ">
-          <a href="#executive-program">Learnbay</a>
+          <a href="https://www.learnbay.co/datascience/executive-program-in-data-science-and-ai-by-iit-guwahati?utm_source=skillslash&utm_medium=pune&utm_campaign=ds&utm_content=blog_pune" target="_blank" rel="noopener noreferrer">Learnbay</a>
         </td>
         <td style="border: 1px solid #ccc; ">INR 190,000 + 18% GST</td>
         <td style="border: 1px solid #ccc; ">

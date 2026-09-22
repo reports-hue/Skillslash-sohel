@@ -22,7 +22,7 @@ const BangaloreData = {
    
      <tr>
     
-       <td style="border: 1px solid #ccc; padding: 8px">   <a href="#Learnbay">Learnbay</a></td>
+       <td style="border: 1px solid #ccc; padding: 8px">   <a href="https://www.learnbay.co/datascience/executive-program-in-data-science-and-ai?utm_source=skillslash&utm_medium=bangalore&utm_campaign=ds&utm_content=blog_bangalore" target="_blank" rel="noopener noreferrer">Learnbay</a></td>
    
        <td style="border: 1px solid #ccc; padding: 8px">INR 190,000 + 18% GST</td>
        <td style="border: 1px solid #ccc; padding: 8px">Yes </td>

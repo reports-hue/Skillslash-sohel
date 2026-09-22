@@ -22,7 +22,7 @@ const MumbaiData = {
       <tbody>
         <tr>
           <td style="border: 1px solid #ccc; ">
-<a href="#executive-program" style="color:black" onmouseover="this.style.color='#4f419a'" onmouseout="this.style.color='black'">Learnbay</a>
+<a href="https://www.learnbay.co/datascience/mumbai/data-science-course-training-in-mumbai?utm_source=Skillslash&utm_medium=mumbai&utm_campaign=ds_blog_mumbai" target="_blank" rel="noopener noreferrer">Learnbay</a>
           </td>
           <td style="border: 1px solid #ccc; ">INR 190,000 ++ GST</td>
         </tr>

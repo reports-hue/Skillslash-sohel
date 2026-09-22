@@ -25,7 +25,7 @@ const DSAData = {
 
 <tr>
 
- <td style="border: 1px solid #ccc; padding: 8px">   <a href="#Learnbay">Learnbay</a></td>
+ <td style="border: 1px solid #ccc; padding: 8px">   <a href="https://www.learnbay.co/fullstack/dsa-system-design?utm_source=skillslash&utm_medium=blog&utm_campaign=dsa" target="_blank" rel="noopener noreferrer">Learnbay</a></td>
 
  <td style="border: 1px solid #ccc; padding: 8px">INR 70,000 + 18% GST ~ INR 82,600</td>
 
